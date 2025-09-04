@@ -1,0 +1,210 @@
+/* ------------------------------
+   Container & Model Viewer
+------------------------------- */
+.viewer-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+model-viewer {
+  width: 100%;
+  height: 100%;
+  /* ให้ model-viewer รับ input ได้ */
+  pointer-events: auto;
+  background-color: #f5f0e1;
+}
+
+/* ------------------------------
+   Responsive Hotspot UI (อัตโนมัติ)
+------------------------------- */
+.hotspot-ui {
+  pointer-events: none;
+  position: absolute;
+  /* Desktop default */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10010;
+  max-width: 600px;
+  width: 90%;
+  font-size: 18px;
+  /* Desktop default */
+  line-height: 1.5;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+
+.hotspot-ui.active {
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ข้อความใน popup */
+.hotspot-ui p {
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+/* ปุ่มใน popup */
+.hotspot-ui .button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+
+}
+
+.hotspot-ui button {
+  padding: 18px 25px;
+  border: none;
+  border-radius: 12px;
+  background: #4CAF50;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+  min-width: 140px;
+  pointer-events: auto;
+}
+
+.hotspot-ui button:hover {
+  background: #3e8e41;
+}
+
+/* ปุ่ม Hotspot บนโมเดล */
+button[slot^="hotspot"] {
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10005;
+  position: relative;
+}
+
+/* ปุ่มควบคุมหลัก */
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 20000;
+  pointer-events: auto;
+}
+
+.controls button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 12px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+  min-width: 180px;
+  pointer-events: auto;
+}
+
+.controls button:hover {
+  background: #0056b3;
+}
+
+/* ------------------------------
+   Responsive อัจฉริยะ
+------------------------------- */
+@media (max-width: 1024px) {
+  .hotspot-ui {
+    max-width: 80%;
+    font-size: 20px;
+    padding: 35px 25px;
+  }
+
+  .hotspot-ui button {
+    font-size: 22px;
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotspot-ui {
+    position: fixed;
+    /* ครอบเต็มหน้าจอ */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    padding: 40px 20px;
+    font-size: 50px;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.95);
+    overflow-y: auto;
+    /* scroll ได้ถ้าข้อความยาว */
+  }
+
+
+  /* ปุ่มใน popup */
+  .hotspot-ui .button-group {
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    align-items: center;
+  }
+
+  .hotspot-ui button {
+    width: 80%;
+    padding: 18px 0;
+    font-size: 28px;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 12px;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 0 10px;
+  }
+
+  .controls button {
+    width: 100%;
+    font-size: 20px;
+    padding: 18px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hotspot-ui p {
+    font-size: 28px;
+  }
+
+  .hotspot-ui button {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+}

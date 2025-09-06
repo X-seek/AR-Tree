@@ -144,7 +144,7 @@
  }
 
  /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 986px) {
   .title {
     font-size: 80px;   /* ใหญ่ขึ้น */
     padding: 10px 20px;
@@ -195,6 +195,7 @@
     padding: 16px 26px;
   }
 }
+
 
 
 

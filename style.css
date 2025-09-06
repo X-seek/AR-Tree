@@ -146,7 +146,7 @@
  /* Responsive */
 @media (max-width: 768px) {
   .title {
-    font-size: 38px;   /* ใหญ่ขึ้น */
+    font-size: 28px;   /* ใหญ่ขึ้น */
     padding: 10px 20px;
   }
 
@@ -172,22 +172,22 @@
 
 @media (max-width: 480px) {
   .title {
-    font-size: 34px;
+    font-size: 50px;
   }
 
   .hotspot-menu button {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
   }
 
   .hotspot-ui {
     width: 95%;
-    font-size: 24px;
+    font-size: 35px;
     padding: 35px 28px;
   }
 
   .hotspot-ui p {
-    font-size: 28px;
+    font-size: 35px;
   }
 
   .hotspot-ui button {

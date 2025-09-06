@@ -151,12 +151,12 @@
   }
 
   .hotspot-menu button {
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
   }
 
   .hotspot-ui {
-    font-size: 22px;
+    font-size: 50px;
     padding: 30px 25px;
   }
 
@@ -195,5 +195,6 @@
     padding: 16px 26px;
   }
 }
+
 
 

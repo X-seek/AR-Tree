@@ -1,73 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Banana 3D Tree AR</title>
-  <!-- โหลด model-viewer -->
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Banana 3D Tree AR</title>
+    <!-- โหลด model-viewer -->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+    <!-- ฟอนต์ไทยน่ารัก -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <div class="viewer-container">
+      <!-- โมเดล -->
+      <model-viewer
+        id="viewer"
+        src="/Model/banana_tree_low_poly.glb"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        auto-rotate
+        camera-controls
+        exposure="1"
+        environment-image="neutral"
+        shadow-intensity="3">
+      </model-viewer>
 
-<div class="viewer-container">
-  <!-- โมเดล -->
-  <model-viewer id="viewer"
-    src="banana.glb"
-    background-color="#d0f7c0"  
-    ar
-    ar-modes="webxr scene-viewer quick-look"
-    auto-rotate
-    camera-controls
-    exposure="1"
-    environment-image="neutral"
-    shadow-intensity="3">
+      <!-- ชื่อด้านบน -->
+      <div class="title">🌴 ต้นกล้วย 🌴</div>
+    
+      <!-- ปุ่ม Hotspot ด้านขวา -->
+      <div class="hotspot-menu">
+        <button id="btn-trunk">
+          <img src="images/fruits.png" alt="ผลไม้" />
+        </button>
+        <button id="btn-leaf">
+          <img src="images/leaf.png" alt="ใบไม้" />
+        </button>
+        <button id="btn-leaf">
+          <img src="images/sakura.png" alt="ดอก" />
+        </button>
+        <button id="btn-trunk">
+          <img src="images/trunk.png" alt="ลำต้น" />
+        </button>
+        <button id="btn-leaf">
+          <img src="images/root.png" alt="ราก" />
+        </button>
+        <button id="btn-care">
+          <img src="images/plant-a-tree.png" alt="วิธีดูแล" />
+        </button>
+      </div>
 
-    <!-- Hotspot ลำต้น -->
-    <button slot="hotspot-1"
-            data-position="0m 4.5m 3.5m"
-            data-normal="0m 1m 0m"
-            style="background: red; color: white; width: 90px; height: 90px;" >
-      ลำต้น
-    </button>
+      <!-- Popup UI -->
+      <div id="hotspot-ui" class="hotspot-ui">
+        <p id="hotspot-text">นี่คือข้อความตัวอย่างของ Hotspot</p>
+        <audio id="hotspot-audio" src=""></audio>
+        <div class="button-group">
+          <button id="play-sound">▶ เล่นเสียง</button>
+          <button id="close-ui">✖ ปิด</button>
+        </div>
+      </div>
+    </div>
 
-    <!-- Hotspot ใบไม้ -->
-    <button slot="hotspot-2"
-            data-position="0m 15m 9m"
-            data-normal="0m 1m 0m"
-            style="background: green; color: white; width: 90px; height: 90px;">
-      ใบไม้
-    </button>
-
-    <!-- Hotspot วิธีดูแล -->
-    <button slot="hotspot-3"
-            data-position="4m 2m 0m"
-            data-normal="0m 1m 0m"
-            style="background: blue; color: white; width: 90px; height: 90px;">
-      วิธีดูแล
-    </button>
-  </model-viewer>
-
-  <!-- UI Popup -->
-<div id="hotspot-ui" class="hotspot-ui">
-  <p id="hotspot-text">นี่คือข้อความตัวอย่างของ Hotspot</p>
-  <audio id="hotspot-audio" src="info.mp3"></audio>
-  <div class="button-group">
-    <button id="play-sound">▶ เล่นเสียง</button>
-    <button id="close-ui">✖ ปิด</button>
-  </div>
-</div>
-
-  <!-- ปุ่มควบคุม -->
-  <div class="controls">
-    <button onclick="playInfo()">▶️ ฟังข้อมูล</button>
-    <button onclick="switchModel()">🔄 เปลี่ยนโมเดล</button>
-  </div>
-</div>
-
-<!-- เสียงหลัก -->
-<audio id="infoSound" src="info.mp3"></audio>
-
-<script src="/script.js"></script>
-
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>

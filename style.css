@@ -142,11 +142,13 @@
  .hotspot-ui button:hover {
    background: #388e3c;
  }
+ .hotspot-ui img {
+  width: 70px;
+ }
 
- /* Responsive */
 @media (max-width: 768px) {
   .title {
-    font-size: 28px;   /* ใหญ่ขึ้น */
+    font-size: 38px;   /* ใหญ่ขึ้น */
     padding: 10px 20px;
   }
 
@@ -172,26 +174,32 @@
 
 @media (max-width: 480px) {
   .title {
-    font-size: 50px;
+    font-size: 28px;
+    padding: 10px 8px;
+
   }
 
   .hotspot-menu button {
-    width: 120px;
-    height: 120px;
+    width: 65px;
+    height: 65px;
   }
 
   .hotspot-ui {
-    width: 95%;
-    font-size: 35px;
+    width: 75%;
+    font-size: 24px;
     padding: 35px 28px;
   }
 
   .hotspot-ui p {
-    font-size: 35px;
+    font-size: 22px;
   }
 
   .hotspot-ui button {
     font-size: 24px;
     padding: 16px 26px;
   }
+  .hotspot-ui .button-group button{
+    font-size: 18px;
+  }
 }
+

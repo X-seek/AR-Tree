@@ -1,5 +1,7 @@
 const hotspotUI = document.getElementById('hotspot-ui');
-const hotspotText = document.getElementById('hotspot-text');
+const hotspotTitle = document.getElementById('hotspot-title');
+const hotspotImg = document.getElementById('hotspot-img');
+const hotspotDesc = document.getElementById('hotspot-desc');
 const hotspotAudio = document.getElementById('hotspot-audio');
 const playBtn = document.getElementById('play-sound');
 const closeBtn = document.getElementById('close-ui');
@@ -9,12 +11,42 @@ const hotspotButtons = document.querySelectorAll(".hotspot-menu button");
 
 // ข้อมูล Hotspot
 const hotspotData = {
-  trunk: { text: "นี่คือลำต้นของต้นกล้วย", audio: "trunk.mp3" },
-  leaf: { text: "นี่คือใบกล้วย", audio: "leaves.mp3" },
-  fruit: { text: "นี่คือผลกล้วย", audio: "fruit.mp3" },
-  flower: { text: "นี่คือดอกกล้วย", audio: "flower.mp3" },
-  root: { text: "นี่คือรากกล้วย", audio: "root.mp3" },
-  care: { text: "นี่คือวิธีดูแลต้นกล้วย", audio: "care.mp3" }
+  trunk: {
+    title: "ลำต้นกล้วย",
+    img: "images/logo-menu/trunk.png",
+    desc: "ลำต้นของกล้วยมีลักษณะเป็นกาบซ้อนกัน ไม่ใช่ไม้เนื้อแข็ง",
+    audio: "trunk.mp3"
+  },
+  leaf: {
+    title: "ใบกล้วย",
+    img: "images/logo-menu/leaf.png",
+    desc: "ใบกล้วยมีขนาดใหญ่ กว้าง เหมาะสำหรับห่ออาหารและใช้ประโยชน์หลากหลาย",
+    audio: "leaves.mp3"
+  },
+  fruit: {
+    title: "ผลกล้วย",
+    img: "images/logo-menu/fruits.png",
+    desc: "ผลกล้วยเป็นแหล่งพลังงาน มีคาร์โบไฮเดรต วิตามิน และเกลือแร่",
+    audio: "fruit.mp3"
+  },
+  flower: {
+    title: "ดอกกล้วย (ปลี)",
+    img: "images/logo-menu/sakura.png",
+    desc: "ดอกกล้วย หรือปลี สามารถนำไปประกอบอาหารได้",
+    audio: "flower.mp3"
+  },
+  root: {
+    title: "รากกล้วย",
+    img: "images/logo-menu/root.png",
+    desc: "รากของกล้วยเป็นรากฝอย ช่วยยึดเกาะดินและดูดซึมสารอาหาร",
+    audio: "root.mp3"
+  },
+  care: {
+    title: "การดูแลกล้วย",
+    img: "images/logo-menu/plant-a-tree.png",
+    desc: "ควรรดน้ำอย่างสม่ำเสมอและใส่ปุ๋ยเพื่อให้กล้วยเติบโตแข็งแรง",
+    audio: "care.mp3"
+  }
 };
 
 // ฟังก์ชันแสดงข้อมูล + ทำปุ่ม active
@@ -25,9 +57,14 @@ function showHotspot(key, button) {
   // ใส่ active ให้ปุ่มที่กด
   button.classList.add("active");
 
+  // ดึงข้อมูลมาใส่ใน UI
+  const data = hotspotData[key];
+  hotspotTitle.textContent = data.title;
+  hotspotImg.src = data.img;
+  hotspotDesc.textContent = data.desc;
+  hotspotAudio.src = data.audio;
+
   // แสดง popup
-  hotspotText.textContent = hotspotData[key].text;
-  hotspotAudio.src = hotspotData[key].audio;
   hotspotUI.classList.add("active");
 }
 

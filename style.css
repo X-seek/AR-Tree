@@ -146,37 +146,43 @@
   width: 70px;
  }
 
-@media (max-width: 768px) {
+/* มือถือ (425px หรือน้อยกว่า) */
+@media (max-width: 425px) {
   .title {
-    font-size: 38px;   /* ใหญ่ขึ้น */
-
-    padding: 10px 20px;
+    font-size: 25px;
+    padding: 10px 8px;
   }
 
   .hotspot-menu button {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
   }
 
   .hotspot-ui {
-    font-size: 50px;
-    padding: 30px 25px;
+    width: 85%;
+    font-size: 20px;
+    padding: 25px 20px;
   }
 
   .hotspot-ui p {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .hotspot-ui button {
-    font-size: 22px;
-    padding: 14px 24px;
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  .hotspot-ui .button-group button {
+    font-size: 16px;
   }
 }
 
-@media (max-width: 480px) {
+/* แท็บเล็ต / iPad (426px ถึง 768px) */
+@media (min-width: 430px) and (max-width: 768px) {
   .title {
     font-size: 28px;
-    padding: 10px 8px;
+    padding: 12px 12px;
   }
 
   .hotspot-menu button {
@@ -185,9 +191,8 @@
   }
 
   .hotspot-ui {
-    width: 75%;
-    font-size: 24px;
-    padding: 35px 28px;
+    font-size: 26px;
+    padding: 30px 25px;
   }
 
   .hotspot-ui p {
@@ -195,11 +200,34 @@
   }
 
   .hotspot-ui button {
-    font-size: 24px;
-    padding: 16px 26px;
+    font-size: 20px;
+    padding: 14px 22px;
   }
-  .hotspot-ui .button-group button{
-    font-size: 18px;
+}
+
+/* แล็ปท็อป / PC (>768px) */
+@media (min-width: 769px) {
+  .title {
+    font-size: 45px;
+  }
+
+  .hotspot-menu button {
+    width: 80px;
+    height: 80px;
+  }
+
+  .hotspot-ui {
+    font-size: 32px;
+    padding: 45px 35px;
+  }
+
+  .hotspot-ui p {
+    font-size: 28px;
+  }
+
+  .hotspot-ui button {
+    font-size: 24px;
+    padding: 18px 28px;
   }
 }
 

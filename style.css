@@ -149,16 +149,17 @@
 @media (max-width: 768px) {
   .title {
     font-size: 38px;   /* ใหญ่ขึ้น */
+
     padding: 10px 20px;
   }
 
   .hotspot-menu button {
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
   }
 
   .hotspot-ui {
-    font-size: 22px;
+    font-size: 50px;
     padding: 30px 25px;
   }
 
@@ -176,7 +177,6 @@
   .title {
     font-size: 28px;
     padding: 10px 8px;
-
   }
 
   .hotspot-menu button {

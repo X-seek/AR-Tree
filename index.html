@@ -14,10 +14,22 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
     <div class="viewer-container">
+      <!-- ปุ่มสลับภาษา -->
+      <div class="lang-container">
+        <input hidden id="lang-check" type="checkbox" />
+        <label class="lang-toggle" for="lang-check">
+          <div class="lang-toggle__circle"></div>
+        </label>
+        <div class="lang-toggle-text">
+          <span>EN <img src="/images/flags/en.png" alt="EN" width="18" /></span>
+          <span>TH <img src="/images/flags/th.png" alt="TH" width="18" /></span>
+        </div>
+      </div>
+
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
@@ -33,26 +45,26 @@
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
-      <div class="title">🌴 ต้นกล้วย🌴</div>
+      <div class="title" data-i18n="page.title">ต้นกล้วย</div>
 
-      <!-- ปุ่ม Hotspot ด้านขวา -->
+      <!-- ปุ่ม Hotspot -->
       <div class="hotspot-menu">
-        <button id="btn-fruit">
+        <button onclick="showHotspot('fruit')">
           <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
         </button>
-        <button id="btn-leaf">
+        <button onclick="showHotspot('leaf')">
           <img src="images/logo-menu/leaf.png" alt="ใบไม้" />
         </button>
-        <button id="btn-flower">
+        <button onclick="showHotspot('flower')">
           <img src="images/logo-menu/sakura.png" alt="ดอก" />
         </button>
-        <button id="btn-trunk">
+        <button onclick="showHotspot('trunk')">
           <img src="images/logo-menu/trunk.png" alt="ลำต้น" />
         </button>
-        <button id="btn-root">
+        <button onclick="showHotspot('root')">
           <img src="images/logo-menu/root.png" alt="ราก" />
         </button>
-        <button id="btn-care">
+        <button onclick="showHotspot('care')">
           <img src="images/logo-menu/plant-a-tree.png" alt="วิธีดูแล" />
         </button>
       </div>
@@ -64,12 +76,16 @@
         <p id="hotspot-desc"></p>
         <audio id="hotspot-audio" src=""></audio>
         <div class="button-group">
-          <button id="play-sound">▶ เล่นเสียง</button>
-          <button id="close-ui">✖ ปิด</button>
+          <button id="play-sound" data-i18n="ui.play">▶ เล่นเสียง</button>
+          <button id="close-ui" data-i18n="ui.close">✖ ปิด</button>
         </div>
       </div>
     </div>
 
-    <script src="script.js"></script>
+
+
+
+    <script src="js/hotspot.js"></script>
+    <script src="js/lang.js"></script>
   </body>
 </html>

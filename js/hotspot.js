@@ -61,3 +61,9 @@ closeBtn.addEventListener("click", () => {
 playBtn.addEventListener("click", () => {
   hotspotAudio.play();
 });
+
+// =================== Menu slide ===================
+function toggleMenu() {
+  document.querySelector(".hotspot-menu").classList.toggle("active");
+}
+

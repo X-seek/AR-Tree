@@ -49,23 +49,35 @@
 
       <!-- ปุ่ม Hotspot -->
       <div class="hotspot-menu">
-        <button onclick="showHotspot('fruit')">
-          <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
-        </button>
-        <button onclick="showHotspot('leaf')">
-          <img src="images/logo-menu/leaf.png" alt="ใบไม้" />
-        </button>
-        <button onclick="showHotspot('flower')">
-          <img src="images/logo-menu/sakura.png" alt="ดอก" />
-        </button>
-        <button onclick="showHotspot('trunk')">
-          <img src="images/logo-menu/trunk.png" alt="ลำต้น" />
-        </button>
-        <button onclick="showHotspot('root')">
-          <img src="images/logo-menu/root.png" alt="ราก" />
-        </button>
-        <button onclick="showHotspot('care')">
-          <img src="images/logo-menu/plant-a-tree.png" alt="วิธีดูแล" />
+        <!-- ปุ่มลูก (ทั้งหมดซ่อนอยู่ตอนแรก) -->
+        <div class="submenu">
+          <button onclick="showHotspot('fruit')">
+            <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
+          </button>
+          <button onclick="showHotspot('leaf')">
+            <img src="images/logo-menu/leaf.png" alt="ใบไม้" />
+          </button>
+          <button onclick="showHotspot('flower')">
+            <img src="images/logo-menu/sakura.png" alt="ดอก" />
+          </button>
+          <button onclick="showHotspot('trunk')">
+            <img src="images/logo-menu/trunk.png" alt="ลำต้น" />
+          </button>
+          <button onclick="showHotspot('root')">
+            <img src="images/logo-menu/root.png" alt="ราก" />
+          </button>
+          <button onclick="showHotspot('care')">
+            <img src="images/logo-menu/planting.png" alt="วิธีดูแล" />
+          </button>
+          <button>
+            <a href="/tree/coconut.html">
+              <img src="images/logo-menu/forest.png" alt="โมเดลอื่น" />
+            </a>
+          </button>
+        </div>
+        <!-- ปุ่มหลัก (circle-plus) -->
+        <button class="main-btn" onclick="toggleMenu()">
+          <img src="images/logo-menu/circle-plus.png" alt="เมนู" />
         </button>
       </div>
 
@@ -81,9 +93,6 @@
         </div>
       </div>
     </div>
-
-
-
 
     <script src="js/hotspot.js"></script>
     <script src="js/lang.js"></script>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotspot-menu</title>
+    <!-- ฟอนต์ไทยน่ารัก -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style-hotspot.css" />
+    <link rel="stylesheet" href="style/style-change-lang.css" />
+  </head>
+  <body>
+    <div class="hotspot-menu">
+      <!-- ปุ่มลูก -->
+      <div class="submenu">
+        <button onclick="showHotspot('fruit')">
+          <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
+        </button>
+        <button onclick="showHotspot('leaf')">
+          <img src="images/logo-menu/leaf.png" alt="ใบไม้" />
+        </button>
+        <button onclick="showHotspot('flower')">
+          <img src="images/logo-menu/sakura.png" alt="ดอก" />
+        </button>
+        <button onclick="showHotspot('trunk')">
+          <img src="images/logo-menu/trunk.png" alt="ลำต้น" />
+        </button>
+        <button onclick="showHotspot('root')">
+          <img src="images/logo-menu/root.png" alt="ราก" />
+        </button>
+        <button onclick="showHotspot('care')">
+          <img src="images/logo-menu/planting.png" alt="วิธีดูแล" />
+        </button>
+        <button>
+          <a href="/coconut.html">
+            <img src="images/logo-menu/forest.png" alt="โมเดลอื่น" />
+          </a>
+        </button>
+      </div>
+      <!-- ปุ่มหลัก -->
+      <button class="main-btn" onclick="toggleMenu()">
+        <img src="images/logo-menu/circle-plus.png" alt="เมนู" />
+      </button>
+    </div>
+
+    <!-- Popup UI -->
+    <div id="hotspot-ui" class="hotspot-ui">
+      <h3 id="hotspot-title"></h3>
+      <img id="hotspot-img" src="" alt="ภาพ Hotspot" />
+      <p id="hotspot-desc"></p>
+      <audio id="hotspot-audio" src=""></audio>
+      <div class="button-group">
+        <button id="play-sound" data-i18n="ui.play">▶ เล่นเสียง</button>
+        <button id="close-ui" data-i18n="ui.close">✖ ปิด</button>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>

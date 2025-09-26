@@ -3,15 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banana 3D Tree AR</title>
-    <script
-      type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <title>Sugarcane 3D Tree AR</title>
+    <script type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style/style-hotspot.css" />
     <link rel="stylesheet" href="style/style-index.css" />
     <link rel="stylesheet" href="style/style-change-lang.css" />
@@ -24,19 +19,18 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="Model/banana.glb"
+        src="Model/sugarcane.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
         camera-controls
         exposure="1"
         environment-image="neutral"
-        shadow-intensity="3"
-      >
+        shadow-intensity="3">
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
-      <div class="title" data-i18n="page.title">กล้วย</div>
+      <div class="title" data-i18n="page.title">อ้อย</div>
 
       <!-- ปุ่ม Hotspot -->
       <div id="hotspot-menu-container"></div>
@@ -56,7 +50,7 @@
       ]).then(() => {
         // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "js/babana-lang.js";
+        lang.src = "js/sugarcane-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");

@@ -1,31 +1,31 @@
 (function () {
   const translations = {
     th: {
-      page: { title: "ต้นกล้วย" },
+      page: { title: "กล้วย" },
       ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
       hotspot: {
         trunk: {
-          title: "ลำต้นกล้วย",
+          title: "ลำต้น",
           desc: "ลำต้นของกล้วยมีลักษณะเป็นกาบซ้อนกัน ไม่ใช่ไม้เนื้อแข็ง",
         },
         leaf: {
-          title: "ใบกล้วย",
+          title: "ใบ",
           desc: "ใบกล้วยมีขนาดใหญ่ กว้าง เหมาะสำหรับห่ออาหารและใช้ประโยชน์หลากหลาย",
         },
         fruit: {
-          title: "ผลกล้วย",
+          title: "ผล",
           desc: "ผลกล้วยเป็นแหล่งพลังงาน มีคาร์โบไฮเดรต วิตามิน และเกลือแร่",
         },
         flower: {
-          title: "ดอกกล้วย (ปลี)",
+          title: "ดอก",
           desc: "ดอกกล้วย หรือปลี สามารถนำไปประกอบอาหารได้",
         },
         root: {
-          title: "รากกล้วย",
+          title: "ราก",
           desc: "รากของกล้วยเป็นรากฝอย ช่วยยึดเกาะดินและดูดซึมสารอาหาร",
         },
         care: {
-          title: "การดูแลกล้วย",
+          title: "การดูแล",
           desc: "ควรรดน้ำอย่างสม่ำเสมอและใส่ปุ๋ยเพื่อให้กล้วยเติบโตแข็งแรง",
         },
       },
@@ -80,9 +80,13 @@
     const data = get(translations[currentLang], `hotspot.${key}`);
     if (!data) return;
 
-    document.getElementById("hotspot-title").textContent = data.title;
-    document.getElementById("hotspot-desc").textContent = data.desc;
-    document.getElementById("hotspot-img").alt = data.title;
+    const title = document.getElementById("hotspot-title");
+    const desc = document.getElementById("hotspot-desc");
+    const img = document.getElementById("hotspot-img");
+
+    if (title) title.textContent = data.title;
+    if (desc) desc.textContent = data.desc;
+    if (img) img.alt = data.title;
   }
 
   function setLanguage(lang) {
@@ -106,10 +110,6 @@
     setLanguage,
     getCurrentLang: () => currentLang,
     applyHotspotContent,
+    initToggle,
   };
-
-  document.addEventListener("DOMContentLoaded", () => {
-    setLanguage(currentLang);
-    initToggle();
-  });
 })();

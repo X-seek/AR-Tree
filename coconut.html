@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coconut 3D Tree AR</title>
-    <script type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet"/>
+    <title>coconut 3D Tree AR</title>
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style-hotspot.css" />
     <link rel="stylesheet" href="style/style-index.css" />
     <link rel="stylesheet" href="style/style-change-lang.css" />
@@ -26,7 +31,8 @@
         camera-controls
         exposure="1"
         environment-image="neutral"
-        shadow-intensity="3">
+        shadow-intensity="3"
+      >
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
@@ -63,6 +69,17 @@
         hotspot.src = "js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
+
+      //  Gallery
+      function openModelGallery() {
+        document.getElementById("model-gallery").classList.add("active");
+      }
+      function closeModelGallery() {
+        document.getElementById("model-gallery").classList.remove("active");
+      }
     </script>
+
+    <!-- ✅ โหลด library ของ model-viewer -->
+    
   </body>
 </html>

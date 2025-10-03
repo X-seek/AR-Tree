@@ -31,7 +31,7 @@
       },
     },
     en: {
-      page: { title: "Coconut Tree" },
+      page: { title: "Coconut" },
       ui: { play: "▶ Play Sound", close: "✖ Close" },
       hotspot: {
         trunk: {

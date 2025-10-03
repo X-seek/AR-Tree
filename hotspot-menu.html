@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hotspot-menu</title>
-    <!-- ฟอนต์ไทยน่ารัก -->
+    <title>Hotspot Menu</title>
+
+    <!-- ฟอนต์ไทย -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/style-hotspot.css" />
-    <link rel="stylesheet" href="style/style-change-lang.css" />
   </head>
   <body>
     <div class="hotspot-menu">
-      <!-- ปุ่มลูก -->
       <div class="submenu">
         <button onclick="showHotspot('fruit')">
           <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
@@ -34,22 +33,23 @@
         <button onclick="showHotspot('care')">
           <img src="images/logo-menu/planting.png" alt="วิธีดูแล" />
         </button>
-        <button>
-          <a href="/coconut.html">
-            <img src="images/logo-menu/forest.png" alt="โมเดลอื่น" />
-          </a>
+
+        <!-- ปุ่ม gallery แทนลิงก์ -->
+        <button onclick="openModelGallery()">
+          <img src="images/logo-menu/forest.png" alt="เลือกดูโมเดลอื่นๆ" />
         </button>
       </div>
+
       <!-- ปุ่มหลัก -->
       <button class="main-btn" onclick="toggleMenu()">
         <img src="images/logo-menu/circle-plus.png" alt="เมนู" />
       </button>
     </div>
 
-    <!-- Popup UI -->
-    <div id="hotspot-ui" class="hotspot-ui">
+    <!-- Hotspot popup (ต้องอยู่ใน DOM เพื่อให้ JS หาได้) -->
+    <div id="hotspot-ui" class="hotspot-ui" aria-hidden="true">
       <h3 id="hotspot-title"></h3>
-      <img id="hotspot-img" src="" alt="ภาพ Hotspot" />
+      <img id="hotspot-img" src="" alt="hotspot image" />
       <p id="hotspot-desc"></p>
       <audio id="hotspot-audio" src=""></audio>
       <div class="button-group">
@@ -58,7 +58,104 @@
       </div>
     </div>
 
+    <!-- Popup model gallery -->
+    <div id="model-gallery" class="model-gallery" aria-hidden="true">
+        <h2 data-i18n="gallery.title">เลือกดูโมเดลต้นไม้</h2>
+        <div class="gallery-grid">
+          <!-- gallery-item แบบกรอบเดียว มี model + ชื่อ (เปลี่ยนลิงก์ตามจริงได้) -->
+          <div class="gallery-item">
+            <a href="index.html">
+              <model-viewer
+                src="Model/banana.glb"
+                alt="ต้นกล้วย"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.banana1">กล้วยน้ำว้า</h3>
+            </a>
+          </div>
 
-    
+          <div class="gallery-item">
+            <a href="coconut.html">
+              <model-viewer
+                src="Model/coconut.glb"
+                alt="มะพร้าว"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.coconut1">มะพร้าวน้ำหอม</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="sugarcane.html">
+              <model-viewer
+                src="Model/sugarcane.glb"
+                alt="อ้อย"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.sugarcane1">อ้อยแดง</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="custard-apple.html">
+              <model-viewer
+                src="Model/custard-apple.glb"
+                alt="น้อยหน่า"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.custardApple1">น้อยหน่า</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="fig.html">
+              <model-viewer
+                src="Model/Fig.glb"
+                alt="มะเดื่อ"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.fig1">มะเดื่อ</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="mango_tree.html">
+              <model-viewer
+                src="Model/mango_Tree.glb"
+                alt="มะม่วง"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.mango1">มะม่วง</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="guava.html">
+              <model-viewer
+                src="Model/guava.glb"
+                alt="ฝรั่ง"
+                disable-zoom
+                disable-pan
+                disable-tap></model-viewer>
+              <h3 data-i18n="gallery.items.guava1">ฝรั่ง</h3>
+            </a>
+          </div>
+
+          <!-- เพิ่ม item อื่นตามต้องการ -->
+        </div>
+
+        <button
+          class="close-btn"
+          onclick="closeModelGallery()"
+          data-i18n="ui.close">
+          ปิด
+        </button>
+    </div>
   </body>
 </html>

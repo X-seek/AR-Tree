@@ -31,8 +31,7 @@
         camera-controls
         exposure="1"
         environment-image="neutral"
-        shadow-intensity="3"
-      >
+        shadow-intensity="3">
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
@@ -56,7 +55,7 @@
       ]).then(() => {
         // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "js/custard-apple-lang-lang.js";
+        lang.src = "js/custard-apple-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");

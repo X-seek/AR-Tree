@@ -4,16 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana 3D Tree AR</title>
+
+    <!-- library model-viewer -->
     <script
       type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+
+    <!-- ฟอนต์ + style -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style-hotspot.css" />
     <link rel="stylesheet" href="style/style-index.css" />
     <link rel="stylesheet" href="style/style-change-lang.css" />
   </head>
+
   <body>
     <div class="viewer-container">
       <!-- fragment เปลี่ยนภาษา -->
@@ -29,8 +36,8 @@
         camera-controls
         exposure="1"
         environment-image="neutral"
-        shadow-intensity="3">
-      </model-viewer>
+        shadow-intensity="3"
+      ></model-viewer>
 
       <!-- ชื่อด้านบน -->
       <div class="title" data-i18n="page.title">กล้วย</div>
@@ -39,7 +46,7 @@
       <div id="hotspot-menu-container"></div>
     </div>
 
-    <!-- โหลด fragment แล้วผูกสคริปต์ -->
+    <!-- โหลด fragment แล้วค่อยผูกสคริปต์ -->
     <script>
       async function loadPart(id, file) {
         const res = await fetch(file);
@@ -52,18 +59,25 @@
         loadPart("change-lang-container", "change-lang.html"),
         loadPart("hotspot-menu-container", "hotspot-menu.html"),
       ]).then(() => {
-        // โหลดสคริปต์ i18n ก่อน เพื่อให้เมนูสามารถใช้ i18n ได้
+        // ✅ โหลดสคริปต์แปลภาษา
         const lang = document.createElement("script");
-        lang.src = "js/babana-lang.js";
+        lang.src = "js/banana-lang.js"; // ชื่อไฟล์ที่ถูกต้อง
+        lang.onload = () => {
+          if (window.i18n) {
+            window.i18n.setLanguage(localStorage.getItem("lang") || "th");
+            window.i18n.initToggle();
+            window.i18n.applyStaticTranslations(); // ✅ เรียกให้ fragment ถูกแปลด้วย
+          }
+        };
         document.body.appendChild(lang);
 
-        // โหลด menu-hotspot หลังจากนั้น
+        // ✅ โหลดสคริปต์ hotspot หลังจากนั้น
         const hotspot = document.createElement("script");
         hotspot.src = "js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
 
-      // ฟังก์ชันเปิด/ปิด gallery (ให้เรียกจาก fragment)
+      // ฟังก์ชันเปิด/ปิด gallery
       function openModelGallery() {
         document.getElementById("model-gallery").classList.add("active");
       }

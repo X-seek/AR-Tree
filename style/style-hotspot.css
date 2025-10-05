@@ -1,200 +1,219 @@
-/* ================== Hotspot Menu ================== */
+/* style-hotspot.css */
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7f3;
+  -webkit-font-smoothing: antialiased;
+}
 
-/* ตำแหน่งเมนูหลัก */
-.hotspot-menu {
+/* Viewer container (เต็มจอ) */
+.viewer-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Model viewer full */
+model-viewer#viewer {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #f0f7ee;
+}
+
+/* Title */
+.title {
   position: absolute;
-  bottom: 30px;
-  right: 20px;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #2e7d32;
+  font-weight: 600;
+  z-index: 2000;
+}
+
+/* ================== Hotspot Menu ================== */
+.hotspot-menu {
+  top: 10%;
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 1500;
 }
 
-/* ปุ่มหลัก (circle-plus) */
+/* ปุ่มหลักใหญ่ขึ้น */
 .main-btn {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  /* เพิ่มจาก 65px */
+  height: 80px;
+  /* เพิ่มจาก 65px */
   border-radius: 50%;
   border: none;
   background: #4caf4fb7;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.4s ease, background 0.3s ease;
+  transition: transform 0.35s ease, background 0.25s;
 }
 
 .main-btn img {
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
 }
 
 .hotspot-menu.active .main-btn {
   transform: rotate(135deg);
-  background: #45a049d0;
+  background: #388e3c;
 }
 
-/* กลุ่มปุ่มลูก */
+/* submenu ปรับใหญ่ขึ้น */
 .submenu {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  margin-bottom: 14px;
+  /* เพิ่ม spacing */
+  margin-bottom: 10px;
   pointer-events: none;
 }
 
 .submenu button {
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  /* เพิ่มจาก 55px */
+  height: 70px;
+  /* เพิ่มจาก 55px */
   border-radius: 50%;
   border: none;
-  background: #89d60c93;
-  cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#c8f06a, #89d60c);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transform: translateY(20px);
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transform: translateY(12px);
+  transition: transform 0.32s cubic-bezier(.2, .9, .2, 1), opacity 0.28s;
 }
 
 .submenu button img {
   width: 65%;
+  /* ปรับตามขนาดปุ่มใหม่ */
   height: 65%;
   object-fit: contain;
 }
 
 .submenu button:hover {
   transform: scale(1.15);
-  background: #9ee62c;
+  /* เพิ่ม scale เล็กน้อย */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
 
-/* แสดงปุ่มลูกเมื่อ active */
-.hotspot-menu.active .submenu button {
+.hotspot-menu.active .submenu {
   pointer-events: auto;
+}
+
+.hotspot-menu.active .submenu button {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Stagger Animation */
-.submenu button:nth-child(1) {
-  transition-delay: 0.05s;
-}
-
-.submenu button:nth-child(2) {
-  transition-delay: 0.1s;
-}
-
-.submenu button:nth-child(3) {
-  transition-delay: 0.15s;
-}
-
-.submenu button:nth-child(4) {
-  transition-delay: 0.2s;
-}
-
-.submenu button:nth-child(5) {
-  transition-delay: 0.25s;
-}
-
-.submenu button:nth-child(6) {
-  transition-delay: 0.3s;
-}
-
-.submenu button:nth-child(7) {
-  transition-delay: 0.35s;
-}
-
-/* ================== Popup UI ================== */
+/* ================== Hotspot Popup ================== */
 .hotspot-ui {
   pointer-events: none;
-  position: absolute;
-  top: 50%;
+  position: fixed;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(15, 15, 15, 0.95);
-  color: white;
-  padding: 25px 30px;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
+  bottom: -100%;
+  transform: translateX(-50%);
+  width: 92%;
+  max-width: 520px;
+  background: linear-gradient(180deg, #21321a 0%, #0f1a0f 100%);
+  color: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  /* เพิ่ม padding */
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+  transition: bottom 0.28s ease, opacity 0.28s ease;
   z-index: 3000;
-  max-width: 500px;
-  width: 90%;
-  font-size: 20px;
-  line-height: 1.5;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.55);
-  transition: opacity 0.35s ease, transform 0.3s ease;
+  text-align: center;
 }
 
 .hotspot-ui.active {
   pointer-events: auto;
+  bottom: 22px;
   opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, -50%) scale(1);
+}
+
+.hotspot-ui h3 {
+  margin: 6px 0;
+  font-size: 22px;
+  /* เพิ่ม font size */
+  color: #aefc77;
 }
 
 .hotspot-ui p {
-  margin: 0;
-  font-size: 22px;
+  margin: 6px 0 12px;
+  font-size: 16px;
+  /* เพิ่ม font size */
+  color: #e6f7d9;
+}
+
+.hotspot-ui img {
+  width: 88px;
+  /* เพิ่มขนาดภาพ */
+  height: 88px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 10px 0;
 }
 
 .hotspot-ui .button-group {
-  margin-top: 20px;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 12px;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .hotspot-ui button {
-  padding: 12px 20px;
+  padding: 10px 16px;
+  /* เพิ่มขนาดปุ่ม */
+  border-radius: 12px;
   border: none;
-  border-radius: 10px;
   background: #4caf50;
-  color: white;
-  font-size: 18px;
+  color: #fff;
   cursor: pointer;
-  font-weight: bold;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-  transition: background 0.3s ease, transform 0.2s ease;
+  font-weight: 600;
+  font-size: 15px;
+  /* เพิ่ม font size */
 }
 
 .hotspot-ui button:hover {
   background: #388e3c;
-  transform: scale(1.05);
 }
 
-.hotspot-ui img {
-  width: 70px;
-}
 
-/* ================== Popup Model Gallery ================== */
+/* ================== Model Gallery ================== */
 .model-gallery {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 8%;
   width: 100%;
-  height: 100%;
-  background: rgba(10, 10, 10, 0.95);
+  background: rgba(20, 25, 20, 0.9);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.35s ease;
   z-index: 4000;
-  backdrop-filter: blur(6px);
+  transition: opacity 0.25s ease, visibility 0.25s;
 }
 
 .model-gallery.active {
@@ -203,232 +222,191 @@
 }
 
 .gallery-content {
-  background: #181818;
-  padding: 25px 30px;
+  background: linear-gradient(180deg, #111614, #1c2a1f);
+  width: 92%;
+  max-width: 900px;
+  max-height: 88vh;
   border-radius: 18px;
-  text-align: center;
-  max-width: 95%;
-  width: 1200px;
-  max-height: 90vh;
+  padding: 20px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  animation: fadeInUp 0.35s ease;
   overflow-y: auto;
-  color: #fff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.65);
-  animation: fadeInUp 0.4s ease;
 }
 
 .gallery-content h2 {
-  margin-bottom: 25px;
-  font-size: 28px;
-  color: #8efb5c;
-  font-weight: 600;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 10px;
+  font-size: 26px;
+  color: #befe91;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+
+/* Grid Layout */
 .gallery-grid {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding-bottom: 15px;
-  scroll-behavior: smooth;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
 }
+
 .gallery-item {
-  flex: 0 0 auto; /* ป้องกันไม่ให้ย่อ */
-  width: 220px;   /* ขนาดแต่ละการ์ด */
-  background: #222;
+  background: linear-gradient(180deg, #27392b, #17261a);
   border-radius: 14px;
-  overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  cursor: pointer;
-}
-
-.gallery-grid::-webkit-scrollbar {
-  height: 10px;
-}
-
-.gallery-grid::-webkit-scrollbar-thumb {
-  background: #555;
-  border-radius: 10px;
-}
-
-.gallery-grid::-webkit-scrollbar-track {
-  background: #222;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.18s ease, box-shadow 0.18s;
 }
 
 .gallery-item:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
-.gallery-grid model-viewer {
-  width: 100%;
-  height: 220px;
-  background: #2c2c2c;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  pointer-events: none;
+/* Model viewer */
+.gallery-item model-viewer {
+  width: 190px;
+  height: 210px;
+  background: #0f1410;
+  border-radius: 12px;
+  --poster-color: transparent;
+  object-fit: contain;
 }
+
 
 .gallery-item h3 {
-  margin: 12px 0;
+  margin: 0;
+  padding: 12px;
   font-size: 18px;
-  color: #f1f1f1;
-  transition: color 0.3s ease;
-}
-
-.gallery-item:hover h3 {
-  color: #aefc77;
-}
-
-/* ปุ่มปิด */
-.close-btn {
-  margin-top: 15px;
-  padding: 12px 26px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #52b788, #40916c);
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-  transition: all 0.3s ease;
   font-weight: 500;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
 }
 
-.close-btn:hover {
-  background: linear-gradient(135deg, #40916c, #2d6a4f);
-  transform: scale(1.05);
+/* close button */
+.close-btn {
+  margin-top: 20px;
+  align-self: center;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.25s;
 }
 
-/* Animation */
+
+.close-btn.top-right {
+  position: absolute;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.63);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* Scrollbar */
+.gallery-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gallery-content::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 10px;
+}
+
+.gallery-content::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 6px;
+}
+
+.gallery-content::-webkit-scrollbar-thumb:hover {
+  background: #66bb6a;
+}
+
+/* Fade-in animation */
 @keyframes fadeInUp {
   from {
-    transform: translateY(40px);
     opacity: 0;
+    transform: translateY(20px);
   }
 
   to {
-    transform: translateY(0);
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 /* ================== Responsive ================== */
-
-/* Mobile (<480px) */
-@media (max-width: 480px) {
-  .main-btn {
-    width: 55px;
-    height: 55px;
+@media (max-width: 768px) {
+  .gallery-item {
+    min-height: 240px;
   }
 
-  .submenu button {
-    width: 45px;
-    height: 45px;
-  }
-
-  .hotspot-ui {
-    font-size: 16px;
-    padding: 20px;
-  }
-
-  .hotspot-ui p {
-    font-size: 16px;
-  }
-
-  .hotspot-ui button {
-    font-size: 16px;
-    padding: 10px 16px;
+  .gallery-item model-viewer {
+    width: 320px;
   }
 
   .gallery-content {
-    padding: 15px;
+    padding: 14px;
   }
 
-  .gallery-content h2 {
-    font-size: 20px;
+  .title {
+    font-size: 16px;
+    padding: 6px 12px;
   }
 
+  .main-btn {
+    width: 58px;
+    height: 58px;
+  }
+
+  .submenu button {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
 
-  .gallery-grid model-viewer {
-    height: 180px;
-  }
-}
-
-/* Tablet (481px - 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
-  .main-btn {
-    width: 65px;
-    height: 65px;
+  .gallery-item {
+    min-height: 220px;
   }
 
-  .submenu button {
-    width: 50px;
-    height: 50px;
+  .gallery-item model-viewer {
+    height: 210px;
   }
 
   .hotspot-ui {
-    font-size: 20px;
-    padding: 25px;
+    width: 94%;
+    max-width: 420px;
+    bottom: -120%;
   }
 
-  .hotspot-ui p {
-    font-size: 18px;
+  .hotspot-ui.active {
+    bottom: 14px;
   }
 
-  .hotspot-ui button {
-    font-size: 18px;
-  }
-
-  .gallery-content {
-    width: 95%;
-    max-height: 85vh;
-  }
-
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  }
-
-  .gallery-grid model-viewer {
-    height: 200px;
-  }
-}
-
-/* Desktop (>769px) */
-@media (min-width: 769px) {
   .main-btn {
-    width: 75px;
-    height: 75px;
+    width: 52px;
+    height: 52px;
   }
 
   .submenu button {
-    width: 60px;
-    height: 60px;
-  }
-
-  .hotspot-ui {
-    font-size: 24px;
-    padding: 35px;
-  }
-
-  .hotspot-ui p {
-    font-size: 22px;
-  }
-
-  .hotspot-ui button {
-    font-size: 20px;
-    padding: 14px 24px;
-  }
-
-  .gallery-content {
-    width: 1200px;
-  }
-
-  .gallery-grid model-viewer {
-    height: 240px;
+    width: 44px;
+    height: 44px;
   }
 }

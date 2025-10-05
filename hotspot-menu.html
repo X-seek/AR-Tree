@@ -37,9 +37,16 @@
         <!-- ปุ่ม gallery แทนลิงก์ -->
         <button onclick="openModelGallery()">
           <img src="images/logo-menu/forest.png" alt="เลือกดูโมเดลอื่นๆ" />
-        </button>
+        </button> 
+        
+        <button>
+        <a href="map.html">
+          <img src="images/logo-menu/map.png" alt="แผนที่/แผนผัง"
+        /></a>
+      </button>
       </div>
 
+     
       <!-- ปุ่มหลัก -->
       <button class="main-btn" onclick="toggleMenu()">
         <img src="images/logo-menu/circle-plus.png" alt="เมนู" />
@@ -58,11 +65,15 @@
       </div>
     </div>
 
-    <!-- Popup model gallery -->
+    <!-- ================== Popup Model Gallery ================== -->
     <div id="model-gallery" class="model-gallery" aria-hidden="true">
+      <div class="gallery-content">
+        <button class="close-btn top-right" onclick="closeModelGallery()">
+          ✖
+        </button>
         <h2 data-i18n="gallery.title">เลือกดูโมเดลต้นไม้</h2>
+
         <div class="gallery-grid">
-          <!-- gallery-item แบบกรอบเดียว มี model + ชื่อ (เปลี่ยนลิงก์ตามจริงได้) -->
           <div class="gallery-item">
             <a href="index.html">
               <model-viewer
@@ -70,7 +81,8 @@
                 alt="ต้นกล้วย"
                 disable-zoom
                 disable-pan
-                disable-tap></model-viewer>
+                disable-tap
+              ></model-viewer>
               <h3 data-i18n="gallery.items.banana1">กล้วยน้ำว้า</h3>
             </a>
           </div>
@@ -82,20 +94,9 @@
                 alt="มะพร้าว"
                 disable-zoom
                 disable-pan
-                disable-tap></model-viewer>
-              <h3 data-i18n="gallery.items.coconut1">มะพร้าวน้ำหอม</h3>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a href="sugarcane.html">
-              <model-viewer
-                src="Model/sugarcane.glb"
-                alt="อ้อย"
-                disable-zoom
-                disable-pan
-                disable-tap></model-viewer>
-              <h3 data-i18n="gallery.items.sugarcane1">อ้อยแดง</h3>
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.coconut1">มะพร้าวน้ำ</h3>
             </a>
           </div>
 
@@ -106,32 +107,22 @@
                 alt="น้อยหน่า"
                 disable-zoom
                 disable-pan
-                disable-tap></model-viewer>
-              <h3 data-i18n="gallery.items.custardApple1">น้อยหน่า</h3>
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.custardapple1">น้อยหน่า</h3>
             </a>
           </div>
 
           <div class="gallery-item">
             <a href="fig.html">
               <model-viewer
-                src="Model/Fig.glb"
+                src="Model/fig.glb"
                 alt="มะเดื่อ"
                 disable-zoom
                 disable-pan
-                disable-tap></model-viewer>
+                disable-tap
+              ></model-viewer>
               <h3 data-i18n="gallery.items.fig1">มะเดื่อ</h3>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a href="mango_tree.html">
-              <model-viewer
-                src="Model/mango_Tree.glb"
-                alt="มะม่วง"
-                disable-zoom
-                disable-pan
-                disable-tap></model-viewer>
-              <h3 data-i18n="gallery.items.mango1">มะม่วง</h3>
             </a>
           </div>
 
@@ -142,20 +133,64 @@
                 alt="ฝรั่ง"
                 disable-zoom
                 disable-pan
-                disable-tap></model-viewer>
+                disable-tap
+              ></model-viewer>
               <h3 data-i18n="gallery.items.guava1">ฝรั่ง</h3>
             </a>
           </div>
 
-          <!-- เพิ่ม item อื่นตามต้องการ -->
-        </div>
+          <div class="gallery-item">
+            <a href="lime.html">
+              <model-viewer
+                src="Model/lime.glb"
+                alt="มะนาว"
+                disable-zoom
+                disable-pan
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.lime1">มะนาว</h3>
+            </a>
+          </div>
 
-        <button
-          class="close-btn"
-          onclick="closeModelGallery()"
-          data-i18n="ui.close">
-          ปิด
-        </button>
+          <div class="gallery-item">
+            <a href="mango_tree.html">
+              <model-viewer
+                src="Model/mango_Tree.glb"
+                alt="มะม่วง"
+                disable-zoom
+                disable-pan
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.mango1">มะม่วง</h3>
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="sugarcane.html">
+              <model-viewer
+                src="Model/sugarcane.glb"
+                alt="อ้อย"
+                disable-zoom
+                disable-pan
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.sugarcane1">อ้อย</h3>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="sapodilla.html">
+              <model-viewer
+                src="Model/sapodilla.glb"
+                alt="ละมุด"
+                disable-zoom
+                disable-pan
+                disable-tap
+              ></model-viewer>
+              <h3 data-i18n="gallery.items.sapadilla1">ละมุด</h3>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

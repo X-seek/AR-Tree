@@ -5,27 +5,27 @@
       ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
       hotspot: {
         trunk: {
-          title: "ลำต้นอ้อย",
+          title: "ลำต้น",
           desc: "ลำต้นอ้อยเป็นข้อปล้องยาว มีน้ำหวานภายใน ใช้ทำเป็นน้ำตาลและน้ำอ้อยได้",
         },
         leaf: {
-          title: "ใบอ้อย",
+          title: "ใบ",
           desc: "ใบอ้อยยาวแคบและมีเส้นกลางใบแข็งแรง ช่วยในการสังเคราะห์แสง",
         },
         fruit: {
-          title: "ผลอ้อย",
+          title: "ผล",
           desc: "อ้อยไม่ได้ใช้ผล แต่ใช้ลำต้นที่สะสมน้ำตาลเป็นส่วนสำคัญ",
         },
         flower: {
-          title: "ดอกอ้อย",
+          title: "ดอก",
           desc: "ดอกอ้อยออกเป็นช่อฟูสีขาวหรือม่วงอ่อน มักออกเมื่ออ้อยแก่",
         },
         root: {
-          title: "รากอ้อย",
+          title: "ราก",
           desc: "รากอ้อยเป็นระบบรากฝอย ช่วยดูดซึมอาหารและน้ำจากดิน",
         },
         care: {
-          title: "การดูแลอ้อย",
+          title: "การดูแล",
           desc: "ควรปลูกในดินร่วนหรือดินร่วนปนทราย ต้องการแสงแดดมาก และรดน้ำอย่างสม่ำเสมอ",
         },
       },
@@ -35,27 +35,27 @@
       ui: { play: "▶ Play Sound", close: "✖ Close" },
       hotspot: {
         trunk: {
-          title: "Sugarcane Stem",
+          title: "Trunk",
           desc: "Sugarcane stems are jointed and filled with sweet juice, used for sugar and cane juice.",
         },
         leaf: {
-          title: "Sugarcane Leaf",
+          title: "Leaf",
           desc: "The leaves are long and narrow with a strong midrib, aiding photosynthesis.",
         },
         fruit: {
-          title: "Sugarcane Fruit",
+          title: "Fruit",
           desc: "Sugarcane is not grown for its fruit but for its stems that store sugar.",
         },
         flower: {
-          title: "Sugarcane Flower",
+          title: "Flower",
           desc: "Sugarcane flowers grow in fluffy clusters, white or pale purple, usually when the cane matures.",
         },
         root: {
-          title: "Sugarcane Root",
+          title: "Root",
           desc: "Sugarcane has fibrous roots that absorb water and nutrients from the soil.",
         },
         care: {
-          title: "Sugarcane Care",
+          title: "Care",
           desc: "Plant in loamy or sandy loam soil, requires full sunlight and regular watering.",
         },
       },

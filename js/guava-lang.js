@@ -32,8 +32,8 @@
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
-          banana1: "กล้วยน้ำว้า",
-          coconut1: "มะพร้าวน้ำหอม",
+          banana1: "กล้วย",
+          coconut1: "มะพร้าว",
           sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
@@ -78,8 +78,8 @@
 gallery: {
         title: "Choose a Tree Model",
         items: {
-          banana1: "Namwa Banana",
-          coconut1: "Aromatic Coconut",
+          banana1: "Banana",
+          coconut1: "Coconut",
           sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",

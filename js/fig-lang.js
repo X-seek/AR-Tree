@@ -32,7 +32,7 @@
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
-          banana1: "กล้วยน้ำว้า",
+          banana1: "กล้วย",
           coconut1: "มะพร้าวน้ำหอม",
           sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",

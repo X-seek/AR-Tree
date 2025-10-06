@@ -5,13 +5,15 @@
 
 const markersData = [
   // ตัวอย่าง: เปอร์เซนต์ x (left), y (top) จากมุมบนซ้ายของภาพ map (0-100)
-  { id: "bananaPatch", title: "แปลงกล้วย", x: 18, y: 32, model: "Model/banana.glb", page: "index.html" },
-  { id: "coconutPatch", title: "แปลงมะพร้าว", x: 38, y: 30, model: "Model/coconut.glb", page: "coconut.html" },
-  { id: "custard", title: "น้อยหน่า", x: 58, y: 30, model: "Model/custard-apple.glb", page: "custard-apple.html" },
+  { id: "bananaPatch", title: "แปลงกล้วย", x: 14, y: 30, model: "Model/banana.glb", page: "index.html" },
+  { id: "coconutPatch", title: "แปลงมะพร้าว", x: 58, y: 30, model: "Model/coconut.glb", page: "coconut.html" },
+  { id: "custard", title: "น้อยหน่า", x: 38, y: 30, model: "Model/custard-apple.glb", page: "custard-apple.html" },
   { id: "fig", title: "มะเดื่อ", x: 78, y: 30, model: "Model/fig.glb", page: "fig.html" },
   { id: "sugarcane", title: "แปลงอ้อย", x: 86, y: 56, model: "Model/sugarcane.glb", page: "sugarcane.html" },
   { id: "guava", title: "ฝรั่ง", x: 64, y: 58, model: "Model/guava.glb", page: "guava.html" },
   { id: "lime", title: "มะนาว", x: 46, y: 58, model: "Model/lime.glb", page: "lime.html" },
+  { id: "longan", title: "มะนาว", x: 46, y: 58, model: "Model/longan.glb", page: "longan.html" },
+  { id: "pomelo", title: "มะนาว", x: 46, y: 58, model: "Model/pomelo.glb", page: "pomelo.html" },
   { id: "sapodilla", title: "ละมุด", x: 26, y: 66, model: "Model/sapodilla.glb", page: "sapodilla.html" }
 ];
 

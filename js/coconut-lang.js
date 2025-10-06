@@ -29,6 +29,22 @@
           desc: "ปลูกในดินร่วนระบายน้ำดี รดน้ำสม่ำเสมอ และใส่ปุ๋ยอินทรีย์เพื่อผลผลิตที่ดี",
         },
       },
+      gallery: {
+        title: "เลือกดูโมเดลต้นไม้",
+        items: {
+          banana1: "กล้วยน้ำว้า",
+          coconut1: "มะพร้าวน้ำหอม",
+          sugarcane1: "อ้อยแดง",
+          custardApple1: "น้อยหน่า",
+          fig1: "มะเดื่อ",
+          mango1: "มะม่วง",
+          guava1: "ฝรั่ง",
+          lime1: "มะนาว",
+          longan1: "ลำไย",
+          sapodilla1: "ละมุด",
+          pomelo1: "ส้มโอ"
+        }
+      }
     },
     en: {
       page: { title: "Coconut" },
@@ -59,6 +75,22 @@
           desc: "Plant in well-drained soil, water regularly, and apply organic fertilizer for better yields.",
         },
       },
+      gallery: {
+        title: "Choose a Tree Model",
+        items: {
+          banana1: "Namwa Banana",
+          coconut1: "Aromatic Coconut",
+          sugarcane1: "Red Sugarcane",
+          custardApple1: "Custard Apple",
+          fig1: "Fig",
+          mango1: "Mango",
+          guava1: "Guava",
+          lime1: "Lime",
+          longan1: "Longan",
+          sapodilla1: "Sapodilla",
+          pomelo1: "Pomelo"
+        }
+      }
     },
   };
 

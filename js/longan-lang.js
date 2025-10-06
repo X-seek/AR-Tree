@@ -1,32 +1,32 @@
 (function () {
   const translations = {
     th: {
-      page: { title: "มะนาว" },
+      page: { title: "ลำไย" },
       ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: "ลำต้นมีลักษณะเป็นไม้พุ่มขนาดเล็ก มีกิ่งก้านมีหนาม เปลือกสีเขียวอมเทา",
+          desc: "ลำต้นลำไยเป็นไม้ยืนต้นขนาดกลาง เปลือกสีน้ำตาลเทา ผิวขรุขระ แตกกิ่งก้านมาก",
         },
         leaf: {
           title: "ใบ",
-          desc: "ใบเดี่ยว สีเขียวเข้ม มีกลิ่นหอมเฉพาะตัวเมื่อขยี้ นิยมใช้ปรุงอาหาร",
+          desc: "ใบลำไยเป็นใบประกอบแบบขนนก มีใบย่อย 4-6 คู่ รูปรี สีเขียวเข้มเป็นมัน",
         },
         fruit: {
           title: "ผล",
-          desc: "ผลมีลักษณะกลม เปลือกบาง สีเขียวถึงเหลือง รสเปรี้ยว นิยมใช้ปรุงอาหารและเครื่องดื่ม",
+          desc: "ผลลำไยกลม เปลือกบางสีน้ำตาล เนื้อในสีขาวใส รสหวาน มีกลิ่นหอม และมีเมล็ดเดียวสีดำมัน",
         },
         flower: {
           title: "ดอก",
-          desc: "ดอกสีขาว มีกลิ่นหอมอ่อน ๆ ออกตามซอกใบหรือตามกิ่ง",
+          desc: "ดอกลำไยออกเป็นช่อใหญ่ที่ปลายกิ่ง สีขาวนวลหรือเหลืองอ่อน มีกลิ่นหอมอ่อน ๆ",
         },
         root: {
           title: "ราก",
-          desc: "รากมะนาวส่วนใหญ่จะอยู่ไม่ลึกจากผิวดินมากนัก แต่จะแผ่ขยายออกด้านข้าง",
+          desc: "รากลำไยเป็นระบบรากแก้วและรากแขนง ช่วยยึดเกาะดินและดูดซึมธาตุอาหารได้ดี",
         },
         care: {
           title: "การดูแล",
-          desc: "ควรปลูกในดินร่วนซุย ระบายน้ำดี รดน้ำสม่ำเสมอ และใส่ปุ๋ยอินทรีย์ทุก 1-2 เดือน",
+          desc: "ควรปลูกในดินร่วนซุย ระบายน้ำดี ต้องการแสงแดดเต็มวัน รดน้ำสม่ำเสมอ และใส่ปุ๋ยบำรุงผลตามฤดูกาล",
         },
       },
       gallery: {
@@ -46,33 +46,34 @@
         }
       }
     },
+
     en: {
-      page: { title: "Lime" },
+      page: { title: "Longan" },
       ui: { play: "▶ Play Sound", close: "✖ Close" },
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "A small shrub with thorny branches and gray-green bark.",
+          desc: "The longan tree is a medium-sized evergreen tree with rough grayish-brown bark and many branches.",
         },
         leaf: {
           title: "Leaf",
-          desc: "Dark green leaves with a pleasant citrus aroma, often used in cooking.",
+          desc: "Longan leaves are pinnate with 4–6 pairs of glossy dark green leaflets shaped like ovals.",
         },
         fruit: {
           title: "Fruit",
-          desc: "Small round fruit with thin green to yellow skin and sour juice, used in food and drinks.",
+          desc: "Longan fruits are round with thin brown skin, translucent white flesh that is sweet and aromatic, and a single shiny black seed.",
         },
         flower: {
           title: "Flower",
-          desc: "White, mildly fragrant flowers that bloom along branches or leaf axils.",
+          desc: "Longan flowers grow in large clusters at branch tips, pale yellow or cream-colored with a mild fragrance.",
         },
         root: {
           title: "Root",
-          desc: "Most lemon roots do not grow very deep from the soil surface, but spread out laterally.",
+          desc: "The root system is composed of a taproot and lateral roots, helping the tree anchor and absorb nutrients effectively.",
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil, water regularly, and apply organic fertilizer every 1–2 months.",
+          desc: "Plant in well-drained loamy soil under full sunlight. Water regularly and fertilize seasonally to promote healthy fruiting.",
         },
       },
       gallery: {

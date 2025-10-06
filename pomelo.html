@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapodilla 3D Tree AR</title>
+    <title>Pomelo 3D Tree AR</title>
     <script
       type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style-hotspot.css" />
     <link rel="stylesheet" href="style/style-index.css" />
     <link rel="stylesheet" href="style/style-change-lang.css" />
@@ -22,7 +24,7 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="Model/sapodilla.glb"
+        src="Model/pomelo.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -34,7 +36,7 @@
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
-      <div class="title" data-i18n="page.title">ละมุด</div>
+      <div class="title" data-i18n="page.title">ล้มโอ</div>
 
       <!-- ปุ่ม Hotspot -->
       <div id="hotspot-menu-container"></div>
@@ -54,7 +56,7 @@
       ]).then(() => {
         // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "js/sapodilla-lang.js";
+        lang.src = "js/pomelo-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
@@ -76,8 +78,5 @@
         document.getElementById("model-gallery").classList.remove("active");
       }
     </script>
-
-    <!-- ✅ โหลด library ของ model-viewer -->
-    
   </body>
 </html>

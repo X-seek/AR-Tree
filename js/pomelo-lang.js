@@ -1,32 +1,32 @@
 (function () {
   const translations = {
     th: {
-      page: { title: "มะนาว" },
+      page: { title: "ส้มโอ" },
       ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: "ลำต้นมีลักษณะเป็นไม้พุ่มขนาดเล็ก มีกิ่งก้านมีหนาม เปลือกสีเขียวอมเทา",
+          desc: "ลำต้นส้มโอเป็นไม้ยืนต้นขนาดกลาง เปลือกเรียบ สีเทาอมเขียว มีกิ่งก้านมากและมีกลิ่นหอมอ่อน ๆ",
         },
         leaf: {
           title: "ใบ",
-          desc: "ใบเดี่ยว สีเขียวเข้ม มีกลิ่นหอมเฉพาะตัวเมื่อขยี้ นิยมใช้ปรุงอาหาร",
+          desc: "ใบส้มโอเป็นใบเดี่ยว รูปไข่หรือรูปรี ปลายมน โคนเว้าเล็กน้อย ผิวใบมัน สีเขียวเข้ม และมีกลิ่นน้ำมันหอมระเหย",
         },
         fruit: {
           title: "ผล",
-          desc: "ผลมีลักษณะกลม เปลือกบาง สีเขียวถึงเหลือง รสเปรี้ยว นิยมใช้ปรุงอาหารและเครื่องดื่ม",
+          desc: "ผลส้มโอมีขนาดใหญ่ เปลือกหนา เนื้อภายในแบ่งเป็นกลีบ สีชมพูหรือเหลือง รสหวานอมเปรี้ยว มีกลิ่นหอม",
         },
         flower: {
           title: "ดอก",
-          desc: "ดอกสีขาว มีกลิ่นหอมอ่อน ๆ ออกตามซอกใบหรือตามกิ่ง",
+          desc: "ดอกส้มโอออกเป็นช่อ สีขาว กลีบดอกหนา มีกลิ่นหอมแรง ช่วยดึงดูดแมลงผสมเกสร",
         },
         root: {
           title: "ราก",
-          desc: "รากมะนาวส่วนใหญ่จะอยู่ไม่ลึกจากผิวดินมากนัก แต่จะแผ่ขยายออกด้านข้าง",
+          desc: "รากส้มโอเป็นรากแก้วแข็งแรง แผ่กระจาย ช่วยยึดเกาะและดูดซึมธาตุอาหารได้ดี",
         },
         care: {
           title: "การดูแล",
-          desc: "ควรปลูกในดินร่วนซุย ระบายน้ำดี รดน้ำสม่ำเสมอ และใส่ปุ๋ยอินทรีย์ทุก 1-2 เดือน",
+          desc: "ควรปลูกในดินร่วนปนทราย ระบายน้ำดี แสงแดดจัด รดน้ำสม่ำเสมอ และใส่ปุ๋ยอินทรีย์บำรุงผล",
         },
       },
       gallery: {
@@ -42,37 +42,37 @@
           lime1: "มะนาว",
           longan1: "ลำไย",
           sapodilla1: "ละมุด",
-          pomelo1: "ส้มโอ"
-        }
-      }
+          pomelo1: "ส้มโอ",
+        },
+      },
     },
     en: {
-      page: { title: "Lime" },
+      page: { title: "Pomelo" },
       ui: { play: "▶ Play Sound", close: "✖ Close" },
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "A small shrub with thorny branches and gray-green bark.",
+          desc: "The pomelo tree is a medium-sized evergreen with smooth gray-green bark and many branches, emitting a mild citrus scent.",
         },
         leaf: {
           title: "Leaf",
-          desc: "Dark green leaves with a pleasant citrus aroma, often used in cooking.",
+          desc: "Pomelo leaves are simple, oval to oblong with a rounded tip and slightly notched base. They are glossy dark green and aromatic.",
         },
         fruit: {
           title: "Fruit",
-          desc: "Small round fruit with thin green to yellow skin and sour juice, used in food and drinks.",
+          desc: "The pomelo fruit is large with thick rind and segmented juicy flesh, pink or yellow, sweet-tart, and fragrant.",
         },
         flower: {
           title: "Flower",
-          desc: "White, mildly fragrant flowers that bloom along branches or leaf axils.",
+          desc: "Pomelo flowers are white, thick-petaled, and strongly fragrant, attracting pollinating insects.",
         },
         root: {
           title: "Root",
-          desc: "Most lemon roots do not grow very deep from the soil surface, but spread out laterally.",
+          desc: "Pomelo has a strong taproot system that anchors firmly and absorbs nutrients efficiently.",
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil, water regularly, and apply organic fertilizer every 1–2 months.",
+          desc: "Plant in sandy loam soil with good drainage under full sun. Water regularly and use organic fertilizer to enhance fruit quality.",
         },
       },
       gallery: {
@@ -88,9 +88,9 @@
           lime1: "Lime",
           longan1: "Longan",
           sapodilla1: "Sapodilla",
-          pomelo1: "Pomelo"
-        }
-      }
+          pomelo1: "Pomelo",
+        },
+      },
     },
   };
 
@@ -144,4 +144,9 @@
     applyHotspotContent,
     initToggle,
   };
+
+  // ✅ โหลดครั้งแรก
+  document.addEventListener("DOMContentLoaded", () => {
+    applyStaticTranslations();
+  });
 })();

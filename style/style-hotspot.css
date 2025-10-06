@@ -39,7 +39,7 @@ model-viewer#viewer {
 
 /* ================== Hotspot Menu ================== */
 .hotspot-menu {
-  top: 10%;
+  top: 20%;
   position: fixed;
   bottom: 18px;
   right: 18px;
@@ -361,6 +361,10 @@ model-viewer#viewer {
     padding: 14px;
   }
 
+  .hotspot-menu {
+    top: 40%;
+  }
+
   .title {
     font-size: 16px;
     padding: 6px 12px;
@@ -388,6 +392,10 @@ model-viewer#viewer {
 
   .gallery-item model-viewer {
     height: 210px;
+  }
+
+  .hotspot-menu {
+    top: 30%;
   }
 
   .hotspot-ui {

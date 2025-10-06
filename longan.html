@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sugarcane 3D Tree AR</title>
+    <title>Longan 3D Tree AR</title>
     <script
       type="module"
       src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
@@ -24,7 +24,7 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="Model/sugarcane.glb"
+        src="Model/longan.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -36,7 +36,7 @@
       </model-viewer>
 
       <!-- ชื่อด้านบน -->
-      <div class="title" data-i18n="page.title">อ้อย</div>
+      <div class="title" data-i18n="page.title">ลำไย</div>
 
       <!-- ปุ่ม Hotspot -->
       <div id="hotspot-menu-container"></div>
@@ -56,7 +56,7 @@
       ]).then(() => {
         // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "js/sugarcan-lang.js";
+        lang.src = "js/longan-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");

@@ -1,32 +1,32 @@
 (function () {
   const translations = {
     th: {
-      page: { title: "มะนาว" },
+      page: { title: "ละมุด" },
       ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: "ลำต้นมีลักษณะเป็นไม้พุ่มขนาดเล็ก มีกิ่งก้านมีหนาม เปลือกสีเขียวอมเทา",
+          desc: "ลำต้นละมุดเป็นไม้ยืนต้นขนาดกลางถึงใหญ่ เปลือกสีน้ำตาลเข้ม ผิวหยาบ แตกเป็นร่อง มียางเหนียวสีขาวคล้ายน้ำนม",
         },
         leaf: {
           title: "ใบ",
-          desc: "ใบเดี่ยว สีเขียวเข้ม มีกลิ่นหอมเฉพาะตัวเมื่อขยี้ นิยมใช้ปรุงอาหาร",
+          desc: "ใบทึบหนา รูปรี ปลายมน โคนสอบ สีเขียวเข้มเป็นมัน ผิวใบเรียบแข็งแรง เรียงสลับกันตามกิ่ง",
         },
         fruit: {
           title: "ผล",
-          desc: "ผลมีลักษณะกลม เปลือกบาง สีเขียวถึงเหลือง รสเปรี้ยว นิยมใช้ปรุงอาหารและเครื่องดื่ม",
+          desc: "ผลละมุดรูปไข่หรือรูปกลม เปลือกสีน้ำตาล เนื้อในนุ่ม รสหวาน มีกลิ่นหอม และมีเมล็ดสีดำมันอยู่ด้านใน",
         },
         flower: {
           title: "ดอก",
-          desc: "ดอกสีขาว มีกลิ่นหอมอ่อน ๆ ออกตามซอกใบหรือตามกิ่ง",
+          desc: "ดอกละมุดมีสีขาวครีม กลีบดอกเล็กเรียว ออกตามซอกใบหรือกิ่งอ่อน มีกลิ่นหอมอ่อน ๆ",
         },
         root: {
           title: "ราก",
-          desc: "รากมะนาวส่วนใหญ่จะอยู่ไม่ลึกจากผิวดินมากนัก แต่จะแผ่ขยายออกด้านข้าง",
+          desc: "รากละมุดเป็นระบบรากแก้วลึก แผ่กระจาย ช่วยยึดต้นและดูดซึมอาหารได้ดี",
         },
         care: {
           title: "การดูแล",
-          desc: "ควรปลูกในดินร่วนซุย ระบายน้ำดี รดน้ำสม่ำเสมอ และใส่ปุ๋ยอินทรีย์ทุก 1-2 เดือน",
+          desc: "ปลูกในดินร่วนซุย ระบายน้ำดี ชอบแสงแดดเต็มวัน รดน้ำสม่ำเสมอ และใส่ปุ๋ยบำรุงผลให้มีรสหวาน",
         },
       },
       gallery: {
@@ -42,37 +42,38 @@
           lime1: "มะนาว",
           longan1: "ลำไย",
           sapodilla1: "ละมุด",
-          pomelo1: "ส้มโอ"
-        }
-      }
+          pomelo1: "ส้มโอ",
+        },
+      },
     },
+
     en: {
-      page: { title: "Lime" },
+      page: { title: "Sapodilla" },
       ui: { play: "▶ Play Sound", close: "✖ Close" },
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "A small shrub with thorny branches and gray-green bark.",
+          desc: "The sapodilla tree is a medium to large evergreen with rough dark brown bark containing milky latex sap.",
         },
         leaf: {
           title: "Leaf",
-          desc: "Dark green leaves with a pleasant citrus aroma, often used in cooking.",
+          desc: "Leaves are thick, glossy, and oval with smooth edges and a dark green color, arranged alternately along branches.",
         },
         fruit: {
           title: "Fruit",
-          desc: "Small round fruit with thin green to yellow skin and sour juice, used in food and drinks.",
+          desc: "Sapodilla fruits are oval or round with brown skin, soft sweet flesh, and glossy black seeds inside.",
         },
         flower: {
           title: "Flower",
-          desc: "White, mildly fragrant flowers that bloom along branches or leaf axils.",
+          desc: "Flowers are small, cream-white, and fragrant, growing singly or in small clusters in leaf axils.",
         },
         root: {
           title: "Root",
-          desc: "Most lemon roots do not grow very deep from the soil surface, but spread out laterally.",
+          desc: "Sapodilla has a strong taproot system that spreads deep and helps anchor the tree firmly.",
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil, water regularly, and apply organic fertilizer every 1–2 months.",
+          desc: "Grow in well-drained loamy soil under full sunlight. Water regularly and apply fertilizer for sweeter fruits.",
         },
       },
       gallery: {
@@ -88,9 +89,9 @@
           lime1: "Lime",
           longan1: "Longan",
           sapodilla1: "Sapodilla",
-          pomelo1: "Pomelo"
-        }
-      }
+          pomelo1: "Pomelo",
+        },
+      },
     },
   };
 
@@ -144,4 +145,9 @@
     applyHotspotContent,
     initToggle,
   };
+
+  // ✅ โหลดแปลทันทีเมื่อ DOM พร้อม
+  document.addEventListener("DOMContentLoaded", () => {
+    applyStaticTranslations();
+  });
 })();

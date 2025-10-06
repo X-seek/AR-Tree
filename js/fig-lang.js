@@ -29,6 +29,22 @@
           desc: "ควรปลูกในดินร่วน ระบายน้ำดี แดดจัด รดน้ำพอประมาณ และใส่ปุ๋ยบำรุงผล",
         },
       },
+      gallery: {
+        title: "เลือกดูโมเดลต้นไม้",
+        items: {
+          banana1: "กล้วยน้ำว้า",
+          coconut1: "มะพร้าวน้ำหอม",
+          sugarcane1: "อ้อยแดง",
+          custardApple1: "น้อยหน่า",
+          fig1: "มะเดื่อ",
+          mango1: "มะม่วง",
+          guava1: "ฝรั่ง",
+          lime1: "มะนาว",
+          longan1: "ลำไย",
+          sapodilla1: "ละมุด",
+          pomelo1: "ส้มโอ"
+        }
+      }
     },
     en: {
       page: { title: "Custard Apple" },
@@ -59,6 +75,22 @@
           desc: "Plant in well-drained loamy soil under full sun, water moderately, and fertilize to improve fruit quality.",
         },
       },
+      gallery: {
+        title: "Choose a Tree Model",
+        items: {
+          banana1: "Namwa Banana",
+          coconut1: "Aromatic Coconut",
+          sugarcane1: "Red Sugarcane",
+          custardApple1: "Custard Apple",
+          fig1: "Fig",
+          mango1: "Mango",
+          guava1: "Guava",
+          lime1: "Lime",
+          longan1: "Longan",
+          sapodilla1: "Sapodilla",
+          pomelo1: "Pomelo"
+        }
+      }
     },
   };
 

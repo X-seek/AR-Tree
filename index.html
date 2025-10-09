@@ -59,15 +59,15 @@
       Promise.all([
         loadPart(
           "change-lang-container",
-          "/assets/page_models/tool-bar/change-lang.html"
+          "assets/page_models/tool-bar/change-lang.html"
         ),
         loadPart(
           "hotspot-menu-container",
-          "/assets/page_models/tool-bar/hotspot-menu.html"
+          "assets/page_models/tool-bar/hotspot-menu.html"
         ),
       ]).then(() => {
         const lang = document.createElement("script");
-        lang.src = "/assets/js/banana-lang.js"; // path นี้ถูกแล้ว
+        lang.src = "assets/js/banana-lang.js"; // path นี้ถูกแล้ว
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
@@ -78,7 +78,7 @@
         document.body.appendChild(lang);
 
         const hotspot = document.createElement("script");
-        hotspot.src = "/assets/js/menu-hotspot.js"; // path ถูกแล้ว
+        hotspot.src = "assets/js/menu-hotspot.js"; // path ถูกแล้ว
         document.body.appendChild(hotspot);
       });
 

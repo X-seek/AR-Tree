@@ -1,0 +1,177 @@
+// js/menu-hotspot.js
+const el = (id) => document.getElementById(id);
+
+// =================== อ้างอิง element ===================
+let hotspotUI, hotspotTitle, hotspotDesc, hotspotImg, hotspotAudio, playBtn, closeBtn;
+
+function bindElements() {
+  hotspotUI = el("hotspot-ui");
+  hotspotTitle = el("hotspot-title");
+  hotspotDesc = el("hotspot-desc");
+  hotspotImg = el("hotspot-img");
+  hotspotAudio = el("hotspot-audio");
+  playBtn = el("play-sound");
+  closeBtn = el("close-ui");
+
+  if (closeBtn) {
+    closeBtn.removeEventListener("click", handleClose);
+    closeBtn.addEventListener("click", handleClose);
+  }
+  if (playBtn) {
+    playBtn.removeEventListener("click", handlePlay);
+    playBtn.addEventListener("click", handlePlay);
+  }
+}
+
+// =================== Page detection ===================
+const currentPage = window.location.pathname.split("/").pop().split(".")[0] || "index";
+const pageKeyMap = {
+  index: "banana",
+  banana: "banana",
+  coconut: "coconut",
+  "custard-apple": "custard-apple",
+  fig: "fig",
+  guava: "guava",
+  lime: "lime",
+  mango: "mango",
+  pomelo: "pomelo",
+  sapodilla: "sapodilla",
+  longan: "longan",
+};
+const currentPageKey = pageKeyMap[currentPage] || "banana";
+
+// =================== Hotspot Data (ตัวอย่างเต็ม) ===================
+// เพิ่ม audio ภาษาไทย/อังกฤษสำหรับทุกต้นไม้
+const hotspotData = {
+  banana: {
+    trunk: { img: "/assets/images/hotspot/banana/trunk.png", audio: { th: "/assets/audio/th/banana/trunk_th.mp3", en: "/assets/audio/eng/banana/trunk_en.mp3" } },
+    leaf: { img: "/assets/images/hotspot/banana/leaf.png", audio: { th: "/assets/audio/th/banana/leaf.mp3", en: "/assets/audio/eng/banana/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/banana/fruit.png", audio: { th: "/assets/audio/th/banana/fruit.mp3", en: "/assets/audio/eng/banana/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/banana/root.png", audio: { th: "/assets/audio/th/banana/root.mp3", en: "/assets/audio/eng/banana/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/banana/care.mp3", en: "/assets/audio/eng/banana/care.mp3" } },
+  },
+  coconut: {
+    trunk: { img: "/assets/images/hotspot/coconut/trunk.png", audio: { th: "/assets/audio/th/coconut/trunk.mp3", en: "/assets/audio/eng/coconut/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/coconut/leaf.png", audio: { th: "/assets/audio/th/coconut/leaf.mp3", en: "/assets/audio/eng/coconut/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/coconut/fruit.png", audio: { th: "/assets/audio/th/coconut/fruit.mp3", en: "/assets/audio/eng/coconut/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/coconut/root.png", audio: { th: "/assets/audio/th/coconut/root.mp3", en: "/assets/audio/eng/coconut/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/coconut/care.mp3", en: "/assets/audio/eng/coconut/care.mp3" } },
+  },
+  "custard-apple": {
+    trunk: { img: "/assets/images/hotspot/custard-apple/trunk.png", audio: { th: "/assets/audio/th/custard-apple/trunk.mp3", en: "/assets/audio/eng/custard-apple/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/custard-apple/leaf.png", audio: { th: "/assets/audio/th/custard-apple/leaf.mp3", en: "/assets/audio/eng/custard-apple/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/custard-apple/fruit.png", audio: { th: "/assets/audio/th/custard-apple/fruit.mp3", en: "/assets/audio/eng/custard-apple/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/custard-apple/root.png", audio: { th: "/assets/audio/th/custard-apple/root.mp3", en: "/assets/audio/eng/custard-apple/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/custard-apple/care.mp3", en: "/assets/audio/eng/custard-apple/care.mp3" } },
+  },
+  fig: {
+    trunk: { img: "/assets/images/hotspot/fig/trunk.png", audio: { th: "/assets/audio/th/fig/trunk.mp3", en: "/assets/audio/eng/fig/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/fig/leaf.png", audio: { th: "/assets/audio/th/fig/leaf.mp3", en: "/assets/audio/eng/fig/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/fig/fruit.png", audio: { th: "/assets/audio/th/fig/fruit.mp3", en: "/assets/audio/eng/fig/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/fig/root.png", audio: { th: "/assets/audio/th/fig/root.mp3", en: "/assets/audio/eng/fig/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/fig/care.mp3", en: "/assets/audio/eng/fig/care.mp3" } },
+  },
+  guava: {
+    trunk: { img: "/assets/images/hotspot/guava/trunk.png", audio: { th: "/assets/audio/th/guava/trunk.mp3", en: "/assets/audio/eng/guava/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/guava/leaf.png", audio: { th: "/assets/audio/th/guava/leaf.mp3", en: "/assets/audio/eng/guava/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/guava/fruit.png", audio: { th: "/assets/audio/th/guava/fruit.mp3", en: "/assets/audio/eng/guava/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/guava/root.png", audio: { th: "/assets/audio/th/guava/root.mp3", en: "/assets/audio/eng/guava/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/guava/care.mp3", en: "/assets/audio/eng/guava/care.mp3" } },
+  },
+  lime: {
+    trunk: { img: "/assets/images/hotspot/lime/trunk.png", audio: { th: "/assets/audio/th/lime/trunk.mp3", en: "/assets/audio/eng/lime/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/lime/leaf.png", audio: { th: "/assets/audio/th/lime/leaf.mp3", en: "/assets/audio/eng/lime/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/lime/fruit.png", audio: { th: "/assets/audio/th/lime/fruit.mp3", en: "/assets/audio/eng/lime/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/lime/root.png", audio: { th: "/assets/audio/th/lime/root.mp3", en: "/assets/audio/eng/lime/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/lime/care.mp3", en: "/assets/audio/eng/lime/care.mp3" } },
+  },
+  longan: {
+    trunk: { img: "/assets/images/hotspot/longan/trunk.png", audio: { th: "/assets/audio/th/longan/trunk.mp3", en: "/assets/audio/eng/longan/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/longan/leaf.png", audio: { th: "/assets/audio/th/longan/leaf.mp3", en: "/assets/audio/eng/longan/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/longan/fruit.png", audio: { th: "/assets/audio/th/longan/fruit.mp3", en: "/assets/audio/eng/longan/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/longan/root.png", audio: { th: "/assets/audio/th/longan/root.mp3", en: "/assets/audio/eng/longan/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/longan/care.mp3", en: "/assets/audio/eng/longan/care.mp3" } },
+  },
+  mango: {
+    trunk: { img: "/assets/images/hotspot/mango/trunk.png", audio: { th: "/assets/audio/th/mango/trunk.mp3", en: "/assets/audio/eng/mango/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/mango/leaf.png", audio: { th: "/assets/audio/th/mango/leaf.mp3", en: "/assets/audio/eng/mango/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/mango/fruit.png", audio: { th: "/assets/audio/th/mango/fruit.mp3", en: "/assets/audio/eng/mango/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/mango/root.png", audio: { th: "/assets/audio/th/mango/root.mp3", en: "/assets/audio/eng/mango/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/mango/care.mp3", en: "/assets/audio/eng/mango/care.mp3" } },
+  },
+  pomelo: {
+    trunk: { img: "/assets/images/hotspot/pomelo/trunk.png", audio: { th: "/assets/audio/th/pomelo/trunk.mp3", en: "/assets/audio/eng/pomelo/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/pomelo/leaf.png", audio: { th: "/assets/audio/th/pomelo/leaf.mp3", en: "/assets/audio/eng/pomelo/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/pomelo/fruit.png", audio: { th: "/assets/audio/th/pomelo/fruit.mp3", en: "/assets/audio/eng/pomelo/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/pomelo/root.png", audio: { th: "/assets/audio/th/pomelo/root.mp3", en: "/assets/audio/eng/pomelo/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/pomelo/care.mp3", en: "/assets/audio/eng/pomelo/care.mp3" } },
+  },
+  sapodilla: {
+    trunk: { img: "/assets/images/hotspot/sapodilla/trunk.png", audio: { th: "/assets/audio/th/sapodilla/trunk.mp3", en: "/assets/audio/eng/sapodilla/trunk.mp3" } },
+    leaf: { img: "/assets/images/hotspot/sapodilla/leaf.png", audio: { th: "/assets/audio/th/sapodilla/leaf.mp3", en: "/assets/audio/eng/sapodilla/leaf.mp3" } },
+    fruit: { img: "/assets/images/hotspot/sapodilla/fruit.png", audio: { th: "/assets/audio/th/sapodilla/fruit.mp3", en: "/assets/audio/eng/sapodilla/fruit.mp3" } },
+    root: { img: "/assets/images/hotspot/sapodilla/root.png", audio: { th: "/assets/audio/th/sapodilla/root.mp3", en: "/assets/audio/eng/sapodilla/root.mp3" } },
+    care: { img: "/assets/images/logo-menu/planting.png", audio: { th: "/assets/audio/th/sapodilla/care.mp3", en: "/assets/audio/eng/sapodilla/care.mp3" } },
+  },
+  // เพิ่มต้นไม้อื่น ๆ ในรูปแบบเดียวกัน...
+};
+
+// =================== Show Hotspot ===================
+function showHotspot(key) {
+  if (!hotspotUI) bindElements();
+
+  window.currentHotspotKey = key;
+  const lang = window.i18n?.getCurrentLang() || "th"; // ใช้ i18n เป็นแหล่งข้อมูลภาษา
+
+  const treeData = hotspotData[currentPageKey] || hotspotData["banana"];
+  const data = treeData && treeData[key];
+  if (!data) {
+    hotspotImg.src = "";
+    if (hotspotAudio) hotspotAudio.src = "";
+    window.i18n?.applyHotspotContent(key);
+    hotspotUI.classList.add("active");
+    return;
+  }
+
+  hotspotImg.src = data.img || "";
+  hotspotAudio.src = (data.audio && data.audio[lang]) || data.audio?.th || "";
+
+  window.i18n?.applyHotspotContent(key);
+  hotspotUI.classList.add("active");
+}
+
+// =================== Handlers ===================
+function handleClose() {
+  if (hotspotUI) hotspotUI.classList.remove("active");
+  if (hotspotAudio) {
+    try {
+      hotspotAudio.pause();
+      hotspotAudio.currentTime = 0;
+    } catch (e) { }
+  }
+}
+
+function handlePlay() {
+  if (hotspotAudio && hotspotAudio.src) {
+    hotspotAudio.play().catch(() => { });
+  }
+}
+
+// =================== Toggle Menu ===================
+function toggleMenu() {
+  document.querySelector(".hotspot-menu")?.classList.toggle("active");
+}
+
+// =================== Init ===================
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bindElements);
+} else {
+  bindElements();
+}
+
+// =================== Export ===================
+window._menuHotspot = {
+  bindElements,
+  showHotspot,
+  toggleMenu
+};

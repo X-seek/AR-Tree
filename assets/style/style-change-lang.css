@@ -1,0 +1,63 @@
+/* ===================== Language Toggle (Flag Only) ===================== */
+.lang-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+}
+
+.lang-toggle {
+  position: relative;
+  width: 55px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lang-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.flag {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  top: 3px;
+}
+
+.flag-th {
+  left: 4px;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.flag-en {
+  right: 4px;
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+/* เมื่อ toggle ถูกเช็ค (เปลี่ยนเป็นภาษาอังกฤษ) */
+#lang-check:checked + .lang-slider .flag-th {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+#lang-check:checked + .lang-slider .flag-en {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#lang-check:checked ~ .lang-toggle {
+  background-color: #41a63c;
+}

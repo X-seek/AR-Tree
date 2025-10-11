@@ -10,9 +10,9 @@
 
     <!-- Fonts + Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style/style-hotspot.css" />
-    <link rel="stylesheet" href="assets/style/style-index.css" />
-    <link rel="stylesheet" href="assets/style/style-change-lang.css" />
+    <link rel="stylesheet" href="style/style-hotspot.css" />
+    <link rel="stylesheet" href="style/style-index.css" />
+    <link rel="stylesheet" href="style/style-change-lang.css" />
   </head>
 
   <body>
@@ -23,7 +23,7 @@
       <!-- model -->
       <model-viewer
         id="viewer"
-        src="assets/models/bnn-v1.glb"
+        src="models/bnn-v1.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -49,12 +49,12 @@
       }
 
       Promise.all([
-        loadPart("change-lang-container", "assets/page_models/change-lang.html"),
-        loadPart("hotspot-menu-container", "../page_models/hotspot-menu.html"),
+        loadPart("change-lang-container", "change-lang.html"),
+        loadPart("hotspot-menu-container", "hotspot-menu.html"),
       ]).then(() => {
         // ✅ โหลดสคริปต์แปลภาษา
         const lang = document.createElement("script");
-        lang.src = "assets/js/banana-lang.js"; // ชื่อไฟล์ที่ถูกต้อง
+        lang.src = "js/banana-lang.js"; // ชื่อไฟล์ที่ถูกต้อง
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
@@ -66,7 +66,7 @@
 
         // ✅ โหลดสคริปต์ hotspot หลังจากนั้น
         const hotspot = document.createElement("script");
-        hotspot.src = "../js/menu-hotspot.js";
+        hotspot.src = "js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
 

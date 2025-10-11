@@ -12,9 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style/style-hotspot.css" />
-    <link rel="stylesheet" href="assets/style/style-index.css" />
-    <link rel="stylesheet" href="assets/style/style-change-lang.css" />
+    <link rel="stylesheet" href="style/style-hotspot.css" />
+    <link rel="stylesheet" href="style/style-index.css" />
+    <link rel="stylesheet" href="style/style-change-lang.css" />
   </head>
   <body>
     <div class="viewer-container">
@@ -24,7 +24,7 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="assets/models/bnn-v1.glb"
+        src="models/bnn-v1.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -51,12 +51,12 @@
       }
 
       Promise.all([
-        loadPart("change-lang-container", "assets/model/change-lang.html"),
-        loadPart("hotspot-menu-container", "assets/model/hotspot-menu.html"),
+        loadPart("change-lang-container", "change-lang.html"),
+        loadPart("hotspot-menu-container", "hotspot-menu.html"),
       ]).then(() => {
         // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "assets/js/coconut-lang.js";
+        lang.src = "js/coconut-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
@@ -66,7 +66,7 @@
         document.body.appendChild(lang);
 
         const hotspot = document.createElement("script");
-        hotspot.src = "assets/js/menu-hotspot.js";
+        hotspot.src = "js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
 

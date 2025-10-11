@@ -50,7 +50,7 @@
 
       Promise.all([
         loadPart("change-lang-container", "assets/page_models/change-lang.html"),
-        loadPart("hotspot-menu-container", "assets/page_models/hotspot-menu.html"),
+        loadPart("hotspot-menu-container", "../page_models/hotspot-menu.html"),
       ]).then(() => {
         // ✅ โหลดสคริปต์แปลภาษา
         const lang = document.createElement("script");

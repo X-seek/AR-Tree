@@ -12,10 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/style/style-hotspot.css" />
-    <link rel="stylesheet" href="/assets/style/style-index.css" />
-    <link rel="stylesheet" href="/assets/style/style-change-lang.css" />
-    <base href="/AR-Tree/">
+    <link rel="stylesheet" href="style/style-hotspot.css" />
+    <link rel="stylesheet" href="style/style-index.css" />
+    <link rel="stylesheet" href="style/style-change-lang.css" />
+
   </head>
   <body>
     <div class="viewer-container">
@@ -25,7 +25,7 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="/assets/models/fig.glb"
+        src="models/fig.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -44,7 +44,7 @@
     </div>
 
     <!-- โหลด fragment -->
-    <script>
+     <script>
       async function loadPart(id, file) {
         const res = await fetch(file);
         const html = await res.text();
@@ -52,28 +52,22 @@
       }
 
       Promise.all([
-        loadPart(
-          "change-lang-container",
-          "/assets/page_models/tool-bar/change-lang.html"
-        ),
-        loadPart(
-          "hotspot-menu-container",
-          "/assets/page_models/tool-bar/hotspot-menu.html"
-        ),
+        loadPart("change-lang-container", "change-lang.html"),
+        loadPart("hotspot-menu-container", "hotspot-menu.html"),
       ]).then(() => {
+        // เมื่อ fragment โหลดเสร็จ ค่อย bind JS
         const lang = document.createElement("script");
-        lang.src = "/assets/js/fig-lang.js"; // path นี้ถูกแล้ว
+        lang.src = "js/fig-lang.js";
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
             window.i18n.initToggle();
-            window.i18n.applyStaticTranslations();
           }
         };
         document.body.appendChild(lang);
 
         const hotspot = document.createElement("script");
-        hotspot.src = "/assets/js/menu-hotspot.js"; // path ถูกแล้ว
+        hotspot.src = "js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
 

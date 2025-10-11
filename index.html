@@ -10,9 +10,9 @@
 
     <!-- Fonts + Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/style/style-hotspot.css" />
-    <link rel="stylesheet" href="/assets/style/style-index.css" />
-    <link rel="stylesheet" href="/assets/style/style-change-lang.css" />
+    <link rel="stylesheet" href="assets/style/style-hotspot.css" />
+    <link rel="stylesheet" href="assets/style/style-index.css" />
+    <link rel="stylesheet" href="assets/style/style-change-lang.css" />
   </head>
 
   <body>
@@ -23,7 +23,7 @@
       <!-- model -->
       <model-viewer
         id="viewer"
-        src="/assets/models/bnn-v1.glb"
+        src="assets/models/bnn-v1.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -40,29 +40,37 @@
       <div id="hotspot-menu-container"></div>
     </div>
 
-    <script src="/assets/js/loadPart.js"></script>
-    <script>
+   <script>
+      async function loadPart(id, file) {
+        const res = await fetch(file);
+        if (!res.ok) return;
+        const html = await res.text();
+        document.getElementById(id).innerHTML = html;
+      }
+
       Promise.all([
-        loadPart("change-lang-container", "/assets/page_models/change-lang.html"),
-        loadPart("hotspot-menu-container", "/assets/page_models/hotspot-menu.html"),
+        loadPart("change-lang-container", "assets/page_models/change-lang.html"),
+        loadPart("hotspot-menu-container", "assets/page_models/hotspot-menu.html"),
       ]).then(() => {
+        // ✅ โหลดสคริปต์แปลภาษา
         const lang = document.createElement("script");
-        lang.src = "./assets/js/banana-lang.js";
+        lang.src = "assets/js/banana-lang.js"; // ชื่อไฟล์ที่ถูกต้อง
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
             window.i18n.initToggle();
-            window.i18n.applyStaticTranslations();
+            window.i18n.applyStaticTranslations(); // ✅ เรียกให้ fragment ถูกแปลด้วย
           }
         };
         document.body.appendChild(lang);
 
+        // ✅ โหลดสคริปต์ hotspot หลังจากนั้น
         const hotspot = document.createElement("script");
-        hotspot.src = "/assets/js/menu-hotspot.js";
+        hotspot.src = "assets/js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
 
-       // ฟังก์ชันเปิด/ปิด gallery
+      // ฟังก์ชันเปิด/ปิด gallery
       function openModelGallery() {
         document.getElementById("model-gallery").classList.add("active");
       }

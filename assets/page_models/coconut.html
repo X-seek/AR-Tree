@@ -3,19 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>coconut 3D Tree AR</title>
+    <title>Coconut 3D Tree AR</title>
+
+    <!-- library model-viewer -->
     <script
       type="module"
       src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
     ></script>
+
+    <!-- ฟอนต์ -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/style/style-hotspot.css" />
-    <link rel="stylesheet" href="/assets/style/style-index.css" />
-    <link rel="stylesheet" href="/assets/style/style-change-lang.css" />
+
+    <!-- ✅ ใช้ path แบบ relative ทั้งหมด -->
+    <link rel="stylesheet" href="../style/style-hotspot.css" />
+    <link rel="stylesheet" href="../style/style-index.css" />
+    <link rel="stylesheet" href="../style/style-change-lang.css" />
   </head>
+
   <body>
     <div class="viewer-container">
       <!-- ปุ่มเปลี่ยนภาษา -->
@@ -24,7 +31,7 @@
       <!-- โมเดล -->
       <model-viewer
         id="viewer"
-        src="/assets/models/coconut.glb"
+        src="../models/coconut.glb"
         ar
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
@@ -46,22 +53,24 @@
     <script>
       async function loadPart(id, file) {
         const res = await fetch(file);
+        if (!res.ok) return;
         const html = await res.text();
         document.getElementById(id).innerHTML = html;
       }
 
-     Promise.all([
+      // ✅ ใช้ path relative กลับไป 2 ชั้น (จาก page_models → tool-bar)
+      Promise.all([
         loadPart(
           "change-lang-container",
-          "/assets/page_models/tool-bar/change-lang.html"
+          "../page_models/tool-bar/change-lang.html"
         ),
         loadPart(
           "hotspot-menu-container",
-          "/assets/page_models/tool-bar/hotspot-menu.html"
+          "../page_models/tool-bar/hotspot-menu.html"
         ),
       ]).then(() => {
         const lang = document.createElement("script");
-        lang.src = "/assets/js/coconut-lang.js"; // path นี้ถูกแล้ว
+        lang.src = "../js/coconut-lang.js"; // ✅ path กลับไปที่โฟลเดอร์ js
         lang.onload = () => {
           if (window.i18n) {
             window.i18n.setLanguage(localStorage.getItem("lang") || "th");
@@ -72,11 +81,11 @@
         document.body.appendChild(lang);
 
         const hotspot = document.createElement("script");
-        hotspot.src = "/assets/js/menu-hotspot.js"; // path ถูกแล้ว
+        hotspot.src = "../js/menu-hotspot.js"; // ✅ path ถูกแล้ว
         document.body.appendChild(hotspot);
       });
 
-      //  Gallery
+      // ✅ ฟังก์ชันเปิด/ปิด gallery
       function openModelGallery() {
         document.getElementById("model-gallery").classList.add("active");
       }
@@ -84,8 +93,5 @@
         document.getElementById("model-gallery").classList.remove("active");
       }
     </script>
-
-    <!-- ✅ โหลด library ของ model-viewer -->
-    
   </body>
 </html>

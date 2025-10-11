@@ -5,50 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotspot Menu</title>
 
-    <!-- ฟอนต์ -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../style/style-hotspot.css" />
+    <link rel="stylesheet" href="assets/style/style-hotspot.css" />
   </head>
 
   <body>
     <div class="hotspot-menu">
       <div class="submenu">
         <button onclick="showHotspot('fruit')">
-          <img src="../../images/logo-menu/fruits.png" alt="ผลไม้" />
+          <img src="assets/images/logo_menu/fruits.png" alt="ผลไม้" />
         </button>
         <button onclick="showHotspot('leaf')">
-          <img src="../../images/logo-menu/leaf.png" alt="ใบไม้" />
+          <img src="assets/images/logo_menu/leaf.png" alt="ใบไม้" />
         </button>
         <button onclick="showHotspot('trunk')">
-          <img src="../../images/logo-menu/trunk.png" alt="ลำต้น" />
+          <img src="assets/images/logo_menu/trunk.png" alt="ลำต้น" />
         </button>
         <button onclick="showHotspot('root')">
-          <img src="../../images/logo-menu/root.png" alt="ราก" />
+          <img src="assets/images/logo_menu/root.png" alt="ราก" />
         </button>
         <button onclick="showHotspot('care')">
-          <img src="../../images/logo-menu/planting.png" alt="ดูแล" />
+          <img src="assets/images/logo_menu/planting.png" alt="ดูแล" />
         </button>
-
         <button onclick="openModelGallery()">
-          <img src="../../images/logo-menu/forest.png" alt="โมเดลอื่นๆ" />
+          <img src="assets/images/logo_menu/forest.png" alt="โมเดลอื่นๆ" />
         </button>
-
         <button>
-          <a href="../../page_models/tool-bar/map.html">
-            <img src="../../images/logo-menu/map.png" alt="แผนที่" />
+          <a href="assets/page_models/map.html">
+          <img src="assets/images/logo_menu/map.png" alt="แผนที่" />
           </a>
         </button>
       </div>
-
       <button class="main-btn" onclick="toggleMenu()">
-        <img src="../../images/logo-menu/plus.png" alt="เมนู" />
+        <img src="assets/images/logo_menu/plus.png" alt="เมนู" />
       </button>
     </div>
 
-    <!-- Hotspot popup -->
     <div id="hotspot-ui" class="hotspot-ui" aria-hidden="true">
       <h3 id="hotspot-title"></h3>
       <img id="hotspot-img" src="" alt="hotspot image" />
@@ -60,7 +55,6 @@
       </div>
     </div>
 
-    <!-- Popup Model Gallery -->
     <div id="model-gallery" class="model-gallery" aria-hidden="true">
       <div class="gallery-content">
         <button class="close-btn top-right" onclick="closeModelGallery()">
@@ -70,9 +64,9 @@
 
         <div class="gallery-grid">
           <div class="gallery-item">
-            <a href="../../../index.html">
+            <a href="index.html">
               <model-viewer
-                src="../../models/bnn-v1.glb"
+                src="assets/models/bnn-v1.glb"
                 alt="กล้วย"
                 disable-zoom
                 disable-pan
@@ -83,9 +77,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../coconut.html">
+            <a href="assets/page_models/coconut.html">
               <model-viewer
-                src="../../models/coconut.glb"
+                src="assets/models/coconut.glb"
                 alt="มะพร้าว"
                 disable-zoom
                 disable-pan
@@ -96,9 +90,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../custard-apple.html">
+            <a href="assets/page_models/custard-apple.html">
               <model-viewer
-                src="../../models/custard-apple-v1.glb"
+                src="assets/models/custard-apple-v1.glb"
                 alt="น้อยหน่า"
                 disable-zoom
                 disable-pan
@@ -109,9 +103,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../fig.html">
+            <a href="assets/page_models/fig.html">
               <model-viewer
-                src="../../models/fig.glb"
+                src="assets/models/fig.glb"
                 alt="มะเดื่อ"
                 disable-zoom
                 disable-pan
@@ -122,9 +116,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../guava.html">
+            <a href="assets/page_models/guava.html">
               <model-viewer
-                src="../../models/guava.glb"
+                src="assets/models/guava.glb"
                 alt="ฝรั่ง"
                 disable-zoom
                 disable-pan
@@ -135,9 +129,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../lime.html">
+            <a href="assets/page_models/lime.html">
               <model-viewer
-                src="../../models/lime-v1.glb"
+                src="assets/models/lime-v1.glb"
                 alt="มะนาว"
                 disable-zoom
                 disable-pan
@@ -148,9 +142,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../longan.html">
+            <a href="assets/page_models/longan.html">
               <model-viewer
-                src="../../models/longan.glb"
+                src="assets/models/longan.glb"
                 alt="ลำไย"
                 disable-zoom
                 disable-pan
@@ -161,9 +155,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../mango.html">
+            <a href="assets/page_models/mango.html">
               <model-viewer
-                src="../../models/mango.glb"
+                src="assets/models/mango.glb"
                 alt="มะม่วง"
                 disable-zoom
                 disable-pan
@@ -174,9 +168,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../sapodilla.html">
+            <a href="assets/page_models/sapodilla.html">
               <model-viewer
-                src="../../models/sapodilla.glb"
+                src="assets/models/sapodilla.glb"
                 alt="ละมุด"
                 disable-zoom
                 disable-pan
@@ -187,9 +181,9 @@
           </div>
 
           <div class="gallery-item">
-            <a href="../pomelo.html">
+            <a href="assets/page_models/pomelo.html">
               <model-viewer
-                src="../../models/pomelo.glb"
+                src="assets/models/pomelo.glb"
                 alt="ส้มโอ"
                 disable-zoom
                 disable-pan

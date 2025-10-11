@@ -40,11 +40,11 @@
       <div id="hotspot-menu-container"></div>
     </div>
 
-    <script src="./assets/js/loadPart.js"></script>
+    <script src="assets/js/loadPart.js"></script>
     <script>
       Promise.all([
-        loadPart("change-lang-container", "./assets/page_models/tool-bar/change-lang.html"),
-        loadPart("hotspot-menu-container", "./assets/page_models/tool-bar/hotspot-menu.html"),
+        loadPart("change-lang-container", "./assets/page_models/change-lang.html"),
+        loadPart("hotspot-menu-container", "./assets/page_models/hotspot-menu.html"),
       ]).then(() => {
         const lang = document.createElement("script");
         lang.src = "./assets/js/banana-lang.js";
@@ -61,6 +61,14 @@
         hotspot.src = "./assets/js/menu-hotspot.js";
         document.body.appendChild(hotspot);
       });
+
+       // ฟังก์ชันเปิด/ปิด gallery
+      function openModelGallery() {
+        document.getElementById("model-gallery").classList.add("active");
+      }
+      function closeModelGallery() {
+        document.getElementById("model-gallery").classList.remove("active");
+      }
     </script>
   </body>
 </html>

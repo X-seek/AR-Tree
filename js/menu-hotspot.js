@@ -45,7 +45,7 @@ const currentPageKey = pageKeyMap[currentPage] || "banana";
 const hotspotData = {
   banana: {
     trunk: { img: "images/hotspot/banana/trunk.png", audio: { th: "audio/th/banana/trunk_th.mp3", en: "audio/eng/banana/trunk_en.mp3" } },
-    leaf: { img: "images/hotspot/banana/leaf.png", audio: { th: "audio/th/banana/leaf.mp3", en: "audio/eng/banana/leaf.mp3" } },
+    leaf: { img: "images/hotspot/banana/leaf.png", audio: { th: "audio/th/banana/leaf_th.mp3", en: "audio/eng/banana/leaf.mp3" } },
     fruit: { img: "images/hotspot/banana/fruit.png", audio: { th: "audio/th/banana/fruit.mp3", en: "audio/eng/banana/fruit.mp3" } },
     root: { img: "images/hotspot/banana/root.png", audio: { th: "audio/th/banana/root.mp3", en: "audio/eng/banana/root.mp3" } },
     care: { img: "images/logo-menu/planting.png", audio: { th: "audio/th/banana/care.mp3", en: "audio/eng/banana/care.mp3" } },

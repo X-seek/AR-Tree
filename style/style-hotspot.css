@@ -1,5 +1,6 @@
 /* style-hotspot.css */
 body {
+  inset: 0;
   font-family: "Kanit", sans-serif;
   margin: 0;
   padding: 0;
@@ -37,10 +38,10 @@ model-viewer#viewer {
 
 /* ================== Hotspot Menu ================== */
 .hotspot-menu {
-  top: 20%;
   position: fixed;
-  bottom: 18px;
-  right: 18px;
+  bottom: 18px !important;
+ right: 18px !important;
+  margin-top: 0 !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,7 +199,6 @@ model-viewer#viewer {
   background: #388e3c;
 }
 
-
 /* ================== Model Gallery ================== */
 .model-gallery {
   position: fixed;
@@ -298,8 +298,8 @@ model-viewer#viewer {
   font-size: 15px;
   cursor: pointer;
   transition: background 0.25s;
+  z-index: 9999;
 }
-
 
 .close-btn.top-right {
   position: absolute;
@@ -346,7 +346,93 @@ model-viewer#viewer {
 }
 
 /* ================== Responsive ================== */
+@media (max-width: 480px) {
+
+  /* ปรับตำแหน่ง Hotspot menu ให้เหมาะกับมือถือ */
+  .hotspot-ui {
+    width: 94%;
+    max-width: 380px;
+  }
+
+  .hotspot-ui.active {
+    bottom: 10px;
+  }
+
+  /* ปุ่ม hotspot */
+  .main-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .submenu button {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* ลดขนาดตัวอักษร */
+  .title {
+    font-size: 15px;
+    padding: 4px 10px;
+  }
+
+  .gallery-content {
+
+    width: 92%;
+    padding: 12px 10px;
+    border-radius: 14px;
+  }
+
+  .gallery-content h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    background: linear-gradient(180deg, #1a291c, #111814);
+    padding: 10px;
+ 
+    border-radius: 10px;
+  }
+
+  .gallery-item model-viewer {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .gallery-item h3 {
+    font-size: 15px;
+    padding: 6px;
+  }
+
+  /* ปุ่มหลักตอนเปิด gallery (bottom close) */
+  .close-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: -12px;
+
+  }
+
+  .close-btn.top-right {
+    top: 0px;
+    right: 18px;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+}
+
 @media (max-width: 768px) {
+  .gallery-content {
+    max-width: 50%;
+  }
+
   .gallery-item {
     min-height: 240px;
   }
@@ -360,7 +446,7 @@ model-viewer#viewer {
   }
 
   .hotspot-menu {
-    top: 40%;
+    top: 20%;
   }
 
   .title {
@@ -376,43 +462,5 @@ model-viewer#viewer {
   .submenu button {
     width: 48px;
     height: 48px;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery-item {
-    min-height: 220px;
-  }
-
-  .gallery-item model-viewer {
-    height: 210px;
-  }
-
-  .hotspot-menu {
-    top: 30%;
-  }
-
-  .hotspot-ui {
-    width: 94%;
-    max-width: 420px;
-    bottom: -120%;
-  }
-
-  .hotspot-ui.active {
-    bottom: 14px;
-  }
-
-  .main-btn {
-    width: 52px;
-    height: 52px;
-  }
-
-  .submenu button {
-    width: 44px;
-    height: 44px;
   }
 }

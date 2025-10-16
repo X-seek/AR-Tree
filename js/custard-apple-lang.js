@@ -6,30 +6,53 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: "ลำต้นน้อยหน่าเป็นไม้พุ่มหรือไม้ยืนต้นขนาดเล็ก ผิวเปลือกค่อนข้างเรียบ แตกกิ่งก้านมาก",
+          desc: `ลักษณะลำต้น: เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ
+
+ประโยชน์ลำต้น/เปลือก: เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด
+			     เนื้อไม้: มีสีเหลือง (จากสาร Morin) สามารถใช้ย้อมผ้าไหมได้`,
         },
         leaf: {
           title: "ใบ",
-          desc: "ใบน้อยหน่าเป็นใบเดี่ยว รูปรีถึงรูปหอก ปลายใบแหลม ผิวใบเรียบ สีเขียวเข้ม",
+          desc: `ลักษณะ: ใบเดี่ยว เรียงสลับ รูปรี ปลายและโคนใบแหลม สีเขียว หากบดใบจะมีกลิ่นหอม
+
+สรรพคุณทางยา: 	ใช้ฆ่าแมลง/พยาธิ (ภายนอก): ใบสดและเมล็ดนำมาตำ/บด ใช้ ฆ่าเหา และ
+รักษาโรค กลากเกลื้อน โดยการพอกหรือทา
+
+			ลดน้ำตาล: ใบน้อยหน่าสามารถนำมาชงดื่มเพื่อช่วย ลดน้ำตาลในเลือด ลดไขมันในเส้นเลือด และลดความดันโลหิต
+
+ข้อควรระวัง: เมล็ดมีสาร annonaine และ neoannonin ซึ่งมีความเป็นพิษสูง ดังนั้นจึง ห้ามรับประทาน เมล็ด`,
         },
         fruit: {
           title: "ผล",
-          desc: "ผลน้อยหน่ามีเปลือกเป็นปุ่มนูน เนื้อด้านในสีขาว รสหวาน เมล็ดสีดำแข็ง",
-        },
-        flower: {
-          title: "ดอก",
-          desc: "ดอกน้อยหน่ามีกลีบเรียวยาว สีเขียวอมเหลือง ออกตามกิ่งหรือซอกใบ",
+          desc: `ลักษณะ: ผลรูปกลมป้อม ผิวขรุขระ เป็นช่องกลมนูน สีเขียว (น้อยหน่าฝ้าย) หรือสีเขียว/เหลือง/ม่วงเข้ม (น้อยหน่าหนัง) เนื้อสีขาวนวล รสชาติหอมหวาน ข้างในมีเมล็ดสีดำและน้อยหน่ามีน้ำตาลในปริมาณที่มาก
+
+โภชนาการ: ให้พลังงานสูง (ประมาณ 101 กิโลแคลอรี่/100 กรัม) อุดมไปด้วย วิตามิน C (ช่วยเสริมภูมิคุ้มกันในร่างกาย), วิตามิน B (ควบคุมคอเลสเตอรอล), แมงกานีส, แคลเซียม, และ ลูทีน (Lutein)
+
+สรรพคุณ/ประโยชน์เฉพาะ:	ด้านสุขภาพ: อุดมไปด้วยสารต้านอนุมูลอิสระ, ลูทีน ช่วยบำรุงสายตาและลดความเสี่ยงจอประสาทตาเสื่อมได้, มีใยอาหารช่วยในเรื่องระบบย่อยอาหาร
+ด้านสมุนไพร (ผล): ใช้รักษาแผลไฟไหม้ อักเสบ แผลน้ำร้อนลวก, แก้เป็นฝีในลำคอ
+
+ข้อควรระวัง: เหมาะสำหรับผู้ที่กำลังลดน้ำหนักเพราะมีไขมันต่ำหาก ผู้ป่วยเป็นโรคเบาหวานควรบริโภคอย่างระมัดระวัง เนื่องจากมีปริมาณน้ำตาลที่สูง`,
         },
         root: {
           title: "ราก",
-          desc: "รากน้อยหน่าเป็นรากแก้วและรากแขนง ช่วยยึดเกาะดินและดูดซึมธาตุอาหาร",
+          desc: `ระบบราก: เป็นระบบรากกว้างขวาง(รากแก้ว)
+สรรพคุณราก: เป็น ยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้`,
         },
         care: {
           title: "การดูแล",
-          desc: "ควรปลูกในดินร่วน ระบายน้ำดี แดดจัด รดน้ำพอประมาณ และใส่ปุ๋ยบำรุงผล",
+          desc: `สภาพแวดล้อม: เป็น ไม้ผลทนแล้ง เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น แสงแดดเต็มที่     (อย่างน้อย 6 ชั่วโมงต่อวัน) และทนต่อสภาพดินหลายรูปแบบ แต่ ต้องระบายน้ำได้ดี และน้ำไม่ท่วมขัง
+
+การให้น้ำ: น้อยหน่าเป็นพืชทนแล้ง แต่ ต้องรดน้ำอย่างสม่ำเสมอในช่วงที่ผลกำลังพัฒนา เพื่อให้ได้ผลผลิตที่มีคุณภาพ
+
+การใส่ปุ๋ย: มีความสำคัญเพื่อสนับสนุนการเจริญเติบโต สามารถใช้ ปุ๋ยมูลไก่ผสมแกลบ ในอัตรา 4-5 กิโลกรัม/ต้น หลังเก็บเกี่ยวผลผลิต
+
+การตัดแต่งกิ่ง: เทคนิคสำคัญในการ บังคับให้ออกดอกและติดผล ควรตัดแต่งกิ่งเพื่อกระตุ้นผลผลิต หลังเก็บเกี่ยวเสร็จแล้ว
+
+การป้องกัน: เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มี ไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก
+`,
         },
       },
-     gallery: {
+      gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
@@ -52,27 +75,51 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "The custard apple tree is a small shrub or tree with relatively smooth bark and many branches.",
+          desc: `Characteristics: A small deciduous tree about 3–6 meters tall. The trunk and branches are brittle and break easily. The bark is thin, brown to dark in color.
+
+Uses (Trunk/Bark): The bark is used as an astringent medicine for treating diarrhea, intestinal inflammation, and gum disease.
+The wood contains a yellow pigment (Morin) that can be used for dyeing silk.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "The leaves are simple, oblong to lance-shaped, with pointed tips and smooth dark-green surfaces.",
+          desc: `Characteristics: Simple, alternate leaves that are lance-shaped with pointed ends and smooth green surfaces. When crushed, they emit a pleasant fragrance.
+
+Medicinal Properties:
+• Insecticide/Antiparasitic (External): Fresh leaves and seeds can be crushed and used to kill lice or treat fungal infections such as ringworm.
+• Blood Sugar Control: Dried or boiled leaves can be made into tea to help reduce blood sugar, blood fat, and blood pressure.
+
+Caution: The seeds contain toxic alkaloids (annonaine and neoannonin) and must not be eaten.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "The fruit has a bumpy green rind, with soft sweet white flesh and hard black seeds.",
-        },
-        flower: {
-          title: "Flower",
-          desc: "The flowers are long and narrow, greenish-yellow, and bloom along branches or leaf axils.",
+          desc: `Characteristics: Round, bumpy fruit with a knobby green rind (green or purple in some varieties). The flesh is creamy white, fragrant, and very sweet, containing several black seeds.
+
+Nutrition: High in energy (about 101 kcal per 100g), rich in Vitamin C (boosts immunity), Vitamin B (controls cholesterol), manganese, calcium, and lutein (for eye health).
+
+Health Benefits:
+• Rich in antioxidants and lutein, which support eye health and reduce the risk of macular degeneration.
+• High fiber content aids digestion.
+• Traditional uses: Treats burns, inflammation, and throat abscesses.
+
+Caution: Though low in fat and suitable for weight control, the fruit contains a high amount of sugar — diabetics should consume in moderation.`,
         },
         root: {
           title: "Root",
-          desc: "The tree has a taproot with lateral roots, anchoring the plant and absorbing nutrients.",
+          desc: `Root System: Deep taproot system with spreading roots.
+
+Medicinal Uses: Acts as a mild laxative (in small amounts), detoxifies the body, relieves poisoning, and can be used as an antidote for snake venom.`,
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil under full sun, water moderately, and fertilize to improve fruit quality.",
+          desc: `Environment: Drought-tolerant fruit tree that grows well in warm climates with full sunlight (at least 6 hours a day). It adapts to many soil types but prefers well-drained soil without flooding.
+
+Watering: Although drought-resistant, it should be watered regularly during fruit development for better yield.
+
+Fertilization: Apply organic fertilizer such as chicken manure mixed with rice husks (about 4–5 kg per tree) after harvesting.
+
+Pruning: Essential for inducing flowering and fruiting. Prune branches after harvest to encourage new growth and improve fruit production.
+
+Protection: Since the branches are brittle, plant in areas protected from strong winds to prevent breakage.`,
         },
       },
       gallery: {

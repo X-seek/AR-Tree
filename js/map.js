@@ -5,16 +5,16 @@
 
 const markersData = [
   // ตัวอย่าง: เปอร์เซนต์ x (left), y (top) จากมุมบนซ้ายของภาพ map (0-100)
-  { id: "bananaPatch", title: "แปลงกล้วย", x: 14, y: 30, model: "Model/banana.glb", page: "index.html" },
-  { id: "coconutPatch", title: "แปลงมะพร้าว", x: 58, y: 30, model: "Model/coconut.glb", page: "coconut.html" },
-  { id: "custard", title: "น้อยหน่า", x: 38, y: 30, model: "Model/custard-apple.glb", page: "custard-apple.html" },
-  { id: "fig", title: "มะเดื่อ", x: 78, y: 30, model: "Model/fig.glb", page: "fig.html" },
-  { id: "sugarcane", title: "แปลงอ้อย", x: 86, y: 56, model: "Model/sugarcane.glb", page: "sugarcane.html" },
-  { id: "guava", title: "ฝรั่ง", x: 64, y: 58, model: "Model/guava.glb", page: "guava.html" },
-  { id: "lime", title: "มะนาว", x: 46, y: 58, model: "Model/lime.glb", page: "lime.html" },
-  { id: "longan", title: "มะนาว", x: 46, y: 58, model: "Model/longan.glb", page: "longan.html" },
-  { id: "pomelo", title: "มะนาว", x: 46, y: 58, model: "Model/pomelo.glb", page: "pomelo.html" },
-  { id: "sapodilla", title: "ละมุด", x: 26, y: 66, model: "Model/sapodilla.glb", page: "sapodilla.html" }
+  { id: "bananaPatch", title: "แปลงกล้วย", x: 14, y: 30, model: "models/bnn-v1.glb", page: "index.html" },
+  { id: "coconutPatch", title: "แปลงมะพร้าว", x: 58, y: 30, model: "models/coconut.glb", page: "coconut.html" },
+  { id: "custard", title: "น้อยหน่า", x: 38, y: 30, model: "models/custard-apple-v1.glb", page: "custard-apple.html" },
+  { id: "fig", title: "มะเดื่อ", x: 78, y: 30, model: "models/fig.glb", page: "fig.html" },
+  { id: "guava", title: "ฝรั่ง", x: 64, y: 58, model: "models/guava.glb", page: "guava.html" },
+  { id: "lime", title: "มะนาว", x: 46, y: 58, model: "models/lime-v1.glb", page: "lime.html" },
+  { id: "longan", title: "ลำไย", x: 46, y: 58, model: "models/longan.glb", page: "longan.html" },
+  { id: "mango", title: "มะม่วง", x: 46, y: 58, model: "models/mango.glb", page: "mango.html" },
+  { id: "pomelo", title: "ส้มโอ", x: 46, y: 58, model: "models/pomelo.glb", page: "pomelo.html" },
+  { id: "sapodilla", title: "ละมุด", x: 26, y: 66, model: "models/sapodilla.glb", page: "sapodilla.html" }
 ];
 
 // helper: สร้าง element marker และเพิ่มไปแผนที่
@@ -88,6 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (document.referrer) {
         window.history.back(); // กลับไปหน้าก่อนหน้า
       } else {
-        window.location.href = "../tool-bar/hotspot-menu.html"; // fallback ถ้าไม่มี referrer
+        window.location.href = "#index.html"; // fallback ถ้าไม่มี referrer
       }
     }

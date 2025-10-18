@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="style/style-hotspot.css" />
     <link rel="stylesheet" href="style/style-index.css" />
     <link rel="stylesheet" href="style/style-change-lang.css" />
-    
   </head>
 
   <body>
@@ -39,9 +38,10 @@
         exposure="1"
         environment-image="neutral"
         shadow-intensity="3"
-      >
-      </model-viewer>
-      <button slot="ar-button" class="ar-btn" id="ar-button">ดูใน AR</button>
+      ></model-viewer>
+
+      <button class="ar-btn" id="ar-button">ดูใน AR</button>
+
       <!-- title -->
       <div class="title" data-i18n="page.title">กล้วย</div>
 
@@ -50,10 +50,6 @@
     </div>
 
 
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
     <script>
       async function loadPart(id, file) {
         const res = await fetch(file);
@@ -91,11 +87,7 @@
       function closeModelGallery() {
         document.getElementById("model-gallery").classList.remove("active");
       }
-      // ปุ่มAR
-      const arButton = document.getElementById("ar-button");
-      if (arButton && !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-        arButton.style.display = "none";
-      }
     </script>
+    <script src="js/btn-ar.js"></script>
   </body>
 </html>

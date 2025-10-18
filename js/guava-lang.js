@@ -2,7 +2,7 @@
   const translations = {
     th: {
       page: { title: "ฝรั่ง" },
-      ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
+      ui: { play: "▶", close: "✖" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
@@ -76,7 +76,7 @@
     },
     en: {
       page: { title: "Guava" },
-      ui: { play: "▶ Play Sound", close: "✖ Close" },
+      ui: { play: "▶", close: "✖" },
       hotspot: {
         trunk: {
           title: "Trunk",

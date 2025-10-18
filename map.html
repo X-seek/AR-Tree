@@ -21,33 +21,26 @@
     </header>
 
     <main class="map-wrap">
-      <!-- ภาพแผนที่ (เปลี่ยนไฟล์เป็นของคุณได้) -->
-      <img
-        src="images/map/map.png"
-        alt="แผนผังไร่"
-        class="map-image"
-        id="farmMap"/>
-
-      <!-- markers จะสร้างด้วย JS แต่ตัวอย่าง HTML สำหรับ fallback
-         แต่เรสร้างจาก JS ให้สะดวกในการแก้พิกัด -->
-      <div id="markers" class="markers"></div>
+      <div id="map-container" class="map-container">
+        <img
+          src="images/map/map.png"
+          alt="แผนผังไร่"
+          class="map-image"
+          id="farmMap"
+        />
+        <div id="markers" class="markers"></div>
+      </div>
     </main>
 
-    <!-- Sidebar (รายการจุด) -->
     <aside class="sidebar" id="sidebar">
       <h3>รายการตำแหน่ง</h3>
-      <ul id="markerList"></ul>
+      <ul class="markerList" id="markerList"></ul>
     </aside>
 
-    <!-- Modal / Lightbox แสดง model -->
     <div id="modelModal" class="modal" aria-hidden="true">
       <div class="modal-content">
-        <button id="modalClose" class="modal-close" aria-label="Close">
-          ✖
-        </button>
+        <button id="modalClose" class="modal-close" aria-label="Close">✖</button>
         <h2 id="modalTitle">ชื่อโมเดล</h2>
-
-        <!-- model-viewer แสดงโมเดล (disable interaction เพื่อให้เป็น static หรือ เปิดได้ตามต้องการ) -->
         <model-viewer
           id="modalModel"
           src=""
@@ -63,10 +56,8 @@
             background: #0f1410;
             border-radius: 8px;">
         </model-viewer>
-
         <div class="modal-actions">
-          <a id="openModelPage" class="btn" href="#" target="_blank"
-            >เปิดหน้าโมเดล</a>
+          <a id="openModelPage" class="btn" href="#" target="_blank">เปิดหน้าโมเดล</a>
           <button id="closeBtn" class="btn alt">ปิด</button>
         </div>
       </div>

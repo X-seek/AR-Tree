@@ -3,7 +3,7 @@
   const translations = {
     th: {
       page: { title: "มะม่วง" },
-      ui: { play: "▶ เล่นเสียง", close: "✖ ปิด" },
+      ui: { play: "▶", close: "✖" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
@@ -72,7 +72,7 @@
     },
     en: {
       page: { title: "Mango" },
-      ui: { play: "▶ Play Sound", close: "✖ Close" },
+      ui: { play: "▶", close: "✖" },
       hotspot: {
         trunk: {
           title: "Trunk",

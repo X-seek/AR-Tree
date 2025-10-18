@@ -20,7 +20,8 @@ body {
 
 /* header */
 .topbar {
-  padding: 50px 20px 14px 20px; /* ⬅ เพิ่มช่องว่างด้านบน */
+  padding: 50px 20px 14px 20px;
+  /* ⬅ เพิ่มช่องว่างด้านบน */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,20 +83,32 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #7bd04a, #4caf50);
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.55);
+  box-shadow: none;
   cursor: pointer;
   pointer-events: auto;
   transition: transform .12s ease, box-shadow .12s ease;
-  border: 3px solid rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.marker img.tree-icon {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  border-radius: 50%;
+  transition: transform 0.15s ease;
 }
 
 .marker:hover {
   transform: translate(-50%, -50%) scale(1.08);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.6);
+}
+
+.marker:hover img.tree-icon {
+  transform: scale(1.1);
 }
 
 .marker .dot {
@@ -108,13 +121,13 @@ body {
 .marker .label {
   position: absolute;
   left: 50%;
-  top: calc(100% + 8px);
+  top: calc(100% + 6px);
   transform: translateX(-50%);
   padding: 6px 10px;
-  background: rgba(8, 12, 8, 0.9);
-  font-size: 13px;
-  border-radius: 8px;
-  color: var(--accent);
+  background: rgba(0, 0, 0, 0.8);
+  font-s-radius: 8px;
+  color: #befe91;
+  bordervar: (--accent);
   white-space: nowrap;
   display: none;
 }
@@ -269,11 +282,12 @@ body {
 ============================ */
 @media (max-width: 768px) {
   .topbar {
-    padding-top: 70px; /* ขยับลงให้พ้นปุ่มย้อนกลับ */
+    padding-top: 70px;
+    /* ขยับลงให้พ้นปุ่มย้อนกลับ */
   }
 
   .topbar h1 {
-    font-size: 16px;
+    font-size: 28px;
   }
 
   .sidebar {
@@ -288,21 +302,26 @@ body {
   }
 
   .sidebar ul {
+
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
   }
 
+  .sidebar h3 {
+    font-size: 22px;
+  }
+
   .sidebar li {
     flex: 1 1 calc(50% - 10px);
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
 
-  .marker {
-    width: 32px;
-    height: 32px;
+  .marker img.tree-icon {
+    width: 40px;
+    height: 40px;
   }
 
   .marker .label {

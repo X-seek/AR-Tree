@@ -17,52 +17,57 @@
  }
 
  /* ชื่อด้านบน */
- .title {
-   position: absolute;
-   top: 15px;
-   left: 50%;
-   transform: translateX(-50%);
-   font-size: 42px;
-   font-weight: 600;
-   color: #2e7d32;
-   background: rgba(255, 255, 255, 0.397);
-   padding: 10px 20px;
-   border-radius: 12px;
-   z-index: 1500;
- }
+/* Title */
+.title {
+  font-size: 45px;
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #2e7d32;
+  font-weight: 600;
+  z-index: 2000;
+}
+
  /* ==============================
    🔹 AR Button Styling
    ============================== */
 .ar-btn {
-  position: absolute;
-  bottom: 14px;
-  right: 14px;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
   background: #4caf50;
   color: #fff;
   border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
-  font-size: 15px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
   transition: background 0.3s ease, transform 0.2s ease;
-  z-index: 10;
+  z-index: 30;
 }
 
 .ar-btn:hover {
   background: #388e3c;
-  transform: translateY(-2px);
+  transform: translateX(-50%) translateY(-2px);
 }
 
-/* ปรับขนาดในมือถือ */
-@media (max-width: 600px) {
-  .ar-btn {
-    bottom: 10px;
-    right: 10px;
-    font-size: 14px;
-    padding: 8px 12px;
-  }
+/* 📱 ซ่อนปุ่มเมื่อเปิดบนมือถือ */
+@media (max-width: 768px) {
+  .title {
+  font-size: 25px;
+}
+.ar-btn{
+  padding: 9px 18px;
+  font-size: 11px;
+}
+
 }
 
 

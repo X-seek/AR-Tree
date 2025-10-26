@@ -7,16 +7,13 @@
         trunk: {
           title: "ลำต้น",
           desc: `ลักษณะลำต้น: เป้นต้นไม้ขนาดกลาง สูงประมาณ 3-5 เมตร ผิวเปลือกต้นเรียบเกลี้ยง กิ่งอ่อนเป็นสี่เหลี่ยม
-
 สรรพคุณเปลือกต้น: เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ
 `,
         },
         leaf: {
           title: "ใบ",
           desc: `ลักษณะ: เป็นใบเดี่ยว เรียงตรงข้าม มีความหนา หยาบ ใต้ท้องใบเป็นริ้ว เห็นเส้นใบชัดเจน ใบยาวประมาณ 10 ซม.
-          
 สารสำคัญที่เด่น: มีสาร แทนนิน และเป็นน้ำมันหอมระเหย ซึ่งมีฤทธิ์ ฝาดสมาน และยับยั้งเชื้อโรคได้
-
 สรรพคุณทางยา: แก้ท้องเสีย/ท้องร่วง: นำใบสดหรือใบเพสลาดมาต้ม หรือเคี้ยวสดได้ เพื่อรักษาอาการท้องเดิน/ท้องร่วง (ที่ไม่ใช่บิดหรืออหิวาตกโรค)
 		ภายนอก: ใช้ใบสดตำพอก ห้ามเลือด ใส่แผลสด ดูดหนอง แก้แผลพุพอง และช่วยดับกลิ่นปาก (เคี้ยวใบ 2-3 ใบ)
 		ช่องปาก: บรรเทาอาการ ปวดฟัน และเหงือกบวม
@@ -80,23 +77,57 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "The custard apple tree is a small shrub or tree with relatively smooth bark and many branches.",
+          desc: `Trunk Characteristics: A medium-sized tree, about 3–5 meters tall. The bark is smooth, and the young branches are square-shaped.
+
+Medicinal Properties of the Bark: Fresh bark can be boiled in water and used to wash areas with rashes or itching. It can also be boiled and consumed to relieve intestinal inflammation.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "The leaves are simple, oblong to lance-shaped, with pointed tips and smooth dark-green surfaces.",
+          desc: `Characteristics: The leaves are simple and grow in opposite pairs. They are thick and rough, with visible veins and ridges on the underside. Each leaf is about 10 cm long.
+
+Key Compounds: Contains tannins and essential oils, which have astringent and antibacterial properties.
+
+Medicinal Properties:
+
+For diarrhea: Fresh or semi-mature leaves can be boiled or chewed to relieve diarrhea (not caused by dysentery or cholera).
+
+External use: Crushed fresh leaves can be applied to stop bleeding, treat fresh wounds, draw out pus, heal blisters, and reduce bad breath (by chewing 2–3 leaves).
+
+Oral health: Helps relieve toothache and swollen gums.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "The fruit has a bumpy green rind, with soft sweet white flesh and hard black seeds.",
+          desc: `Characteristics: Guava fruits can be round, oval, or oblong in shape, with a smooth surface. The flesh is bright red (or pink) and has a sweet, crisp taste.
+
+Nutritional Value: Rich in vitamin C (very high), vitamin A, B, K, potassium, and dietary fiber.
+
+Key Compound: Lycopene — a powerful antioxidant responsible for the red color of the flesh.
+
+Health Benefits:
+
+Anti-cancer: Lycopene helps inhibit the growth of cancer cells such as uterine, lung, and prostate cancer.
+
+Heart health: Tannins help reduce blood fat and lower the risk of heart disease and high blood pressure.
+
+Weight control & digestion: Low in calories and high in fiber, which helps you feel full longer and supports a healthy digestive system.`,
         },
         root: {
           title: "Root",
-          desc: "The tree has a taproot with lateral roots, anchoring the plant and absorbing nutrients.",
+          desc: `Root System: The roots spread widely (requiring enough space for planting), with most roots growing near the soil surface.
+
+Medicinal Properties of the Roots: Used to treat impure blood conditions that cause abscesses or skin blisters, and to help stop nosebleeds.`,
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil under full sun, water moderately, and fertilize to improve fruit quality.",
+          desc: `Environment: Grows well in warm climates with temperatures not lower than 16°C. Prefers fertile, well-drained sandy loam soil and does not tolerate waterlogging.
+
+Planting: The planting bed should be raised with proper drainage channels. Avoid putting fertilizer at the bottom of the hole during the initial planting stage.
+
+Watering: Keep the soil consistently moist, especially during flowering and fruit development, to prevent flowers from dropping before fruiting.
+
+Pruning: A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
+
+Pest Control: The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
         },
       },
       gallery: {

@@ -6,11 +6,21 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: "ยาง: มีสีขาวที่ออกมาจากลำต้นและกิ่ง สามารถนำไปใช้ในอุตสาหกรรม ทำหมากฝรั่ง และรองเท้าบูทได้",
+          desc: `ประเภท: เป็นส่วนลำต้นหลักของไม้ยืนต้นขนาดใหญ่
+ความสูง: มีทรงพุ่มใหญ่และสูงได้ถึง 30 ฟุต
+เปลือก: มีลักษณะ เรียบ สีน้ำตาลอ่อน หรือสีเทาอมเหลือง
+หนาม ตามกิ่งและลำต้นของส้มโอ อาจมีหนามแหลมสั้น ๆ
+เนื้อไม้: ลำต้นมีความแข็งแรง โดยเฉพาะเมื่อใช้ ต้นตอที่มีระบบรากที่แข็งแรง
+`,
         },
         leaf: {
           title: "ใบ",
-          desc: "ลักษณะใบ: ใบเป็นใบเดี่ยว รูปรีหรือรูปไข่ ปลายแหลม โคนใบสอบ ผิวใบมัน สีเขียวเข้ม ออกหนาแน่นที่ปลายกิ่ง",
+          desc: `ลักษณะใบ: เป็นใบเดี่ยว แต่มี ปีกใบ ขนาดใหญ่คล้ายใบประกอบ แผ่นใบรูปไข่หรือรี ปลายแหลม โคนมน ขอบใบหยักมนหรือเรียบ
+
+กลิ่น: ใบมีต่อมน้ำมัน จึงมี กลิ่นหอมเฉพาะตัว (กลิ่นปร่าหอม)
+
+สรรพคุณของใบ: สามารถใช้ตำพอกเพื่อ แก้ปวดศีรษะได้  สามารถใช้ขยี้ทา ระงับอาการปวดบวม จากแมลงกัดต่อยได้ และช่วย ขับลม และแก้ ลำคออักเสบ หากนำใบมาตากแห้งชงดื่ม
+`,
         },
         fruit: {
           title: "ผล",
@@ -31,7 +41,6 @@
 การเตรียมปลูก: ในกิ่งชำหรือต้นกล้าที่มีรากขด ควร แผ่ช่วย รากออกขณะปลูกเพื่อให้ระบบรากเจริญเติบโตได้ดี
 
 การฟื้นฟู: สำหรับต้นละมุดที่มีอายุมาก อาจ ตัดแต่งรากส่วนปลาย (พรวนดินลึก 10-15 ซม. รอบทรงพุ่ม) เพื่อกระตุ้นให้รากใหม่แตกออกมาและดูดซับสารอาหารได้ดีขึ้น
-
 `,
         },
         care: {
@@ -72,23 +81,55 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "The sapodilla tree is a medium to large evergreen with rough dark brown bark containing milky latex sap.",
+          desc: `Type: The main trunk of a large perennial tree.
+
+Height: Has a large canopy and can grow up to 30 feet tall.
+
+Bark: Smooth, light brown or yellowish-gray.
+
+Thorns: Branches and trunk may have short, sharp thorns.
+
+Wood: Strong trunk, especially when the tree is grafted onto a rootstock with a robust root system.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "Leaves are thick, glossy, and oval with smooth edges and a dark green color, arranged alternately along branches.",
+          desc: `Leaf characteristics: Simple leaves with large wing-like extensions resembling compound leaves; the leaf blade is oval or elliptical, pointed at the tip, rounded at the base, with either smooth or slightly wavy edges.
+
+Scent: The leaves have oil glands, giving them a distinct fragrant smell (slightly pungent and sweet).
+
+Leaf uses: Can be crushed and applied to relieve headaches, rubbed on insect bites to reduce pain and swelling, and used to relieve gas and sore throat. Dried leaves can be brewed as tea.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "Sapodilla fruits are oval or round with brown skin, soft sweet flesh, and glossy black seeds inside.",
+          desc: `Fruit characteristics: The fruit is oval or oblong. When unripe, it is green; when ripe, it has a thin reddish-brown skin.
+
+Flesh: The ripe fruit is yellowish-brown, very sweet, with a grainy texture.
+
+Latex in fruit: Unripe sap contains white latex and high tannins, which should not be eaten as it can make the tongue astringent.
+
+Nutritional value: Very high in dietary fiber (mild laxative effect), contains vitamin A, vitamin C, calcium, and phosphorus.
+
+Key benefits: Helps boost immunity, prevent colds, relieve constipation, reduce the risk of colon cancer, and tannins provide anti-inflammatory effects in the body (e.g., for acid reflux).`,
         },
         root: {
           title: "Root",
-          desc: "Sapodilla has a strong taproot system that spreads deep and helps anchor the tree firmly.",
+          desc: `Root characteristics: Strong root system with many roots, highly drought-tolerant once established.
+
+Planting preparation: For cuttings or seedlings with coiled roots, spread the roots during planting to help the root system grow well.
+
+Restoration: For older sapodilla trees, trim the outer roots (loosen soil 10–15 cm deep around the canopy) to stimulate new root growth and improve nutrient absorption.`,
         },
         care: {
           title: "Care",
-          desc: "Grow in well-drained loamy soil under full sunlight. Water regularly and apply fertilizer for sweeter fruits.",
+          desc: `Sunlight and climate: Sapodilla trees prefer hot weather and need full sun all day (more than 6 hours) to grow well and produce abundant fruit.
+
+Soil: Prefers loose, fertile soil rich in organic matter (e.g., topsoil mixed with aged compost).
+
+Watering: Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.
+
+Pruning: Prune occasionally to control tree height (for easier harvesting) and to maintain a nice canopy shape.
+
+Fruit production: Trees propagated from cuttings will bear fruit within 1 year, while seed-grown trees take 4–5 years.`,
         },
       },
       gallery: {

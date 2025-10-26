@@ -81,24 +81,64 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "The pomelo tree is a medium-sized evergreen with smooth gray-green bark and many branches, emitting a mild citrus scent.",
+          desc: `Type: The main trunk of a large perennial tree.
+
+Height: Has a large canopy and can grow up to 30 feet tall.
+
+Bark: Smooth, light brown or yellowish-gray in color.
+
+Thorns: Branches and trunk may have short, sharp thorns.
+
+Wood: The trunk is strong, especially when using a rootstock with a robust root system.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "Pomelo leaves are simple, oval to oblong with a rounded tip and slightly notched base. They are glossy dark green and aromatic.",
+          desc: `Leaf characteristics: Simple leaves with large wing-like extensions resembling compound leaves; the leaf blade is oval or elliptical, pointed at the tip, rounded at the base, with either smooth or slightly wavy edges.
+
+Scent: The leaves have oil glands, giving them a distinct fragrant smell (a sweet, slightly pungent aroma).
+
+Leaf uses: Can be crushed and applied to relieve headaches, rubbed on insect bites to reduce pain and swelling, and used to relieve gas and sore throat. Dried leaves can be brewed as tea.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "The pomelo fruit is large with thick rind and segmented juicy flesh, pink or yellow, sweet-tart, and fragrant.",
+          desc: `Fruit flesh: Sweet-tart or very sweet, juicy, with thick pulp, high in vitamin C.
+
+Uses of flesh: Boosts immunity, nourishes skin, stimulates appetite, and can help relieve hangovers.
+
+Peel (skin): Thick and porous (with oil glands).
+
+Uses of peel: Relieves bloating, expels phlegm and gas, and can be boiled as a bath to relieve itching.
+
+Flowers: White, fragrant; used medicinally to relieve gas and expel phlegm.
+
+Seeds: Bitter; used to relieve stomach pain and bloating (helps reduce abnormal small intestine contractions).`,
         },
        
         root: {
           title: "Root",
-          desc: "Pomelo has a strong taproot system that anchors firmly and absorbs nutrients efficiently.",
+          desc: `Root characteristics: Strong, durable, and long-lived.
+
+Root components: Taproot (if grown from seed), lateral roots, and fibrous roots.
+
+Root depth: Most nutrient-absorbing roots are relatively shallow, with the densest roots only about 1–2 feet from the soil surface.
+
+Uses: The roots are bitter and astringent; they can be used to treat colds, coughs, bloating, and expel intestinal parasites.
+
+Cultivation techniques: Techniques like “mound planting” and “root reinforcement” are used to help roots spread and absorb nutrients effectively, promoting faster tree growth.`,
         },
         care: {
           title: "Care",
-          desc: "Plant in sandy loam soil with good drainage under full sun. Water regularly and use organic fertilizer to enhance fruit quality.",
+          desc: `Sunlight: Needs full sun all day (at least 6 hours per day).
+
+Soil: Prefers well-drained soil with high organic matter.
+
+Watering during growth: Water consistently.
+
+Flower stimulation: Stop watering for 20–30 days until the leaves begin to wilt slightly, then water fully to encourage flowering.
+
+Pruning (important): Prune to maintain an open canopy and control height after harvesting to stimulate new leaf growth.
+
+Fruit management: Thin out excess fruit to leave an appropriate amount for the tree size, ensuring the remaining fruits are large and high-quality.`,
         },
       },
       gallery: {

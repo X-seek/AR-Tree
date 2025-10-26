@@ -7,7 +7,6 @@
         trunk: {
           title: "ลำต้น",
           desc: `ลักษณะลำต้น: เป็นไม้พุ่ม มีเปลือกเรียบสีน้ำตาลปนเทา กิ่งอ่อน มีหนามแหลม
-
 สรรพคุณเปลือก/ดอก: ดอกและเปลือกมีส่วนช่วย แก้อาการท้องอืด ท้องเฟ้อ และ ปวดท้อง
 `,
         },
@@ -80,24 +79,50 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "A small shrub with thorny branches and gray-green bark.",
+          desc: `Trunk Characteristics: A shrub with smooth bark in brownish-gray color. The young branches have sharp thorns.
+
+Medicinal Properties of the Bark/Flowers: Both the flowers and bark help relieve bloating, flatulence, and stomach pain.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "Dark green leaves with a pleasant citrus aroma, often used in cooking.",
+          desc: `Leaf Characteristics: A compound leaf with a single leaflet that is oval or oblong in shape, tapering at the tip and rounded at the base. The edges are serrated, and oil glands are scattered across the leaf surface.
+
+Medicinal Properties of the Leaf: In traditional Thai medicine, the leaves are used to purify the blood and treat liver weakness.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "Small round fruit with thin green to yellow skin and sour juice, used in food and drinks.",
+          desc: `Shape and Size: Round and slightly flattened, large in size, with a smooth surface.
+
+Peel: Notably thin and fragrant.
+
+Juice and Taste: Contains a lot of juice with an intensely sour flavor and green-colored flesh.
+
+Seeds: Oval-shaped and white, but few in number.
+
+Key Benefits: Extremely rich in vitamin C, helps prevent scurvy (bleeding gums), relieves phlegm, and eases bloating.
+
+Fruit Bearing: This variety produces abundant and consistent yields.`,
         },
        
         root: {
           title: "Root",
-          desc: "Most lemon roots do not grow very deep from the soil surface, but spread out laterally.",
+          desc: `Root Characteristics: The main root is a taproot, with lateral and fibrous roots spreading more horizontally than vertically.
+
+Root Depth: Most nutrient-absorbing roots are found about 30–60 cm below the soil surface.
+
+Root Limitations: The roots are not tolerant of waterlogging and are highly susceptible to root rot, collar rot, and nematode infestations if the soil has poor drainage.
+
+Planting Technique: The roots should be spread outward during planting to help them absorb nutrients more easily. It’s also common to grow the plant in a cement pot to better control water drainage.`,
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil, water regularly, and apply organic fertilizer every 1–2 months.",
+          desc: `Sunlight: Needs full sun all day, or at least 6–7 hours per day.
+
+Soil: Should be sandy loam with high organic matter and very good drainage.
+
+Watering: Water regularly (once a day at first). Do not let water accumulate. Mulch around the base to keep moisture.
+
+Fertilizing: When the lime tree is 8 months–1 year old, use a flowering fertilizer like 8–24–24 or 12–24–12 to stimulate flowering.`,
         },
       },
       gallery: {

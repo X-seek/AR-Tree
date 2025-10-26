@@ -76,24 +76,45 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: "The custard apple tree is a small shrub or tree with relatively smooth bark and many branches.",
+          desc: `Trunk characteristics: A large perennial tree, with wood suitable for making furniture.
+
+Trunk bark uses: The bark can be boiled and used as medicine to treat diphtheria, inflammation of the oral mucosa, and nasal inflammation.`,
         },
         leaf: {
           title: "Leaf",
-          desc: "The leaves are simple, oblong to lance-shaped, with pointed tips and smooth dark-green surfaces.",
+          desc: `Leaf uses: Fresh leaves can be crushed and applied to wounds to help heal and clean them. Dried leaves can be boiled and drunk to treat diarrhea or chronic intestinal inflammation. Traditional medicine also uses boiled leaves to relieve hiccups.
+
+Precautions: Do not chew fresh leaves, as the mango latex may irritate the mouth. If using, the leaves should be boiled first.`,
         },
         fruit: {
           title: "Fruit",
-          desc: "The fruit has a bumpy green rind, with soft sweet white flesh and hard black seeds.",
+          desc: `Fruit
+Unripe Mango: Has a sour taste and is rich in vitamin C, which helps prevent colds and bleeding gums. It also contains high levels of antioxidants.
+
+Ripe Mango: Has a sweet taste and soft texture. It is rich in vitamin A and beta-carotene, which help improve vision (especially at night) and nourish the skin.
+
+Overall Benefits: Mangoes are high in fiber, which helps with digestion. Ripe mangoes act as a mild laxative and can help relieve dizziness and nausea.
+
+Health Benefits: Contain antioxidants that help reduce the risk of cancer (such as breast and colon cancer) and support heart health.
+
+Caution: Mango sap can cause skin irritation. Be sure to wash it off immediately after contact.`,
         },
       
         root: {
           title: "Root",
-          desc: "The tree has a taproot with lateral roots, anchoring the plant and absorbing nutrients.",
+          desc: `Root system: Mango trees have a taproot that can grow deep into the soil (up to 6 meters), but most nutrient absorption occurs densely near the soil surface (30–60 cm deep) and spreads widely.
+
+Root reinforcement: Most farmers strengthen the roots to make the tree more resilient to storms, prevent it from falling, and improve nutrient absorption.`,
         },
         care: {
           title: "Care",
-          desc: "Plant in well-drained loamy soil under full sun, water moderately, and fertilize to improve fruit quality.",
+          desc: `Environment: Mango trees need a warm climate and full sun (at least 6 hours per day) and prefer deep, well-drained soil.
+
+Watering: Young trees need plenty of water at first. Mature trees can tolerate some drought but should be watered consistently during the first year and before/after applying flower-inducing chemicals.
+
+Pruning: Regular pruning is necessary to maintain an open canopy, allow air circulation, and stimulate fruit production (remove tall or tangled branches).
+
+Flower stimulation: Before applying flower-inducing chemicals (e.g., paclobutrazol), water the trees thoroughly for 7–10 days and apply a flowering fertilizer like 8–24–24 or 12–24–12.`,
         },
       },
       gallery: {

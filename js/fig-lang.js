@@ -6,48 +6,48 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ลำต้นและกิ่งเปลือกต้น: มีสีเทาเรียบ มีน้ำยางสีขาว (Latex) อยู่ทุกส่วนของต้นและผล
+          desc: `ลำต้นและกิ่งเปลือกต้น: มีสีเทาเรียบ มีน้ำยางสีขาว (Latex) อยู่ทุกส่วนของต้นและผล<br><br>
 
-สรรพคุณเปลือก/ลำต้น: เปลือกและลำต้นสามารถนำมาต้มน้ำดื่มเพื่อ แก้ปวดท้อง บรรเทาอาการโรคบิด และ แก้อาการปวดเมื่อย ตามร่างกายได้
+<b>สรรพคุณเปลือก/ลำต้น :</b> เปลือกและลำต้นสามารถนำมาต้มน้ำดื่มเพื่อ แก้ปวดท้อง บรรเทาอาการโรคบิด และ แก้อาการปวดเมื่อย ตามร่างกายได้
 `,
         },
         leaf: {
           title: "ใบ",
-          desc: `ลักษณะใบ: ใบมีขนาดใหญ่ หยักลึก เป็นแฉก (คล้ายนิ้วมือ) ประมาณ 3-5 แฉก ผิวใบหยาบ มีสีเขียวเข้ม
+          desc: `<b>ลักษณะใบ :</b> ใบมีขนาดใหญ่ หยักลึก เป็นแฉก (คล้ายนิ้วมือ) ประมาณ 3-5 แฉก ผิวใบหยาบ มีสีเขียวเข้ม<br><br>
 
-สรรพคุณใบ (ชา): ใบมะเดื่อฝรั่งมักนิยมนำมาทำชา ซึ่งมีสรรพคุณช่วย ลดระดับน้ำตาลในเลือดได้, ลดไตรกลีเซอไรด์, ลดความดันโลหิต
+<b>สรรพคุณใบ (ชา) :</b> ใบมะเดื่อฝรั่งมักนิยมนำมาทำชา ซึ่งมีสรรพคุณช่วย ลดระดับน้ำตาลในเลือดได้, ลดไตรกลีเซอไรด์, ลดความดันโลหิต
 `,
         },
         fruit: {
           title: "ผล",
-          desc: `คุณค่าโภชนาการ: เป็นผลไม้ที่มี ไฟเบอร์ (ใยอาหาร) สูง และมีแร่ธาตุสำคัญ เช่น แคลเซียมสูงธาตุเหล็ก และ โฟเลต
+          desc: `<b>คุณค่าโภชนาการ :</b> เป็นผลไม้ที่มี ไฟเบอร์ (ใยอาหาร) สูง และมีแร่ธาตุสำคัญ เช่น แคลเซียมสูงธาตุเหล็ก และ โฟเลต<br><br>
 
-ประโยชน์ต่อระบบขับถ่าย: ระบบขับถ่ายเป็นยาระบายอ่อนๆ ช่วย บรรเทาและป้องกันอาการท้องผูก ได้ดีเยี่ยม เพราะมีใยอาหารสูงมาก
+<b>ประโยชน์ต่อระบบขับถ่าย :</b> ระบบขับถ่ายเป็นยาระบายอ่อนๆ ช่วย บรรเทาและป้องกันอาการท้องผูก ได้ดีเยี่ยม เพราะมีใยอาหารสูงมาก<br><br>
 
-ประโยชน์ต่อร่างกาย: ช่วย ควบคุมระดับน้ำตาลในเลือด จึงเหมาะกับผู้ป่วยเบาหวาน (แต่ควรระวัง/ปรึกษาแพทย์), ช่วย ลดความดันโลหิตสูง และ ลดไขมันในเลือด
+<b>ประโยชน์ต่อร่างกาย :</b> ช่วยควบคุมระดับน้ำตาลในเลือด จึงเหมาะกับผู้ป่วยเบาหวาน (แต่ควรระวัง/ปรึกษาแพทย์), ช่วย ลดความดันโลหิตสูง และ ลดไขมันในเลือด<br><br>
 
-ด้านกระดูกและหัวใจ: ช่วยบำรุงกระดูกและฟัน ช่วยป้องกันโรคกระดูกพรุน และมีส่วนช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้
+<b>ด้านกระดูกและหัวใจ </b>: ช่วยบำรุงกระดูกและฟัน ช่วยป้องกันโรคกระดูกพรุน และมีส่วนช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้<br><br>
 
-ข้อควรระวัง: ผู้ป่วยเบาหวานต้องเฝ้าระวังระดับน้ำตาลในเลือดเมื่อบริโภค เนื่องจากอาจทำให้ระดับน้ำตาลลดต่ำลง`,
+<b>ข้อควรระวัง :</b> ผู้ป่วยเบาหวานต้องเฝ้าระวังระดับน้ำตาลในเลือดเมื่อบริโภค เนื่องจากอาจทำให้ระดับน้ำตาลลดต่ำลง`,
         },
         root: {
           title: "ราก",
-          desc: `ลักษณะทั่วไป: ระบบรากของมะเดื่อฝรั่งชอบความชื้น แต่ ไม่ทนต่อการมีน้ำขัง ซึ่งอาจทำให้เกิดโรครากเน่าได้ง่าย
+          desc: `<b>ลักษณะทั่วไป :</b> ระบบรากของมะเดื่อฝรั่งชอบความชื้น แต่ ไม่ทนต่อการมีน้ำขัง ซึ่งอาจทำให้เกิดโรครากเน่าได้ง่าย<br><br>
 
-การเสริมราก : ในไทยนิยม เสริมราก ด้วย ตอมะเดื่ออุทุมพร (มะเดื่อไทย) เนื่องจากรากอุทุมพรมีความแข็งแรง ทนทานต่อโรค และช่วยให้ต้นมะเดื่อฝรั่งเจริญเติบโตได้ดี ให้ผลดกกว่าการใช้รากเดิม
-ศัตรูที่ราก: ควรระวัง ไส้เดือนฝอย ซึ่งเป็นศัตรูที่เข้าทำลายระบบรากของมะเดื่อฝรั่งได้`,
+<b>การเสริมราก :</b> ในไทยนิยม เสริมราก ด้วย ตอมะเดื่ออุทุมพร (มะเดื่อไทย) เนื่องจากรากอุทุมพรมีความแข็งแรง ทนทานต่อโรค และช่วยให้ต้นมะเดื่อฝรั่งเจริญเติบโตได้ดี ให้ผลดกกว่าการใช้รากเดิม<br><br>
+<b>ศัตรูที่ราก :</b> ควรระวัง ไส้เดือนฝอย ซึ่งเป็นศัตรูที่เข้าทำลายระบบรากของมะเดื่อฝรั่งได้`,
         },
         care: {
           title: "การดูแล",
-          desc: `แสงแดด/สภาพอากาศ: ต้องการ แสงแดดเต็มวัน (6 ชั่วโมงขึ้นไป) เจริญเติบโตได้ดีในทุกพื้นที่ของประเทศไทยทั้งร้อนชื้นและร้อนแห้ง
+          desc: `<b>แสงแดด/สภาพอากาศ :</b> ต้องการ แสงแดดเต็มวัน (6 ชั่วโมงขึ้นไป) เจริญเติบโตได้ดีในทุกพื้นที่ของประเทศไทยทั้งร้อนชื้นและร้อนแห้ง<br><br>
 
-ดินและการปลูก: ต้องใช้วัสดุปลูกที่ ระบายน้ำได้ดีมาก ไม่อัดแน่น ปลูกได้ทั้งในแปลง (ระยะ 2x2 เมตร) และในกระถาง/วงบ่อ
+<b>ดินและการปลูก :</b> ต้องใช้วัสดุปลูกที่ ระบายน้ำได้ดีมาก ไม่อัดแน่น ปลูกได้ทั้งในแปลง (ระยะ 2x2 เมตร) และในกระถาง/วงบ่อ<br><br>
 
-การให้น้ำ: ต้นมะเดื่อฝรั่งชอบน้ำ ควรให้น้ำสม่ำเสมอ แต่ ห้ามมีน้ำขังเด็ดขาด ควรคลุมโคนต้นด้วยฟางเพื่อช่วยเก็บความชื้น
+<b>การให้น้ำ :</b> ต้นมะเดื่อฝรั่งชอบน้ำ ควรให้น้ำสม่ำเสมอ แต่ ห้ามมีน้ำขังเด็ดขาด ควรคลุมโคนต้นด้วยฟางเพื่อช่วยเก็บความชื้น<br><br>
 
-การตัดแต่งกิ่ง: เป็นเทคนิคสำคัญในการทำให้ต้น ออกลูกดกตลอดปี โดยควรตัดแต่งกิ่งเพื่อให้เกิดกิ่งใหม่และกระตุ้นการออกผลอย่างต่อเนื่อง
+<b>การตัดแต่งกิ่ง :</b> เป็นเทคนิคสำคัญในการทำให้ต้น ออกลูกดกตลอดปี โดยควรตัดแต่งกิ่งเพื่อให้เกิดกิ่งใหม่และกระตุ้นการออกผลอย่างต่อเนื่อง<br><br>
 
-ศัตรูพืชที่ควรระวังโรค: ราสนิม และ โรคใบจุด มักพบในฤดูฝนเนื่องจากความชื้นสูง และควรระวังหนอนเจาะทำลายใบและผล`,
+<b>ศัตรูพืชที่ควรระวังโรค :</b> ราสนิม และ โรคใบจุด มักพบในฤดูฝนเนื่องจากความชื้นสูง และควรระวังหนอนเจาะทำลายใบและผล`,
         },
       },
       gallery: {
@@ -73,47 +73,47 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: `Trunk and Branches: The bark is smooth and gray with white latex present in all parts of the plant, including the fruit.
+          desc: `<b>Trunk and Branches :</b> The bark is smooth and gray with white latex present in all parts of the plant, including the fruit.<br><br>
 
-Medicinal Properties: The bark and trunk can be boiled and consumed to relieve stomach pain, dysentery, and general body aches.`,
+<b>Medicinal Properties :</b> The bark and trunk can be boiled and consumed to relieve stomach pain, dysentery, and general body aches.`,
         },
         leaf: {
           title: "Leaf",
-          desc: `Leaf Characteristics: Large leaves with 3–5 deep lobes (finger-like shape), rough texture, and dark green color.
+          desc: `<b>Leaf Characteristics :</b> Large leaves with 3–5 deep lobes (finger-like shape), rough texture, and dark green color.<br><br>
 
-Medicinal Use (Tea): Fig leaves are commonly used to make tea, which helps lower blood sugar, reduce triglycerides, and decrease blood pressure.`,
+<b>Medicinal Use (Tea) :</b> Fig leaves are commonly used to make tea, which helps lower blood sugar, reduce triglycerides, and decrease blood pressure.`,
         },
         fruit: {
           title: "Fruit",
-          desc: `Nutritional Value: Figs are rich in dietary fiber and important minerals such as calcium, iron, and folate.
+          desc: `<b>Nutritional Value:</b> Figs are rich in dietary fiber and important minerals such as calcium, iron, and folate.<br><br>
 
-Digestive Benefits: Acts as a mild natural laxative that helps relieve and prevent constipation due to its high fiber content.
+<b>Digestive Benefits :</b> Acts as a mild natural laxative that helps relieve and prevent constipation due to its high fiber content.<br><br>
 
-Health Benefits: Helps control blood sugar levels, suitable for diabetics (consult a doctor first), reduces high blood pressure and blood fat levels.
+<b>Health Benefits :</b> Helps control blood sugar levels, suitable for diabetics (consult a doctor first), reduces high blood pressure and blood fat levels.<br><br>
 
-Bone and Heart Health: Strengthens bones and teeth, helps prevent osteoporosis, and may reduce the risk of heart disease and stroke.
+<b>Bone and Heart Health :</b> Strengthens bones and teeth, helps prevent osteoporosis, and may reduce the risk of heart disease and stroke.<br><br>
 
-Caution: People with diabetes should monitor their blood sugar levels, as overconsumption may cause blood sugar to drop too low.`,
+<b>Caution :</b> People with diabetes should monitor their blood sugar levels, as overconsumption may cause blood sugar to drop too low.`,
         },
         root: {
           title: "Root",
-          desc: `General Characteristics: Fig roots prefer moisture but do not tolerate waterlogging, which can easily cause root rot.
+          desc: `<b>General Characteristics :</b> Fig roots prefer moisture but do not tolerate waterlogging, which can easily cause root rot.<br><br>
 
-Root Grafting: In Thailand, figs are often grafted onto “Ma Duea Uthumporn” (native fig) rootstock because it is stronger, more disease-resistant, and improves yield.
+<b>Root Grafting :</b> In Thailand, figs are often grafted onto “Ma Duea Uthumporn” (native fig) rootstock because it is stronger, more disease-resistant, and improves yield.<br><br>
 
-Root Pests: Beware of nematodes, which can attack and damage the root system.`,
+<b>Root Pests :</b> Beware of nematodes, which can attack and damage the root system.`,
         },
         care: {
           title: "Care",
-          desc: `Sunlight/Climate: Requires full sunlight (at least 6 hours daily). Thrives in both humid and dry tropical climates in Thailand.
-
-Soil and Planting: Prefers well-drained, loose soil. Can be planted both in-ground (2x2 m spacing) or in large pots.
-
-Watering: Figs like consistent moisture but must not be waterlogged. Mulching with straw helps retain soil moisture.
-
-Pruning: Regular pruning is key to encouraging continuous fruiting throughout the year by stimulating new branch growth.
-
-Pests and Diseases: Watch for rust fungus and leaf spot during the rainy season, and protect against caterpillars that damage leaves and fruits.`,
+          desc: `<b>Sunlight/Climate :</b> Requires full sunlight (at least 6 hours daily). Thrives in both humid and dry tropical climates in Thailand.
+<br><br>
+<b>Soil and Planting :</b> Prefers well-drained, loose soil. Can be planted both in-ground (2x2 m spacing) or in large pots.
+<br><br>
+<b>Watering :</b> Figs like consistent moisture but must not be waterlogged. Mulching with straw helps retain soil moisture.
+<br><br>
+<b>Pruning :</b> Regular pruning is key to encouraging continuous fruiting throughout the year by stimulating new branch growth.
+<br><br>
+<b>Pests and Diseases :</b> Watch for rust fungus and leaf spot during the rainy season, and protect against caterpillars that damage leaves and fruits.`,
         },
       },
       gallery: {
@@ -158,7 +158,7 @@ Pests and Diseases: Watch for rust fungus and leaf spot during the rainy season,
     const img = document.getElementById("hotspot-img");
 
     if (title) title.textContent = data.title;
-    if (desc) desc.textContent = data.desc;
+    if (desc) desc.innerHTML = data.desc;
     if (img) img.alt = data.title;
   }
 

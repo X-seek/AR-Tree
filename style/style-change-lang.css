@@ -61,3 +61,12 @@
 #lang-check:checked ~ .lang-toggle {
   background-color: #41a63c;
 }
+
+.hd-lTxT{
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+.DD1{
+  font-size: 50px;
+  color: rgba(89, 255, 114, 0.856);
+}

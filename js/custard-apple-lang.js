@@ -6,48 +6,53 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ลักษณะลำต้น: เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ
-
-ประโยชน์ลำต้น/เปลือก: เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด
-			     เนื้อไม้: มีสีเหลือง (จากสาร Morin) สามารถใช้ย้อมผ้าไหมได้`,
+          desc: `<b>ลักษณะลำต้น :</b> เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ
+<br><br>
+<b>ประโยชน์ลำต้น/เปลือก :</b> เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด<br><br>
+			     <b>เนื้อไม้ :</b> มีสีเหลือง (จากสาร Morin) สามารถใช้ย้อมผ้าไหมได้`,
         },
         leaf: {
           title: "ใบ",
-          desc: `ลักษณะ: ใบเดี่ยว เรียงสลับ รูปรี ปลายและโคนใบแหลม สีเขียว หากบดใบจะมีกลิ่นหอม
-
-สรรพคุณทางยา: 	ใช้ฆ่าแมลง/พยาธิ (ภายนอก): ใบสดและเมล็ดนำมาตำ/บด ใช้ ฆ่าเหา และ
-  รักษาโรค กลากเกลื้อน โดยการพอกหรือทา                                         
-			ลดน้ำตาล: ใบน้อยหน่าสามารถนำมาชงดื่มเพื่อช่วย ลดน้ำตาลในเลือด ลดไขมันในเส้นเลือด และลดความดันโลหิต
-
-ข้อควรระวัง: เมล็ดมีสาร annonaine และ neoannonin ซึ่งมีความเป็นพิษสูง ดังนั้นจึง ห้ามรับประทาน เมล็ด`,
+          desc: `<b>ลักษณะ :</b> ใบเดี่ยว เรียงสลับ รูปรี ปลายและโคนใบแหลม สีเขียว หากบดใบจะมีกลิ่นหอม
+<br>
+<ul></ul>
+<b>สรรพคุณทางยา :</b> ใช้ฆ่าแมลง/พยาธิ <li>(ภายนอก): ใบสดและเมล็ดนำมาตำ/บด ใช้ ฆ่าเหา และ
+  รักษาโรค กลากเกลื้อน โดยการพอกหรือทา</li>                                   
+			<li>ลดน้ำตาล : ใบน้อยหน่าสามารถนำมาชงดื่มเพื่อช่วย ลดน้ำตาลในเลือด ลดไขมันในเส้นเลือด และลดความดันโลหิต</li>
+</ul><br>
+<b>ข้อควรระวัง :</b> เมล็ดมีสาร annonaine และ neoannonin ซึ่งมีความเป็นพิษสูง ดังนั้นจึง ห้ามรับประทาน เมล็ด`,
         },
         fruit: {
           title: "ผล",
-          desc: `ลักษณะ: ผลรูปกลมป้อม ผิวขรุขระ เป็นช่องกลมนูน สีเขียว (น้อยหน่าฝ้าย) หรือสีเขียว/เหลือง/ม่วงเข้ม (น้อยหน่าหนัง) เนื้อสีขาวนวล รสชาติหอมหวาน ข้างในมีเมล็ดสีดำและน้อยหน่ามีน้ำตาลในปริมาณที่มาก
+          desc: `<b>ลักษณะ :</b> ผลรูปกลมป้อม ผิวขรุขระ เป็นช่องกลมนูน สีเขียว (น้อยหน่าฝ้าย) หรือสีเขียว/เหลือง/ม่วงเข้ม (น้อยหน่าหนัง) เนื้อสีขาวนวล รสชาติหอมหวาน
+           ข้างในมีเมล็ดสีดำและน้อยหน่ามีน้ำตาลในปริมาณที่มาก<br><br>
 
-โภชนาการ: ให้พลังงานสูง (ประมาณ 101 กิโลแคลอรี่/100 กรัม) อุดมไปด้วย วิตามิน C (ช่วยเสริมภูมิคุ้มกันในร่างกาย), วิตามิน B (ควบคุมคอเลสเตอรอล), แมงกานีส, แคลเซียม, และ ลูทีน (Lutein)
+<b>โภชนาการ :</b> ให้พลังงานสูง (ประมาณ 101 กิโลแคลอรี่/100 กรัม) อุดมไปด้วย วิตามิน C (ช่วยเสริมภูมิคุ้มกันในร่างกาย), 
+วิตามิน B (ควบคุมคอเลสเตอรอล), แมงกานีส, แคลเซียม, และ ลูทีน (Lutein)<br><br>
 
-สรรพคุณ/ประโยชน์เฉพาะ:	ด้านสุขภาพ: อุดมไปด้วยสารต้านอนุมูลอิสระ, ลูทีน ช่วยบำรุงสายตาและลดความเสี่ยงจอประสาทตาเสื่อมได้, มีใยอาหารช่วยในเรื่องระบบย่อยอาหาร
-ด้านสมุนไพร (ผล): ใช้รักษาแผลไฟไหม้ อักเสบ แผลน้ำร้อนลวก, แก้เป็นฝีในลำคอ
-
-ข้อควรระวัง: เหมาะสำหรับผู้ที่กำลังลดน้ำหนักเพราะมีไขมันต่ำหาก ผู้ป่วยเป็นโรคเบาหวานควรบริโภคอย่างระมัดระวัง เนื่องจากมีปริมาณน้ำตาลที่สูง`,
+<b>สรรพคุณ/ประโยชน์เฉพาะ :</b> ด้านสุขภาพ: อุดมไปด้วยสารต้านอนุมูลอิสระ, ลูทีน ช่วยบำรุงสายตาและลดความเสี่ยงจอประสาทตาเสื่อมได้, มีใยอาหารช่วยในเรื่องระบบย่อยอาหาร
+ด้านสมุนไพร <br><br>
+(ผล) : ใช้รักษาแผลไฟไหม้ อักเสบ แผลน้ำร้อนลวก, แก้เป็นฝีในลำคอ<br><br>
+<b>ข้อควรระวัง :</b> เหมาะสำหรับผู้ที่กำลังลดน้ำหนักเพราะมีไขมันต่ำหาก ผู้ป่วยเป็นโรคเบาหวานควรบริโภคอย่างระมัดระวัง เนื่องจากมีปริมาณน้ำตาลที่สูง`,
         },
         root: {
           title: "ราก",
-          desc: `ระบบราก: เป็นระบบรากกว้างขวาง(รากแก้ว)
-สรรพคุณราก: เป็น ยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้`,
+          desc: `<b>ระบบราก :</b> เป็นระบบรากกว้างขวาง(รากแก้ว)<br><br>
+<b>สรรพคุณราก :</b> เป็น ยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้
+`,
         },
         care: {
           title: "การดูแล",
-          desc: `สภาพแวดล้อม: เป็น ไม้ผลทนแล้ง เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น แสงแดดเต็มที่     (อย่างน้อย 6 ชั่วโมงต่อวัน) และทนต่อสภาพดินหลายรูปแบบ แต่ ต้องระบายน้ำได้ดี และน้ำไม่ท่วมขัง
+          desc: `<b>สภาพแวดล้อม :</b> เป็น ไม้ผลทนแล้ง เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น แสงแดดเต็มที่ (อย่างน้อย 6 ชั่วโมงต่อวัน) 
+          และทนต่อสภาพดินหลายรูปแบบ แต่ ต้องระบายน้ำได้ดี และน้ำไม่ท่วมขัง<br><br>
 
-การให้น้ำ: น้อยหน่าเป็นพืชทนแล้ง แต่ ต้องรดน้ำอย่างสม่ำเสมอในช่วงที่ผลกำลังพัฒนา เพื่อให้ได้ผลผลิตที่มีคุณภาพ
+<b>การให้น้ำ :</b> น้อยหน่าเป็นพืชทนแล้ง แต่ ต้องรดน้ำอย่างสม่ำเสมอในช่วงที่ผลกำลังพัฒนา เพื่อให้ได้ผลผลิตที่มีคุณภาพ<br><br>
 
-การใส่ปุ๋ย: มีความสำคัญเพื่อสนับสนุนการเจริญเติบโต สามารถใช้ ปุ๋ยมูลไก่ผสมแกลบ ในอัตรา 4-5 กิโลกรัม/ต้น หลังเก็บเกี่ยวผลผลิต
+<b>การใส่ปุ๋ย :</b> มีความสำคัญเพื่อสนับสนุนการเจริญเติบโต สามารถใช้ ปุ๋ยมูลไก่ผสมแกลบ ในอัตรา 4-5 กิโลกรัม/ต้น หลังเก็บเกี่ยวผลผลิต<br><br>
 
-การตัดแต่งกิ่ง: เทคนิคสำคัญในการ บังคับให้ออกดอกและติดผล ควรตัดแต่งกิ่งเพื่อกระตุ้นผลผลิต หลังเก็บเกี่ยวเสร็จแล้ว
+<b>การตัดแต่งกิ่ง :</b> เทคนิคสำคัญในการ บังคับให้ออกดอกและติดผล ควรตัดแต่งกิ่งเพื่อกระตุ้นผลผลิต หลังเก็บเกี่ยวเสร็จแล้ว<br><br>
 
-การป้องกัน: เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มี ไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก
+<b>การป้องกัน :</b> เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มี ไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก
 `,
         },
       },
@@ -74,51 +79,54 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: `Characteristics: A small deciduous tree about 3–6 meters tall. The trunk and branches are brittle and break easily. The bark is thin, brown to dark in color.
+          desc: `<b>Characteristics :</b> A small deciduous tree about 3–6 meters tall. The trunk and branches are brittle and break easily. 
+          The bark is thin, brown to dark in color.<br><br>
 
-Uses (Trunk/Bark): The bark is used as an astringent medicine for treating diarrhea, intestinal inflammation, and gum disease.
+<b>Uses (Trunk/Bark) :</b> The bark is used as an astringent medicine for treating diarrhea, intestinal inflammation, and gum disease.
 The wood contains a yellow pigment (Morin) that can be used for dyeing silk.`,
         },
         leaf: {
           title: "Leaf",
-          desc: `Characteristics: Simple, alternate leaves that are lance-shaped with pointed ends and smooth green surfaces. When crushed, they emit a pleasant fragrance.
-
-Medicinal Properties:
-• Insecticide/Antiparasitic (External): Fresh leaves and seeds can be crushed and used to kill lice or treat fungal infections such as ringworm.
-• Blood Sugar Control: Dried or boiled leaves can be made into tea to help reduce blood sugar, blood fat, and blood pressure.
-
-Caution: The seeds contain toxic alkaloids (annonaine and neoannonin) and must not be eaten.`,
+          desc: `<b>Characteristics :</b> Simple, alternate leaves that are lance-shaped with pointed ends and smooth green surfaces. When crushed, they emit a pleasant fragrance.
+<br><br>
+Medicinal Properties :
+<ul>
+<li> Insecticide/Antiparasitic (External): Fresh leaves and seeds can be crushed and used to kill lice or treat fungal infections such as ringworm.</li>
+<li>Blood Sugar Control: Dried or boiled leaves can be made into tea to help reduce blood sugar, blood fat, and blood pressure.</li>
+</ul>
+<b>Caution :</b> The seeds contain toxic alkaloids (annonaine and neoannonin) and must not be eaten.`,
         },
         fruit: {
           title: "Fruit",
-          desc: `Characteristics: Round, bumpy fruit with a knobby green rind (green or purple in some varieties). The flesh is creamy white, fragrant, and very sweet, containing several black seeds.
-
-Nutrition: High in energy (about 101 kcal per 100g), rich in Vitamin C (boosts immunity), Vitamin B (controls cholesterol), manganese, calcium, and lutein (for eye health).
-
-Health Benefits:
-• Rich in antioxidants and lutein, which support eye health and reduce the risk of macular degeneration.
-• High fiber content aids digestion.
-• Traditional uses: Treats burns, inflammation, and throat abscesses.
-
-Caution: Though low in fat and suitable for weight control, the fruit contains a high amount of sugar — diabetics should consume in moderation.`,
+          desc: `<b>Characteristics :</b> Round, bumpy fruit with a knobby green rind (green or purple in some varieties). The flesh is creamy white, fragrant, and very sweet, containing several black seeds.
+<br><br>
+<b>Nutrition :</b> High in energy (about 101 kcal per 100g), rich in Vitamin C (boosts immunity), Vitamin B (controls cholesterol), manganese, calcium, and lutein (for eye health).
+<br><br>
+Health Benefits :
+<ul>
+<li> Rich in antioxidants and lutein, which support eye health and reduce the risk of macular degeneration.</li>
+<li> High fiber content aids digestion.</li>
+<li> Traditional uses: Treats burns, inflammation, and throat abscesses.</li>
+</ul>
+<b>Caution :</b> Though low in fat and suitable for weight control, the fruit contains a high amount of sugar — diabetics should consume in moderation.`,
         },
         root: {
           title: "Root",
-          desc: `Root System: Deep taproot system with spreading roots.
+          desc: `Root System: Deep taproot system with spreading roots.<br><br>
 
-Medicinal Uses: Acts as a mild laxative (in small amounts), detoxifies the body, relieves poisoning, and can be used as an antidote for snake venom.`,
+<b>Medicinal Uses :</b> Acts as a mild laxative (in small amounts), detoxifies the body, relieves poisoning, and can be used as an antidote for snake venom.`,
         },
         care: {
           title: "Care",
           desc: `Environment: Drought-tolerant fruit tree that grows well in warm climates with full sunlight (at least 6 hours a day). It adapts to many soil types but prefers well-drained soil without flooding.
+<br><br>
+<b>Watering :</b> Although drought-resistant, it should be watered regularly during fruit development for better yield.<br><br>
 
-Watering: Although drought-resistant, it should be watered regularly during fruit development for better yield.
+<b>Fertilization :</b> Apply organic fertilizer such as chicken manure mixed with rice husks (about 4–5 kg per tree) after harvesting.<br><br>
 
-Fertilization: Apply organic fertilizer such as chicken manure mixed with rice husks (about 4–5 kg per tree) after harvesting.
+<b>Pruning :</b> Essential for inducing flowering and fruiting. Prune branches after harvest to encourage new growth and improve fruit production.<br><br>
 
-Pruning: Essential for inducing flowering and fruiting. Prune branches after harvest to encourage new growth and improve fruit production.
-
-Protection: Since the branches are brittle, plant in areas protected from strong winds to prevent breakage.`,
+<b>Protection :</b> Since the branches are brittle, plant in areas protected from strong winds to prevent breakage.`,
         },
       },
       gallery: {
@@ -163,7 +171,7 @@ Protection: Since the branches are brittle, plant in areas protected from strong
     const img = document.getElementById("hotspot-img");
 
     if (title) title.textContent = data.title;
-    if (desc) desc.textContent = data.desc;
+    if (desc) desc.innerHTML = data.desc;
     if (img) img.alt = data.title;
   }
 

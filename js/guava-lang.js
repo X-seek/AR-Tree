@@ -6,51 +6,51 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ลักษณะลำต้น: เป้นต้นไม้ขนาดกลาง สูงประมาณ 3-5 เมตร ผิวเปลือกต้นเรียบเกลี้ยง กิ่งอ่อนเป็นสี่เหลี่ยม
-สรรพคุณเปลือกต้น: เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ
+          desc: `<b>ลักษณะลำต้น :</b> เป้นต้นไม้ขนาดกลาง สูงประมาณ 3-5 เมตร ผิวเปลือกต้นเรียบเกลี้ยง กิ่งอ่อนเป็นสี่เหลี่ยม<br><br>
+<b>สรรพคุณเปลือกต้น :</b> เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ
 `,
         },
         leaf: {
           title: "ใบ",
-          desc: `ลักษณะ: เป็นใบเดี่ยว เรียงตรงข้าม มีความหนา หยาบ ใต้ท้องใบเป็นริ้ว เห็นเส้นใบชัดเจน ใบยาวประมาณ 10 ซม.
-สารสำคัญที่เด่น: มีสาร แทนนิน และเป็นน้ำมันหอมระเหย ซึ่งมีฤทธิ์ ฝาดสมาน และยับยั้งเชื้อโรคได้
-สรรพคุณทางยา: แก้ท้องเสีย/ท้องร่วง: นำใบสดหรือใบเพสลาดมาต้ม หรือเคี้ยวสดได้ เพื่อรักษาอาการท้องเดิน/ท้องร่วง (ที่ไม่ใช่บิดหรืออหิวาตกโรค)
-		ภายนอก: ใช้ใบสดตำพอก ห้ามเลือด ใส่แผลสด ดูดหนอง แก้แผลพุพอง และช่วยดับกลิ่นปาก (เคี้ยวใบ 2-3 ใบ)
-		ช่องปาก: บรรเทาอาการ ปวดฟัน และเหงือกบวม
+          desc: `<b>ลักษณะ :</b> เป็นใบเดี่ยว เรียงตรงข้าม มีความหนา หยาบ ใต้ท้องใบเป็นริ้ว เห็นเส้นใบชัดเจน ใบยาวประมาณ 10 ซม.<br><br>
+<b>สารสำคัญที่เด่น :</b> มีสาร แทนนิน และเป็นน้ำมันหอมระเหย ซึ่งมีฤทธิ์ ฝาดสมาน และยับยั้งเชื้อโรคได้<br><br>
+<b>สรรพคุณทางยา :</b> แก้ท้องเสีย/ท้องร่วง: นำใบสดหรือใบเพสลาดมาต้ม หรือเคี้ยวสดได้ เพื่อรักษาอาการท้องเดิน/ท้องร่วง (ที่ไม่ใช่บิดหรืออหิวาตกโรค)<br><br>
+		<b>ภายนอก :</b> ใช้ใบสดตำพอก ห้ามเลือด ใส่แผลสด ดูดหนอง แก้แผลพุพอง และช่วยดับกลิ่นปาก (เคี้ยวใบ 2-3 ใบ)<br><br>
+		<b>ช่องปาก :</b> บรรเทาอาการ ปวดฟัน และเหงือกบวม
 
 `,
         },
         fruit: {
           title: "ผล",
-          desc: `ลักษณะ: ลูกฝรั่งมีรูปทรงกลม รูปไข่ หรือรูปรี ผิวเรียบเกลี้ยง เนื้อในมีสีแดงสด (หรือสีชมพู) รสชาติหวานกรอบ
+          desc: `<b>ลักษณะ :</b> ลูกฝรั่งมีรูปทรงกลม รูปไข่ หรือรูปรี ผิวเรียบเกลี้ยง เนื้อในมีสีแดงสด (หรือสีชมพู) รสชาติหวานกรอบ<br><br>
 
-คุณค่าโภชนาการ: อุดมไปด้วย วิตามิน C (สูงมาก), วิตามิน A, B, K, โพแทสเซียม, และไฟเบอร์สูง
+<b>คุณค่าโภชนาการ :</b> อุดมไปด้วย วิตามิน C (สูงมาก), วิตามิน A, B, K, โพแทสเซียม, และไฟเบอร์สูง<br><br>
 
-สารที่โดดเด่น: ไลโคฟิน (Lycopene) สารต้านอนุมูลอิสระที่มีประโยชน์มาก ซึ่งเป็นสาเหตุของสีแดงในเนื้อ
+<b>สารที่โดดเด่น :</b> ไลโคฟิน (Lycopene) สารต้านอนุมูลอิสระที่มีประโยชน์มาก ซึ่งเป็นสาเหตุของสีแดงในเนื้อ<br><br>
 
-สรรพคุณ/ประโยชน์เฉพาะ ต้านมะเร็ง: ไลโคฟินมีฤทธิ์ยับยั้งการเจริญเติบโตของเซลล์มะเร็ง เช่น มะเร็งมดลูก มะเร็งปอด และมะเร็งต่อมลูกหมาก
-	สุขภาพด้านหัวใจ: สารแทนนินช่วย ลดไขมันในเส้นเลือด และลดความเสี่ยงโรคหัวใจ ความดันเป็นต้น
-	ด้านการลดน้ำหนักและระบบย่อยอาหาร: แคลอรี่ต่ำ ไฟเบอร์สูง ทำให้อิ่มนาน และช่วยบำรุงระบบทางเดินอาหารได้
+<b>สรรพคุณ/ประโยชน์เฉพาะ ต้านมะเร็ง :</b> ไลโคฟินมีฤทธิ์ยับยั้งการเจริญเติบโตของเซลล์มะเร็ง เช่น มะเร็งมดลูก มะเร็งปอด และมะเร็งต่อมลูกหมาก<br><br>
+	<b>สุขภาพด้านหัวใจ :</b> สารแทนนินช่วย ลดไขมันในเส้นเลือด และลดความเสี่ยงโรคหัวใจ ความดันเป็นต้น<br><br>
+	<b>ด้านการลดน้ำหนักและระบบย่อยอาหาร :</b> แคลอรี่ต่ำ ไฟเบอร์สูง ทำให้อิ่มนาน และช่วยบำรุงระบบทางเดินอาหารได้
 `,
         },
       
         root: {
           title: "ราก",
-          desc: `ระบบราก: มีการแผ่ขยาย (ต้องให้พื้นที่ปลูกกว้างพอ) รากส่วนใหญ่หากินอยู่บริเวณผิวดิน
-สรรพคุณของราก: ใช้แก้น้ำเหลืองเสียเป็นฝี แผลพุพอง และแก้เลือดกำเดาไหลได้
+          desc: `<b>ระบบราก :</b> มีการแผ่ขยาย (ต้องให้พื้นที่ปลูกกว้างพอ) รากส่วนใหญ่หากินอยู่บริเวณผิวดิน<br><br>
+<b>สรรพคุณของราก :</b> ใช้แก้น้ำเหลืองเสียเป็นฝี แผลพุพอง และแก้เลือดกำเดาไหลได้
 `,
         },
         care: {
           title: "การดูแล",
-          desc: `สภาพแวดล้อม: เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น อุณหภูมิไม่ต่ำกว่า 16 องศาเซลเซียส ใช้ดินร่วนปนทราย ที่มีความอุดมสมบูรณ์และระบายน้ำดี ไม่ชอบน้ำขัง
+          desc: `<b>สภาพแวดล้อม :</b> เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น อุณหภูมิไม่ต่ำกว่า 16 องศาเซลเซียส ใช้ดินร่วนปนทราย ที่มีความอุดมสมบูรณ์และระบายน้ำดี ไม่ชอบน้ำขัง<br><br>
 
-การปลูก: ควรยกระดับแปลงปลูก และทำร่องระบายน้ำให้ดี ไม่ควรลองก้นหลุมด้วยปุ๋ย ในช่วงแรกของการปลูก
+<b>การปลูก :</b> ควรยกระดับแปลงปลูก และทำร่องระบายน้ำให้ดี ไม่ควรลองก้นหลุมด้วยปุ๋ย ในช่วงแรกของการปลูก<br><br>
 
-การให้น้ำ: ต้องรดน้ำให้ชื้นอยู่เสมอโดยเฉพาะในช่วงติดดอกและพัฒนาผล เพื่อป้องกันดอกร่วงก่อนติดผล
+<b>การให้น้ำ :</b> ต้องรดน้ำให้ชื้นอยู่เสมอโดยเฉพาะในช่วงติดดอกและพัฒนาผล เพื่อป้องกันดอกร่วงก่อนติดผล<br><br>
 
-การตัดแต่งกิ่ง: เป็นหัวใจสำคัญในการกระตุ้นการออกผล โดยควร ตัดแต่งกิ่งให้โปร่ง และ เด็ดยอด ทุกความยาว 30-50 ซม. เพื่อให้กิ่งใหม่ออกมาติดผล
+<b>การตัดแต่งกิ่ง :</b> เป็นหัวใจสำคัญในการกระตุ้นการออกผล โดยควร ตัดแต่งกิ่งให้โปร่ง และ เด็ดยอด ทุกความยาว 30-50 ซม. เพื่อให้กิ่งใหม่ออกมาติดผล<br><br>
 
-การป้องกันศัตรูพืช: ศัตรูสำคัญคือ แมลงวันผลไม้ ซึ่งป้องกันได้โดยการ ห่อผล ตั้งแต่ผิวผลยังแข็งและสีเขียว
+<b>การป้องกันศัตรูพืช :</b> ศัตรูสำคัญคือ แมลงวันผลไม้ ซึ่งป้องกันได้โดยการ ห่อผล ตั้งแต่ผิวผลยังแข็งและสีเขียว<br><br>
 `,
         },
       },
@@ -77,57 +77,53 @@
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: `Trunk Characteristics: A medium-sized tree, about 3–5 meters tall. The bark is smooth, and the young branches are square-shaped.
+          desc: `<b>Trunk Characteristics :</b> A medium-sized tree, about 3–5 meters tall. The bark is smooth, and the young branches are square-shaped.<br><br>
 
-Medicinal Properties of the Bark: Fresh bark can be boiled in water and used to wash areas with rashes or itching. It can also be boiled and consumed to relieve intestinal inflammation.`,
+<b>Medicinal Properties of the Bark :</b> Fresh bark can be boiled in water and used to wash areas with rashes or itching. It can also be boiled and consumed to relieve intestinal inflammation.`,
         },
         leaf: {
           title: "Leaf",
-          desc: `Characteristics: The leaves are simple and grow in opposite pairs. They are thick and rough, with visible veins and ridges on the underside. Each leaf is about 10 cm long.
+          desc: `<b>Characteristics :</b> The leaves are simple and grow in opposite pairs. They are thick and rough, with visible veins and ridges on the underside. Each leaf is about 10 cm long.
+<br><br>
+<b>Key Compounds :</b> Contains tannins and essential oils, which have astringent and antibacterial properties.<br><br>
 
-Key Compounds: Contains tannins and essential oils, which have astringent and antibacterial properties.
-
-Medicinal Properties:
-
-For diarrhea: Fresh or semi-mature leaves can be boiled or chewed to relieve diarrhea (not caused by dysentery or cholera).
-
-External use: Crushed fresh leaves can be applied to stop bleeding, treat fresh wounds, draw out pus, heal blisters, and reduce bad breath (by chewing 2–3 leaves).
-
-Oral health: Helps relieve toothache and swollen gums.`,
+<b>Medicinal Properties :</b> For diarrhea: Fresh or semi-mature leaves can be boiled or chewed to relieve diarrhea (not caused by dysentery or cholera).
+<br><br>
+<b>External use :</b> Crushed fresh leaves can be applied to stop bleeding, treat fresh wounds, draw out pus, heal blisters, and reduce bad breath (by chewing 2–3 leaves).
+<br><br>
+<b>Oral health :</b> Helps relieve toothache and swollen gums.`,
         },
         fruit: {
           title: "Fruit",
-          desc: `Characteristics: Guava fruits can be round, oval, or oblong in shape, with a smooth surface. The flesh is bright red (or pink) and has a sweet, crisp taste.
-
-Nutritional Value: Rich in vitamin C (very high), vitamin A, B, K, potassium, and dietary fiber.
-
-Key Compound: Lycopene — a powerful antioxidant responsible for the red color of the flesh.
-
-Health Benefits:
-
-Anti-cancer: Lycopene helps inhibit the growth of cancer cells such as uterine, lung, and prostate cancer.
-
-Heart health: Tannins help reduce blood fat and lower the risk of heart disease and high blood pressure.
-
-Weight control & digestion: Low in calories and high in fiber, which helps you feel full longer and supports a healthy digestive system.`,
+          desc: `<b>Characteristics :</b> Guava fruits can be round, oval, or oblong in shape, with a smooth surface. The flesh is bright red (or pink) and has a sweet, crisp taste.
+<br><br>
+<b>Nutritional Value :</b> Rich in vitamin C (very high), vitamin A, B, K, potassium, and dietary fiber.
+<br><br>
+<b>Key Compound :</b> Lycopene — a powerful antioxidant responsible for the red color of the flesh.
+<br><br>
+<b>Health Benefits :</b> Anti-cancer: Lycopene helps inhibit the growth of cancer cells such as uterine, lung, and prostate cancer.
+<br><br>
+<b>Heart health :</b> Tannins help reduce blood fat and lower the risk of heart disease and high blood pressure.
+<br><br>
+<b>Weight control & digestion :</b> Low in calories and high in fiber, which helps you feel full longer and supports a healthy digestive system.`,
         },
         root: {
           title: "Root",
-          desc: `Root System: The roots spread widely (requiring enough space for planting), with most roots growing near the soil surface.
-
-Medicinal Properties of the Roots: Used to treat impure blood conditions that cause abscesses or skin blisters, and to help stop nosebleeds.`,
+          desc: `<b>Root System :</b> The roots spread widely (requiring enough space for planting), with most roots growing near the soil surface.
+<br><br>
+<b>Medicinal Properties of the Roots :</b> Used to treat impure blood conditions that cause abscesses or skin blisters, and to help stop nosebleeds.`,
         },
         care: {
           title: "Care",
-          desc: `Environment: Grows well in warm climates with temperatures not lower than 16°C. Prefers fertile, well-drained sandy loam soil and does not tolerate waterlogging.
-
-Planting: The planting bed should be raised with proper drainage channels. Avoid putting fertilizer at the bottom of the hole during the initial planting stage.
-
-Watering: Keep the soil consistently moist, especially during flowering and fruit development, to prevent flowers from dropping before fruiting.
-
-Pruning: A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
-
-Pest Control: The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
+          desc: `<b>Environment :</b> Grows well in warm climates with temperatures not lower than 16°C. Prefers fertile, well-drained sandy loam soil and does not tolerate waterlogging.
+br><br>
+<b>Planting :</b> The planting bed should be raised with proper drainage channels. Avoid putting fertilizer at the bottom of the hole during the initial planting stage.
+br><br>
+<b>Watering :</b> Keep the soil consistently moist, especially during flowering and fruit development, to prevent flowers from dropping before fruiting.
+br><br>
+<b>Pruning :</b> A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
+br><br>
+<b>Pest Control :</b> The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
         },
       },
       gallery: {
@@ -172,7 +168,7 @@ Pest Control: The main pest is the fruit fly, which can be prevented by wrapping
     const img = document.getElementById("hotspot-img");
 
     if (title) title.textContent = data.title;
-    if (desc) desc.textContent = data.desc;
+    if (desc) desc.innerHTML = data.desc;
     if (img) img.alt = data.title;
   }
 

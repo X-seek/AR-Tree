@@ -46,9 +46,9 @@ const hotspotData = {
   banana: {
     trunk: { img: "images/hotspot/banana/trunk.png", audio: { th: "audio/th/banana/trunk_th.mp3", en: "audio/eng/banana/trunk_en.mp3" } },
     leaf: { img: "images/hotspot/banana/leaf.png", audio: { th: "audio/th/banana/leaf_th.mp3", en: "audio/eng/banana/leaf_en.mp3" } },
-    fruit: { img: "images/hotspot/banana/fruit.png", audio: { th: "audio/th/banana/fruit.mp3", en: "audio/eng/banana/fruit_en.mp3" } },
-    root: { img: "images/hotspot/banana/root.png", audio: { th: "audio/th/banana/root.mp3", en: "audio/eng/banana/root_en.mp3" } },
-    care: { img: "images/logo-menu/planting.png", audio: { th: "audio/th/banana/care.mp3", en: "audio/eng/banana/care_en.mp3" } },
+    fruit: { img: "images/hotspot/banana/fruit.png", audio: { th: "audio/th/banana/fruit_th.mp3", en: "audio/eng/banana/fruit_en.mp3" } },
+    root: { img: "images/hotspot/banana/root.png", audio: { th: "audio/th/banana/root_th.mp3", en: "audio/eng/banana/root_en.mp3" } },
+    care: { img: "images/logo-menu/planting.png", audio: { th: "audio/th/banana/care_th.mp3", en: "audio/eng/banana/care_en.mp3" } },
   },
   coconut: {
     trunk: { img: "images/hotspot/coconut/trunk.png", audio: { th: "audio/th/coconut/trunk_th.mp3", en: "audio/eng/coconut/trunk_en.mp3" } },
@@ -125,6 +125,7 @@ function showHotspot(key) {
 
   const treeData = hotspotData[currentPageKey] || hotspotData["banana"];
   const data = treeData && treeData[key];
+  
   if (!data) {
     hotspotImg.src = "";
     if (hotspotAudio) hotspotAudio.src = "";
@@ -157,10 +158,18 @@ function handlePlay() {
   }
 }
 
-// =================== Toggle Menu ===================
-function toggleMenu() {
-  document.querySelector(".hotspot-menu")?.classList.toggle("active");
-}
+
+const menu = document.getElementById("hotspotMenu");
+// --- ใช้คลิก ---
+menu.addEventListener("click", (e) => {
+  if (e.target.closest(".submenu")) return;
+  menu.classList.toggle("show");
+});
+
+//  --- ถ้าอยากใช้ hover แทน click (เลือกอย่างใดอย่างหนึ่งเท่านั้น) ---
+menu.addEventListener("mouseenter", () => menu.classList.add("show"));
+menu.addEventListener("mouseleave", () => menu.classList.remove("show"));
+
 
 // =================== Init ===================
 if (document.readyState === "loading") {
@@ -172,6 +181,5 @@ if (document.readyState === "loading") {
 // =================== Export ===================
 window._menuHotspot = {
   bindElements,
-  showHotspot,
-  toggleMenu
+  showHotspot
 };

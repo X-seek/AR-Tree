@@ -3,25 +3,33 @@ const markersWrap = document.getElementById("markers");
 const list = document.getElementById("markerList");
 
 const markersData = [
-  { id: "banana", title: "แปลงกล้วย", x: 12, y: 25, model: "models/bnn-v1.glb", page: "index.html" },
+  { id: "banana", title: "กล้วย", x: 10, y: 30, model: "models/bnn-v1.glb", page: "index.html" },
+  { id: "banana", title: "กล้วย", x: 13, y: 30, model: "models/bnn-v1.glb", page: "index.html" },
+  { id: "banana", title: "กล้วย", x: 16, y: 30, model: "models/bnn-v1.glb", page: "index.html" },
 
-  { id: "custard-apple", title: "น้อยหน่า", x: 32, y: 25, model: "models/custard-apple-v1.glb", page: "custard-apple.html" },
+  { id: "custard-apple", title: "น้อยหน่า", x: 32, y: 30, model: "models/custard-apple-v1.glb", page: "custard-apple.html" },
 
-  // { id: "fig", title: "มะเดื่อ", x: 78, y: 30, model: "models/fig.glb", page: "fig.html" },
+  { id: "fig", title: "มะเดื่อ", x: 64, y: 30, model: "models/fig.glb", page: "fig.html" },
+  { id: "fig", title: "มะเดื่อ", x: 69, y: 30, model: "models/fig.glb", page: "fig.html" },
 
-  { id: "guava", title: "ฝรั่ง", x: 58, y: 25, model: "models/guava.glb", page: "guava.html" },
-  { id: "guava", title: "ฝรั่ง", x: 80, y: 25, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 58, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 76, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 82, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 88, y: 30, model: "models/guava.glb", page: "guava.html" },
 
-  { id: "lime", title: "มะนาว", x: 20, y: 82, model: "models/lime-v1.glb", page: "lime.html" },
-  { id: "lime", title: "มะนาว", x: 30, y: 82, model: "models/lime-v1.glb", page: "lime.html" },
-  { id: "lime", title: "มะนาว", x: 40, y: 82, model: "models/lime-v1.glb", page: "lime.html" },
+  { id: "lime", title: "มะนาว", x: 89, y: 58, model: "models/lime-v1.glb", page: "lime.html" },
+  { id: "lime", title: "มะนาว", x: 83, y: 58, model: "models/lime-v1.glb", page: "lime.html" },
 
-  // { id: "longan", title: "ลำไย", x: 46, y: 58, model: "models/longan.glb", page: "longan.html" },
-  { id: "mango", title: "มะม่วง", x: 42, y:25, model: "models/mango.glb", page: "mango.html" },
+  { id: "longan", title: "ลำไย", x: 53, y: 58, model: "models/longan.glb", page: "longan.html" },
+  { id: "longan", title: "ลำไย", x: 60, y: 58, model: "models/longan.glb", page: "longan.html" },
+  { id: "longan", title: "ลำไย", x: 65, y: 58, model: "models/longan.glb", page: "longan.html" },
+  { id: "longan", title: "ลำไย", x: 74, y: 58, model: "models/longan.glb", page: "longan.html" },
+  
+  { id: "mango", title: "มะม่วง", x: 42, y:30, model: "models/mango.glb", page: "mango.html" },
 
-  { id: "pomelo", title: "ส้มโอ", x: 23, y: 25, model: "models/pomelo.glb", page: "pomelo.html" },
+  { id: "pomelo", title: "ส้มโอ", x: 23, y: 30, model: "models/pomelo.glb", page: "pomelo.html" },
 
-  { id: "sapodilla", title: "ละมุด", x: 50, y: 25, model: "models/sapodilla.glb", page: "sapodilla.html" }
+  { id: "sapodilla", title: "ละมุด", x: 50, y: 30, model: "models/sapodilla.glb", page: "sapodilla.html" }
 ];
 
 // ✅ สร้าง markers และรายการไม่ซ้ำ
@@ -35,8 +43,8 @@ function createMarkers() {
     el.style.left = m.x + "%";
     el.style.top = m.y + "%";
     el.innerHTML = `
-      <img src="images/tree-icons/${m.id}.png" alt="${m.title}" class="tree-icon">
-      <span class="label">${m.title}</span>`;
+     <img src="images/tree-icons/${m.id}.png" alt="${m.title}" class="tree-icon">
+  <span class="label" data-id="${m.id}">${m.title}</span>`;
     el.addEventListener("click", () => openModal(m));
     markersWrap.appendChild(el);
 
@@ -44,6 +52,7 @@ function createMarkers() {
     if (!addedTitles.has(m.title)) {
       const li = document.createElement("li");
       li.textContent = m.title;
+      li.dataset.id = m.id;
       li.addEventListener("click", () => openModal(m));
       list.appendChild(li);
       addedTitles.add(m.title); // บันทึกว่าชื่อนี้มีแล้ว

@@ -12,7 +12,10 @@
   </head>
 
   <body>
-    <div class="hotspot-menu">
+    <div class="hotspot-menu" id="hotspotMenu">
+      <button class="main-btn" id="mainBtn">
+        <img src="images/logo-menu/main-menu.png" alt="เมนู" />
+      </button>
       <div class="submenu">
         <button onclick="showHotspot('fruit')">
           <img src="images/logo-menu/fruits.png" alt="ผลไม้" />
@@ -38,9 +41,6 @@
           </a>
         </button>
       </div>
-      <button class="main-btn" onclick="toggleMenu()">
-        <img src="images/logo-menu/plus.png" alt="เมนู" />
-      </button>
     </div>
 
     <div id="hotspot-ui" class="hotspot-ui" aria-hidden="true">

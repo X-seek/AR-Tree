@@ -9,27 +9,28 @@ const markersData = [
 
   { id: "custard-apple", title: "น้อยหน่า", x: 32, y: 30, model: "models/custard-apple-v1.glb", page: "custard-apple.html" },
 
-  { id: "fig", title: "มะเดื่อ", x: 64, y: 30, model: "models/fig.glb", page: "fig.html" },
-  { id: "fig", title: "มะเดื่อ", x: 69, y: 30, model: "models/fig.glb", page: "fig.html" },
+  { id: "fig", title: "มะเดื่อ", x: 41, y: 62, model: "models/fig.glb", page: "fig.html" },
+  { id: "fig", title: "มะเดื่อ", x: 44, y: 62, model: "models/fig.glb", page: "fig.html" },
+  { id: "fig", title: "มะเดื่อ", x: 47, y: 62, model: "models/fig.glb", page: "fig.html" },
 
-  { id: "guava", title: "ฝรั่ง", x: 58, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 53, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 57, y: 30, model: "models/guava.glb", page: "guava.html" },
+
   { id: "guava", title: "ฝรั่ง", x: 76, y: 30, model: "models/guava.glb", page: "guava.html" },
-  { id: "guava", title: "ฝรั่ง", x: 82, y: 30, model: "models/guava.glb", page: "guava.html" },
-  { id: "guava", title: "ฝรั่ง", x: 88, y: 30, model: "models/guava.glb", page: "guava.html" },
-
-  { id: "lime", title: "มะนาว", x: 89, y: 58, model: "models/lime-v1.glb", page: "lime.html" },
-  { id: "lime", title: "มะนาว", x: 83, y: 58, model: "models/lime-v1.glb", page: "lime.html" },
-
-  { id: "longan", title: "ลำไย", x: 53, y: 58, model: "models/longan.glb", page: "longan.html" },
-  { id: "longan", title: "ลำไย", x: 60, y: 58, model: "models/longan.glb", page: "longan.html" },
-  { id: "longan", title: "ลำไย", x: 65, y: 58, model: "models/longan.glb", page: "longan.html" },
-  { id: "longan", title: "ลำไย", x: 74, y: 58, model: "models/longan.glb", page: "longan.html" },
+  { id: "guava", title: "ฝรั่ง", x: 81, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 84, y: 30, model: "models/guava.glb", page: "guava.html" },
+  { id: "guava", title: "ฝรั่ง", x: 89, y: 30, model: "models/guava.glb", page: "guava.html" },
   
-  { id: "mango", title: "มะม่วง", x: 42, y:30, model: "models/mango.glb", page: "mango.html" },
+  { id: "lime", title: "มะนาว", x: 41, y:52, model: "models/lime-v1.glb", page: "lime.html" },
+  { id: "lime", title: "มะนาว", x: 47, y:52, model: "models/lime-v1.glb", page: "lime.html" },
+ 
+  { id: "longan", title: "ลำไย", x: 44, y: 30, model: "models/longan.glb", page: "longan.html" },
+  
+  { id: "mango", title: "มะม่วง", x: 39, y:30, model: "models/mango.glb", page: "mango.html" },
 
   { id: "pomelo", title: "ส้มโอ", x: 23, y: 30, model: "models/pomelo.glb", page: "pomelo.html" },
 
-  { id: "sapodilla", title: "ละมุด", x: 50, y: 30, model: "models/sapodilla.glb", page: "sapodilla.html" }
+  { id: "sapodilla", title: "ละมุด", x: 46, y: 30, model: "models/sapodilla.glb", page: "sapodilla.html" }
 ];
 
 // ✅ สร้าง markers และรายการไม่ซ้ำ
@@ -90,7 +91,7 @@ function bindModal() {
 }
 
 // ✅ เพิ่ม zoom/drag ให้ map
-let scale = 1;
+let scale = 5;
 let originX = 0, originY = 0;
 let startX = 0, startY = 0;
 let isDragging = false;

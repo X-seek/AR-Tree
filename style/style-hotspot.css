@@ -22,7 +22,7 @@ model-viewer#viewer {
 /* ================== Hotspot Menu ================== */
 .hotspot-menu {
   position: fixed;
-  top: 20px;
+  top: 100px;
   right: -30px;
   /* โผล่มาครึ่งเดียว */
   display: flex;
@@ -39,8 +39,8 @@ model-viewer#viewer {
 
 /* ปุ่มหลัก */
 .main-btn {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: none;
   background: #388e3c;
@@ -431,20 +431,38 @@ model-viewer#viewer {
 }
 
 /* ================== Responsive ================== */
-@media (max-width: 480px) {
 
-  /* ปรับตำแหน่ง Hotspot menu ให้เหมาะกับมือถือ */
+/* 📱 มือถือ */
+@media (max-width: 600px) {
+
+  .hotspot-menu {
+    margin-top: 30%;
+    right: 5px;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.85);
+  }
+
+  .main-btn {
+    width: 58px;
+    height: 58px;
+  }
+
+  .submenu button {
+    width: 46px;
+    height: 46px;
+  }
+
+  /* Popup */
   .hotspot-ui {
+    display: none;
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.96);
-    display: none;
     justify-content: center;
     align-items: center;
-    z-index: 3000;
     flex-direction: column;
     overflow-y: auto;
-    scrollbar-gutter: stable;
   }
 
   .hotspot-ui.active {
@@ -452,144 +470,64 @@ model-viewer#viewer {
     animation: fadeIn 0.3s ease;
   }
 
-  /* ปุ่มปิด */
   .hotspot-close {
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.6);
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    border-radius: 50%;
+    top: 12px;
+    right: 12px;
     width: 42px;
     height: 42px;
-    cursor: pointer;
-    transition: background 0.25s ease;
-    z-index: 10;
+    font-size: 1.4rem;
   }
 
-  .hotspot-close:hover {
-    background: rgba(255, 255, 255, 0.2);
-  }
-
-  /* ปุ่มเล่นเสียง */
   .hotspot-sound {
-    position: absolute;
-    bottom: 18px;
-    right: 20px;
-    background: #4caf50;
-    border: none;
-    color: #fff;
-    font-size: 30px;
-    border-radius: 30%;
-    width: 300px;
-    height: 50px;
-    cursor: pointer;
-    z-index: 10;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    transition: background 0.25s ease;
+    bottom: 16px;
+    right: 16px;
+    width: 220px;
+    height: 46px;
+    font-size: 1.1rem;
+    border-radius: 12px;
   }
 
-  .hotspot-sound:hover {
-    background: #388e3c;
-  }
-
-  /* ส่วนรูปภาพ */
   .hotspot-image {
     width: 90%;
-    max-width: 500px;
-    height: 60vh;
-    overflow: hidden;
-    border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1a1a1a;
+    max-width: 480px;
+    height: 55vh;
     margin-top: 60px;
+    border-radius: 14px;
+    background: #1a1a1a;
+    overflow: hidden;
   }
 
   .hotspot-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* ✅ ทำให้ภาพทุกภาพเท่ากัน */
-    border-radius: 12px;
   }
 
-  /* ส่วนข้อมูล */
   .hotspot-info {
     width: 90%;
-    max-width: 800px;
     background: rgba(25, 35, 25, 0.9);
-    color: #fff;
     border-radius: 12px;
-    padding: 18px 24px;
-    margin: 20px 0 40px;
+    padding: 16px 20px;
+    margin: 16px 0 40px;
     text-align: left;
+    color: #fff;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
     max-height: 40vh;
     overflow-y: auto;
   }
 
   .hotspot-info h3 {
-    margin: 0 0 10px;
-    font-size: 1.4rem;
-    color: #aefc77;
+    font-size: 1.3rem;
   }
 
   .hotspot-info p {
-    margin: 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: #e6f7d9;
   }
 
-  /* Scrollbar */
-  .hotspot-info::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .hotspot-info::-webkit-scrollbar-thumb {
-    background: #3ba34a;
-    border-radius: 8px;
-  }
-
-  .hotspot-info::-webkit-scrollbar-thumb:hover {
-    background: #56c567;
-  }
-
-  .hotspot-info::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
-  }
-
-  /* Animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: scale(0.98);
-    }
-
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-
-  /* ปุ่ม hotspot */
-  .main-btn {
-    width: 50px;
-    height: 50px;
-  }
-
-  .submenu button {
-    width: 42px;
-    height: 42px;
-  }
-
+  /* Gallery */
   .gallery-grid {
     grid-template-columns: 1fr;
-    /* เหลือ 1 คอลัมน์ */
     gap: 16px;
   }
 
@@ -616,79 +554,10 @@ model-viewer#viewer {
 
   .close-btn.top-right {
     top: 8px;
-    right: 14px;
-    padding: 8px 10px;
-    font-size: 14px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.8);
-    color: #000;
-  }
-
-  .close-btn.top-right {
-    top: 4px;
-    right: 14px;
-    font-size: 13px;
-
-  }
-}
-
-/* 💡 แท็บเล็ต (จอ ≤ 768px) */
-@media (max-width: 768px) {
-
-  .gallery-item {
-    min-height: 20px;
-  }
-
-  .gallery-item model-viewer {
-    width: 100%;
-    height: 260px;
-  }
-
-  .gallery-content {
-    padding: 14px;
-  }
-
-  .hotspot-menu {
-    top: 20px;
-    right: -25px;
-  }
-
-  .hotspot-image {
-    width: 94%;
-    height: 50vh;
-  }
-
-  .hotspot-info {
-    width: 94%;
-    padding: 16px;
-  }
-
-  .hotspot-sound {
-    width: 180px;
-    height: 44px;
-    bottom: 12px;
-    right: 14px;
-    font-size: 1rem;
-  }
-
-  .hotspot-close {
-    width: 38px;
-    height: 38px;
-    font-size: 1.3rem;
-  }
-
-  .close-btn.top-right {
+    right: 12px;
+    padding: 6px 10px;
     font-size: 16px;
-    padding: 8px 14px;
-  }
-
-  .main-btn {
-    width: 70px;
-    height: 70px;
-  }
-
-  .submenu button {
-    width: 56px;
-    height: 56px;
+    border-radius: 8px;
   }
 }
+

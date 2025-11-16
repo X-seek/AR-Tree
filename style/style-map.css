@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: "Kanit", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  background: linear-gradient(180deg, #0b0f0c, #152117);
+  background: linear-gradient(180deg, #474747bb, #4f7c6d);
   color: #e8f6e3;
   min-height: 100vh;
   display: flex;

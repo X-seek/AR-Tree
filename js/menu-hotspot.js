@@ -126,6 +126,8 @@ function showHotspot(key) {
   const treeData = hotspotData[currentPageKey] || hotspotData["banana"];
   const data = treeData && treeData[key];
   
+if (!hotspotAudio.paused) hotspotAudio.pause();
+
   if (!data) {
     hotspotImg.src = "";
     if (hotspotAudio) hotspotAudio.src = "";
@@ -144,20 +146,26 @@ function showHotspot(key) {
 // =================== Handlers ===================
 function handleClose() {
   if (hotspotUI) hotspotUI.classList.remove("active");
+
   if (hotspotAudio) {
     try {
       hotspotAudio.pause();
       hotspotAudio.currentTime = 0;
-    } catch (e) { }
+      playBtn.textContent = "▶";   // รีเซ็ตปุ่มเป็น Play
+    } catch (e) {}
   }
 }
-
 function handlePlay() {
-  if (hotspotAudio && hotspotAudio.src) {
-    hotspotAudio.play().catch(() => { });
+  if (!hotspotAudio || !hotspotAudio.src) return;
+
+  if (hotspotAudio.paused) {
+    hotspotAudio.play().catch(() => {});
+    playBtn.textContent = "⏸";   // กดแล้วเปลี่ยนเป็น pause icon
+  } else {
+    hotspotAudio.pause();
+    playBtn.textContent = "▶";   // กลับเป็นเล่น
   }
 }
-
 
 const menu = document.getElementById("hotspotMenu");
 // --- ใช้คลิก ---
@@ -165,11 +173,6 @@ menu.addEventListener("click", (e) => {
   if (e.target.closest(".submenu")) return;
   menu.classList.toggle("show");
 });
-
-//  --- ถ้าอยากใช้ hover แทน click (เลือกอย่างใดอย่างหนึ่งเท่านั้น) ---
-menu.addEventListener("mouseenter", () => menu.classList.add("show"));
-menu.addEventListener("mouseleave", () => menu.classList.remove("show"));
-
 
 // =================== Init ===================
 if (document.readyState === "loading") {

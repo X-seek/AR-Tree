@@ -237,8 +237,6 @@ model-viewer#viewer {
 }
 
 .hotspot-image img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   /* ทำให้ภาพเต็มพื้นที่และเท่ากันทุกภาพ */
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
@@ -434,14 +432,17 @@ model-viewer#viewer {
 
 /* 📱 มือถือ */
 @media (max-width: 600px) {
-
   .hotspot-menu {
-    margin-top: 30%;
-    right: 5px;
+    right: -30px;
     flex-direction: column;
     align-items: center;
     transform: scale(0.85);
+    transition: right 0.4s ease;
   }
+.hotspot-menu.show {
+  right: 5px;
+  /* โชว์ออกมาทั้งหมด */
+}
 
   .main-btn {
     width: 58px;
@@ -481,7 +482,6 @@ model-viewer#viewer {
   .hotspot-sound {
     bottom: 16px;
     right: 16px;
-    width: 220px;
     height: 46px;
     font-size: 1.1rem;
     border-radius: 12px;

@@ -11,9 +11,9 @@
         open: "เปิดหน้าโมเดล",
         close: "ปิด",
       },
-      items: {
+      modalTitle: {
         banana: "กล้วย",
-        'custard-apple': "น้อยหน่า",
+        "custard-apple": "น้อยหน่า",
         fig: "มะเดื่อ",
         guava: "ฝรั่ง",
         lime: "มะนาว",
@@ -35,13 +35,13 @@
         open: "Open Model Page",
         close: "Close",
       },
-      items: {
+      modalTitle: {
         banana: "Banana",
-        'custard-apple': "Custard Apple",
-        fig: "fig",
+        "custard-apple": "Custard Apple",
+        fig: "Fig",
         guava: "Guava",
         lime: "Lime",
-        longan: "longan",
+        longan: "Longan",
         mango: "Mango",
         pomelo: "Pomelo",
         sapodilla: "Sapodilla",
@@ -54,7 +54,20 @@
   const get = (obj, path) =>
     path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
 
-  // ✅ สร้างปุ่มเปลี่ยนภาษา (ธงชาติ)
+  // ⭐ สลับรูปแผนที่ตามภาษา
+  function updateMapImage(lang) {
+    const img = document.getElementById("farmMap");
+    if (!img) return;
+
+    img.src =
+      lang === "en"
+        ? "images/map/map-en.jpg"
+        : "images/map/map-th.jpg";
+  }
+
+  // ============================
+  //  ปุ่มเปลี่ยนภาษา
+  // ============================
   function initLangToggle() {
     const container = document.getElementById("change-lang-container");
     if (!container) return;
@@ -77,11 +90,17 @@
     });
   }
 
-  // ✅ แปลข้อความในหน้า
+  // ============================
+  //  ฟังก์ชันแปลทั้งหมดในหน้า
+  // ============================
   function translatePage() {
     document.title = get(translations[currentLang], "page.title");
-    document.querySelector("h1").textContent = get(translations[currentLang], "page.title");
-    document.querySelector(".hint").textContent = get(translations[currentLang], "page.hint");
+
+    const h1 = document.querySelector("h1");
+    if (h1) h1.textContent = get(translations[currentLang], "page.title");
+
+    const hint = document.querySelector(".hint");
+    if (hint) hint.textContent = get(translations[currentLang], "page.hint");
 
     const backBtn = document.querySelector(".back-btn");
     if (backBtn) backBtn.textContent = get(translations[currentLang], "ui.back");
@@ -95,27 +114,42 @@
     const closeBtn = document.getElementById("closeBtn");
     if (closeBtn) closeBtn.textContent = get(translations[currentLang], "ui.close");
 
-    // ✅ แปลชื่อในรายการตำแหน่ง
+    // ⭐ แปล modalTitle
+    const modalTitle = document.getElementById("modalTitle");
+    if (modalTitle && modalTitle.dataset.id) {
+      const text = get(translations[currentLang], `modalTitle.${modalTitle.dataset.id}`);
+      if (text) modalTitle.textContent = text;
+    }
+
+    // ⭐ แปลรายการตำแหน่ง (sidebar list)
     const listItems = document.querySelectorAll("#markerList li");
     listItems.forEach((li) => {
       const id = li.dataset.id;
-      const name = get(translations[currentLang], `items.${id}`);
-      if (name) li.textContent = name;
+      const text = get(translations[currentLang], `modalTitle.${id}`);
+      if (text) li.textContent = text;
     });
 
-    // ✅ แปล label บน marker ด้วย
-    const markers = document.querySelectorAll(".marker .label");
-    markers.forEach((label) => {
+    // ⭐ แปล label บน marker
+    const labels = document.querySelectorAll(".marker .label");
+    labels.forEach((label) => {
       const id = label.dataset.id;
-      const name = get(translations[currentLang], `items.${id}`);
-      if (name) label.textContent = name;
+      const text = get(translations[currentLang], `modalTitle.${id}`);
+      if (text) label.textContent = text;
     });
+
+    // ⭐ เปลี่ยนภาพแผนที่
+    updateMapImage(currentLang);
   }
 
+  // ============================
+  //  เปลี่ยนภาษา
+  // ============================
   function setLanguage(lang) {
     if (!translations[lang]) return;
+
     currentLang = lang;
     localStorage.setItem("lang", lang);
+
     translatePage();
   }
 

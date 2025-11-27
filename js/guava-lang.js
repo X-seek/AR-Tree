@@ -116,13 +116,13 @@
         care: {
           title: "Care",
           desc: `<b>Environment :</b> Grows well in warm climates with temperatures not lower than 16°C. Prefers fertile, well-drained sandy loam soil and does not tolerate waterlogging.
-br><br>
+<br><br>
 <b>Planting :</b> The planting bed should be raised with proper drainage channels. Avoid putting fertilizer at the bottom of the hole during the initial planting stage.
-br><br>
+<br><br>
 <b>Watering :</b> Keep the soil consistently moist, especially during flowering and fruit development, to prevent flowers from dropping before fruiting.
-br><br>
+<br><br>
 <b>Pruning :</b> A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
-br><br>
+<br><br>
 <b>Pest Control :</b> The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
         },
       },

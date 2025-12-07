@@ -151,6 +151,7 @@
     localStorage.setItem("lang", lang);
 
     translatePage();
+    window.dispatchEvent(new CustomEvent("language-change", { detail: { lang } }));
   }
 
   window.mapLang = {

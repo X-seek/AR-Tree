@@ -2,6 +2,7 @@
 body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
+     
 }
 
 /* Viewer container (เต็มจอ) */
@@ -39,8 +40,8 @@ model-viewer#viewer {
 
 /* ปุ่มหลัก */
 .main-btn {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: none;
   background: #388e3c;
@@ -130,8 +131,10 @@ model-viewer#viewer {
 
 /* ปุ่มย่อย */
 .submenu button {
-  width: 70px;
-  height: 70px;
+  font-family: 'Kanit', sans-serif;
+   position: relative;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: none;
   background: white;
@@ -140,6 +143,25 @@ model-viewer#viewer {
   align-items: center;
   justify-content: center;
   transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.submenu button::after {
+
+  content: attr(data-alt);
+  position: absolute;
+  right: 60%;
+  top: 40%;
+  transform: translateY(-50%);
+  margin-right: 30px;
+  margin-top: 6px;
+  background: rgba(255, 255, 255, 0.616);
+  color: #000000;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 1;            /* 👈 แสดงตลอด */
 }
 
 .submenu button img {

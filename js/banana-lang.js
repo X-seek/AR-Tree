@@ -191,6 +191,8 @@ Supplement with balanced fertilizer (15-15-15) or potassium-rich formula.  <br><
     localStorage.setItem("lang", lang);
     applyStaticTranslations();
     applyHotspotContent(window.currentHotspotKey);
+    window.dispatchEvent(new CustomEvent("language-change", { detail: { lang } }));
+
   }
 
   function initToggle() {

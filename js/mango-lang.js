@@ -167,6 +167,7 @@ Root reinforcement: Most farmers strengthen the roots to make the tree more resi
     localStorage.setItem("lang", lang);
     applyStaticTranslations();
     applyHotspotContent(window.currentHotspotKey);
+    window.dispatchEvent(new CustomEvent("language-change", { detail: { lang } }));
   }
 
   function initToggle() {

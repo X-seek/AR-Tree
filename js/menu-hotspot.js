@@ -40,7 +40,40 @@ const pageKeyMap = {
 };
 const currentPageKey = pageKeyMap[currentPage] || "banana";
 
-// =================== Hotspot Data (ตัวอย่างเต็ม) ===================
+const hotspotTranslations = {
+  th: {
+    fruit: "ผลไม้",
+    leaf: "ใบไม้",
+    trunk: "ลำต้น",
+    root: "ราก",
+    care: "ดูแล",
+    gallery: "โมเดลอื่นๆ",
+    map: "แผนที่"
+  },
+  en: {
+    fruit: "Fruits",
+    leaf: "Leaves",
+    trunk: "Trunk",
+    root: "Roots",
+    care: "Care",
+    gallery: "More Models",
+    map: "Map"
+  }
+};
+
+// อัปเดตชื่อปุ่มเมนู (เขียนลง data-alt)
+function updateHotspotMenuLang(lang) {
+  document.querySelectorAll(".submenu button").forEach(btn => {
+    const key = btn.dataset.key;
+    if (!key) return;
+
+    const text = hotspotTranslations[lang][key];
+    if (text) {
+      btn.setAttribute("data-alt", text);
+    }
+  });
+}
+
 // เพิ่ม audio ภาษาไทย/อังกฤษสำหรับทุกต้นไม้
 const hotspotData = {
   banana: {
@@ -113,7 +146,6 @@ const hotspotData = {
     root: { img: "images/hotspot/sapodilla/root.png", audio: { th: "audio/th/sapodilla/root_th.mp3", en: "audio/eng/sapodilla/root_en.mp3" } },
     care: { img: "images/logo-menu/planting.png", audio: { th: "audio/th/sapodilla/care_th.mp3", en: "audio/eng/sapodilla/care_en.mp3" } },
   },
-  // เพิ่มต้นไม้อื่น ๆ ในรูปแบบเดียวกัน...
 };
 
 // =================== Show Hotspot ===================
@@ -167,6 +199,7 @@ function handlePlay() {
   }
 }
 
+// =================== Menu toggle ===================
 const menu = document.getElementById("hotspotMenu");
 // --- ใช้คลิก ---
 menu.addEventListener("click", (e) => {
@@ -176,10 +209,23 @@ menu.addEventListener("click", (e) => {
 
 // =================== Init ===================
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", bindElements);
+  document.addEventListener("DOMContentLoaded", () => {
+    bindElements();
+
+    // โหลดภาษาเริ่มต้นตอนเปิดหน้า
+    const lang = localStorage.getItem("lang") || "th";
+    updateHotspotMenuLang(lang);
+  });
 } else {
   bindElements();
+  const lang = localStorage.getItem("lang") || "th";
+  updateHotspotMenuLang(lang);
 }
+
+// =================== รับ Event จากระบบแปลภาษา ===================
+window.addEventListener("language-change", (e) => {
+  updateHotspotMenuLang(e.detail.lang);
+});
 
 // =================== Export ===================
 window._menuHotspot = {

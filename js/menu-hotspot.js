@@ -42,12 +42,12 @@ const currentPageKey = pageKeyMap[currentPage] || "banana";
 
 const hotspotTranslations = {
   th: {
-    fruit: "ผลไม้",
-    leaf: "ใบไม้",
+    fruit: "ผล",
+    leaf: "ใบ",
     trunk: "ลำต้น",
     root: "ราก",
-    care: "ดูแล",
-    gallery: "โมเดลอื่นๆ",
+    care: "การดูแล",
+    gallery: "โมเดลอื่น ๆ",
     map: "แผนที่"
   },
   en: {

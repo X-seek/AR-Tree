@@ -2,15 +2,20 @@
   const translations = {
     th: {
       page: { title: "น้อยหน่า" },
-      ui: { play: "▶ ", close: "✖" },
+      ui: { play: "▶", close: "✖" },
+      reference: { label: "อ้างอิง :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ
-<br><br>
-<b>ประโยชน์ลำต้น/เปลือก :</b> เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด<br><br>
-			     <b>เนื้อไม้ :</b> มีสีเหลือง (จากสาร โมริน) สามารถใช้ย้อมผ้าไหมได้`,
+          desc: `เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ<br><br>
+          <b>ประโยชน์ลำต้น/เปลือก :</b> เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด<br><br>
+			     <b>เนื้อไม้ :</b> มีสีเหลืองจากสาร โมริน สามารถใช้ย้อมผ้าไหมได้`,
+            reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
+
         leaf: {
           title: "ใบ",
           desc: `ใบเดี่ยว เรียงสลับ รูปรี ปลายและโคนใบแหลม สีเขียว หากบดใบจะมีกลิ่นหอม<br>
@@ -20,6 +25,10 @@
 			<li>ลดน้ำตาล : ใบน้อยหน่าสามารถนำมาชงดื่มเพื่อช่วยลดน้ำตาลในเลือด ลดไขมันในเส้นเลือด และลดความดันโลหิต</li>
 </ul>
 <b>ข้อควรระวัง :</b> เมล็ดมีสารแอนโนนาซีและนีโออันโนนิน ซึ่งมีความเป็นพิษสูง ดังนั้นจึงห้ามรับประทาน`,
+ reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         fruit: {
           title: "ผล",
@@ -31,13 +40,21 @@
 
 <b>สรรพคุณ :</b> อุดมไปด้วยสารต้านอนุมูลอิสระ, ลูทีน ช่วยบำรุงสายตาและลดความเสี่ยงจอประสาทตาเสื่อมได้, มีใยอาหารช่วยในเรื่องระบบย่อยอาหาร
  ใช้รักษาแผลไฟไหม้ อักเสบ แผลน้ำร้อนลวก, แก้เป็นฝีในลำคอ<br><br>
+ 
 <b>ข้อควรระวัง :</b> เหมาะสำหรับผู้ที่กำลังลดน้ำหนักเพราะมีไขมันต่ำหาก ผู้ป่วยเป็นโรคเบาหวานควรบริโภคอย่างระมัดระวัง เนื่องจากมีปริมาณน้ำตาลที่สูง`,
+ reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         root: {
           title: "ราก",
-          desc: `เป็นระบบรากแก้ว<br><br>
-<b>สรรพคุณ :</b> เป็นยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้
-`,
+          desc: `เป็นระบบรากกว้างขวาง (รากแก้ว)<br><br>
+<b>สรรพคุณ :</b> เป็นยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้`,
+ reference: `
+      <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         care: {
           title: "การดูแล",
@@ -50,8 +67,11 @@
 
 <b>การตัดแต่งกิ่ง :</b> เทคนิคสำคัญในการบังคับให้ออกดอกและติดผล ควรตัดแต่งกิ่งเพื่อกระตุ้นผลผลิตหลังเก็บเกี่ยวเสร็จแล้ว<br><br>
 
-<b>การป้องกัน :</b> เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มีไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก
-`,
+<b>การป้องกัน :</b> เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มีไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก`,
+ reference: `
+      <a href="https://www.picturethisai.com/th/care/Annona_squamosa.html#:~:text=%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%2C%20%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%83%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B5%20%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B9%88%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9C%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%A5.,%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%96%E0%B8%B2%E0%B8%87%20%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B8%B7%E0%B8%8A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%9A%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%A2%20%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A9" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
       },
       gallery: {
@@ -74,6 +94,7 @@
     en: {
       page: { title: "Custard Apple" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
@@ -82,6 +103,10 @@
 
 <b>Uses (Trunk/Bark) :</b> The bark is used as an astringent medicine for treating diarrhea, intestinal inflammation, and gum disease.
 The wood contains a yellow pigment (Morin) that can be used for dyeing silk.`,
+          reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+          Click to see references.
+          </a>`
         },
         leaf: {
           title: "Leaf",
@@ -93,6 +118,10 @@ Medicinal Properties :
 <li>Blood Sugar Control: Dried or boiled leaves can be made into tea to help reduce blood sugar, blood fat, and blood pressure.</li>
 </ul>
 <b>Caution :</b> The seeds contain toxic alkaloids (annonaine and neoannonin) and must not be eaten.`,
+ reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+          Click to see references.
+          </a>`
         },
         fruit: {
           title: "Fruit",
@@ -107,12 +136,20 @@ Health Benefits :
 <li> Traditional uses: Treats burns, inflammation, and throat abscesses.</li>
 </ul>
 <b>Caution :</b> Though low in fat and suitable for weight control, the fruit contains a high amount of sugar — diabetics should consume in moderation.`,
+ reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
+          Click to see references.
+          </a>`
         },
         root: {
           title: "Root",
           desc: `Root System: Deep taproot system with spreading roots.<br><br>
 
 <b>Medicinal Uses :</b> Acts as a mild laxative (in small amounts), detoxifies the body, relieves poisoning, and can be used as an antidote for snake venom.`,
+ reference: `
+          <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">
+          Click to see references.
+          </a>`
         },
         care: {
           title: "Care",
@@ -125,6 +162,10 @@ Health Benefits :
 <b>Pruning :</b> Essential for inducing flowering and fruiting. Prune branches after harvest to encourage new growth and improve fruit production.<br><br>
 
 <b>Protection :</b> Since the branches are brittle, plant in areas protected from strong winds to prevent breakage.`,
+ reference: `
+          <a href="https://www.picturethisai.com/th/care/Annona_squamosa.html#:~:text=%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%2C%20%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%83%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B5%20%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B9%88%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9C%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%A5.,%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%96%E0%B8%B2%E0%B8%87%20%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B8%B7%E0%B8%8A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%9A%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%A2%20%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A9" target="_blank">
+          Click to see references.
+          </a>`
         },
       },
       gallery: {
@@ -166,11 +207,11 @@ Health Benefits :
 
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
-    const img = document.getElementById("hotspot-img");
+    const ref = document.getElementById("hotspot-reference");
 
-    if (title) title.textContent = data.title;
-    if (desc) desc.innerHTML = data.desc;
-    if (img) img.alt = data.title;
+    if (title && data.title) title.textContent = data.title;
+    if (desc && data.desc) desc.innerHTML = data.desc;
+    if (ref && data.reference) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {

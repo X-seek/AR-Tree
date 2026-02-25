@@ -3,45 +3,60 @@
     th: {
       page: { title: "มะนาว" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "อ้างอิง :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `<b>ลักษณะลำต้น :</b> เป็นไม้พุ่ม มีเปลือกเรียบสีน้ำตาลปนเทา กิ่งอ่อน มีหนามแหลม<br><br>
-<b>สรรพคุณเปลือก/ดอก :</b> ดอกและเปลือกมีส่วนช่วยแก้อาการท้องอืด ท้องเฟ้อ และปวดท้อง
-`,
+          desc: `เป็นไม้พุ่ม มีเปลือกเรียบสีน้ำตาลปนเทา กิ่งอ่อน มีหนามแหลม<br><br>
+
+<b>สรรพคุณ :</b> ดอกและเปลือกมีส่วนช่วยแก้อาการท้องอืด ท้องเฟ้อ และปวดท้อง`,
+reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `<b>ลักษณะใบ :</b> เป็นใบประกอบมีใบย่อยใบเดียวรูปไข่หรือรีปลายแหลมโคนมน ขอบใบหยักและมีต่อมน้ำมันกระจายอยู่ทั่วผิวใบ<br><br>
-<b>สรรพคุณ :</b> ในตำรับยาไทยสามารถใช้ใบเพื่อฟอกโลหิตและแก้ตับทรุดได้
-`,
+          desc: `เป็นใบประกอบมีใบย่อยใบเดียวรูปไข่หรือรีปลายแหลมโคนมน ขอบใบหยักและมีต่อมน้ำมันกระจายอยู่ทั่วผิวใบ<br><br>
+
+<b>สรรพคุณ :</b> ในตำรับยาไทยสามารถใช้ใบเพื่อฟอกโลหิตและแก้ตับทรุดได้`,
+reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         fruit: {
           title: "ผล",
-          desc: `<b>รูปร่างและขนาด :</b> มีทรงกลมแป้น ขนาดใหญ่ ผิวเกลี้ยง<br><br>
+          desc: `มีทรงกลมแป้น ขนาดใหญ่ ผิวเกลี้ยง<br><br>
 
 <b>เปลือก :</b> มีจุดเด่นคือ เปลือกบางเฉียบ และมีกลิ่นหอม<br><br>
 
 <b>น้ำและรสชาติ :</b> มีปริมาณน้ำที่เยอะมาก มีรสชาติ เปรี้ยวจัด เนื้อสีเขียว<br><br>
 
-<b>เมล็ด :</b> มีเมล็ดทรงรีสีขาว แต่มี จำนวนเมล็ดน้อย<br><br>
+<b>เมล็ด :</b> มีเมล็ดทรงรีสีขาว แต่มีจำนวนเมล็ดน้อย<br><br>
 
-<b>สรรพคุณ :</b> มีวิตามิน C สูง มาก ช่วย รักษาโรคลักปิดลักเปิด (เลือดออกตามไรฟัน), ช่วยขับเสมหะ, และแก้อาการท้องอืด<br><br>
+<b>สรรพคุณ :</b> มีวิตามิน C สูงมาก ช่วยรักษาโรคลักปิดลักเปิด (เลือดออกตามไรฟัน) ช่วยขับเสมหะ และแก้อาการท้องอืด<br><br>
 
-<b>การติดผล :</b> เป็นพันธุ์ที่ ติดผลดก และให้ผลผลิตสม่ำเสมอ
-`,
+<b>การติดผล :</b> เป็นพันธุ์ที่ติดผลดก และให้ผลผลิตสม่ำเสมอ`,
+reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
 
         root: {
           title: "ราก",
-          desc: `<b>ลักษณะราก :</b> รากหลักเป็นรากแก้ว มีรากแขนงและรากฝอยแผ่ขยายใน แนวนอน มากกว่าแนวดิ่ง<br><br>
+          desc: `รากหลักเป็นรากแก้ว มีรากแขนงและรากฝอยแผ่ขยายในแนวนอนมากกว่าแนวดิ่ง<br><br>
 
 <b>ความลึกของราก :</b> รากที่ดูดซึมอาหารส่วนใหญ่อยู่ในระดับความลึกประมาณ 30–60 ซม. ใต้ผิวดิน<br><br>
 
-<b>ข้อจำกัดของราก :</b> รากไม่ทนต่อน้ำขัง และมีความเสี่ยงสูงต่อโรค รากเน่าโคนเน่า และ ไส้เดือนฝอย หากดินระบายน้ำไม่ดี<br><br>
+<b>ข้อจำกัดของราก :</b> ไม่ทนต่อน้ำขัง และมีความเสี่ยงสูงต่อโรค รากเน่าโคนเน่า และไส้เดือนฝอย หากดินระบายน้ำไม่ดี<br><br>
 
-<b>เทคนิคการปลูก :</b> ควร จัดราก ให้แผ่ออกด้านข้างขณะปลูก เพื่อให้รากหากินอาหารได้ง่าย และนิยมปลูกใน บ่อซีเมนต์ เพื่อช่วยควบคุมการระบายน้ำ
-`,
+<b>เทคนิคการปลูก :</b> ควร จัดราก ให้แผ่ออกด้านข้างขณะปลูก เพื่อให้รากหากินอาหารได้ง่าย และนิยมปลูกใน บ่อซีเมนต์ เพื่อช่วยควบคุมการระบายน้ำ`,
+reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         care: {
           title: "การดูแล",
@@ -51,8 +66,11 @@
 
 <b>น้ำ :</b> รดน้ำสม่ำเสมอ (วันละ 1 ครั้ง ในช่วงแรก) ห้ามปล่อยให้น้ำขังเด็ดขาด ควรคลุมโคนต้นเพื่อรักษาความชื้น<br><br>
 
-<b>การใส่ปุ๋ย :</b> เมื่อต้นมะนาวมีอายุ 8 เดือน - 1 ปี ควรใช้ปุ๋ยสูตร สะสมตาดอก เช่น 8–24–24 หรือ 12-24-12 เพื่อกระตุ้นการออกดอก
-`,
+<b>การใส่ปุ๋ย :</b> เมื่อต้นมะนาวมีอายุ 8 เดือน - 1 ปี ควรใช้ปุ๋ยสูตร สะสมตาดอก เช่น 8–24–24 หรือ 12-24-12 เพื่อกระตุ้นการออกดอก`,
+reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
       },
       gallery: {
@@ -75,18 +93,27 @@
     en: {
       page: { title: "Lime" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
           desc: `<b>Trunk Characteristics :</b> A shrub with smooth bark in brownish-gray color. The young branches have sharp thorns.<br><br>
 
 <b>Medicinal Properties of the Bark/Flowers :</b> Both the flowers and bark help relieve bloating, flatulence, and stomach pain.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%a1%e0%b8%b0%e0%b8%99%e0%b8%b2%e0%b8%a7/" target="_blank">
+          Click to see references.
+          </a>`
         },
         leaf: {
           title: "Leaf",
           desc: `<b>Leaf Characteristics :</b> A compound leaf with a single leaflet that is oval or oblong in shape, tapering at the tip and rounded at the base. The edges are serrated, and oil glands are scattered across the leaf surface.
 <br><br>
 <b>Medicinal Properties of the Leaf :</b> In traditional Thai medicine, the leaves are used to purify the blood and treat liver weakness.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%a1%e0%b8%b0%e0%b8%99%e0%b8%b2%e0%b8%a7/" target="_blank">
+          Click to see references.
+          </a>`
         },
         fruit: {
           title: "Fruit",
@@ -101,6 +128,10 @@
 <b>Key Benefits :</b> Extremely rich in vitamin C, helps prevent scurvy (bleeding gums), relieves phlegm, and eases bloating.<br><br>
 
 <b>Fruit Bearing :</b> This variety produces abundant and consistent yields.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%a1%e0%b8%b0%e0%b8%99%e0%b8%b2%e0%b8%a7/" target="_blank">
+          Click to see references.
+          </a>`
         },
        
         root: {
@@ -112,6 +143,10 @@
 <b>Root Limitations :</b> The roots are not tolerant of waterlogging and are highly susceptible to root rot, collar rot, and nematode infestations if the soil has poor drainage.<br><br>
 
 <b>Planting Technique :</b> The roots should be spread outward during planting to help them absorb nutrients more easily. It’s also common to grow the plant in a cement pot to better control water drainage.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+          Click to see references.
+          </a>`
         },
         care: {
           title: "Care",
@@ -122,6 +157,10 @@
 <b>Watering :</b> Water regularly (once a day at first). Do not let water accumulate. Mulch around the base to keep moisture.<br><br>
 
 <b>Fertilizing :</b> When the lime tree is 8 months–1 year old, use a flowering fertilizer like 8–24–24 or 12–24–12 to stimulate flowering.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">
+          Click to see references.
+          </a>`
         },
       },
       gallery: {
@@ -163,11 +202,11 @@
 
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
-    const img = document.getElementById("hotspot-img");
+    const ref = document.getElementById("hotspot-reference");
 
-    if (title) title.textContent = data.title;
-    if (desc) desc.innerHTML = data.desc;
-    if (img) img.alt = data.title;
+    if (title && data.title) title.textContent = data.title;
+    if (desc && data.desc) desc.innerHTML = data.desc;
+    if (ref && data.reference) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {

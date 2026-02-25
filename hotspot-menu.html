@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
@@ -25,7 +25,11 @@
           <img src="images/logo-menu/leaf.png" alt="ใบ" />
         </button>
 
-        <button onclick="showHotspot('trunk')" data-key="trunk" data-alt="ลำต้น">
+        <button
+          onclick="showHotspot('trunk')"
+          data-key="trunk"
+          data-alt="ลำต้น"
+        >
           <img src="images/logo-menu/trunk.png" alt="ลำต้น" />
         </button>
 
@@ -33,11 +37,19 @@
           <img src="images/logo-menu/root.png" alt="ราก" />
         </button>
 
-        <button onclick="showHotspot('care')" data-key="care" data-alt="ดูแล">
-          <img src="images/logo-menu/planting.png" alt="ดูแล" />
+        <button
+          onclick="showHotspot('care')"
+          data-key="care"
+          data-alt="การดูแล"
+        >
+          <img src="images/logo-menu/planting.png" alt="การดูแล" />
         </button>
 
-        <button onclick="openModelGallery()" data-key="gallery" data-alt="โมเดลอื่น ๆ">
+        <button
+          onclick="openModelGallery()"
+          data-key="gallery"
+          data-alt="โมเดลอื่น ๆ"
+        >
           <img src="images/logo-menu/forest.png" alt="โมเดลอื่น ๆ" />
         </button>
 
@@ -69,9 +81,14 @@
       <div class="hotspot-info">
         <h3 id="hotspot-title"></h3>
         <p id="hotspot-desc"></p>
+        <!-- อ้างอิง -->
+        <p class="reference">
+          <span data-i18n="reference.label">Reference :</span>
+          <span id="hotspot-reference"></span>
+        </p>
       </div>
 
-      <!-- Audio element -->
+      <!-- ปุ่มเล่นเสียงบรรยาย -->
       <audio id="hotspot-audio" src=""></audio>
     </div>
 

@@ -3,12 +3,16 @@
     th: {
       page: { title: "ฝรั่ง" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "อ้างอิง :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
           desc: `เป้นต้นไม้ขนาดกลาง สูงประมาณ 3-5 เมตร ผิวเปลือกต้นเรียบเกลี้ยง กิ่งอ่อนเป็นสี่เหลี่ยม<br><br>
-<b>สรรพคุณ :</b> เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ
-`,
+<b>สรรพคุณ :</b> เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ`,
+ reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         leaf: {
           title: "ใบ",
@@ -19,9 +23,11 @@
 <li><b>แก้ท้องเสีย/ท้องร่วง: โดยการนำใบสดหรือใบเพสลาดมาต้ม หรือเคี้ยวสดได้ เพื่อรักษาอาการท้องเดิน/ท้องร่วง (ที่ไม่ใช่บิดหรืออหิวาตกโรค)</b></li>
 <li><b>ภายนอก :</b> ใช้ใบสดตำพอก ห้ามเลือด ใส่แผลสด ดูดหนอง แก้แผลพุพอง และช่วยดับกลิ่นปาก (เคี้ยวใบ 2-3 ใบ)</li>
 <li>b>ช่องปาก :</b> บรรเทาอาการปวดฟัน และเหงือกบวม</li>
-		
-		<
-    </ul>`,
+</ul>`,
+ reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         fruit: {
           title: "ผล",
@@ -35,13 +41,20 @@
 <li><b>สุขภาพด้านหัวใจ :</b> สารแทนนินช่วย ลดไขมันในเส้นเลือด และลดความเสี่ยงโรคหัวใจ ความดันเป็นต้น</li>
 <li><b>ด้านการลดน้ำหนักและระบบย่อยอาหาร :</b> แคลอรี่ต่ำ ไฟเบอร์สูง ทำให้อิ่มนาน และช่วยบำรุงระบบทางเดินอาหารได้</li>
 </ul>`,
+ reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
       
         root: {
           title: "ราก",
           desc: `<b>ระบบราก :</b> มีการแผ่ขยาย (ต้องให้พื้นที่ปลูกกว้างพอ) รากส่วนใหญ่หากินอยู่บริเวณผิวดิน<br><br>
-<b>สรรพคุณ :</b> ใช้แก้น้ำเหลืองเสียเป็นฝี แผลพุพอง และแก้เลือดกำเดาไหลได้
-`,
+<b>สรรพคุณ :</b> ใช้แก้น้ำเหลืองเสียเป็นฝี แผลพุพอง และแก้เลือดกำเดาไหลได้`,
+ reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         care: {
           title: "การดูแล",
@@ -53,8 +66,11 @@
 
 <b>การตัดแต่งกิ่ง :</b> เป็นหัวใจสำคัญในการกระตุ้นการออกผล โดยควร ตัดแต่งกิ่งให้โปร่ง และ เด็ดยอด ทุกความยาว 30-50 ซม. เพื่อให้กิ่งใหม่ออกมาติดผล<br><br>
 
-<b>การป้องกันศัตรูพืช :</b> ศัตรูสำคัญคือ แมลงวันผลไม้ ซึ่งป้องกันได้โดยการ ห่อผล ตั้งแต่ผิวผลยังแข็งและสีเขียว<br><br>
-`,
+<b>การป้องกันศัตรูพืช :</b> ศัตรูสำคัญคือ แมลงวันผลไม้ ซึ่งป้องกันได้โดยการ ห่อผล ตั้งแต่ผิวผลยังแข็งและสีเขียว<br><br>`,
+ reference: `
+      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
       },
       gallery: {
@@ -77,12 +93,17 @@
     en: {
       page: { title: "Guava" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
           desc: `<b>Trunk Characteristics :</b> A medium-sized tree, about 3–5 meters tall. The bark is smooth, and the young branches are square-shaped.<br><br>
 
 <b>Medicinal Properties of the Bark :</b> Fresh bark can be boiled in water and used to wash areas with rashes or itching. It can also be boiled and consumed to relieve intestinal inflammation.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+          Click to see references.
+          </a>`
         },
         leaf: {
           title: "Leaf",
@@ -95,6 +116,10 @@
 <b>External use :</b> Crushed fresh leaves can be applied to stop bleeding, treat fresh wounds, draw out pus, heal blisters, and reduce bad breath (by chewing 2–3 leaves).
 <br><br>
 <b>Oral health :</b> Helps relieve toothache and swollen gums.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+          Click to see references.
+          </a>`
         },
         fruit: {
           title: "Fruit",
@@ -109,12 +134,20 @@
 <b>Heart health :</b> Tannins help reduce blood fat and lower the risk of heart disease and high blood pressure.
 <br><br>
 <b>Weight control & digestion :</b> Low in calories and high in fiber, which helps you feel full longer and supports a healthy digestive system.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+          Click to see references.
+          </a>`
         },
         root: {
           title: "Root",
           desc: `<b>Root System :</b> The roots spread widely (requiring enough space for planting), with most roots growing near the soil surface.
 <br><br>
 <b>Medicinal Properties of the Roots :</b> Used to treat impure blood conditions that cause abscesses or skin blisters, and to help stop nosebleeds.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+          Click to see references.
+          </a>`
         },
         care: {
           title: "Care",
@@ -127,6 +160,10 @@
 <b>Pruning :</b> A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
 <br><br>
 <b>Pest Control :</b> The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
+reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
+          Click to see references.
+          </a>`
         },
       },
       gallery: {
@@ -168,11 +205,11 @@
 
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
-    const img = document.getElementById("hotspot-img");
+    const ref = document.getElementById("hotspot-reference");
 
-    if (title) title.textContent = data.title;
-    if (desc) desc.innerHTML = data.desc;
-    if (img) img.alt = data.title;
+    if (title && data.title) title.textContent = data.title;
+    if (desc && data.desc) desc.innerHTML = data.desc;
+    if (ref && data.reference) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {

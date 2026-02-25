@@ -3,38 +3,52 @@
     th: {
       page: { title: "มะเดื่อ" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "อ้างอิง :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
           desc: `มีสีเทาเรียบ มีน้ำยางสีขาวอยู่ทุกส่วนของต้นและผล<br><br>
-
-<b>สรรพคุณ :</b> เปลือกและลำต้นสามารถนำมาต้มน้ำดื่มเพื่อแก้ปวดท้อง บรรเทาอาการโรคบิดและแก้อาการปวดเมื่อยตามร่างกายได้`,
+          <b>สรรพคุณ :</b> เปลือกและลำต้นสามารถนำมาต้มน้ำดื่มเพื่อแก้ปวดท้อง บรรเทาอาการโรคบิดและแก้อาการปวดเมื่อยตามร่างกายได้`,
+          reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `<b>ลักษณะใบ :</b> ใบมีขนาดใหญ่ หยักลึก เป็นแฉก (คล้ายนิ้วมือ) ประมาณ 3-5 แฉก ผิวใบหยาบ มีสีเขียวเข้ม<br><br>
-
-<b>สรรพคุณ :</b> ใบมะเดื่อฝรั่งมักนิยมนำมาทำชา ซึ่งมีสรรพคุณช่วยลดระดับน้ำตาลในเลือดได้, ลดไตรกลีเซอไรด์, ลดความดันโลหิต`,
+          desc: `มีขนาดใหญ่ หยักลึก เป็นแฉก (คล้ายนิ้วมือ) ประมาณ 3-5 แฉก ผิวใบหยาบ มีสีเขียวเข้ม<br><br>
+          <b>สรรพคุณ : </b>ใบมะเดื่อฝรั่งมักนิยมนำมาทำชา ซึ่งมีสรรพคุณช่วยลดระดับน้ำตาลในเลือดได้ ลดไตรกลีเซอไรด์ ลดความดันโลหิต<br><br>`,
+          reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         fruit: {
           title: "ผล",
           desc: `มะเดื่อเป็นผลไม้ที่มีรสหวานนุ่ม มีเมล็ดเล็กจำนวนมาก อุดมไปด้วยใยอาหาร วิตามิน และแร่ธาตุที่ช่วยบำรุงร่างกาย
 นิยมรับประทานสดหรือแปรรูป ช่วยเรื่องระบบขับถ่ายและส่งเสริมสุขภาพหัวใจ
 
-<b>คุณค่าทางโภชนาการ :</b> เป็นผลไม้ที่มี ไฟเบอร์ (ใยอาหาร) สูง และมีแร่ธาตุสำคัญ เช่น แคลเซียมสูงธาตุเหล็ก และ โฟเลต<br><br>
+<b>คุณค่าทางโภชนาการ :</b> เป็นผลไม้ที่มี ไฟเบอร์ (ใยอาหาร) สูง และมีแร่ธาตุสำคัญ เช่น แคลเซียมสูงธาตุเหล็ก และวิตามินบี 9 (โฟเลต)<br><br>
 <ul><b>สรรพคุณ :</b> 
 <li>ระบบขับถ่ายเป็นยาระบายอ่อนๆ ช่วย บรรเทาและป้องกันอาการท้องผูก ได้ดีเยี่ยม เพราะมีใยอาหารสูงมาก</li>
 <li><b>ด้านร่างกาย :</b> ช่วยควบคุมระดับน้ำตาลในเลือด จึงเหมาะกับผู้ป่วยเบาหวาน (แต่ควรระวัง/ปรึกษาแพทย์), ช่วย ลดความดันโลหิตสูง และ ลดไขมันในเลือด</li>
 <li><b>ด้านกระดูกและหัวใจ </b>: ช่วยบำรุงกระดูกและฟัน ช่วยป้องกันโรคกระดูกพรุน และมีส่วนช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้</li>
 <li><b>ข้อควรระวัง :</b> ผู้ป่วยเบาหวานต้องเฝ้าระวังระดับน้ำตาลในเลือดเมื่อบริโภค เนื่องจากอาจทำให้ระดับน้ำตาลลดต่ำลง</li>
 </ul>`,
+reference: `
+      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         root: {
           title: "ราก",
-          desc: `ระบบรากของมะเดื่อฝรั่งชอบความชื้น แต่ไม่ทนต่อการมีน้ำขัง ซึ่งอาจทำให้เกิดโรครากเน่าได้ง่าย<br><br>
-
+          desc: `มะเดื่อฝรั่งชอบความชื้น แต่ไม่ทนต่อการมีน้ำขัง ซึ่งอาจทำให้เกิดโรครากเน่าได้ง่าย<br><br>
 <b>การเสริมราก :</b> ในไทยนิยมเสริมรากด้วยตอมะเดื่ออุทุมพร (มะเดื่อไทย) เนื่องจากรากอุทุมพรมีความแข็งแรง ทนทานต่อโรค และช่วยให้ต้นมะเดื่อฝรั่งเจริญเติบโตได้ดี ให้ผลดกกว่าการใช้รากเดิม<br><br>
 <b>ศัตรูที่ราก :</b> ควรระวังไส้เดือนฝอย ซึ่งเป็นศัตรูที่เข้าทำลายระบบรากของมะเดื่อฝรั่งได้`,
+reference: `
+      <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%ab%e0%b8%ad%e0%b8%a1/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
         care: {
           title: "การดูแล",
@@ -47,6 +61,10 @@
 <b>การตัดแต่งกิ่ง :</b> เป็นเทคนิคสำคัญในการทำให้ต้นออกลูกดกตลอดปี โดยควรตัดแต่งกิ่งเพื่อให้เกิดกิ่งใหม่และกระตุ้นการออกผลอย่างต่อเนื่อง<br><br>
 
 <b>ศัตรูพืชที่ควรระวังโรค :</b> ราสนิม และโรคใบจุด มักพบในฤดูฝนเนื่องจากความชื้นสูง และควรระวังหนอนเจาะทำลายใบและผล`,
+reference: `
+      <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#:~:text=%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3,%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง
+      </a>`
         },
       },
       gallery: {
@@ -69,18 +87,27 @@
     en: {
       page: { title: "Fig" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
           desc: `<b>Trunk and Branches :</b> The bark is smooth and gray with white latex present in all parts of the plant, including the fruit.<br><br>
 
 <b>Medicinal Properties :</b> The bark and trunk can be boiled and consumed to relieve stomach pain, dysentery, and general body aches.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+          Click to see references.
+          </a>`
         },
         leaf: {
           title: "Leaf",
           desc: `<b>Leaf Characteristics :</b> Large leaves with 3–5 deep lobes (finger-like shape), rough texture, and dark green color.<br><br>
 
 <b>Medicinal Use (Tea) :</b> Fig leaves are commonly used to make tea, which helps lower blood sugar, reduce triglycerides, and decrease blood pressure.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+          Click to see references.
+          </a>`
         },
         fruit: {
           title: "Fruit",
@@ -93,6 +120,10 @@
 <b>Bone and Heart Health :</b> Strengthens bones and teeth, helps prevent osteoporosis, and may reduce the risk of heart disease and stroke.<br><br>
 
 <b>Caution :</b> People with diabetes should monitor their blood sugar levels, as overconsumption may cause blood sugar to drop too low.`,
+reference: `
+          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
+          Click to see references.
+          </a>`
         },
         root: {
           title: "Root",
@@ -101,6 +132,10 @@
 <b>Root Grafting :</b> In Thailand, figs are often grafted onto “Ma Duea Uthumporn” (native fig) rootstock because it is stronger, more disease-resistant, and improves yield.<br><br>
 
 <b>Root Pests :</b> Beware of nematodes, which can attack and damage the root system.`,
+reference: `
+          <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%ab%e0%b8%ad%e0%b8%a1/" target="_blank">
+          Click to see references.
+          </a>`
         },
         care: {
           title: "Care",
@@ -113,6 +148,10 @@
 <b>Pruning :</b> Regular pruning is key to encouraging continuous fruiting throughout the year by stimulating new branch growth.
 <br><br>
 <b>Pests and Diseases :</b> Watch for rust fungus and leaf spot during the rainy season, and protect against caterpillars that damage leaves and fruits.`,
+reference: `
+          <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#:~:text=%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3,%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A" target="_blank">
+          Click to see references.
+          </a>`
         },
       },
       gallery: {
@@ -154,11 +193,11 @@
 
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
-    const img = document.getElementById("hotspot-img");
+   const ref = document.getElementById("hotspot-reference");
 
-    if (title) title.textContent = data.title;
-    if (desc) desc.innerHTML = data.desc;
-    if (img) img.alt = data.title;
+    if (title && data.title) title.textContent = data.title;
+    if (desc && data.desc) desc.innerHTML = data.desc;
+    if (ref && data.reference) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {

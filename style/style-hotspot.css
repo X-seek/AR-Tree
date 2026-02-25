@@ -2,7 +2,7 @@
 body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
-     
+
 }
 
 /* Viewer container (เต็มจอ) */
@@ -132,7 +132,7 @@ model-viewer#viewer {
 /* ปุ่มย่อย */
 .submenu button {
   font-family: 'Kanit', sans-serif;
-   position: relative;
+  position: relative;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -161,7 +161,8 @@ model-viewer#viewer {
   border-radius: 6px;
   white-space: nowrap;
   pointer-events: none;
-  opacity: 1;            /* 👈 แสดงตลอด */
+  opacity: 1;
+  /* 👈 แสดงตลอด */
 }
 
 .submenu button img {
@@ -315,6 +316,25 @@ model-viewer#viewer {
   }
 }
 
+/* ===== Reference ===== */
+.reference {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.85rem;
+  color: #ccc;
+  word-break: break-word;
+}
+
+.reference a {
+  color: #8fd3ff;
+  text-decoration: none;
+}
+
+.reference a:hover {
+  text-decoration: underline;
+}
+
 /* ================== Model Gallery ================== */
 .model-gallery {
   position: fixed;
@@ -461,10 +481,11 @@ model-viewer#viewer {
     transform: scale(0.85);
     transition: right 0.4s ease;
   }
-.hotspot-menu.show {
-  right: 5px;
-  /* โชว์ออกมาทั้งหมด */
-}
+
+  .hotspot-menu.show {
+    right: 5px;
+    /* โชว์ออกมาทั้งหมด */
+  }
 
   .main-btn {
     width: 58px;
@@ -581,4 +602,3 @@ model-viewer#viewer {
     border-radius: 8px;
   }
 }
-

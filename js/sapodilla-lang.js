@@ -3,26 +3,36 @@
     th: {
       page: { title: "ละมุด" },
       ui: { play: "▶", close: "✖" },
+      reference: { label: "อ้างอิง :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `<b>ยาง :</b> มีสีขาวที่ออกมาจากลำต้นและกิ่ง สามารถนำไปใช้ในอุตสาหกรรม ทำหมากฝรั่ง และรองเท้าบูทได้
-`,
+          desc: `<b>ยาง :</b> มีสีขาวที่ออกมาจากลำต้นและกิ่ง สามารถนำไปใช้ในอุตสาหกรรม ทำหมากฝรั่ง และรองเท้าบูทได้`,
+reference: `
+      <a href="https://www.baanlaesuan.com/plants/palm-cycad/137161.html/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบเดี่ยว รูปรี หรือรูปไข่ ปลายแหลม โคนใบสอบ ผิวใบมัน สีเขียวเข้ม ออกหนาแน่นที่ปลายกิ่ง
-`,
+          desc: `เป็นใบเดี่ยว รูปรี หรือรูปไข่ ปลายแหลม โคนใบสอบ ผิวใบมัน สีเขียวเข้ม ออกหนาแน่นที่ปลายกิ่ง`,
+          reference: `
+      <a href="https://medthai.com/ละมุด/" target=" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `มีรูปกลมรี หรือรูปไข่ เมื่อดิบมีสีเขียว เมื่อสุกจะมีเปลือกบางสีน้ำตาลแดง<br><br>
-<b>เนื้อ :</b> มีผลสุกมีสีน้ำตาลอมเหลืองมีรสชาติหวานจัดและมีเนื้อสัมผัสคล้ายเม็ดทราย<br><br>
-<b>ยางในผล :</b> ละมุดดิบ มียางสีขาวและสารฝาดสมาน (แทนนิน) สูงไม่ควรรับประทานเพราะจะเฝื่อนลิ้น
+          desc: `มีรูปกลมรี หรือรูปไข่ เมื่อดิบมีสีเขียว เมื่อสุกจะมี เปลือกบางสีน้ำตาลแดง
 <br><br>
-<b>คุณค่าโภชนาการ :</b> มีใยอาหารสูงมาก (เป็นยาระบายอ่อน ๆ) มีวิตามิน A, วิตามิน C, แคลเซียม, ฟอสฟอรัส
+<b>เนื้อ :</b> มีผลสุกมีสีน้ำตาลอมเหลือง มีรสชาติ หวานจัด และมี เนื้อสัมผัสคล้ายเม็ดทราย
 <br><br>
-<b>สรรพคุณ :</b> : มีส่วนช่วยเสริมภูมิคุ้มกัน ป้องกันหวัด ป้องกันท้องผูก/มะเร็งลำไส้ มีสารแทนนิน ช่วยต้านการอักเสบในร่างกาย เช่น กรดไหลย้อน`,
+<b>ยางในผล :</b> ละมุดดิบ มียางสีขาวและสารฝาดสมาน (แทนนิน) สูง ไม่ควรรับประทาน เพราะจะเฝื่อนลิ้น
+<br><br>
+<b>คุณค่าทางโภชนาการ :</b> ใยอาหารสูงมาก (เป็นยาระบายอ่อนๆ), มีวิตามิน A, วิตามิน C, แคลเซียม, ฟอสฟอรัส
+<br><br>
+<b>สรรพคุณ :</b> มีส่วนช่วยเสริมภูมิคุ้มกัน ป้องกันหวัด ป้องกันท้องผูก/มะเร็งลำไส้ มีสารแทนนิน ช่วยต้านการอักเสบในร่างกาย เช่น กรดไหลย้อน`,
+reference: `
+      <a href="https://www.kasettambon.com/ละมุด-ผิวผลมีสีน้ำตาล-เม/" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
         root: {
           title: "ราก",
@@ -30,8 +40,10 @@
 <br><br>
 <b>การเตรียมปลูก :</b> ในกิ่งชำหรือต้นกล้าที่มีรากขดควรแผ่รากออกขณะปลูกเพื่อให้ระบบรากเจริญเติบโตได้ดี
 <br><br>
-<b>การฟื้นฟู :</b> สำหรับต้นละมุดที่มีอายุมาก อาจตัดแต่งรากส่วนปลาย (พรวนดินลึก 10 - 15 เซนติเมตร รอบทรงพุ่ม) เพื่อกระตุ้นให้รากใหม่แตกออกมาและดูดซับสารอาหารได้ดีขึ้น
-`,
+<b>การฟื้นฟู :</b> สำหรับต้นละมุดที่มีอายุมาก อาจตัดแต่งรากส่วนปลาย (พรวนดินลึก 10 - 15 เซนติเมตร รอบทรงพุ่ม) เพื่อกระตุ้นให้รากใหม่แตกออกมาและดูดซับสารอาหารได้ดีขึ้น`,
+reference: `
+      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
         care: {
           title: "การดูแล",
@@ -43,8 +55,10 @@
 <br><br>
 <b>การตัดแต่งกิ่ง :</b> ควรตัดแต่งกิ่งบ้าง เพื่อควบคุมความสูงของต้นให้ง่ายต่อการเก็บผล และช่วยให้ต้นมีทรงพุ่มสวยงาม
 <br><br>
-<b>การให้ผลผลิต :</b> ต้นที่ปลูกจากกิ่งตอน จะให้ผลครั้งแรกภายใน 1 ปี แต่ถ้าปลูกจากเมล็ดจะใช้เวลา 4 - 5 ปี
-`,
+<b>การให้ผลผลิต :</b> ต้นที่ปลูกจากกิ่งตอน จะให้ผลครั้งแรกภายใน 1 ปี แต่ถ้าปลูกจากเมล็ดจะใช้เวลา 4 - 5 ปี`,
+reference: `
+      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
+      คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
       },
       gallery: {
@@ -68,18 +82,23 @@
     en: {
       page: { title: "Sapodilla" },
       ui: { play: "▶", close: "✖" },
+       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
           desc: `<b>Sap :</b> The sap is white and exudes from the trunk and branches. It can be used industrially 
-          to produce chewing gum and rubber boots.
-          `,
+          to produce chewing gum and rubber boots.`,
+          reference: `
+          <a href="https://www.baanlaesuan.com/plants/palm-cycad/137161.html/" target="_blank">
+          Click to see references.</a>`
         },
         leaf: {
           title: "Leaf",
           desc: `<b>Leaf characteristics :</b> The leaves are simple, oval or elliptical in shape, with pointed tips and tapering bases. 
-          The surface is glossy dark green, and the leaves grow densely at the tips of the branches.
-          `,
+          The surface is glossy dark green, and the leaves grow densely at the tips of the branches.`,
+          reference: `
+          <a href="https://medthai.com/ละมุด/" target="_blank">
+          Click to see references.</a>`
         },
         fruit: {
           title: "Fruit",
@@ -92,6 +111,9 @@
 <b>Nutritional value :</b> Very high in dietary fiber (mild laxative effect), contains vitamin A, vitamin C, calcium, and phosphorus.
 <br><br>
 <b>Key benefits :</b> Helps boost immunity, prevent colds, relieve constipation, reduce the risk of colon cancer, and tannins provide anti-inflammatory effects in the body (e.g., for acid reflux).`,
+reference: `
+          <a href="https://www.kasettambon.com/ละมุด-ผิวผลมีสีน้ำตาล-เม/" target="_blank">
+          Click to see references.</a>`
         },
         root: {
           title: "Root",
@@ -100,6 +122,9 @@
 <b>Planting preparation :</b> For cuttings or seedlings with coiled roots, spread the roots during planting to help the root system grow well.
 <br><br>
 <b>Restoration :</b> For older sapodilla trees, trim the outer roots (loosen soil 10–15 cm deep around the canopy) to stimulate new root growth and improve nutrient absorption.`,
+reference: `
+          <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
+          Click to see references.</a>`
         },
         care: {
           title: "Care",
@@ -112,6 +137,9 @@
 <b>Pruning :</b> Prune occasionally to control tree height (for easier harvesting) and to maintain a nice canopy shape.
 <br><br>
 <b>Fruit production :</b> Trees propagated from cuttings will bear fruit within 1 year, while seed-grown trees take 4–5 years.`,
+reference: `
+          <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
+          Click to see references.</a>`
         },
       },
       gallery: {
@@ -153,11 +181,11 @@
 
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
-    const img = document.getElementById("hotspot-img");
+    const ref = document.getElementById("hotspot-reference");
 
-    if (title) title.textContent = data.title;
-    if (desc) desc.innerHTML = data.desc;
-    if (img) img.alt = data.title;
+    if (title && data.title) title.textContent = data.title;
+    if (desc && data.desc) desc.innerHTML = data.desc;
+    if (ref && data.reference) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {

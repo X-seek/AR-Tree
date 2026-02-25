@@ -8,7 +8,8 @@
         trunk: {
           title: "ลำต้น",
           desc: `<b>ยาง :</b> มีสีขาวที่ออกมาจากลำต้นและกิ่ง สามารถนำไปใช้ในอุตสาหกรรม ทำหมากฝรั่ง และรองเท้าบูทได้`,
-reference: `
+      reference: `
+>>>>>>> ed39a84d0fd97221e5c9d8837fa302261c177edc
       <a href="https://www.baanlaesuan.com/plants/palm-cycad/137161.html/" target="_blank">
       คลิกเพื่อดูแหล่งอ้างอิง</a>`
         },
@@ -176,7 +177,7 @@ reference: `
 
   function applyHotspotContent(key) {
     if (!key) return;
-    const data = get(translations[currentLang], `hotspot.${key}`);
+    const data = get(translations[currentLang], hotspot.${key});
     if (!data) return;
 
     const title = document.getElementById("hotspot-title");

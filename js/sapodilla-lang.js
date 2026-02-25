@@ -177,7 +177,7 @@ reference: `
 
   function applyHotspotContent(key) {
     if (!key) return;
-    const data = get(translations[currentLang], hotspot.${key});
+    const data = get(translations[currentLang], `hotspot.${key}`);
     if (!data) return;
 
     const title = document.getElementById("hotspot-title");

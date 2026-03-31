@@ -7,45 +7,50 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นไม้ต้นขนาดเล็ก ผลัดใบ สูง 2-5 เมตร ลำต้นและกิ่งก้านค่อนข้างเปราะ หักง่าย เปลือกเรียบสีน้ำตาล<br><br>
-          <b>ประโยชน์ :</b> เปลือกของต้นรสฝาดเฝื่อน ใช้สมานบาดแผล ห้ามเลือด แก้โรคท้องร่วง และเป็นยาบำรุงกำลัง<br><br>
-          <b>การตกแต่ง :</b> นิยมตัดแต่งกิ่งให้สูงไม่เกิน 2 เมตร เพื่อให้แตกใบและติดผลดก`,
+          desc: `เป็นไม้ต้นขนาดเล็ก ผลัดใบ สูง 2-5 เมตร ลำต้นและกิ่งก้านค่อนข้างเปราะ หักง่าย เปลือกเรียบสีน้ำตาล ส่วนจะตกแต่งกิ่งให้สูงไม่เกิน 2 เมตร เพื่อให้แตกใบออกดอกติดผลได้ง่ายและดก<br><br>
+          <b>ประโยชน์ :</b> เปลือกของต้นรสฝาดเฝื่อน ใช้สมานบาดแผลห้ามเลือด แก้โรคท้องร่วง และเป็นยาบำรุงกำลัง`,
           reference: `
-          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">แหล่งที่มา 1</a>`
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">แหล่งที่มา 2</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `ใบเดี่ยว เรียงสลับ รูปรี ผิวใบเขียวเข้ม เมื่อตำผสมเหล้าขาวช่วยกำจัดเหาได้<br><br>
-          <b>สรรพคุณ :</b> แก้กลากเกลื้อนและฆ่าเหา<br><br>
-          <b>ข้อควรระวัง :</b> น้ำคั้นจากใบห้ามเข้าตาหรือสัมผัสเนื้อเยื่ออ่อน เพราะอาจทำให้แสบร้อนหรือเยื่อบุตาอักเสบได้`,
+          desc: `นำมาตำผสมกับเหล้าขาวพอกหัวเอาผ้าพันปิดไว้สักครึ่งชั่วโมงจึงล้างออก ช่วยกำจัดเหาได้<br><br>
+          <b>สรรพคุณ :</b> ใบแก้กลากเกลื้อนและฆ่าเหา<br><br>
+          <b>ข้อควรระวัง :</b> น้ำคั้นจากใบน้อยหน่า ต้องระวังอย่าให้ถูกบริเวณตาหรือเปลือกตา บริเวณรูจมูก ริมฝีปาก เพราะอาจจะทำให้เกิดอาการแสบร้อน ถ้าเข้าตาอาจทำให้เยื่อบุตาอักเสบได้ ต้องให้รีบล้างออกด้วยน้ำสะอาดทันที`,
           reference: `
           <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">แหล่งที่มา 1</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `รูปทรงคล้ายลูกระเบิด ผิวเปลือกขรุขระเป็นร่อง เนื้อเหนียวนุ่มหอมหวานจนได้ชื่อว่า “Sugar Apple”<br><br>
-          <b>คุณค่าทางโภชนาการ (ต่อ 100 กรัม) :</b>
+          desc: `ผลไม้รูปทรงแปลกตาลักษณะคล้ายลูกระเบิด มีเมล็ดแข็งมันวาวสีดำแทรกอยู่ภายในเนื้อ แต่ด้วยความเหนียวนุ่มและหอมหวานของเนื้อที่หวานจนได้ชื่อว่า “Sugar Apple” ผิวเปลือกขรุขระเป็นร่อง และเนื้อหวาน<br><br>
+          <b>คุณค่าทางโภชนาการ :</b>
           <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>พลังงาน 94 kcal, คาร์โบไฮเดรต 23.64 กรัม, เส้นใย 4.4 กรัม, โปรตีน 2.06 กรัม, วิตามินซี 36.3 มิลลิกรัม, แคลเซียม 24 มิลลิกรัม, โพแทสเซียม 247 มิลลิกรัม</li>
+            <li>พลังงาน 94 กิโลแคลอรี, คาร์โบไฮเดรต 23.64 กรัม, เส้นใย 4.4 กรัม, ไขมัน 0.29 กรัม, โปรตีน 2.06 กรัม, วิตามินบี 1 0.11 มิลลิกรัม, 10% วิตามินบี 2 0.113 มิลลิกรัม, 9% วิตามินบี 3 0.883 มิลลิกรัม, 6% วิตามินบี 5 0.226 มิลลิกรัม, 5% วิตามินบี 6 0.2 มิลลิกรัม, 15% วิตามินบี 9 14 ไมโครกรัม, 4% วิตามินซี 36.3 มิลลิกรัม, 44% ธาตุแคลเซียม 24 มิลลิกรัม, 2% ธาตุเหล็ก 0.6 มิลลิกรัม, 5% ธาตุแมกนีเซียม 21 มิลลิกรัม, 6% ธาตุแมงกานีส 0.42 มิลลิกรัม, 20% ธาตุฟอสฟอรัส 32 มิลลิกรัม, 5% ธาตุโพแทสเซียม 247 มิลลิกรัม, 5% ธาตุโซเดียม 9 มิลลิกรัม, 1% ธาตุสังกะสี 0.1 มิลลิกรัม</li>
           </ul><br>
-          <b>สรรพคุณ :</b> มีอนุมูลอิสระสูง บำรุงสายตาและหัวใจ ช่วยควบคุมระดับน้ำตาล (เส้นใย) และลดความดันโลหิต<br><br>
-          <b>ข้อควรระวัง :</b> น้ำสกัดจากเมล็ดอาจทำให้แพ้และอันตรายต่อดวงตา ผลแห้งใช้ทาแก้เริมและงูสวัดได้`,
+          <b>สรรพคุณ :</b> ช่วยต่อต้านอนุมูลอิสระในร่างกาย ช่วยบำรุงผิวพรรณ เส้นผม และดวงตา น้อยหน่าเป็นผลไม้ที่มีไขมันต่ำ ช่วยรักษาโรคหอบหืด (วิตามินซี) ช่วยควบคุมระดับน้ำตาลในเลือด (เส้นใย) น้อยหน่าช่วยลดระดับคอเลสเตอรอล (วิตามินบี3) ช่วยลดความดันโลหิต (โพแทสเซียม) ช่วยบำรุงหัวใจ ให้มีสุขภาพแข็งแรง ป้องกันการเกิดโรคหัวใจ มีส่วนช่วยรักษาโรคโลหิตจาง
+          <ul style="list-style-type: disc; margin-left: 20px;">
+            <li>เมล็ด ช่วยกำจัดเห็บหมัดได้</li>
+            <li>ผลแห้ง ทาผิวหนังแก้โรคเริมและงูสวัด</li>
+          </ul><br>
+          <b>ข้อควรระวัง :</b> น้ำสกัดจากเมล็ดน้อยหน่า อาจจะทำให้เกิดอาการแพ้ได้ ควรระวังอย่าให้เข้าตา`,
           reference: `
           <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://clgc.agri.kps.ku.ac.th/resources/herb/annona-s.html" target="_blank">แหล่งที่มา 2</a>`
         },
         root: {
           title: "ราก",
-          desc: `ระบบรากแก้วแผ่กว้างขวาง<br><br>
-          <b>สรรพคุณ :</b> ใช้เป็นยาระบาย ทำให้อาเจียน และใช้ถอนพิษเบื่อเมาหรือแก้พิษงูได้`,
+          desc: `เป็นระบบรากกว้างขวาง (รากแก้ว)<br><br>
+          <b>สรรพคุณ :</b> เป็นยาระบาย ทำให้อาเจียน และแก้พิษงู ถอนพิษเบื่อเมา`,
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">แหล่งที่มา 1</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>สภาพแวดล้อม :</b> ชอบแสงแดดเต็มที่ อุณหภูมิที่เหมาะสม 20-38 องศาเซลเซียส ทนแล้งได้ดี<br><br>
-          <b>การให้น้ำ :</b> ทุกๆ 1-2 สัปดาห์ (ระดับปานกลาง)<br><br>
-          <b>การตัดแต่ง :</b> ควรทำในช่วงฤดูหนาวขณะต้นพักตัว เพื่อกระตุ้นการเติบโตและผลผลิตที่ใหญ่สมบูรณ์ในฤดูใบไม้ผลิ`,
+          desc: `<b>การปลูกน้อยหน่า :</b> นิยมปลูกด้วยการเพาะเมล็ดมากที่สุด รองลงมาเป็นการปลูกจากกิ่งพันธุ์ตอน<br><br>
+          <b>การให้น้ำ :</b> ทุก ๆ 1-2 สัปดาห์, ระดับความชื้น : ความชื้นปานกลาง, แสงแดด : อาทิตย์เต็ม, อุณหภูมิ : 20-38 องศาเซลเซียส, ดิน : ทราย, ดินร่วน, pH 5.5-7.5<br><br>
+          <b>การใส่ปุ๋ย :</b> เริ่มด้วยสูตรฟอสฟอรัสสูงเพื่อกระตุ้นดอก แล้วเปลี่ยนเป็นสูตรสมดุลเพื่อบำรุงผล ให้ปุ๋ยทุกเดือนและลดลงในช่วงฤดูหนาว ต้องรดน้ำให้ชุ่มหลังใส่ปุ๋ยเสมอ<br><br>
+          <b>การตัดแต่งกิ่ง :</b> ควรทำในช่วงฤดูหนาวขณะต้นพักตัว เพื่อลดความเครียดและกระตุ้นการเติบโตในฤดูใบไม้ผลิ ช่วยให้ได้ผลผลิตที่มีขนาดใหญ่และสมบูรณ์ขึ้น`,
           reference: `
           <a href="https://puechkaset.com/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2/" target="_blank">แหล่งที่มา 1</a>`
         }
@@ -66,51 +71,56 @@
       }
     },
     en: {
-      page: { title: "Custard Apple" },
+      page: { title: "Sugar Apple" },
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `A small deciduous tree, 2-5 metres tall. The wood is brittle and the bark is smooth brown.<br><br>
-          <b>Uses :</b> The astringent bark is used to heal wounds, staunch bleeding, and treat diarrhoea.<br><br>
-          <b>Pruning :</b> Usually pruned to under 2 metres to encourage abundant leaf and fruit emergence.`,
+          desc: `The sugar apple is a small, deciduous tree, typically attaining a height of 2 to 5 metres. The trunk and branches are comparatively brittle and prone to breakage. The bark is smooth and brown in colour. In cultivation, the tree is generally pruned to maintain a height of no more than 2 metres to encourage the emergence of leaves, flowers, and fruit in abundant quantity.<br><br>
+          <b>Uses :</b> The bark, characterised by its astringent and bitter flavour, is employed to heal wounds and staunch bleeding, to treat diarrhoea, and as a general tonic.`,
           reference: `
-          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">Source 1</a>`
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">Source 1</a>, 
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">Source 2</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `Simple leaves used as a poultice with white spirit to effectively treat head lice.<br><br>
-          <b>Medicinal Properties :</b> Used to treat ringworm, tinea versicolor, and lice.<br><br>
-          <b>Precaution :</b> Leaf juice can cause a burning sensation or conjunctivitis if it contacts eyes or nostrils.`,
+          desc: `The leaves, when pounded and mixed with white spirit, are applied as a poultice to the scalp and left for approximately half an hour before rinsing, serving as an effective treatment for head lice.<br><br>
+          <b>Medicinal Properties :</b> The leaf is used to treat ringworm, tinea versicolor, and head lice.<br><br>
+          <b>Precaution :</b> The juice extracted from sugar apple leaves must not be allowed to contact the eyes, eyelids, nostrils, or lips, as it may cause a burning sensation. Should it enter the eyes, conjunctivitis may result, and the affected area must be rinsed immediately with clean water.`,
           reference: `
           <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">Source 1</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `Shaped like a hand grenade with sweet, fragrant flesh, earning it the name "Sugar Apple."<br><br>
-          <b>Nutritional Value (Per 100g) :</b>
+          desc: `The sugar apple bears a peculiarly formed fruit, reminiscent in appearance of a hand grenade. Within its interior, hard, lustrous black seeds are embedded amidst the flesh. The fruit is celebrated for its exceptionally sweet, soft, and fragrant flesh, whence it has received the English appellation "Sugar Apple." The exterior rind is textured and furrowed, encasing the characteristically sweet pulp.<br><br>
+          <b>Nutritional Value :</b>
           <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>94 kcal, 23.64g carbs, 4.4g fiber, vitamins B1-B9, 36.3mg Vit C, 24mg calcium, 247mg potassium.</li>
+            <li>Per 100 grams of edible portion, the sugar apple contains: 94 kilocalories of energy; 23.64 grams of carbohydrates; 4.4 grams of dietary fibre; 0.29 grams of fat; 2.06 grams of protein; as well as notable quantities of vitamins B1, B2, B3, B5, B6, B9, and C, and minerals including calcium, iron, magnesium, manganese, phosphorus, potassium, sodium, and zinc (as established by the USDA Nutrient Database).</li>
           </ul><br>
-          <b>Properties :</b> Rich in antioxidants to nourish skin and hair. Helps regulate blood sugar and supports cardiac health.<br><br>
-          <b>Precaution :</b> Seed extract may provoke allergic reactions; care must be taken to prevent contact with eyes.`,
+          <b>Medicinal Properties :</b> The sugar apple is reputed to combat free radicals within the body, to nourish the skin, hair, and eyes, and to support a range of health functions. As a low-fat fruit, it is considered beneficial in the management of asthma (through its vitamin C content), in the regulation of blood sugar levels (through its dietary fibre), in the reduction of cholesterol (through vitamin B3), and in the lowering of blood pressure (through its potassium content). It is also recognised for its capacity to strengthen cardiac function, to prevent heart disease, and to contribute to the treatment of anaemia.
+          <ul style="list-style-type: disc; margin-left: 20px;">
+            <li><b>Seeds :</b> Employed as a natural remedy for the elimination of ticks and fleas.</li>
+            <li><b>Dried fruit :</b> Applied topically to treat herpes and shingles.</li>
+          </ul><br>
+          <b>Precaution :</b> The extract derived from sugar apple seeds may provoke allergic reactions. Care must be taken to prevent contact with the eyes.`,
           reference: `
           <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">Source 1</a>, 
           <a href="https://clgc.agri.kps.ku.ac.th/resources/herb/annona-s.html" target="_blank">Source 2</a>`
         },
         root: {
           title: "Root",
-          desc: `Possesses an extensive taproot system.<br><br>
-          <b>Medicinal Properties :</b> Serves as a laxative, emetic, and antidote to snake venom and other toxins.`,
+          desc: `The sugar apple possesses an extensive taproot system.<br><br>
+          <b>Medicinal Properties :</b> The root serves as a laxative, an emetic, and an antidote to snake venom and other toxins.`,
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">Source 1</a>`
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Environment :</b> Full sun, optimal temp 20-38°C. Prefers sandy loam or chalky soil with pH 5.5-7.5.<br><br>
-          <b>Watering :</b> Moderate moisture; every 1-2 weeks.<br><br>
-          <b>Pruning :</b> Best performed during winter dormancy to stimulate vigorous spring growth and larger fruit size.`,
+          desc: `<b>Planting :</b> Propagation by seed is the most common method, followed by air-layering from branches of a desired parent plant.<br><br>
+          <b>Watering :</b> Irrigation is required every one to two weeks. The plant prefers moderate moisture levels, full sun exposure, and an optimal temperature range of 20 to 38 degrees Celsius. Tolerates temperatures between 5 and 43 degrees Celsius. Soil: sand, loam, or chalk, with a pH of 5.5 to 7.5.<br><br>
+          <b>Fertilisation :</b> Commence with a high-phosphorus formula, followed by a balanced formula. Fertiliser is applied monthly but frequency must be reduced during winter. Thorough watering following each application is essential.<br><br>
+          <b>Pruning :</b> Best undertaken from early to late winter whilst the tree is dormant. Shape the tree to permit sunlight penetration, improve air circulation, and promote larger fruit.`,
           reference: `
           <a href="https://puechkaset.com/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2/" target="_blank">Source 1</a>`
         }
@@ -132,10 +142,9 @@
     }
   };
 
+  // i18n System Logic
   let currentLang = localStorage.getItem("lang") || "th";
-
-  const get = (obj, path) =>
-    path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
+  const get = (obj, path) => path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
 
   function applyStaticTranslations() {
     document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -149,14 +158,12 @@
     if (!key) return;
     const data = get(translations[currentLang], `hotspot.${key}`);
     if (!data) return;
-
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
     const ref = document.getElementById("hotspot-reference");
-
-    if (title && data.title) title.textContent = data.title;
-    if (desc && data.desc) desc.innerHTML = data.desc;
-    if (ref && data.reference) ref.innerHTML = data.reference;
+    if (title) title.textContent = data.title;
+    if (desc) desc.innerHTML = data.desc;
+    if (ref) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {
@@ -172,15 +179,9 @@
     const check = document.getElementById("lang-check");
     if (!check) return;
     check.checked = currentLang === "en";
-    check.addEventListener("change", () => {
-      setLanguage(check.checked ? "en" : "th");
-    });
+    check.addEventListener("change", () => setLanguage(check.checked ? "en" : "th"));
   }
 
-  window.i18n = {
-    setLanguage,
-    getCurrentLang: () => currentLang,
-    applyHotspotContent,
-    initToggle,
-  };
+  window.i18n = { setLanguage, getCurrentLang: () => currentLang, applyHotspotContent, initToggle };
+  document.addEventListener("DOMContentLoaded", () => { applyStaticTranslations(); initToggle(); });
 })();

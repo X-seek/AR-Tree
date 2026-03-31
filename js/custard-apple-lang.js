@@ -3,83 +3,57 @@
     th: {
       page: { title: "น้อยหน่า" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นไม้ยืนต้นขนาดเล็ก ผลัดใบ สูงประมาณ 3–6 เมตร ลำต้นและกิ่งก้านค่อนข้าง เปราะ หักง่าย เปลือกลำต้นบางสีน้ำตาลถึงดำ<br><br>
-          <b>ประโยชน์ลำต้น/เปลือก :</b> เปลือกลำต้น ใช้เป็นยา ฝาดสมาน สมานแผล แก้ท้องร่วง แก้โรคลำไส้อักเสบ และแก้รำมะนาด<br><br>
-			     <b>เนื้อไม้ :</b> มีสีเหลืองจากสาร โมริน สามารถใช้ย้อมผ้าไหมได้`,
-            reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `เป็นไม้ต้นขนาดเล็ก ผลัดใบ สูง 2-5 เมตร ลำต้นและกิ่งก้านค่อนข้างเปราะ หักง่าย เปลือกเรียบสีน้ำตาล<br><br>
+          <b>ประโยชน์ :</b> เปลือกของต้นรสฝาดเฝื่อน ใช้สมานบาดแผล ห้ามเลือด แก้โรคท้องร่วง และเป็นยาบำรุงกำลัง<br><br>
+          <b>การตกแต่ง :</b> นิยมตัดแต่งกิ่งให้สูงไม่เกิน 2 เมตร เพื่อให้แตกใบและติดผลดก`,
+          reference: `
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">แหล่งที่มา 1</a>`
         },
-
         leaf: {
           title: "ใบ",
-          desc: `ใบเดี่ยว เรียงสลับ รูปรี ปลายและโคนใบแหลม สีเขียว หากบดใบจะมีกลิ่นหอม<br>
-<ul>
-  <b>สรรพคุณ :</b> ใช้ฆ่าแมลง/พยาธิ 
-    <li>ใบสดและเมล็ดนำมาตำหรือบด ใช้ฆ่าเหาและรักษาโรคกลากเกลื้อน โดยการพอกหรือทา</li>
-			<li>ลดน้ำตาล : ใบน้อยหน่าสามารถนำมาชงดื่มเพื่อช่วยลดน้ำตาลในเลือด ลดไขมันในเส้นเลือด และลดความดันโลหิต</li>
-</ul>
-<b>ข้อควรระวัง :</b> เมล็ดมีสารแอนโนนาซีและนีโออันโนนิน ซึ่งมีความเป็นพิษสูง ดังนั้นจึงห้ามรับประทาน`,
- reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `ใบเดี่ยว เรียงสลับ รูปรี ผิวใบเขียวเข้ม เมื่อตำผสมเหล้าขาวช่วยกำจัดเหาได้<br><br>
+          <b>สรรพคุณ :</b> แก้กลากเกลื้อนและฆ่าเหา<br><br>
+          <b>ข้อควรระวัง :</b> น้ำคั้นจากใบห้ามเข้าตาหรือสัมผัสเนื้อเยื่ออ่อน เพราะอาจทำให้แสบร้อนหรือเยื่อบุตาอักเสบได้`,
+          reference: `
+          <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">แหล่งที่มา 1</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `เป็นรูปกลมป้อม ผิวขรุขระ เป็นช่องกลมนูน สีเขียว (น้อยหน่าฝ้าย) หรือสีเขียว/เหลือง/ม่วงเข้ม (น้อยหน่าหนัง) เนื้อสีขาวนวล รสชาติหอมหวาน
-           ข้างในมีเมล็ดสีดำและมีน้ำตาลในปริมาณที่มาก<br><br>
-
-<b>คุณค่าทางโภชนาการ :</b> ให้พลังงานสูง (ประมาณ 101 กิโลแคลอรี่/100 กรัม) อุดมไปด้วยวิตามิน C (ช่วยเสริมภูมิคุ้มกันในร่างกาย), 
-วิตามิน B (ควบคุมคอเลสเตอรอล), แมงกานีส, แคลเซียม, และลูทีน<br><br>
-
-<b>สรรพคุณ :</b> อุดมไปด้วยสารต้านอนุมูลอิสระ, ลูทีน ช่วยบำรุงสายตาและลดความเสี่ยงจอประสาทตาเสื่อมได้, มีใยอาหารช่วยในเรื่องระบบย่อยอาหาร
- ใช้รักษาแผลไฟไหม้ อักเสบ แผลน้ำร้อนลวก, แก้เป็นฝีในลำคอ<br><br>
- 
-<b>ข้อควรระวัง :</b> เหมาะสำหรับผู้ที่กำลังลดน้ำหนักเพราะมีไขมันต่ำหาก ผู้ป่วยเป็นโรคเบาหวานควรบริโภคอย่างระมัดระวัง เนื่องจากมีปริมาณน้ำตาลที่สูง`,
- reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `รูปทรงคล้ายลูกระเบิด ผิวเปลือกขรุขระเป็นร่อง เนื้อเหนียวนุ่มหอมหวานจนได้ชื่อว่า “Sugar Apple”<br><br>
+          <b>คุณค่าทางโภชนาการ (ต่อ 100 กรัม) :</b>
+          <ul style="list-style-type: disc; margin-left: 20px;">
+            <li>พลังงาน 94 kcal, คาร์โบไฮเดรต 23.64 กรัม, เส้นใย 4.4 กรัม, โปรตีน 2.06 กรัม, วิตามินซี 36.3 มิลลิกรัม, แคลเซียม 24 มิลลิกรัม, โพแทสเซียม 247 มิลลิกรัม</li>
+          </ul><br>
+          <b>สรรพคุณ :</b> มีอนุมูลอิสระสูง บำรุงสายตาและหัวใจ ช่วยควบคุมระดับน้ำตาล (เส้นใย) และลดความดันโลหิต<br><br>
+          <b>ข้อควรระวัง :</b> น้ำสกัดจากเมล็ดอาจทำให้แพ้และอันตรายต่อดวงตา ผลแห้งใช้ทาแก้เริมและงูสวัดได้`,
+          reference: `
+          <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://clgc.agri.kps.ku.ac.th/resources/herb/annona-s.html" target="_blank">แหล่งที่มา 2</a>`
         },
         root: {
           title: "ราก",
-          desc: `เป็นระบบรากกว้างขวาง (รากแก้ว)<br><br>
-<b>สรรพคุณ :</b> เป็นยาระบาย (ใช้ในปริมาณน้อย) ช่วยล้างพิษ ถอนพิษเบื่อเมา และแก้พิษงูได้`,
- reference: `
-      <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `ระบบรากแก้วแผ่กว้างขวาง<br><br>
+          <b>สรรพคุณ :</b> ใช้เป็นยาระบาย ทำให้อาเจียน และใช้ถอนพิษเบื่อเมาหรือแก้พิษงูได้`,
+          reference: `
+          <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">แหล่งที่มา 1</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>สภาพแวดล้อม :</b> เป็น ไม้ผลทนแล้ง เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น แสงแดดเต็มที่ (อย่างน้อย 6 ชั่วโมงต่อวัน) 
-          และทนต่อสภาพดินหลายรูปแบบ แต่ต้องระบายน้ำได้ดี และน้ำไม่ท่วมขัง<br><br>
-
-<b>การให้น้ำ :</b> น้อยหน่าเป็นพืชทนแล้ง แต่ต้องรดน้ำอย่างสม่ำเสมอในช่วงที่ผลกำลังโต เพื่อให้ได้ผลผลิตที่มีคุณภาพ<br><br>
-
-<b>การใส่ปุ๋ย :</b> มีความสำคัญเพื่อสนับสนุนการเจริญเติบโต สามารถใช้ปุ๋ยมูลไก่ผสมแกลบ ในอัตรา 4-5 กิโลกรัม/ต้น หลังเก็บเกี่ยวผลผลิต<br><br>
-
-<b>การตัดแต่งกิ่ง :</b> เทคนิคสำคัญในการบังคับให้ออกดอกและติดผล ควรตัดแต่งกิ่งเพื่อกระตุ้นผลผลิตหลังเก็บเกี่ยวเสร็จแล้ว<br><br>
-
-<b>การป้องกัน :</b> เนื่องจากน้อยหน่ามีกิ่งที่เปราะ ควรปลูกในบริเวณที่มีไม้บังลม เพื่อป้องกันลมแรงและกิ่งไม้หัก`,
- reference: `
-      <a href="https://www.picturethisai.com/th/care/Annona_squamosa.html#:~:text=%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%2C%20%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%83%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B5%20%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B9%88%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9C%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%A5.,%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%96%E0%B8%B2%E0%B8%87%20%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B8%B7%E0%B8%8A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%9A%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%A2%20%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A9" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
-        },
+          desc: `<b>สภาพแวดล้อม :</b> ชอบแสงแดดเต็มที่ อุณหภูมิที่เหมาะสม 20-38 องศาเซลเซียส ทนแล้งได้ดี<br><br>
+          <b>การให้น้ำ :</b> ทุกๆ 1-2 สัปดาห์ (ระดับปานกลาง)<br><br>
+          <b>การตัดแต่ง :</b> ควรทำในช่วงฤดูหนาวขณะต้นพักตัว เพื่อกระตุ้นการเติบโตและผลผลิตที่ใหญ่สมบูรณ์ในฤดูใบไม้ผลิ`,
+          reference: `
+          <a href="https://puechkaset.com/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2/" target="_blank">แหล่งที่มา 1</a>`
+        }
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าว",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -97,83 +71,54 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
-          desc: `<b>Characteristics :</b> A small deciduous tree about 3–6 meters tall. The trunk and branches are brittle and break easily. 
-          The bark is thin, brown to dark in color.<br><br>
-
-<b>Uses (Trunk/Bark) :</b> The bark is used as an astringent medicine for treating diarrhea, intestinal inflammation, and gum disease.
-The wood contains a yellow pigment (Morin) that can be used for dyeing silk.`,
+          title: "Stem",
+          desc: `A small deciduous tree, 2-5 metres tall. The wood is brittle and the bark is smooth brown.<br><br>
+          <b>Uses :</b> The astringent bark is used to heal wounds, staunch bleeding, and treat diarrhoea.<br><br>
+          <b>Pruning :</b> Usually pruned to under 2 metres to encourage abundant leaf and fruit emergence.`,
           reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-          Click to see references.
-          </a>`
+          <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">Source 1</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Characteristics :</b> Simple, alternate leaves that are lance-shaped with pointed ends and smooth green surfaces. When crushed, they emit a pleasant fragrance.
-<br><br>
-Medicinal Properties :
-<ul>
-<li> Insecticide/Antiparasitic (External): Fresh leaves and seeds can be crushed and used to kill lice or treat fungal infections such as ringworm.</li>
-<li>Blood Sugar Control: Dried or boiled leaves can be made into tea to help reduce blood sugar, blood fat, and blood pressure.</li>
-</ul>
-<b>Caution :</b> The seeds contain toxic alkaloids (annonaine and neoannonin) and must not be eaten.`,
- reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `Simple leaves used as a poultice with white spirit to effectively treat head lice.<br><br>
+          <b>Medicinal Properties :</b> Used to treat ringworm, tinea versicolor, and lice.<br><br>
+          <b>Precaution :</b> Leaf juice can cause a burning sensation or conjunctivitis if it contacts eyes or nostrils.`,
+          reference: `
+          <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">Source 1</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Characteristics :</b> Round, bumpy fruit with a knobby green rind (green or purple in some varieties). The flesh is creamy white, fragrant, and very sweet, containing several black seeds.
-<br><br>
-<b>Nutrition :</b> High in energy (about 101 kcal per 100g), rich in Vitamin C (boosts immunity), Vitamin B (controls cholesterol), manganese, calcium, and lutein (for eye health).
-<br><br>
-Health Benefits :
-<ul>
-<li> Rich in antioxidants and lutein, which support eye health and reduce the risk of macular degeneration.</li>
-<li> High fiber content aids digestion.</li>
-<li> Traditional uses: Treats burns, inflammation, and throat abscesses.</li>
-</ul>
-<b>Caution :</b> Though low in fat and suitable for weight control, the fruit contains a high amount of sugar — diabetics should consume in moderation.`,
- reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%ab%e0%b8%99%e0%b9%88%e0%b8%b2-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%a3%e0%b8%a3%e0%b8%9e/" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `Shaped like a hand grenade with sweet, fragrant flesh, earning it the name "Sugar Apple."<br><br>
+          <b>Nutritional Value (Per 100g) :</b>
+          <ul style="list-style-type: disc; margin-left: 20px;">
+            <li>94 kcal, 23.64g carbs, 4.4g fiber, vitamins B1-B9, 36.3mg Vit C, 24mg calcium, 247mg potassium.</li>
+          </ul><br>
+          <b>Properties :</b> Rich in antioxidants to nourish skin and hair. Helps regulate blood sugar and supports cardiac health.<br><br>
+          <b>Precaution :</b> Seed extract may provoke allergic reactions; care must be taken to prevent contact with eyes.`,
+          reference: `
+          <a href="http://rpk46.ac.th/home/web%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C62/home/index2.html" target="_blank">Source 1</a>, 
+          <a href="https://clgc.agri.kps.ku.ac.th/resources/herb/annona-s.html" target="_blank">Source 2</a>`
         },
         root: {
           title: "Root",
-          desc: `Root System: Deep taproot system with spreading roots.<br><br>
-
-<b>Medicinal Uses :</b> Acts as a mild laxative (in small amounts), detoxifies the body, relieves poisoning, and can be used as an antidote for snake venom.`,
- reference: `
-          <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `Possesses an extensive taproot system.<br><br>
+          <b>Medicinal Properties :</b> Serves as a laxative, emetic, and antidote to snake venom and other toxins.`,
+          reference: `
+          <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">Source 1</a>`
         },
         care: {
-          title: "Care",
-          desc: `Environment: Drought-tolerant fruit tree that grows well in warm climates with full sunlight (at least 6 hours a day). It adapts to many soil types but prefers well-drained soil without flooding.
-<br><br>
-<b>Watering :</b> Although drought-resistant, it should be watered regularly during fruit development for better yield.<br><br>
-
-<b>Fertilization :</b> Apply organic fertilizer such as chicken manure mixed with rice husks (about 4–5 kg per tree) after harvesting.<br><br>
-
-<b>Pruning :</b> Essential for inducing flowering and fruiting. Prune branches after harvest to encourage new growth and improve fruit production.<br><br>
-
-<b>Protection :</b> Since the branches are brittle, plant in areas protected from strong winds to prevent breakage.`,
- reference: `
-          <a href="https://www.picturethisai.com/th/care/Annona_squamosa.html#:~:text=%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%2C%20%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%83%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B5%20%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A1%E0%B9%88%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9C%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%A5.,%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%20%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%96%E0%B8%B2%E0%B8%87%20%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B8%B7%E0%B8%8A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%9A%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%A2%20%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A9" target="_blank">
-          Click to see references.
-          </a>`
-        },
+          title: "Cultivation and Care",
+          desc: `<b>Environment :</b> Full sun, optimal temp 20-38°C. Prefers sandy loam or chalky soil with pH 5.5-7.5.<br><br>
+          <b>Watering :</b> Moderate moisture; every 1-2 weeks.<br><br>
+          <b>Pruning :</b> Best performed during winter dormancy to stimulate vigorous spring growth and larger fruit size.`,
+          reference: `
+          <a href="https://puechkaset.com/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2/" target="_blank">Source 1</a>`
+        }
       },
       gallery: {
         title: "Choose a Tree Model",
         items: {
           banana1: "Banana",
-          coconut1: "Coconut",
-          sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -184,7 +129,7 @@ Health Benefits :
           pomelo1: "Pomelo"
         }
       }
-    },
+    }
   };
 
   let currentLang = localStorage.getItem("lang") || "th";

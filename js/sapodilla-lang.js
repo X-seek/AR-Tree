@@ -7,58 +7,93 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `<b>ยาง :</b> มีสีขาวที่ออกมาจากลำต้นและกิ่ง สามารถนำไปใช้ในอุตสาหกรรม ทำหมากฝรั่ง และรองเท้าบูทได้`,
-      reference: `
-      <a href="https://www.baanlaesuan.com/plants/palm-cycad/137161.html/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          desc: `ไม้ยืนต้นทรงพุ่มทึบ ไม้เนื้อแข็งและเหนียว มียางสีขาวขุ่นคล้ายน้ำนมไหลเมื่อเกิดแผล<br><br>
+
+<b>ประโยชน์ :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>เนื้อไม้ใช้ทำบ้าน เฟอร์นิเจอร์ เครื่องมือ และฟืน</li>
+<li>เปลือกต้นต้มดื่มแก้โรคบิด</li>
+<li><b>ยาง :</b> มีสีขาวที่ออกมาจากลำต้นและกิ่ง ใช้เป็นยาถ่ายพยาธิอย่างแรง และใช้ในอุตสาหกรรมทำหมากฝรั่ง และรองเท้าบูทได้</li>
+</ul>`,
+          reference: `
+      <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://medthai.com/%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%94/" target="_blank">แหล่งที่มา 2</a>,
+      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://skm.ssru.ac.th/news/view/wut025" target="_blank">แหล่งที่มา 4</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบเดี่ยว รูปรี หรือรูปไข่ ปลายแหลม โคนใบสอบ ผิวใบมัน สีเขียวเข้ม ออกหนาแน่นที่ปลายกิ่ง`,
+          desc: `เป็นใบเดี่ยว รูปรี หรือรูปไข่ ปลายแหลม โคนใบสอบ ผิวใบมัน สีเขียวเข้ม ท้องใบสีน้ำตาลอมเขียว ออกกระจุกปลายกิ่ง<br><br>
+
+<b>ประโยชน์ :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>สกัดทำเซรั่มชะลอวัย บำรุงผิวพรรณ</li>
+<li>ส่วนกิ่งใบเหลือทิ้งนำไปทำถ่านชีวภาพเพื่อบำรุงดินได้</li>
+</ul>`,
           reference: `
-      <a href="https://medthai.com/ละมุด/" target=" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+      <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://thailandinnovationportal.com/info/product/item/65883" target="_blank">แหล่งที่มา 2</a>,
+      <a href="http://clinictech.ops.go.th/online/cmo/finalreport/202412131511391.pdf" target="_blank">แหล่งที่มา 3</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `มีรูปกลมรี หรือรูปไข่ เมื่อดิบมีสีเขียว เมื่อสุกจะมี เปลือกบางสีน้ำตาลแดง
-<br><br>
-<b>เนื้อ :</b> มีผลสุกมีสีน้ำตาลอมเหลือง มีรสชาติ หวานจัด และมี เนื้อสัมผัสคล้ายเม็ดทราย
-<br><br>
-<b>ยางในผล :</b> ละมุดดิบ มียางสีขาวและสารฝาดสมาน (แทนนิน) สูง ไม่ควรรับประทาน เพราะจะเฝื่อนลิ้น
-<br><br>
-<b>คุณค่าทางโภชนาการ :</b> ใยอาหารสูงมาก (เป็นยาระบายอ่อนๆ), มีวิตามิน A, วิตามิน C, แคลเซียม, ฟอสฟอรัส
-<br><br>
-<b>สรรพคุณ :</b> มีส่วนช่วยเสริมภูมิคุ้มกัน ป้องกันหวัด ป้องกันท้องผูก/มะเร็งลำไส้ มีสารแทนนิน ช่วยต้านการอักเสบในร่างกาย เช่น กรดไหลย้อน`,
-reference: `
-      <a href="https://www.kasettambon.com/ละมุด-ผิวผลมีสีน้ำตาล-เม/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          desc: `ดอกสมบูรณ์มีขนาดเล็ก 1 เซนติเมตร มีกลีบเลี้ยง 2 ชั้น แต่ละชั้นมี 3 กลีบ และกลีบดอกจำนวน 12 กลีบ ด้านในมีเกสรตัวผู้ 6 อัน และมีรังไข่อยู่เหนือกลีบดอก มีรูปกลมรี หรือรูปไข่ เมื่อดิบมีสีเขียว เมื่อสุกจะมีเปลือกบางสีน้ำตาลแดง<br><br>
+
+<b>เนื้อ :</b> ผลสุกมีสีน้ำตาลอมเหลือง มีรสชาติหวานจัด และมีเนื้อสัมผัสคล้ายเม็ดทราย<br><br>
+
+<b>ยางในผล :</b> ละมุดดิบมียางสีขาวและสารฝาดสมาน (แทนนิน) สูง ไม่ควรรับประทาน เพราะจะเฝื่อนลิ้น<br><br>
+
+<b>คุณค่าทางโภชนาการ :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>พลังงาน 83 กิโลแคลอรี, คาร์โบไฮเดรต 19.96 กรัม, เส้นใย 5.3 กรัม, ไขมัน 1.1 กรัม, โปรตีน 0.44 กรัม, วิตามินบี 2 (ไรโบฟลาวิน) 0.50 มิลลิกรัม, วิตามินบี 3 (ไนอะซิน) 0.20 มิลลิกรัม, วิตามินบี 5 0.252 มิลลิกรัม, วิตามินบี 6 0.037 มิลลิกรัม, วิตามินบี 9 14 ไมโครกรัม, วิตามินซี 14.7 มิลลิกรัม, ธาตุแคลเซียม 21 มิลลิกรัม, ธาตุเหล็ก 0.8 มิลลิกรัม, ธาตุแมกนีเซียม 12 มิลลิกรัม, ธาตุฟอสฟอรัส 12 มิลลิกรัม, ธาตุโพแทสเซียม 193 มิลลิกรัม, ธาตุโซเดียม 12 มิลลิกรัม, ธาตุสังกะสี 0.1 มิลลิกรัม</li>
+</ul><br>
+
+<b>ประโยชน์ :</b> วิตามินซีสูงต้านหวัด, ใยอาหารช่วยขับถ่ายและป้องกันมะเร็งลำไส้, เมล็ดบำรุงกำลัง, นิยมทานสดหรือทำน้ำ/ไวน์ละมุด<br><br>
+
+<b>สรรพคุณ :</b> มีส่วนช่วยเสริมภูมิคุ้มกัน ป้องกันหวัด ป้องกันท้องผูก/มะเร็งลำไส้ มีสารแทนนินช่วยต้านการอักเสบในร่างกาย เช่น กรดไหลย้อน<br><br>
+
+<b>ข้อควรระวัง :</b> น้ำตาลสูง ผู้ป่วยเบาหวานควรจำกัดปริมาณ และระวังเมล็ดติดคอเด็ก ควรแกะเมล็ดออกและหั่น/บดให้ละเอียดก่อนป้อน`,
+          reference: `
+      <a href="https://medthai.com/%e0%b8%a5%e0%b8%b0%e0%b8%a1%e0%b8%b8%e0%b8%94/" target="_blank">แหล่งที่มา 1</a>,
+      <a href="http://mdc.library.mju.ac.th/article/90984/297631/291926.pdf" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://www.svppijit.com/images/km2Manilkara.pdf" target="_blank">แหล่งที่มา 3</a>`
         },
         root: {
           title: "ราก",
-          desc: `เป็นระบบรากแข็งแรง มีรากจำนวนมาก และทนทานต่อการขาดน้ำได้ดี 
-<br><br>
-<b>การเตรียมปลูก :</b> ในกิ่งชำหรือต้นกล้าที่มีรากขดควรแผ่รากออกขณะปลูกเพื่อให้ระบบรากเจริญเติบโตได้ดี
-<br><br>
-<b>การฟื้นฟู :</b> สำหรับต้นละมุดที่มีอายุมาก อาจตัดแต่งรากส่วนปลาย (พรวนดินลึก 10 - 15 เซนติเมตร รอบทรงพุ่ม) เพื่อกระตุ้นให้รากใหม่แตกออกมาและดูดซับสารอาหารได้ดีขึ้น`,
-reference: `
-      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          desc: `ต้นที่เพาะเมล็ดจะมีรากแก้วที่ลึกและแข็งแรง เป็นระบบรากแข็งแรง มีรากจำนวนมาก และทนทานต่อการขาดน้ำได้ดี<br><br>
+
+<b>ประโยชน์ :</b> เกษตรกรนิยมใช้เป็น "ต้นตอ" เพื่อเสียบยอดละมุดพันธุ์ดี เพราะหาอาหารเก่งและยึดดินแน่น<br><br>
+
+<b>การเตรียมปลูก :</b> ในกิ่งชำหรือต้นกล้าที่มีรากขดควรแผ่รากออกขณะปลูกเพื่อให้ระบบรากเจริญเติบโตได้ดี<br><br>
+
+<b>การฟื้นฟู :</b> สำหรับต้นละมุดที่มีอายุมาก อาจตัดแต่งรากส่วนปลาย (พรวนดินลึก 10-15 เซนติเมตร รอบทรงพุ่ม) เพื่อกระตุ้นให้รากใหม่แตกออกมาและดูดซับสารอาหารได้ดีขึ้น<br><br>
+
+<b>ข้อควรระวัง :</b> ไม่ทนน้ำท่วมขัง หากรากแช่น้ำนานจะโตช้า ขาดออกซิเจน และเกิดโรครากเน่าได้`,
+          reference: `
+      <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://web.ku.ac.th/nk40/ravee.htm" target="_blank">แหล่งที่มา 3</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>แสงแดดและอากาศ :</b> ต้นละมุดชอบอากาศร้อน ต้องการแสงแดดเต็มที่ตลอดวัน (มากกว่า 6 ชั่วโมง) จึงจะเติบโตได้ดีและมีผลดก
-<br><br>
-<b>ดิน :</b> ต้นละมุดชอบดินที่ร่วนซุย และมีอินทรียวัตถุมาก เช่น ดินดำ/หน้าดิน ผสมปุ๋ยคอกเก่า
-<br><br>
-<b>การให้น้ำ :</b> ต้องการน้ำในระดับปานกลาง และต้องมีการระบายน้ำดี ดินไม่แฉะ ช่วงปลูกแรก ๆ ควรรดน้ำวันละครั้ง
-<br><br>
-<b>การตัดแต่งกิ่ง :</b> ควรตัดแต่งกิ่งบ้าง เพื่อควบคุมความสูงของต้นให้ง่ายต่อการเก็บผล และช่วยให้ต้นมีทรงพุ่มสวยงาม
-<br><br>
-<b>การให้ผลผลิต :</b> ต้นที่ปลูกจากกิ่งตอน จะให้ผลครั้งแรกภายใน 1 ปี แต่ถ้าปลูกจากเมล็ดจะใช้เวลา 4 - 5 ปี`,
-reference: `
-      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          desc: `<b>แสงแดดและอากาศ :</b> ต้นละมุดชอบอากาศร้อน ต้องการแสงแดดเต็มที่ตลอดวัน (มากกว่า 6 ชั่วโมง) จึงจะเติบโตได้ดีและมีผลดก<br><br>
+
+<b>ดิน :</b> ต้นละมุดชอบดินที่ร่วนซุย และมีอินทรียวัตถุมาก เช่น ดินดำ/หน้าดิน ผสมปุ๋ยคอกเก่า<br><br>
+
+<b>การให้น้ำ :</b> รดน้ำสม่ำเสมอ แต่ควรลดน้ำช่วงผลแก่ใกล้เก็บเกี่ยว จะช่วยให้ผลหวานกรอบ ต้องการน้ำในระดับปานกลาง และต้องมีการระบายน้ำดี ดินไม่แฉะ ช่วงปลูกแรกๆ ควรรดน้ำวันละครั้ง<br><br>
+
+<b>การใส่ปุ๋ย :</b> ควรใส่ปุ๋ยคอก/ชีวภาพปีละ 1-2 ครั้ง ช่วงปลูกสามารถรองก้นหลุมด้วยปุ๋ย 15-15-15<br><br>
+
+<b>การตัดแต่งกิ่ง :</b> ควรตัดกิ่งแห้งทิ้ง หรือทำสาวต้นที่แก่เกินไป เพื่อกระตุ้นให้ออกดอกและติดผลดีขึ้น ควรตัดแต่งกิ่งบ้าง เพื่อควบคุมความสูงของต้นให้ง่ายต่อการเก็บผล และช่วยให้ต้นมีทรงพุ่มสวยงาม<br><br>
+
+<b>การให้ผลผลิต :</b> ต้นที่ปลูกจากกิ่งตอน จะให้ผลครั้งแรกภายใน 1 ปี แต่ถ้าปลูกจากเมล็ดจะใช้เวลา 4-5 ปี<br><br>
+
+<b>ศัตรูพืช :</b> หนอนเจาะผล, แมลงวันทอง ทำให้ผลเน่าร่วง, แมลงค่อมทอง (แมลงค่อมทอง) กัดกินใบอ่อนและดอก`,
+          reference: `
+      <a href="https://www.ipthailand.go.th/images/2284/SCH61100101.pdf" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://www.svppijit.com/images/km2Manilkara.pdf" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://kohyor.go.th/travel/detail/1222" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://www.hu.ac.th/Conference/conference2024/proceedings/doc/07%20%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%20(Sc)/Sc-060%20%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%B5%20%E0%B8%AA%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B8%B2%20(1583-1592).pdf" target="_blank">แหล่งที่มา 4</a>`
         },
       },
       gallery: {
@@ -82,64 +117,97 @@ reference: `
     en: {
       page: { title: "Sapodilla" },
       ui: { play: "▶", close: "✖" },
-       reference: { label: "Reference :" },
+      reference: { label: "Reference :" },
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: `<b>Sap :</b> The sap is white and exudes from the trunk and branches. It can be used industrially 
-          to produce chewing gum and rubber boots.`,
+          desc: `<b>Trunk Characteristics :</b> The sapodilla is a perennial tree with a dense crown and hard, tenacious timber. When any part of the tree is wounded, a milky white latex sap exudes.<br><br>
+
+<b>Uses :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>The timber is used in the construction of houses and the crafting of furniture, tools, and fuel wood.</li>
+<li>A decoction of the bark is consumed to treat dysentery.</li>
+<li><b>Sap :</b> The white latex exuding from the trunk and branches serves as a potent anthelmintic, and is also employed in the manufacturing of chewing gum and rubber boots.</li>
+</ul>`,
           reference: `
-          <a href="https://www.baanlaesuan.com/plants/palm-cycad/137161.html/" target="_blank">
-          Click to see references.</a>`
+      <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">Source 1</a>,
+      <a href="https://medthai.com/%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%94/" target="_blank">Source 2</a>,
+      <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">Source 3</a>,
+      <a href="https://skm.ssru.ac.th/news/view/wut025" target="_blank">Source 4</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf characteristics :</b> The leaves are simple, oval or elliptical in shape, with pointed tips and tapering bases. 
-          The surface is glossy dark green, and the leaves grow densely at the tips of the branches.`,
+          desc: `<b>Leaf Characteristics :</b> The leaf is a simple blade, brownish-green on the underside, clustered at the tips of branches. The leaves are oval or elliptical in shape, with pointed tips and tapering bases. The surface is glossy dark green.<br><br>
+
+<b>Uses :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>Extracts from the leaf are used in the formulation of serums for anti-ageing and skin nourishment.</li>
+<li>Pruned branches and leaves may be processed into biochar for soil enrichment.</li>
+</ul>`,
           reference: `
-          <a href="https://medthai.com/ละมุด/" target="_blank">
-          Click to see references.</a>`
+      <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">Source 1</a>,
+      <a href="https://thailandinnovationportal.com/info/product/item/65883" target="_blank">Source 2</a>,
+      <a href="http://clinictech.ops.go.th/online/cmo/finalreport/202412131511391.pdf" target="_blank">Source 3</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Fruit characteristics :</b> The fruit is oval or oblong. When unripe, it is green; when ripe, it has a thin reddish-brown skin.
-<br><br>
-<b>Flesh :</b> The ripe fruit is yellowish-brown, very sweet, with a grainy texture.
-<br><br>
-<b>Latex in fruit :</b> Unripe sap contains white latex and high tannins, which should not be eaten as it can make the tongue astringent.
-<br><br>
-<b>Nutritional value :</b> Very high in dietary fiber (mild laxative effect), contains vitamin A, vitamin C, calcium, and phosphorus.
-<br><br>
-<b>Key benefits :</b> Helps boost immunity, prevent colds, relieve constipation, reduce the risk of colon cancer, and tannins provide anti-inflammatory effects in the body (e.g., for acid reflux).`,
-reference: `
-          <a href="https://www.kasettambon.com/ละมุด-ผิวผลมีสีน้ำตาล-เม/" target="_blank">
-          Click to see references.</a>`
+          desc: `<b>Fruit Characteristics :</b> The sapodilla produces small, perfect flowers measuring approximately 1 centimetre in diameter, with two whorls of three sepals each and twelve petals. Within the flower are six stamens and a superior ovary. The fruit is oval or oblong. When unripe, it is green; when ripe, it has a thin reddish-brown skin.<br><br>
+
+<b>Flesh :</b> The ripe fruit is yellowish-brown, very sweet, with a grainy texture.<br><br>
+
+<b>Latex in Fruit :</b> Unripe sapodilla contains white latex and high levels of tannins, which should not be eaten as it causes an unpleasant astringent sensation on the tongue.<br><br>
+
+<b>Nutritional Value (Per 100g) :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>83 kcal energy; 19.96g carbohydrates; 5.3g dietary fibre; 1.1g fat; 0.44g protein; vitamin B2 (riboflavin) 0.50mg; vitamin B3 (niacin) 0.20mg; vitamin B5 0.252mg; vitamin B6 0.037mg; vitamin B9 14 mcg; vitamin C 14.7mg; calcium 21mg; iron 0.8mg; magnesium 12mg; phosphorus 12mg; potassium 193mg; sodium 12mg; zinc 0.1mg.</li>
+</ul><br>
+
+<b>Uses and Benefits :</b> The high vitamin C content affords protection against the common cold. Its dietary fibre promotes bowel regularity and reduces the risk of colon cancer. The seeds are reputed to fortify physical energy. The fruit is widely consumed fresh, and may be processed into juice or sapodilla wine.<br><br>
+
+<b>Key Benefits :</b> Helps boost immunity, prevent colds, relieve constipation, reduce the risk of colon cancer, and tannins provide anti-inflammatory effects in the body (e.g., for acid reflux).<br><br>
+
+<b>Precaution :</b> The fruit contains elevated levels of natural sugars; persons with diabetes should limit their consumption. Care must also be taken with young children, as the seeds may present a choking hazard; seeds should be removed and the fruit sliced or puréed before serving.`,
+          reference: `
+      <a href="https://medthai.com/%e0%b8%a5%e0%b8%b0%e0%b8%a1%e0%b8%b8%e0%b8%94/" target="_blank">Source 1</a>,
+      <a href="http://mdc.library.mju.ac.th/article/90984/297631/291926.pdf" target="_blank">Source 2</a>,
+      <a href="https://www.svppijit.com/images/km2Manilkara.pdf" target="_blank">Source 3</a>`
         },
         root: {
           title: "Root",
-          desc: `<b>Root characteristics :</b> Strong root system with many roots, highly drought-tolerant once established.
-<br><br>
-<b>Planting preparation :</b> For cuttings or seedlings with coiled roots, spread the roots during planting to help the root system grow well.
-<br><br>
-<b>Restoration :</b> For older sapodilla trees, trim the outer roots (loosen soil 10–15 cm deep around the canopy) to stimulate new root growth and improve nutrient absorption.`,
-reference: `
-          <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
-          Click to see references.</a>`
+          desc: `<b>Root Characteristics :</b> Trees grown from seed possess a deep, robust taproot. The root system is strong with many roots, highly drought-tolerant once established.<br><br>
+
+<b>Uses :</b> Agricultural growers frequently employ sapodilla seedlings as rootstock for grafting superior varieties, on account of the species' vigorous nutrient uptake and firm anchorage in the soil.<br><br>
+
+<b>Planting Preparation :</b> For cuttings or seedlings with coiled roots, spread the roots during planting to help the root system grow well.<br><br>
+
+<b>Restoration :</b> For older sapodilla trees, trim the outer roots (loosen soil 10–15 cm deep around the canopy) to stimulate new root growth and improve nutrient absorption.<br><br>
+
+<b>Precaution :</b> The sapodilla does not tolerate waterlogging; prolonged immersion of the roots results in stunted growth, oxygen deprivation, and root rot.`,
+          reference: `
+      <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">Source 1</a>,
+      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">Source 2</a>,
+      <a href="https://web.ku.ac.th/nk40/ravee.htm" target="_blank">Source 3</a>`
         },
         care: {
           title: "Care",
-          desc: `<b>Sunlight and climate :</b> Sapodilla trees prefer hot weather and need full sun all day (more than 6 hours) to grow well and produce abundant fruit.
-<br><br>
-<b>Soil :</b> Prefers loose, fertile soil rich in organic matter (e.g., topsoil mixed with aged compost).
-<br><br>
-<b>Watering :</b> Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.
-<br><br>
-<b>Pruning :</b> Prune occasionally to control tree height (for easier harvesting) and to maintain a nice canopy shape.
-<br><br>
-<b>Fruit production :</b> Trees propagated from cuttings will bear fruit within 1 year, while seed-grown trees take 4–5 years.`,
-reference: `
-          <a href="http://www.medi.co.th/news_detail.php?q_id=311" target="_blank">
-          Click to see references.</a>`
+          desc: `<b>Sunlight and Climate :</b> Sapodilla trees prefer hot weather and need full sun all day (more than 6 hours) to grow well and produce abundant fruit.<br><br>
+
+<b>Soil :</b> Prefers loose, fertile soil rich in organic matter (e.g., topsoil mixed with aged compost).<br><br>
+
+<b>Watering :</b> Regular irrigation is maintained, though water should be reduced as the fruit nears maturity and harvest, which enhances the crispness and sweetness of the ripe fruit. Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.<br><br>
+
+<b>Fertilisation :</b> Organic or biological fertiliser is applied once or twice annually. During the planting phase, the base of the planting hole may be lined with a balanced fertiliser formula of 15-15-15.<br><br>
+
+<b>Pruning :</b> Dead branches should be removed and overly mature trees may be rejuvenated by severe pruning in order to stimulate renewed flowering and fruiting. Prune occasionally to control tree height for easier harvesting and to maintain a nice canopy shape.<br><br>
+
+<b>Fruit Production :</b> Trees propagated from cuttings will bear fruit within 1 year, while seed-grown trees take 4–5 years.<br><br>
+
+<b>Pests :</b> Principal pests include the fruit borer; the oriental fruit fly, which causes fruit drop and rot; and the golden beetle (แมลงค่อมทอง), which feeds upon young leaves and flowers.`,
+          reference: `
+      <a href="https://www.ipthailand.go.th/images/2284/SCH61100101.pdf" target="_blank">Source 1</a>,
+      <a href="https://www.svppijit.com/images/km2Manilkara.pdf" target="_blank">Source 2</a>,
+      <a href="https://kohyor.go.th/travel/detail/1222" target="_blank">Source 3</a>,
+      <a href="https://www.hu.ac.th/Conference/conference2024/proceedings/doc/07%20%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%20(Sc)/Sc-060%20%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%B5%20%E0%B8%AA%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B8%B2%20(1583-1592).pdf" target="_blank">Source 4</a>`
         },
       },
       gallery: {
@@ -213,7 +281,6 @@ reference: `
     initToggle,
   };
 
-  // ✅ โหลดแปลทันทีเมื่อ DOM พร้อม
   document.addEventListener("DOMContentLoaded", () => {
     applyStaticTranslations();
   });

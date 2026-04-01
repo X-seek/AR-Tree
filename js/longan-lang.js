@@ -43,7 +43,7 @@
         root: {
           title: "ราก",
           desc: `ต้นจากเมล็ดมีรากแก้วแข็งแรง ส่วนต้นจากกิ่งตอนจะไม่มีรากแก้ว ทำให้โค่นล้มง่าย<br><br>
-          <b>ประโยชน์ :</b> รากต้มดื่มแก้ช้ำใน ตกขาว ขับพยาธิเส้นด้าย แก้เสมหะ เกษตรกรมักนิยมทำ “การเสริมราก” นำต้นเพาะเมล็ดมาทาบโคนต้นตอน เพื่อเพิ่มความแข็งแรงและช่วยหาอาหาร<br><br>
+          <b>ประโยชน์ :</b> รากต้มดื่มแก้ช้ำใน ตกขาว ขับพยาธิเส้นด้าย แก้เสมหะ เกษตรกรมักนิยมทำ "การเสริมราก" นำต้นเพาะเมล็ดมาทาบโคนต้นตอน เพื่อเพิ่มความแข็งแรงและช่วยหาอาหาร<br><br>
           <b>ข้อควรระวัง :</b> การราดสารเคมี เช่น โพแทสเซียมคลอเรต เพื่อบังคับออกดอกนอกฤดูในปริมาณมากเกินไป จะทำลายระบบรากจนต้นตายได้`,
           reference: `
                 <a href="https://moi.gcc.go.th/index.php?option=com_content&view=article&id=12163" target="_blank">แหล่งที่มา 1</a>, 
@@ -55,7 +55,7 @@
           title: "การดูแล",
           desc: `<b>การให้น้ำ :</b> รดน้ำสม่ำเสมอช่วงแตกใบ แต่ห้ามฉีดน้ำแรงช่วงดอกบาน (ดอกจะร่วง)<br><br>
           <b>การใส่ปุ๋ย :</b> หลังเก็บเกี่ยวให้ปุ๋ย N (ไนโตรเจน) สูงเร่งใบ และให้ปุ๋ย P, K (ฟอสฟอรัส, โพแทสเซียม) สูงช่วงเปิดตาดอกเพื่อบำรุงดอก<br><br>
-          <b>การตัดแต่งกิ่ง :</b> รีบตัดแต่งกิ่งให้โปร่งภายใน 15 วันหลังเก็บเกี่ยว และควร “แต่งช่อผล” เด็ดผลเล็กและมีตำหนิทิ้ง เพื่อให้ผลที่เหลือลูกใหญ่สม่ะเสมอ<br><br>
+          <b>การตัดแต่งกิ่ง :</b> รีบตัดแต่งกิ่งให้โปร่งภายใน 15 วันหลังเก็บเกี่ยว และควร "แต่งช่อผล" เด็ดผลเล็กและมีตำหนิทิ้ง เพื่อให้ผลที่เหลือลูกใหญ่สม่ำเสมอ<br><br>
           <b>ศัตรูพืช :</b> มวนลำไย ดูดน้ำเลี้ยงจนผลดำร่วง, เพลี้ยแป้ง มีมดเป็นพาหะ ทำให้เกิดโรคราดำ, หนอนกินใบ ทำลายยอดอ่อนและดอก`,
           reference: `
                 <a href="https://ppsf.doae.go.th/wp-content/uploads/2023/11/คำแนะนำการจัดการศัตรูพืชลำไย-3-ชนิดศัตรูพืช.pdf" target="_blank">แหล่งที่มา 1</a>, 
@@ -68,8 +68,6 @@
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าว",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -87,7 +85,7 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Stem",
+          title: "Trunk",
           desc: `The longan is a perennial tree with a dense, rounded crown and hard timber. The bark is rough, and the wood is red or reddish-brown in colour and of exceptional strength.<br><br>
   <b>Uses :</b> A decoction of the bark is consumed to treat diarrhoea and loose stools, and to heal burns and scalds. The timber is valued for the crafting of furniture, mortars, and chopping boards, and is regarded as an excellent fuel wood, as it burns with an intense heat and emits a characteristically pleasant and distinctive aroma.`,
           reference: `
@@ -148,9 +146,7 @@
       gallery: {
         title: "Choose a Tree Model",
         items: {
-          banana1: "Namwa Banana",
-          coconut1: "Aromatic Coconut",
-          sugarcane1: "Red Sugarcane",
+          banana1: "Banana",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -215,4 +211,8 @@
     applyHotspotContent,
     initToggle,
   };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    applyStaticTranslations();
+  });
 })();

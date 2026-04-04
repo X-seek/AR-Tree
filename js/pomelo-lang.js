@@ -3,74 +3,72 @@
     th: {
       page: { title: "ส้มโอ" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นส่วนลำต้นหลักของไม้ยืนต้นขนาดใหญ่<br><br>
-
-          <b>ความสูง :</b> มีทรงพุ่มใหญ่และสูงได้ถึง 30 ฟุต<br><br>
-
-          <b>เปลือก :</b> มีลักษณะ เรียบ สีน้ำตาลอ่อน หรือสีเทาอมเหลืองหนาม ตามกิ่งและลำต้นของส้มโอ อาจมีหนามแหลมสั้นๆ<br><br>
-
-          <b>เนื้อไม้ :</b> ลำต้นมีความแข็งแรง โดยเฉพาะเมื่อใช้ ต้นตอที่มีระบบรากที่แข็งแรง`,
+          desc: `ไม้ยืนต้นทรงพุ่ม สูง 5-15 เมตร มีหนามตามลำต้นและกิ่ง กิ่งอ่อนมีขนสั้น<br><br>
+          <b>ประโยชน์</b><br>แก่นต้นต้มดื่มช่วยขับพยาธิ ขับลม ขับปัสสาวะ และเกษตรกรมักนิยมทำการเสริมราก ปลูกแบบ 3 ขา เพื่อค้ำยันและหาอาหาร<br><br>
+          <b>ข้อควรระวัง :</b> เสี่ยงต่อโรครากเน่าโคนเน่า จากเชื้อราไฟทอปธอรา ทำให้เปลือกช้ำ มีน้ำยางไหล และเนื้อไม้ข้างในเน่าดำ`,
           reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
-        },
+          <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">แหล่งที่มา 4</a>`
+        },  
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบเดี่ยว แต่มีปีกใบขนาดใหญ่คล้ายใบประกอบ แผ่นใบรูปไข่หรือรี ปลายแหลม โคนมน ขอบใบหยักมนหรือเรียบ ใบมีต่อมน้ำมัน จึงมีกลิ่นหอมเฉพาะตัว<br><br>
-
-          <b>สรรพคุณ :</b> สามารถใช้ตำพอกเพื่อแก้ปวดศีรษะได้ สามารถใช้ขยี้ทา ระงับอาการปวดบวม จากแมลงกัดต่อยได้ และช่วยขับลม และแก้ลำคออักเสบ หากนำใบมาตากแห้งชงดื่ม`,
+          desc: `ก้านใบแผ่เป็นปีกคล้ายใบมะกรูดแต่ใหญ่กว่า หนา แข็ง มีกลิ่นหอมน้ำมันหอมระเหย<br><br>
+          <b>ประโยชน์</b><br>ตำพอกศีรษะแก้ปวดหัว ตำย่างไฟพอกแก้ปวดบวมข้อ บรรเทาท้องอืด มีสารกลุ่มฟลาโวนอยด์ที่มีแนวโน้มยับยั้งเซลล์มะเร็ง<br><br>
+          <b>ศัตรูพืชที่ใบ : </b>หนอนชอนใบ ทิ้งรอยขาวคดเคี้ยว เป็นช่องทางเกิดโรคแคงเกอร์ และเพลี้ยจักจั่น ดูดน้ำเลี้ยงจนใบหงิกเหลือง`,
           reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.rspg.or.th/plants_data/homklindokmai/budhabot/som.htm" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://medthai.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="https://hdmall.co.th/blog/c/pomelo/" target="_blank">แหล่งที่มา 4</a>,
+          <a href="https://www.naewna.com/local/538581" target="_blank">แหล่งที่มา 5</a>,
+          <a href="https://www.mardubai.in.th/leafhopper-pomelo" target="_blank">แหล่งที่มา 6</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `เนื้อมีรสหวานอมเปรี้ยวหรือหวานจัด ฉ่ำน้ำ และมีเยื่อหุ้มหนา วิตามิน C สูง เปลือกหนา มีรูพรุน (ต่อมน้ำมัน)<br><br>
-
-          <b>สรรพคุณ :</b> เสริมภูมิคุ้มกัน บำรุงผิวพรรณ ช่วยในการเจริญอาหาร แก้เมาสุราได้ เปลือกใช้แก้จุกเสียดแน่นท้อง ขับเสมหะ ขับลม และใช้ต้มน้ำอาบแก้คัน<br><br>
-
-          <b>ดอก :</b> ดอกสีขาวมีกลิ่นหอมใช้เป็นยาช่วยขับลมและขับเสมหะ<br><br>
-
-          <b>เมล็ด :</b> มีรสขม ใช้แก้ปวดท้อง และจุกเสียดแน่นท้อง (ช่วยลดอาการหดตัวผิดปกติของลำไส้เล็ก)<br><br>`,
+          desc: `ดอกสมบูรณ์เพศสีขาว ผลเป็นตระกูลส้ม (Hesperidium) ทรงกลม เปลือกมีต่อมน้ำมัน ถัดเข้าเป็นปุยสีขาวหนา<br><br>
+          <b>คุณค่าทางโภชนาการ</b>
+          <ul class="desc">
+            <li>พลังงาน 38 กิโลแคลอรี, คาร์โบไฮเดรต 9.62 กรัม, โปรตีน 0.76 กรัม, ไขมัน 0.04 กรัม, ใยอาหาร 1 กรัม, แคลเซียม 4 มิลลิกรัม, ธาตุเหล็ก 0.11 มิลลิกรัม, ฟอสฟอรัส 17 มิลลิกรัม, โพแทสเซียม 216 มิลลิกรัม, วิตามินซี 61 มิลลิกรัม</li>
+          </ul><br>
+          <b>ประโยชน์</b><br>วิตามินซีช่วยกันโรคเลือดออกตามไรฟัน ขับลม แก้แฮงค์ มีสารต้านอนุมูลอิสระ (ลดไขมันในเลือด) / ทานสดหรือทำอาหาร (ยำ, เมี่ยง) / ปุยขาวมีเพคตินสูง นำไปเชื่อมหรือกวนได้<br><br>
+          <b>ข้อควรระวัง :</b> ห้ามทานตอนท้องว่าง เพราะกรดและวิตามินซีสูงจะระคายเคืองกระเพาะอาหาร โดยเฉพาะผู้เป็นแผลในกระเพาะ`,
           reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          <a href="https://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://medplant.mahidol.ac.th/active/shownews.asp?id=929" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="https://medthai.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 4</a>,
+          <a href="https://e-research.siam.edu/wp-content/uploads/2022/09/Liberal-Arts-Tourism-and-Hospitality-Industry-2021-coop-Pomelo-Bath-Bomb1.pdf" target="_blank">แหล่งที่มา 5</a>,
+          <a href="https://hdmall.co.th/blog/c/pomelo/" target="_blank">แหล่งที่มา 6</a>`
         },
-
         root: {
           title: "ราก",
-          desc: `แข็งแรง ทนทาน และมีอายุยืนยาว<br><br>
-
-          <b>องค์ประกอบของราก :</b> รากแก้ว (ถ้าเพาะเมล็ด), รากแขนงและ รากฝอย<br><br>
-
-          <b>ระดับความลึกของราก :</b> ส่วนใหญ่ที่ใช้ดูดซึมอาหารจะอยู่ในระดับค่อนข้างตื้น รากที่หนาแน่นที่สุดอยู่แค่ประมาณ 1–2 ฟุตจากผิวดิน<br><br>
-
-          <b>สรรพคุณ :</b> รากมีรสขมปร่า ใช้แก้หวัด แก้ไอ ช่วยแก้จุกเสียด และขับพยาธิ<br><br>
-
-          <b>เทคนิคการปลูก :</b> นิยมใช้เทคนิค "ยกโขด" และ "เสริมราก" เพื่อให้รากแผ่ขยายและดูดอาหารได้ดี ทำให้ต้นโตเร็ว`,
+          desc: `รากแก้วลึกลงดิน 4.5-5 ม. นิยมปลูกแบบยกโขด พูนดินให้สูง เพื่อให้รากอยู่ตื้นและดูดซับปุ๋ยได้เร็ว<br><br>
+          <b>ประโยชน์</b><br>เป็นยาสมุนไพรรสฉุน แก้ปวดกระเพาะ ท้องน้อย ไส้เลื่อน แก้ไอและหวัด<br><br>
+          <b>ข้อควรระวัง : </b>ถ้าน้ำขังแฉะ รากจะขาดออกซิเจนและนำไปสู่โรครากเน่า ต้นตายได้`,
           reference: `
-      <a href="http://lib.doa.go.th/multim/e-book/EB00577.pdf" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
+          <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">แหล่งที่มา 4</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>แสงแดด :</b> ต้องการ แสงแดดจัดเต็มวัน (อย่างน้อย 6 ชั่วโมงต่อวัน)<br><br>
-
-          <b>ดิน :</b> ชอบดินที่ระบายน้ำดีและมีอินทรียวัตถุสูง<br><br>
-
-          <b>การให้น้ำ :</b> ให้น้ำสม่ำเสมอการกระตุ้นดอกต้องงดน้ำ 20–30 วันจนใบเริ่มเหี่ยวเล็กน้อยจากนั้นจึงให้น้ำอย่างเต็มที่<br><br>
-
-          <b>การตัดแต่งกิ่ง :</b> ควรตัดแต่งกิ่งให้ ทรงพุ่มโปร่ง และควบคุมความสูง หลังการเก็บเกี่ยวผลผลิต เพื่อกระตุ้นการแตกใบอ่อนใหม่<br><br>
-          
-          <b>การจัดการผล :</b> ควรมีการปลิดผลทิ้งให้เหลือปริมาณที่เหมาะสมกับขนาดต้น เพื่อให้ผลที่เหลือมีขนาดใหญ่และคุณภาพดี`,
+          desc: `<b>การให้น้ำและดิน :</b> ชอบความชื้นแต่ห้ามแฉะ ที่ลุ่มต้องยกร่อง<br><br>
+          <b>การเร่งดอก :</b> งดน้ำ 20-30 วันจนใบเหี่ยวม้วน แล้วรดน้ำเต็มที่ 4-5 วัน ต้นจะแตกตาดอก<br><br>
+          <b>การใส่ปุ๋ย :</b> บำรุงใบใช้สูตร 16-16-16 ห้ามใส่ปุ๋ยคอกหรือไนโตรเจนเยอะช่วงติดผลเล็ก เพราะจะทำให้เปลือกหนา ผลบวม<br><br>
+          <b>โรคและศัตรูพืช :</b> โรคแคงเกอร์, โรคยางไหล, เพลี้ยไฟ, ไรแดง, ผีเสื้อมวนหวาน มักระบาดช่วงแทงช่อดอกและติดผล`,
           reference: `
-      <a href="https://www.opsmoac.go.th/angthong-article_prov-preview-441991791795" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
-        },
+          <a href="https://chainatpomelo.com/documents/knowladge/ข้อมูล แผนผังการดูแลส้มโอ-31-10-66.pdf" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.chiataigroup.com/article-detail/Pomelo-MrVitoon" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.chiataigroup.com/article-detail/FertilizerforPomelo" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="https://thaifarmer.lib.ku.ac.th/news/5f714116a9aa136333e5da4c" target="_blank">แหล่งที่มา 4</a>`
+        }
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
@@ -85,9 +83,9 @@
           lime1: "มะนาว",
           longan1: "ลำไย",
           sapodilla1: "ละมุด",
-          pomelo1: "ส้มโอ",
-        },
-      },
+          pomelo1: "ส้มโอ"
+        }
+      }
     },
     en: {
       page: { title: "Pomelo" },
@@ -95,81 +93,69 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
-          desc: `<b>Type :</b> The main trunk of a large perennial tree.<br><br>
-
-<b>Height :</b> Has a large canopy and can grow up to 30 feet tall.<br><br>
-
-<b>Bark :</b> Smooth, light brown or yellowish-gray in color.<br><br>
-
-<b>Thorns :</b> Branches and trunk may have short, sharp thorns.<br><br>
-
-<b>Wood :</b> The trunk is strong, especially when using a rootstock with a robust root system.`,
+          title: "Stem",
+          desc: `A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. Young branches are covered with short hairs.<br><br>
+            <b>Uses :</b> Heartwood decoction is used to expel parasites, relieve flatulence, and promote urination. Growers often use "three-legged root reinforcement" for support.<br><br>
+            <b>Precaution :</b> Susceptible to Phytophthora root and crown rot, causing bark bruising, gum exudation, and internal wood decay.`,
           reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-          Click to see references.</a>`
+            <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
+            <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
+            <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>, 
+            <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">Source 4</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf characteristics :</b> Simple leaves with large wing-like extensions resembling compound leaves; the leaf blade is oval or elliptical, pointed at the tip, rounded at the base, with either smooth or slightly wavy edges.<br><br>
-
-<b>Scent :</b> The leaves have oil glands, giving them a distinct fragrant smell (a sweet, slightly pungent aroma).<br><br>
-
-<b>Leaf uses :</b> Can be crushed and applied to relieve headaches, rubbed on insect bites to reduce pain and swelling, and used to relieve gas and sore throat. Dried leaves can be brewed as tea.`,
+          desc: `The petiole bears prominent wings resembling kaffir lime leaves but larger. They are thick, firm, and fragrant with volatile oils.<br><br>
+            <b>Uses :</b> Pounded as a poultice for headaches; toasted for joint pain and bloating. Contains flavonoids that may inhibit cancer cell growth.<br><br>
+            <b>Pests :</b> Leaf miners (white winding trails) and citrus leafhoppers (causing leaf curling and yellowing).`,
           reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-          Click to see references.</a>`
+            <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">Source 1</a>, 
+            <a href="https://www.rspg.or.th/plants_data/homklindokmai/budhabot/som.htm" target="_blank">Source 2</a>, 
+            <a href="https://medthai.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 3</a>, 
+            <a href="https://hdmall.co.th/blog/c/pomelo/" target="_blank">Source 4</a>,
+            <a href="https://www.naewna.com/local/538581" target="_blank">Source 5</a>,
+            <a href="https://www.mardubai.in.th/leafhopper-pomelo" target="_blank">Source 6</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Fruit flesh :</b> Sweet-tart or very sweet, juicy, with thick pulp, high in vitamin C.
-<br><br>
-<b>Uses of flesh :</b> Boosts immunity, nourishes skin, stimulates appetite, and can help relieve hangovers.
-<br><br>
-<b>Peel (skin) :</b> Thick and porous (with oil glands).
-<br><br>
-<b>Uses of peel :</b> Relieves bloating, expels phlegm and gas, and can be boiled as a bath to relieve itching.
-<br><br>
-<b>Flowers :</b> White, fragrant; used medicinally to relieve gas and expel phlegm.
-<br><br>
-<b>Seeds :</b> Bitter; used to relieve stomach pain and bloating (helps reduce abnormal small intestine contractions).`,
+          desc: `Bears bisexual white flowers; fruit is a hesperidium type. Round form with oil glands on the rind and a thick, white, spongy internal pith.<br><br>
+            <b>Nutritional Value (Per 100g) :</b>
+            <ul class="desc">
+              <li>38 kcal energy; 9.62g carbs; 0.76g protein; 0.04g fat; 1g fibre; calcium, iron, phosphorus, potassium, and 61mg vitamin C.</li>
+            </ul><br>
+            <b>Uses and Benefits :</b> Protects against scurvy, relieves flatulence and hangovers. High in antioxidants. Pith is rich in pectin, used for preserves.<br><br>
+            <b>Precaution :</b> Avoid consuming on an empty stomach; high acidity may irritate the gastric lining.`,
           reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%aa%e0%b9%89%e0%b8%a1%e0%b9%82%e0%b8%ad-%e0%b8%ab%e0%b8%a3%e0%b8%b7%e0%b8%ad-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%82%e0%b8%ad-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%9c/" target="_blank">
-          Click to see references.</a>`
+            <a href="https://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm" target="_blank">Source 1</a>, 
+            <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">Source 2</a>, 
+            <a href="https://medplant.mahidol.ac.th/active/shownews.asp?id=929" target="_blank">Source 3</a>, 
+            <a href="https://medthai.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 4</a>,
+            <a href="https://e-research.siam.edu/wp-content/uploads/2022/09/Liberal-Arts-Tourism-and-Hospitality-Industry-2021-coop-Pomelo-Bath-Bomb1.pdf" target="_blank">Source 5</a>,
+            <a href="https://hdmall.co.th/blog/c/pomelo/" target="_blank">Source 6</a>`
         },
-
         root: {
           title: "Root",
-          desc: `<b>Root characteristics :</b> Strong, durable, and long-lived.
-<br><br>
-<b>Root components :</b> Taproot (if grown from seed), lateral roots, and fibrous roots.
-<br><br>
-<b>Root depth :</b> Most nutrient-absorbing roots are relatively shallow, with the densest roots only about 1–2 feet from the soil surface.
-<br><br>
-<b>Uses :</b> The roots are bitter and astringent; they can be used to treat colds, coughs, bloating, and expel intestinal parasites.
-<br><br>
-<b>Cultivation techniques :</b> Techniques like “mound planting” and “root reinforcement” are used to help roots spread and absorb nutrients effectively, promoting faster tree growth.`,
+          desc: `Taproot penetrates 4.5 to 5 metres. Commonly grown on raised mounds to keep roots shallow for efficient nutrient absorption.<br><br>
+            <b>Uses :</b> Pungent medicinal character; used for gastric pain, hernia, coughing, and colds.<br><br>
+            <b>Precaution :</b> Waterlogging causes oxygen deprivation and root rot, leading to tree death.`,
           reference: `
-          <a href="http://lib.doa.go.th/multim/e-book/EB00577.pdf" target="_blank">
-          Click to see references.</a>`
+            <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
+            <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
+            <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>, 
+            <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">Source 4</a>`
         },
         care: {
-          title: "Care",
-          desc: `<b>Sunlight :</b> Needs full sun all day (at least 6 hours per day).
-<br><br>
-<b>Soil :</b> Prefers well-drained soil with high organic matter.
-<br><br>
-<b>Watering during growth :</b> Water consistently.
-<br><br>
-<b>Flower stimulation :</b> Stop watering for 20–30 days until the leaves begin to wilt slightly, then water fully to encourage flowering.
-<br><br>
-<b>Pruning (important) :</b> Prune to maintain an open canopy and control height after harvesting to stimulate new leaf growth.
-<br><br>
-<b>Fruit management :</b> Thin out excess fruit to leave an appropriate amount for the tree size, ensuring the remaining fruits are large and high-quality.`,
+          title: "Cultivation and Care",
+          desc: `<b>Watering and Soil :</b> Favours moisture but not waterlogging; requires raised beds in low-lying areas.<br><br>
+            <b>Flowering Induction :</b> Withhold water for 20-30 days until leaves wilt, then irrigate fully for 4-5 days to stimulate buds.<br><br>
+            <b>Fertilisation :</b> Use 16-16-16 for foliage. Avoid high-nitrogen fertiliser during early fruit set to prevent thick rinds.<br><br>
+            <b>Diseases and Pests :</b> Canker, gummosis, thrips, and red spider mites, especially during flowering and fruit set.`,
           reference: `
-          <a href="https://www.opsmoac.go.th/angthong-article_prov-preview-441991791795" target="_blank">
-          Click to see references.</a>`
-        },
+            <a href="https://chainatpomelo.com/documents/knowladge/ข้อมูล แผนผังการดูแลส้มโอ-31-10-66.pdf" target="_blank">Source 1</a>, 
+            <a href="https://www.chiataigroup.com/article-detail/Pomelo-MrVitoon" target="_blank">Source 2</a>, 
+            <a href="https://www.chiataigroup.com/article-detail/FertilizerforPomelo" target="_blank">Source 3</a>, 
+            <a href="https://thaifarmer.lib.ku.ac.th/news/5f714116a9aa136333e5da4c" target="_blank">Source 4</a>`
+        }
       },
       gallery: {
         title: "Choose a Tree Model",
@@ -184,10 +170,10 @@
           lime1: "Lime",
           longan1: "Longan",
           sapodilla1: "Sapodilla",
-          pomelo1: "Pomelo",
-        },
-      },
-    },
+          pomelo1: "Pomelo"
+        }
+      }
+    }
   };
 
   let currentLang = localStorage.getItem("lang") || "th";
@@ -242,7 +228,6 @@
     initToggle,
   };
 
-  // ✅ โหลดครั้งแรก
   document.addEventListener("DOMContentLoaded", () => {
     applyStaticTranslations();
   });

@@ -3,82 +3,81 @@
     th: {
       page: { title: "ฝรั่ง" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป้นต้นไม้ขนาดกลาง สูงประมาณ 3-5 เมตร ผิวเปลือกต้นเรียบเกลี้ยง กิ่งอ่อนเป็นสี่เหลี่ยม<br><br>
-<b>สรรพคุณ :</b> เปลือกต้นสดใช้ต้มน้ำชะล้างบริเวณที่เป็น ผดผื่นคัน หรือใช้ต้มแก้อาการลำไส้อักเสบ`,
- reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `เป็นไม้ยืนต้นขนาดเล็ก เป็นทรงพุ่ม สูงประมาณ 3-10 เมตร แตกกิ่งก้านบริเวณใกล้โคนต้น มีการแตกหน่อจากรากบริเวณใกล้กับลำต้น เปลือกมีสีน้ำตาลอมแดงหรือน้ำตาลอมเขียว เปลือกลอกออกเมื่อลำต้นแก่ กิ่งอ่อนมีปีกเล็ก ทำให้กิ่งมีรูปเป็นสี่เหลี่ยม กิ่งอ่อนมีสีเขียวอมเหลืองหรือแดงเข้ม มีขนปกคลุมหนาแน่น และจะหลุดหายเมื่อกิ่งแก่ กิ่งแก่สีน้ำตาลอมแดงไม่มีขนปกคลุม<br><br>
+          
+          <b>สรรพคุณ :</b> เปลือกต้น บรรเทาอาการปวดท้อง ใช้ร่วมกับพืชอื่นต้มดื่มแก้ท้องเสีย`,
+          
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">แหล่งที่มา 2</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบเดี่ยว เรียงตรงข้าม มีความหนา หยาบ ใต้ท้องใบเป็นริ้ว เห็นเส้นใบชัดเจน ใบยาวประมาณ 10 เซนติเมตร<br><br>
-<b>สารสำคัญที่เด่น :</b> มีสารแทนนิน และเป็นน้ำมันหอมระเหย ซึ่งมีฤทธิ์ฝาดสมาน และยับยั้งเชื้อโรคได้<br><br>
-<ul>
-<b>สรรพคุณ :</b> 
-<li><b>แก้ท้องเสีย/ท้องร่วง: โดยการนำใบสดหรือใบเพสลาดมาต้ม หรือเคี้ยวสดได้ เพื่อรักษาอาการท้องเดิน/ท้องร่วง (ที่ไม่ใช่บิดหรืออหิวาตกโรค)</b></li>
-<li><b>ภายนอก :</b> ใช้ใบสดตำพอก ห้ามเลือด ใส่แผลสด ดูดหนอง แก้แผลพุพอง และช่วยดับกลิ่นปาก (เคี้ยวใบ 2-3 ใบ)</li>
-<li>b>ช่องปาก :</b> บรรเทาอาการปวดฟัน และเหงือกบวม</li>
-</ul>`,
- reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `เป็นไม้ประเภทใบคู่ ใบอ่อนมีสีเขียว ผิวใบมีลักษณะไม่เรียบ มีขนอ่อนปกคลุม แตกออก 2 ใบ จากกิ่งตรงข้ามกัน ด้านบน ใบมีร่องลึก แผ่นใบเป็นรูปไข่ ปลายมน กว้าง 3-7 เซนติเมตร ยาว 5-15 เซนติเมตร ด้านหลังใบเรียบ ด้านท้องใบมีขนอ่อนปกคลุม มีเส้นใบมองเห็นชัด เป็นนูนขึ้นมา ฐานใบโค้ง ขอบใบเรียบ และมีขอบโปร่งใส<br><br>
+          
+          <b>สรรพคุณ :</b> แก้ท้องเสีย ท้องร่วง ท้องเดิน (ที่ไม่ใช่บิด หรืออหิวาตกโรค) เป็นยาห้ามเลือด ใส่แผลสด ใช้ใบ 2-3 ใบเคี้ยว ๆ ระงับกลิ่นปาก แก้ฝี เป็นยาล้างแผล ดูดหนองและถอนพิษบาดแผล แก้เหงือกบวม แก้พิษเรื้อรัง แก้ปวดเนื่องจากเล็บขบ แก้แพ้ยุง`,
+         
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">แหล่งที่มา 2</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `มีรูปทรงกลม รูปไข่ หรือรูปรี ผิวเรียบเกลี้ยง เนื้อในมีสีแดงสด (หรือสีชมพู) รสชาติหวานกรอบ<br><br>
-
-<b>คุณค่าทางโภชนาการ :</b> อุดมไปด้วยวิตามิน C, A, B, K, โพแทสเซียม, และไฟเบอร์สูง<br><br>
-
-<b>สารที่โดดเด่น :</b> ไลโคปีน สารต้านอนุมูลอิสระที่มีประโยชน์มาก ซึ่งเป็นสาเหตุของสีแดงในเนื้อ<br><br>
-<ul>
-<b>สรรพคุณ :</b> ไลโคปีนมีฤทธิ์ยับยั้งการเจริญเติบโตของเซลล์มะเร็ง เช่น มะเร็งมดลูก มะเร็งปอด และมะเร็งต่อมลูกหมาก<br><br>
-<li><b>สุขภาพด้านหัวใจ :</b> สารแทนนินช่วย ลดไขมันในเส้นเลือด และลดความเสี่ยงโรคหัวใจ ความดันเป็นต้น</li>
-<li><b>ด้านการลดน้ำหนักและระบบย่อยอาหาร :</b> แคลอรี่ต่ำ ไฟเบอร์สูง ทำให้อิ่มนาน และช่วยบำรุงระบบทางเดินอาหารได้</li>
-</ul>`,
- reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `รูปร่างกลมหรือรูปไข่ เป็นป่องตรงปลาย เส้นผ่าศูนย์กลาง 5-9 เซนติเมตร ยาว 5-12 เซนติเมตร เปลือกโดยทั่วไปเรียบและขรุขระเล็กน้อย ผิวเปลือกเป็นมัน ผลอ่อนสีเขียวเข้ม ผลแก่สีเขียวอ่อน เมื่อสุกจะมีสีเหลือง เนื้อผลมีสีขาว สีขาวชมพู หรือเหลืองตามสายพันธุ์<br><br>
+          
+          <b>คุณค่าทางโภชนาการ</b>
+          <ul class="desc">
+            
+          <li>น้ำ 111 กรัม, น้ำตาล 8 กรัม, ใยอาหาร 3.6 กรัม, เบต้าแคโรทีน 26 ไมโครกรัม, วิตามินซี 234 มิลลิกรัม, โพแทสเซียม 230 มิลลิกรัม</li>
+          
+          </ul><br>
+          <b>สรรพคุณ :</b>
+          <ul class="desc">
+           
+          <li><b>ผลอ่อน</b> แก้ท้องเสีย ท้องร่วง ท้องเดิน ระงับกลิ่นปาก แก้บิดมูกเลือด แก้โรคเลือดออกตามไรฟัน (ลักปิดลักเปิด) บำรุงเหงือกและฟัน บำรุงผิวพรรณ</li>
+            
+          <li><b>ผลสุก</b> มีสารเพ็กตินอยู่มาก ใช้รับประทานเป็นยาระบายได้</li>
+          </ul>`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>`
         },
-      
         root: {
           title: "ราก",
-          desc: `<b>ระบบราก :</b> มีการแผ่ขยาย (ต้องให้พื้นที่ปลูกกว้างพอ) รากส่วนใหญ่หากินอยู่บริเวณผิวดิน<br><br>
-<b>สรรพคุณ :</b> ใช้แก้น้ำเหลืองเสียเป็นฝี แผลพุพอง และแก้เลือดกำเดาไหลได้`,
- reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `เป็นระบบรากแก้ว แตกเป็นรากแขนงจำนวนมาก และหยั่งลึกได้มากกว่า 2-5 เมตร<br><br>
+          
+          <b>สรรพคุณ :</b> แก้น้ำเหลืองเสีย เป็นฝี แผลพุพอง และแก้เลือดกำเดาไหล`,
+         
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">แหล่งที่มา 2</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>สภาพแวดล้อม :</b> เจริญเติบโตได้ดีในสภาพอากาศอบอุ่น อุณหภูมิไม่ต่ำกว่า 16 องศาเซลเซียส ใช้ดินร่วนปนทราย ที่มีความอุดมสมบูรณ์และระบายน้ำดี ไม่ชอบน้ำขัง<br><br>
-
-<b>การปลูก :</b> ควรยกระดับแปลงปลูก และทำร่องระบายน้ำให้ดี ไม่ควรลองก้นหลุมด้วยปุ๋ย ในช่วงแรกของการปลูก<br><br>
-
-<b>การให้น้ำ :</b> ต้องรดน้ำให้ชื้นอยู่เสมอโดยเฉพาะในช่วงติดดอกและพัฒนาผล เพื่อป้องกันดอกร่วงก่อนติดผล<br><br>
-
-<b>การตัดแต่งกิ่ง :</b> เป็นหัวใจสำคัญในการกระตุ้นการออกผล โดยควร ตัดแต่งกิ่งให้โปร่ง และ เด็ดยอด ทุกความยาว 30-50 ซม. เพื่อให้กิ่งใหม่ออกมาติดผล<br><br>
-
-<b>การป้องกันศัตรูพืช :</b> ศัตรูสำคัญคือ แมลงวันผลไม้ ซึ่งป้องกันได้โดยการ ห่อผล ตั้งแต่ผิวผลยังแข็งและสีเขียว<br><br>`,
- reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
-        },
+          desc: `<b>การให้น้ำ :</b> เริ่มให้น้ำครั้งแรกหลังการปลูกเสร็จให้เปียกชุ่ม หลังจากนั้นให้น้ำทุก 2 ครั้ง/วัน เช้า-เย็น<br><br>
+          
+          <b>การใส่ปุ๋ย : การใส่ปุ๋ยแบ่งเป็น 2 ช่วง ได้แก่</b><br>
+          <ul  class="desc">
+         
+          <li>ช่วงปลูกจนถึงออกผลรุ่นแรก จะใส่ปุ๋ยเป็นระยะเพื่อให้ต้นฝรั่งสามารถเจริญเติบโตได้ดี โดยอาจใช้ปุ๋ยคอกหรือปุ๋ยหมักผสมกับปุ๋ยเคมีในสูตร 12-12-0 ในอัตราส่วนปุ๋ยคอกต่อปุ๋ยเคมี 10:1 ในอัตรา 0.5 กิโลกรัม/ต้น ประมาณ 1-2 ครั้ง ก่อนการติดดอก</li>
+          
+          <li>ช่วงให้ผลผลิต ในช่วงที่ให้ผลิตในระยะออกดอกให้ใส่ปุ๋ยหมักร่วมกับปุ๋ยเคมีสูตร 15-15-15 ในอัตราเดียวกัน และเมื่อก่อนที่ผลฝรั่งจะห่ามก่อนเก็บผลผลิตประมาณ 1 เดือน ให้ใส่ปุ๋ยสูตร 12-12-24 ในอัตราเดียวกัน</li>
+          </ul>
+          
+          <b>การกำจัดวัชพืช :</b>ในระยะเริ่มปลูกจนถึงต้นอายุ 6 เดือน หลังปลูก ให้กำจัดวัชพืชรอบโคนต้นทุก ๆ 1 ครั้ง/เดือน ร่วมด้วยกับการไถกลบ หลังจากเมื่อต้นแตกกิ่งแล้วอาจทำการกำจัดวัชพืชน้อยลงก็ได้<br><br>
+          
+          <b>การตัดแต่งกิ่ง :</b>การตัดแต่งกิ่งจะตัดกิ่งที่มีอายุมากแล้วออกเพื่อให้กิ่งใหม่ขึ้นแทน เพราะหากใช้กิ่งที่ให้ผลมาแล้วตั้งแต่ 3 ปี จะทำให้ผลที่ได้มีขนาดเล็ก เพื่อให้มีลักษณะทรงพุ่มที่พอเหมาะสำหรับการเก็บผล`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>`
+        }
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้อื่น ๆ",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าว",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -96,82 +95,64 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
-          desc: `<b>Trunk Characteristics :</b> A medium-sized tree, about 3–5 meters tall. The bark is smooth, and the young branches are square-shaped.<br><br>
-
-<b>Medicinal Properties of the Bark :</b> Fresh bark can be boiled in water and used to wash areas with rashes or itching. It can also be boiled and consumed to relieve intestinal inflammation.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-          Click to see references.
-          </a>`
+          title: "Stem",
+          desc: `The guava is a small, shrubby perennial tree with a rounded crown, attaining a height of approximately 3 to 10 metres. It branches freely near the base. The bark is reddish-brown or brownish-green and peels away as the trunk matures. Young branches bear small wings, giving them a square cross-section.<br><br>
+          <b>Medicinal Properties : </b>The bark of the stem is used to relieve abdominal pain and in combination with other plants in a decoction to treat diarrhoea.`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">Source 2</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Characteristics :</b> The leaves are simple and grow in opposite pairs. They are thick and rough, with visible veins and ridges on the underside. Each leaf is about 10 cm long.
-<br><br>
-<b>Key Compounds :</b> Contains tannins and essential oils, which have astringent and antibacterial properties.<br><br>
-
-<b>Medicinal Properties :</b> For diarrhea: Fresh or semi-mature leaves can be boiled or chewed to relieve diarrhea (not caused by dysentery or cholera).
-<br><br>
-<b>External use :</b> Crushed fresh leaves can be applied to stop bleeding, treat fresh wounds, draw out pus, heal blisters, and reduce bad breath (by chewing 2–3 leaves).
-<br><br>
-<b>Oral health :</b> Helps relieve toothache and swollen gums.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `The leaf is paired, with young leaves being green and covered with fine hairs on a slightly uneven surface. The blade is ovoid in shape with a rounded apex, measuring 3 to 7 cm in width and 5 to 15 cm in length. The underside has soft hairs and prominently visibly raised veins.<br><br>
+          <b>Medicinal Properties:</b>
+          <ul class="desc">
+            <li>Used to treat diarrhoea (excluding dysentery and cholera) and as an agent to staunch bleeding for fresh wounds.</li>
+            <li>Neutralises bad breath (by chewing 2-3 leaves) and treats abscesses.</li>
+            <li>Cleanses wounds, draws out pus, relieves swollen gums, and treats chronic toxicity.</li>
+            <li>Relieves pain from ingrown toenails and treats mosquito bites.</li>
+          </ul>`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">Source 2</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Characteristics :</b> Guava fruits can be round, oval, or oblong in shape, with a smooth surface. The flesh is bright red (or pink) and has a sweet, crisp taste.
-<br><br>
-<b>Nutritional Value :</b> Rich in vitamin C (very high), vitamin A, B, K, potassium, and dietary fiber.
-<br><br>
-<b>Key Compound :</b> Lycopene — a powerful antioxidant responsible for the red color of the flesh.
-<br><br>
-<b>Health Benefits :</b> Anti-cancer: Lycopene helps inhibit the growth of cancer cells such as uterine, lung, and prostate cancer.
-<br><br>
-<b>Heart health :</b> Tannins help reduce blood fat and lower the risk of heart disease and high blood pressure.
-<br><br>
-<b>Weight control & digestion :</b> Low in calories and high in fiber, which helps you feel full longer and supports a healthy digestive system.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `Round or ovoid in form, prominently tapering at the apex, with a diameter of 5-9 cm and length of 5-12 cm. Immature fruit is deep green; as it matures it becomes light green, turning yellow upon ripening. The flesh may be white, pinkish-white, or yellow.<br><br>
+          <b>Nutritional Value (Per 100g):</b>
+          <ul class="desc">
+            <li>111g water, 8g sugar, 3.6g dietary fibre, 26mcg beta-carotene, 234mg vitamin C, 230mg potassium.</li>
+          </ul><br>
+          <b>Medicinal Properties:</b>
+          <ul class="desc">
+            <li><b>Unripe fruit:</b> Used to treat diarrhoea, dysentery, and bloody stools; neutralises bad breath; treats scurvy and bleeding gums.</li>
+            <li><b>Ripe fruit:</b> Contains a substantial quantity of pectin and is consumed as a natural laxative.</li>
+          </ul>`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>`
         },
         root: {
           title: "Root",
-          desc: `<b>Root System :</b> The roots spread widely (requiring enough space for planting), with most roots growing near the soil surface.
-<br><br>
-<b>Medicinal Properties of the Roots :</b> Used to treat impure blood conditions that cause abscesses or skin blisters, and to help stop nosebleeds.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `The guava possesses a taproot system from which numerous lateral roots radiate, penetrating the soil to a depth of more than 2 to 5 metres. Most roots grow near the soil surface.<br><br>
+          <b>Medicinal Properties : </b>The root is used to treat impurity of the lymphatic system, abscesses, suppurating wounds, and nosebleeds.`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>,
+          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">Source 2</a>`
         },
         care: {
-          title: "Care",
-          desc: `<b>Environment :</b> Grows well in warm climates with temperatures not lower than 16°C. Prefers fertile, well-drained sandy loam soil and does not tolerate waterlogging.
-<br><br>
-<b>Planting :</b> The planting bed should be raised with proper drainage channels. Avoid putting fertilizer at the bottom of the hole during the initial planting stage.
-<br><br>
-<b>Watering :</b> Keep the soil consistently moist, especially during flowering and fruit development, to prevent flowers from dropping before fruiting.
-<br><br>
-<b>Pruning :</b> A key step to encourage fruiting. Prune branches to allow better airflow and pinch the tips every 30–50 cm to promote new branch growth and fruit formation.
-<br><br>
-<b>Pest Control :</b> The main pest is the fruit fly, which can be prevented by wrapping the fruit while it is still firm and green.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">
-          Click to see references.
-          </a>`
-        },
+          title: "Cultivation and Care",
+          desc: `<b>Watering:</b> Thorough irrigation immediately following planting, thereafter twice daily—in the morning and evening.<br><br>
+          <b>Fertilisation:</b> Initially use formula 12-12-0 with organic manure (10:1 ratio). During production, apply 15-15-15 during flowering, and 12-12-24 one month prior to harvest.<br><br>
+          <b>Pruning:</b> Remove branches that have borne fruit for three or more years to allow new growth, preventing progressively smaller fruit size.<br><br>
+          <b>Maintenance:</b> Clear weeds monthly combined with soil cultivation. Wrap individual fruits when firm and green to prevent fruit fly infestation.`,
+          reference: `
+          <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>`
+        }
       },
       gallery: {
         title: "Choose a Tree Model",
         items: {
           banana1: "Banana",
-          coconut1: "Coconut",
-          sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -182,13 +163,11 @@ reference: `
           pomelo1: "Pomelo"
         }
       }
-    },
+    }
   };
 
   let currentLang = localStorage.getItem("lang") || "th";
-
-  const get = (obj, path) =>
-    path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
+  const get = (obj, path) => path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
 
   function applyStaticTranslations() {
     document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -202,14 +181,12 @@ reference: `
     if (!key) return;
     const data = get(translations[currentLang], `hotspot.${key}`);
     if (!data) return;
-
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
     const ref = document.getElementById("hotspot-reference");
-
-    if (title && data.title) title.textContent = data.title;
-    if (desc && data.desc) desc.innerHTML = data.desc;
-    if (ref && data.reference) ref.innerHTML = data.reference;
+    if (title) title.textContent = data.title;
+    if (desc) desc.innerHTML = data.desc;
+    if (ref) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {
@@ -225,20 +202,9 @@ reference: `
     const check = document.getElementById("lang-check");
     if (!check) return;
     check.checked = currentLang === "en";
-    check.addEventListener("change", () => {
-      setLanguage(check.checked ? "en" : "th");
-    });
+    check.addEventListener("change", () => setLanguage(check.checked ? "en" : "th"));
   }
 
-  window.i18n = {
-    setLanguage,
-    getCurrentLang: () => currentLang,
-    applyHotspotContent,
-    initToggle,
-  };
-
-  // ✅ โหลดครั้งแรก
-  document.addEventListener("DOMContentLoaded", () => {
-    applyStaticTranslations();
-  });
+  window.i18n = { setLanguage, getCurrentLang: () => currentLang, applyHotspotContent, initToggle };
+  document.addEventListener("DOMContentLoaded", () => { applyStaticTranslations(); initToggle(); });
 })();

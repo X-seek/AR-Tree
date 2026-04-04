@@ -3,76 +3,66 @@
     th: {
       page: { title: "มะเดื่อ" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `มีสีเทาเรียบ มีน้ำยางสีขาวอยู่ทุกส่วนของต้นและผล<br><br>
-          <b>สรรพคุณ :</b> เปลือกและลำต้นสามารถนำมาต้มน้ำดื่มเพื่อแก้ปวดท้อง บรรเทาอาการโรคบิดและแก้อาการปวดเมื่อยตามร่างกายได้`,
+          desc: `เป็นพรรณไม้ยืนต้นขนาดกลาง ทรงพุ่มกว้าง ใบหนาทึบ ลำต้นสูงประมาณ 5-20 เมตร ลำต้นเกลี้ยง เปลือกต้นเป็นสีน้ำตาลหรือน้ำตาลปนเทา กิ่งอ่อนเป็นสีเขียว ส่วนกิ่งแก่เป็นสีน้ำตาลเกลี้ยง<br><br>
+          
+          <b>สรรพคุณ :</b> แก้ท้องร่วง ท้องเสีย ประดงเม็ดผื่นคัน และชะล้างบาดแผล ห้ามเลือด แก้อาเจียน`,
+          
           reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%8a%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%87,%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%AC%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">แหล่งที่มา 2</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `มีขนาดใหญ่ หยักลึก เป็นแฉก (คล้ายนิ้วมือ) ประมาณ 3-5 แฉก ผิวใบหยาบ มีสีเขียวเข้ม<br><br>
-          <b>สรรพคุณ : </b>ใบมะเดื่อฝรั่งมักนิยมนำมาทำชา ซึ่งมีสรรพคุณช่วยลดระดับน้ำตาลในเลือดได้ ลดไตรกลีเซอไรด์ ลดความดันโลหิต<br><br>`,
+          desc: `เป็นใบเดี่ยวค่อนข้างหนา ขอบใบหยัก 3-5 หยัก หรือตรงผิวใบด้านบนหยาบ<br><br>
+          
+          <b>สรรพคุณ : </b>มีเส้นใยสูง ช่วยในการกำจัดของเสียในร่างกายและการขับถ่ายดีขึ้น ป้องกันนิ่ว และที่สำคัญ คือ มีสารยับยั้งป้องกันการเกิดมะเร็ง ช่วยระงับการเจริญเติบโตของมะเร็งลำไส้`,
           reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          <a href="https://www.scimath.org/article-biology/item/553-ficus-casica-linn" target="_blank">แหล่งที่มา 1</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `มะเดื่อเป็นผลไม้ที่มีรสหวานนุ่ม มีเมล็ดเล็กจำนวนมาก อุดมไปด้วยใยอาหาร วิตามิน และแร่ธาตุที่ช่วยบำรุงร่างกาย
-นิยมรับประทานสดหรือแปรรูป ช่วยเรื่องระบบขับถ่ายและส่งเสริมสุขภาพหัวใจ
-
-<b>คุณค่าทางโภชนาการ :</b> เป็นผลไม้ที่มี ไฟเบอร์ (ใยอาหาร) สูง และมีแร่ธาตุสำคัญ เช่น แคลเซียมสูงธาตุเหล็ก และวิตามินบี 9 (โฟเลต)<br><br>
-<ul><b>สรรพคุณ :</b> 
-<li>ระบบขับถ่ายเป็นยาระบายอ่อนๆ ช่วย บรรเทาและป้องกันอาการท้องผูก ได้ดีเยี่ยม เพราะมีใยอาหารสูงมาก</li>
-<li><b>ด้านร่างกาย :</b> ช่วยควบคุมระดับน้ำตาลในเลือด จึงเหมาะกับผู้ป่วยเบาหวาน (แต่ควรระวัง/ปรึกษาแพทย์), ช่วย ลดความดันโลหิตสูง และ ลดไขมันในเลือด</li>
-<li><b>ด้านกระดูกและหัวใจ </b>: ช่วยบำรุงกระดูกและฟัน ช่วยป้องกันโรคกระดูกพรุน และมีส่วนช่วยลดความเสี่ยงโรคหัวใจและหลอดเลือดได้</li>
-<li><b>ข้อควรระวัง :</b> ผู้ป่วยเบาหวานต้องเฝ้าระวังระดับน้ำตาลในเลือดเมื่อบริโภค เนื่องจากอาจทำให้ระดับน้ำตาลลดต่ำลง</li>
-</ul>`,
-reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          desc: `ผลไม้ลูกเล็ก ๆ ที่มีเนื้อด้านในเป็นสีแดงเข้ม เมื่อสุกได้ที่จะมีรสชาติหวาน หอมละมุน และเนื้อละเอียด ซึ่งเป็นอีกหนึ่งผลไม้ที่ได้รับความนิยมอย่างมากในหมู่คนรักสุขภาพ<br><br>
+          <b>คุณค่าทางโภชนาการ</b><br>
+          <ul>
+          <li>วิตามินเอ, วิตามินบี 1, วิตามินบี 2, วิตามินซี, มีธาตุแคลเซียม, โพแทสเซียม, ฟอสฟอรัส และมีธาตุเหล็กสูงมาก ไม่มีไขมัน ไม่มีคอเลสเตอรอล และยังมีสมบัติในการสร้างสมดุลระหว่างความเป็นกรด-เบส มีน้ำตาลธรรมชาติมากถึง 83% ได้แก่ น้ำตาลกลูโคส ฟรุกโตส และซูโครส<br><br></li>
+          </ul>
+          <b>สรรพคุณ : </b>แก้ไข้ แก้ไข้พิษ แก้ไข้กาฬ แก้ร้อนใน ช่วยระงับความร้อน กระทุ้งพิษไข้ ช่วยกล่อมเสมหะ ช่วยกล่อมโลหิต แก้ไข้หัวลม แก้อาการปากเปื่อย ช่วยลดน้ำตาลในเลือด ต้านเชื้อบิด 
+          ช่วยลดความดันโลหิตสูง ช่วยคลายกล้ามเนื้อเรียบ ต้านเชื้อแบคทีเรีย ไวรัส ช่วยลดไขมันในเลือดช่วย แก้อาเจียน แก้ธาตุพิการ แก้อาการท้องเสีย ท้องร่วง ช่วยห้ามเลือด ช่วยชะล้างบาดแผล สมานแผล 
+          แก้เม็ดผื่นคัน แก้ท้องร่วง เป็นยาระบาย แก้เม็ดผื่นคัน`,
+          reference: `
+          <a href="https://www.scimath.org/article-biology/item/553-ficus-casica-linn" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.ananda.co.th/blog/thegenc/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9F%E0%B8%B4%E0%B8%81-fig-%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD-%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87-%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%A1%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B8%E0%B8%84%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%AE%E0%B8%A5%E0%B8%97%E0%B9%8C%E0%B8%95%E0%B8%B5%E0%B9%89/#:~:text=%E2%80%93%20%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B8%87%20%E0%B9%83%E0%B8%99%E0%B8%82%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%84%E0%B8%A5%E0%B8%95%E0%B9%88%E0%B8%B3%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A8%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%82%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%AD%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B8%AD%E0%B8%A5%20%E0%B8%97%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%20%E2%80%93,%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%9B%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%97%E0%B8%B2%E0%B8%99%20%E2%80%93%20%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%95%20%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%8B%E0%B8%B5%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%20%E2%80%93%20%E0%B9%80%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%9F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%81%E0%B8" target="_blank">แหล่งที่มา 2</a>`
         },
         root: {
           title: "ราก",
           desc: `มะเดื่อฝรั่งชอบความชื้น แต่ไม่ทนต่อการมีน้ำขัง ซึ่งอาจทำให้เกิดโรครากเน่าได้ง่าย<br><br>
-<b>การเสริมราก :</b> ในไทยนิยมเสริมรากด้วยตอมะเดื่ออุทุมพร (มะเดื่อไทย) เนื่องจากรากอุทุมพรมีความแข็งแรง ทนทานต่อโรค และช่วยให้ต้นมะเดื่อฝรั่งเจริญเติบโตได้ดี ให้ผลดกกว่าการใช้รากเดิม<br><br>
-<b>ศัตรูที่ราก :</b> ควรระวังไส้เดือนฝอย ซึ่งเป็นศัตรูที่เข้าทำลายระบบรากของมะเดื่อฝรั่งได้`,
-reference: `
-      <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%ab%e0%b8%ad%e0%b8%a1/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          
+          <b>สรรพคุณ :</b> ใช้แก้ไข้ กระทุ้งพิษไข้ กล่อมเสมหะและเลือด แก้ไข้หวัด แก้ไข้กาฬ และไข้พิษทุกชนิด<br><br>
+          
+          <b>การเสริมราก :</b> ในไทยนิยมเสริมรากด้วยตอมะเดื่ออุทุมพร (มะเดื่อไทย) เนื่องจากรากอุทุมพรมีความแข็งแรง ทนทานต่อโรค และช่วยให้ต้นมะเดื่อฝรั่งเจริญเติบโตได้ดี ให้ผลดกกว่าการใช้รากเดิม`,
+         
+          reference: `
+          <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%87,%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%AC%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">แหล่งที่มา 1</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>แสงแดด/สภาพอากาศ :</b> ต้องการแสงแดดเต็มวัน (6 ชั่วโมงขึ้นไป) เจริญเติบโตได้ดีในทุกพื้นที่ของประเทศไทยทั้งร้อนชื้นและร้อนแห้ง<br><br>
-
-<b>ดินและการปลูก :</b> ต้องใช้วัสดุปลูกที่ระบายน้ำได้ดีมาก ไม่อัดแน่น ปลูกได้ทั้งในแปลง (ระยะ 2x2 เมตร) ในกระถาง/วงบ่อ<br><br>
-
-<b>การให้น้ำ :</b> ต้นมะเดื่อฝรั่งชอบน้ำ ควรให้น้ำสม่ำเสมอ แต่ห้ามมีน้ำขังเด็ดขาด ควรคลุมโคนต้นด้วยฟางเพื่อช่วยเก็บความชื้น<br><br>
-
-<b>การตัดแต่งกิ่ง :</b> เป็นเทคนิคสำคัญในการทำให้ต้นออกลูกดกตลอดปี โดยควรตัดแต่งกิ่งเพื่อให้เกิดกิ่งใหม่และกระตุ้นการออกผลอย่างต่อเนื่อง<br><br>
-
-<b>ศัตรูพืชที่ควรระวังโรค :</b> ราสนิม และโรคใบจุด มักพบในฤดูฝนเนื่องจากความชื้นสูง และควรระวังหนอนเจาะทำลายใบและผล`,
-reference: `
-      <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#:~:text=%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3,%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
-        },
+          desc: `ต้นพันธุ์ที่นำมาปลูกต้องเป็นต้นที่แข็งแรงไม่มีโรคแมลงติดมาด้วย และต้นพันธุ์นั้นควรมีอายุมากกว่า 2 เดือนขึ้นไป หลังจากปลูกดูแลรดน้ำอีกประมาณ 6 เดือนก็จะเริ่มให้ผลผลิต หรือบางสายพันธุ์ถ้าได้รับการดูแลอย่างดี ต้นสมบูรณ์ก็จะให้ผลผลิตเร็วกว่านั้น<br><br>
+          
+          <b>การให้น้ำ :</b> ระบบน้ำจะให้แบบน้ำหยดหรือแบบสปิงเกอร์<br><br>
+          
+          <b>การใส่ปุ๋ย :</b> บำรุงด้วยปุ๋ยสูตรเสมอ 15-15-15 หรือ 16-16-16 สลับกับการให้ปุ๋ยหมักเดือนละครั้ง ซึ่งการบำรุงก็ขึ้นอยู่กับดินที่ปลูกหรือวัสดุที่ใช้ปลูกหากมีธาตุอาหารเพียงพอก็ไม่ต้องบำรุงมาก`,
+          reference: `
+          <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#f03" target="_blank">แหล่งที่มา 1</a>`
+        }
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าวน้ำหอม",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -90,76 +80,92 @@ reference: `
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
-          desc: `<b>Trunk and Branches :</b> The bark is smooth and gray with white latex present in all parts of the plant, including the fruit.<br><br>
+          title: "Stem",
+          desc: `The sugar apple is a small, deciduous tree, typically attaining a height of 2 to 5 metres. The trunk and branches 
+          are comparatively brittle and prone to breakage. The bark is smooth and brown in colour. In cultivation, the tree is generally 
+          pruned to maintain a height of no more than 2 metres to encourage the emergence of leaves, flowers, and fruit in abundant quantity.
 
-<b>Medicinal Properties :</b> The bark and trunk can be boiled and consumed to relieve stomach pain, dysentery, and general body aches.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-          Click to see references.
-          </a>`
+          Uses: The bark, characterised by its astringent and bitter flavour, is employed to heal wounds and staunch bleeding, to treat diarrhoea, and as a general tonic.<br><br>
+
+          <b>Medicinal Properties :</b>The stem bark is used to treat diarrhoea and loose stools, skin rashes and itching, and to cleanse and staunch bleeding wounds; it also serves as an antiemetic.`,
+          
+          reference: `
+          <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%8a%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">Source 1</a>, 
+          <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%87,%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%AC%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">Source 2</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf Characteristics :</b> Large leaves with 3–5 deep lobes (finger-like shape), rough texture, and dark green color.<br><br>
-
-<b>Medicinal Use (Tea) :</b> Fig leaves are commonly used to make tea, which helps lower blood sugar, reduce triglycerides, and decrease blood pressure.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `The leaves, when pounded and mixed with white spirit, are applied as a poultice to the scalp and left for approximately half an 
+          hour before rinsing, serving as an effective treatment for head lice.<br><br>
+          
+          <b>Medicinal Properties : </b>
+          <ul class="desc">
+            
+          <li>The leaf is used to treat ringworm, tinea versicolor, and head lice.</li>
+          </ul>`,
+          reference: `
+          <a href="https://www.scimath.org/article-biology/item/553-ficus-casica-linn" target="_blank">Source 1</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Nutritional Value:</b> Figs are rich in dietary fiber and important minerals such as calcium, iron, and folate.<br><br>
-
-<b>Digestive Benefits :</b> Acts as a mild natural laxative that helps relieve and prevent constipation due to its high fiber content.<br><br>
-
-<b>Health Benefits :</b> Helps control blood sugar levels, suitable for diabetics (consult a doctor first), reduces high blood pressure and blood fat levels.<br><br>
-
-<b>Bone and Heart Health :</b> Strengthens bones and teeth, helps prevent osteoporosis, and may reduce the risk of heart disease and stroke.<br><br>
-
-<b>Caution :</b> People with diabetes should monitor their blood sugar levels, as overconsumption may cause blood sugar to drop too low.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%ab%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad-%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%b8%e0%b8%a1%e0%b8%9e%e0%b8%a3/" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `The sugar apple bears a peculiarly formed fruit, reminiscent in appearance of a hand grenade. Within its interior, hard, lustrous 
+          black seeds are embedded amidst the flesh. The fruit is celebrated for its exceptionally sweet, soft, and fragrant flesh, whence it has 
+          received the English appellation "Sugar Apple." The exterior rind is textured and furrowed, encasing the characteristically sweet pulp.<br><br>
+          
+          <b>Nutritional Value : </b>Per 100 grams of edible portion, the sugar apple contains: 94 kilocalories of energy; 23.64 grams of 
+          carbohydrates; 4.4 grams of dietary fibre; 0.29 grams of fat; 2.06 grams of protein; as well as notable quantities of vitamins 
+          B1, B2, B3, B5, B6, B9, and C, and minerals including calcium, iron, magnesium, manganese, phosphorus, potassium, sodium, and zinc 
+          (as established by the USDA Nutrient Database).<br><br>
+          
+          <b>Medicinal Properties : </b>The sugar apple is reputed to combat free radicals within the body, to nourish the skin, hair, and eyes, 
+          and to support a range of health functions. As a low-fat fruit, it is considered beneficial in the management of asthma 
+          (through its vitamin C content), in the regulation of blood sugar levels (through its dietary fibre), in the reduction 
+          of cholesterol (through vitamin B3), and in the lowering of blood pressure (through its potassium content). It is also 
+          recognised for its capacity to strengthen cardiac function, to prevent heart disease, and to contribute to the treatment of anaemia.
+          <ul>
+          <li><b>Seeds : </b>Employed as a natural remedy for the elimination of ticks and fleas.</li>
+          <li><b>Dried fruit : </b>Applied topically to treat herpes and shingles.</li>
+          </ul>
+          <b>Precaution : </b>The extract derived from sugar apple seeds may provoke allergic reactions. Care must be taken to prevent contact with the eyes.
+          `,
+          
+          reference: `
+          <a href="https://www.scimath.org/article-biology/item/553-ficus-casica-linn" target="_blank">Source 1</a>, 
+          <a href="https://www.ananda.co.th/blog/thegenc/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9F%E0%B8%B4%E0%B8%81-fig-%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD-%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87-%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%A1%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B8%E0%B8%84%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%AE%E0%B8%A5%E0%B8%97%E0%B9%8C%E0%B8%95%E0%B8%B5%E0%B9%89/#:~:text=%E2%80%93%20%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B8%87%20%E0%B9%83%E0%B8%99%E0%B8%82%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%84%E0%B8%A5%E0%B8%95%E0%B9%88%E0%B8%B3%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A8%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%82%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%AD%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B8%AD%E0%B8%A5%20%E0%B8%97%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%94%E0%B8%B5%20%E2%80%93,%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%9B%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%97%E0%B8%B2%E0%B8%99%20%E2%80%93%20%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%95%20%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%8B%E0%B8%B5%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%20%E2%80%93%20%E0%B9%80%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%9F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%81%E0%B8" target="_blank">Source 2</a>`
         },
         root: {
           title: "Root",
-          desc: `<b>General Characteristics :</b> Fig roots prefer moisture but do not tolerate waterlogging, which can easily cause root rot.<br><br>
-
-<b>Root Grafting :</b> In Thailand, figs are often grafted onto “Ma Duea Uthumporn” (native fig) rootstock because it is stronger, more disease-resistant, and improves yield.<br><br>
-
-<b>Root Pests :</b> Beware of nematodes, which can attack and damage the root system.`,
-reference: `
-          <a href="https://medthai.com/%e0%b8%a1%e0%b8%b0%e0%b9%80%e0%b8%94%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%ab%e0%b8%ad%e0%b8%a1/" target="_blank">
-          Click to see references.
-          </a>`
+          desc: `The sugar apple possesses an extensive taproot system.<br><br>
+          
+          <b>Medicinal Properties : </b>The root serves as a laxative, an emetic, and an antidote to snake venom and other toxins.<br><br>
+          
+          <b>Root Grafting :</b> In Thailand, it is common practice to graft fig trees onto the rootstock of the native Thai fig (Ficus racemosa), as the roots of this species are considerably stronger, more disease-resistant, and support more vigorous growth and greater fruit yield than the original root system.`,
+          
+          reference: `
+          <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%87,%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%AC%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">Source 1</a>`
         },
         care: {
-          title: "Care",
-          desc: `<b>Sunlight/Climate :</b> Requires full sunlight (at least 6 hours daily). Thrives in both humid and dry tropical climates in Thailand.
-<br><br>
-<b>Soil and Planting :</b> Prefers well-drained, loose soil. Can be planted both in-ground (2x2 m spacing) or in large pots.
-<br><br>
-<b>Watering :</b> Figs like consistent moisture but must not be waterlogged. Mulching with straw helps retain soil moisture.
-<br><br>
-<b>Pruning :</b> Regular pruning is key to encouraging continuous fruiting throughout the year by stimulating new branch growth.
-<br><br>
-<b>Pests and Diseases :</b> Watch for rust fungus and leaf spot during the rainy season, and protect against caterpillars that damage leaves and fruits.`,
-reference: `
-          <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#:~:text=%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3,%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%B8%E0%B9%8B%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%81%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A" target="_blank">
-          Click to see references.
-          </a>`
-        },
+          title: "Cultivation and Care",
+          desc: `<b>Planting :</b>Propagation by seed is the most common method, followed by air-layering from branches of a desired parent plant, 
+          particularly when true-to-type fruit production is required.<br><br>
+          
+          <b>Watering : </b>Irrigation is required every one to two weeks. The plant prefers moderate moisture levels, full sun exposure, and an optimal 
+          temperature range of 20 to 38 degrees Celsius. It tolerates temperatures between 5 and 43 degrees Celsius. The preferred soil composition includes 
+          sand, loam, or chalk, with a pH of 5.5 to 7.5.<br><br>
+          
+          <b>Fertilisation : </b>Fertilisation should commence with a high-phosphorus formula to stimulate flowering at the onset of the growing season, 
+          followed by a balanced formula to nourish the developing fruit. Fertiliser is applied monthly during the growing period in the recommended 
+          quantities, though frequency and dosage must be reduced during the winter or dormant season. Excessive fertilisation should be avoided so as to 
+          prevent imbalanced growth. Thorough watering following each application promotes nutrient absorption and prevents root burn.`,
+          
+          reference: `
+          <a href="https://gardenandfarm.baanlaesuan.com/347930/farming-101/10_tips_figs#f03" target="_blank">Source 1</a>`
+        }
       },
       gallery: {
         title: "Choose a Tree Model",
         items: {
           banana1: "Banana",
-          coconut1: "Aromatic Coconut",
-          sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -170,7 +176,7 @@ reference: `
           pomelo1: "Pomelo"
         }
       }
-    },
+    }
   };
 
   let currentLang = localStorage.getItem("lang") || "th";

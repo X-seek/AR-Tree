@@ -284,6 +284,9 @@ model-viewer#viewer {
   line-height: 1.5;
   color: #e6f7d9;
 }
+.hotspot-info .desc{
+  margin-left: 25px;
+}
 
 /* Scrollbar */
 .hotspot-ui::-webkit-scrollbar {
@@ -315,6 +318,8 @@ model-viewer#viewer {
     transform: scale(1);
   }
 }
+
+
 
 /* ===== Reference ===== */
 .reference {

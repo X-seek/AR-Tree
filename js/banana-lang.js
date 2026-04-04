@@ -3,93 +3,107 @@
     th: {
       page: { title: "กล้วย" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ลักษณะไม่ใช่ลำต้นจริงแต่เป็น "ลำต้นเทียม" (Pseudostem)
-ที่เกิดจากการอัดแน่นของกาบใบซ้อนทับกัน มีเนื้อเยื่ออ่อนและมีน้ำมาก<br><br>
-<b>สรรพคุณ :</b> ช่วยห้ามเลือด, แก้โรคไส้เลื่อน (ตามตำรับสมุนไพรโบราณ)<br><br>
-<b>ประโยชน์ :</b> หยวกกล้วย (ส่วนอ่อน) ใช้ประกอบอาหาร เช่น แกงหยวกกล้วย ลำต้นที่ตัดแล้วสามารถนำมาใช้เป็นวัสดุเพาะเห็ด หรือใช้ในงานหัตถกรรมได้`,
+          desc: `ลำต้นอยู่ใต้ดินเรียกว่า “เหง้า” ที่เราเห็นอยู่เหนือพื้นดินเป็นลำต้นเทียม ประกอบด้วย กาบใบ ซึ่งจะชูก้านใบและใบ เมื่อเจริญแล้วจะมีใบสุดท้ายก่อนเกิดดอก เรียกว่า “ใบธง”<br><br>
+          
+          <b>สรรพคุณ :</b> ห้ามเลือด แก้โรคไส้เลื่อน<br><br>
+          
+          <b>ประโยชน์</b> <br>ช่วยรักษาปัญหาผิวหนัง ผื่นแดง แผลไฟไหม้ และน้ำร้อนลวก สามารถนำมาทำเป็นเชือก หรือทำเส้นใยทอผ้า`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">แหล่งที่มา 3</a>`
         },
-
         leaf: {
           title: "ใบ",
-          desc: `แผ่นใบใหญ่ รูปทรงขอบขนาน ปลายใบมน สีเขียว ยาวประมาณ 1.7 - 2.5 เมตร 
-กว้าง 70 - 90 เซนติเมตร<br><br>
-<b>ประโยชน์ :</b> ใช้ห่ออาหาร เช่น ขนม หรือห่อหมก เพราะทนความร้อนและให้กลิ่นหอม<br><br>
-<b>สรรพคุณ :</b> ปิ้งไฟพออุ่น นำมาประคบแผลไฟไหม้, ต้มน้ำใช้อาบแก้ผดผื่นคัน, ห้ามเลือด, รักษาแผลสุนัขกัด<br><br>
-<b>ยางจากใบ :</b> ช่วยห้ามเลือดและสมานแผล`
-          ,
+          desc: `เป็นแผ่นใบใหญ่สีเขียว กว้างประมาณ 70-90 เซนติเมตร ยาวประมาณ 1.7-2.5 เมตร ทั้งปลายและโคนใบมน รูปใบขอบขนาน<br><br>
+          
+          <b>สรรพคุณ :</b> รักษาแผลสุนัขกัด ห้ามเลือด<br><br>
+          
+          <b>ประโยชน์</b>
+          <ul class="desc">
+            
+          <li>ใช้ในการประดิษฐ์สิ่งของต่าง ๆ เช่น กระทง หรือบายศรี</li>
+            
+          <li>เป็นวัสดุธรรมชาติสำหรับรองอาหารร้อน ๆ</li>
+            
+          <li>ใช้ห่ออาหารได้หลากหลายชนิด เช่น ขนม ผักสด ห่อหมก และดอกไม้ เพราะใบตองสามารถทนความร้อนได้ดี จึงนิยมนำมาใช้กับอาหารประเภทต้มและนึ่งทั้งหลาย แถมยังมีกลิ่นหอมด้วย</li>
+          </ul>`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">แหล่งที่มา 3</a>`
         },
-
         fruit: {
           title: "ผล",
-          desc: `มีรูปร่างป้อม เปลือกหนา เนื้อรสหวานอมเปรี้ยว (แตกต่างกันตามความสุก)
-มีทั้งพันธุ์ที่มีเมล็ดและไม่มีเมล็ด<br><br>
-
-<b>คุณค่าทางโภชนาการ :</b> เป็นแหล่งพลังงานดี (ประมาณ 100 กิโลแคลอรี่ต่อผล)  
-มีน้ำตาลธรรมชาติ 3 ชนิด (ซูโครส, ฟรุกโตส, กลูโคส) และใยอาหารสูง  
-อุดมด้วยโพแทสเซียม วิตามิน B6 ธาตุเหล็ก และแคลเซียม  
-<ul>
-<li>ผลดิบ : มีแทนนิน ช่วยรักษาอาการท้องเสียเล็กน้อย และโรคกระเพาะ</li>  
-<li>ผลสุก : เป็นยาระบายอ่อน ๆ ช่วยแก้ท้องผูก บำรุงเหงือกและฟันช่วยลดกลิ่นปาก (หากรับประทานก่อนแปรงฟันตอนเช้า)</li> 
-</ul>
-ประโยชน์ต่อสุขภาพ : ป้องกันโลหิตจาง บำรุงผิวพรรณ และเสริมภูมิคุ้มกัน
-`,
+          desc: `กลุ่มดอกเพศเมียเจริญเป็นผลได้โดยไม่ต้องผสมพันธุ์ กล้วย 1 กลุ่ม เรียกว่า “1 หวี” ช่อดอกเมื่อเจริญเป็นผล เรียกว่า “เครือ” บางเครือมีเพียง 2-3 หวี บางเครืออาจมีมากกว่า 10 หวี ทั้งนี้แล้วแต่พันธุ์กล้วย และการบำรุงดูแล<br><br>
+          
+          <b>คุณค่าทางโภชนาการ</b>
+          <ul class="desc">
+            
+          <li>พลังงาน 132 กิโลแคลอรี, น้ำ 66.3 กรัม, โปรตีน 0.9 กรัม, ไขมัน 0.2 กรัม, คาร์โบไฮเดรต 31.7 กรัม, ไฟเบอร์ 1.9 กรัม, แคลเซียม 26 มิลลิกรัม, ฟอสฟอรัส 46 มิลลิกรัม, เหล็ก 0.8 มิลลิกรัม, เบต้าแคโรทีน 99 ไมโครกรัม, วิตามินเอ 17 ไมโครกรัม, วิตามินบี 1 (ไทอะมีน) 0.04 มิลลิกรัม, วิตามินบี 2 (ไรโบฟลาวิน) 0.07 มิลลิกรัม, ไนอะซิน 0.1 มิลลิกรัม, วิตามินซี 27 มิลลิกรัม</li>
+          
+          </ul><br>
+          <b>ประโยชน์</b><br>
+          
+          ใช้ประกอบพิธีกรรมทางศาสนา งานแต่งงาน การปลูกบ้าน ใช้เป็นทุ่นลอยน้ำให้เด็ก ๆ หัดว่ายน้ำ ผลกล้วยใช้เป็นอาหารเสริมของเด็ก และเป็นอาหารเพื่อสุขภาพของบุคคลทั่วไป เพราะผลกล้วยสุกมีคุณค่าทางอาหาร โดยเฉพาะมีโพแทสเซียมสูง ช่วยลดความดันโลหิต ช่วยเพิ่มความชุ่มชื่นของผิว ช่วยลดความกร้านของผิวได้
+          
+          <ul class="desc">
+            <li><b>ผลดิบ</b> แก้อาการท้องเสีย</li>
+            <li><b>เปลือกกล้วย</b> แก้อาการผื่นคันที่เกิดจากยุงกัดได้</li>
+          </ul>`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://www.rattinan.com/banana/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://phayao.mnre.go.th/th/board/topic/102" target="_blank">แหล่งที่มา 3</a>`
         },
-
         root: {
           title: "ราก",
-          desc: `เป็นรากฝอย แผ่กระจายไปด้านข้างกว้างถึง 5 เมตร 
-และลึกประมาณ 70 เซนติเมตร ถือเป็นรากตื้นที่อยู่ใกล้ผิวดิน<br><br>
-
-<b>ข้อควรระวัง :</b> ไม่ควรพรวนดินรอบโคนต้น ควรถางหญ้าแทน<br><br>
-<b>สรรพคุณ :</b> รากช่วยแก้อาการขัดเบา (ปัสสาวะขัด)`
-          ,
+          desc: `เป็นระบบรากฝอย แผ่ไปทางกว้าง<br><br>
+          
+          <b>สรรพคุณ :</b> แก้ขัดเบา
+          <ul class="desc">
+            
+          <li><b>ตำรายาไทย :</b> ราก มีรสฝาดเย็น แก้ร้อนในกระหายน้ำ แก้ท้องร่วง แก้บิด แก้โรคปากเปื่อย แก้ไข้ แก้ปวดตามข้อ และกล้ามเนื้อ แก้อุจจาระเป็นมูกเลือด แก้พิษภายนอก ใบมวนยาสูบแก้ริดสีดวงจมูก ต้มอาบแก้ผื่นคันตามผิวหนัง</li>
+            
+          <li><b>พิกัดยาไทย :</b> รากกล้วยตีบจัดอยู่ใน “พิกัดตรีอมฤต” ประกอบด้วย ตัวยา 3 อย่าง ได้แก่ รากกล้วยตีบ รากกระดอม และรากมะกอก ในปริมาณเท่ากัน มีสรรพคุณแก้ไข้ แก้ร้อนในกระหายน้ำ ขับปัสสาวะ บำรุงธาตุ ทำให้เจริญอาหาร</li>
+          </ul><br>
+          
+          <b>ประโยชน์</b><br>
+          รากและลำต้นนำมาต้มแก้กระหายน้ำได้`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">แหล่งที่มา 3</a>, 
+          <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">แหล่งที่มา 4</a>`
         },
-
         care: {
           title: "การดูแล",
-          desc: `<b>ดิน :</b> ชอบดินร่วนหรือดินร่วนปนทราย ระบายน้ำดี ไม่ท่วมขัง<br><br>
-<b>การให้น้ำ :</b> ต้องการน้ำสม่ำเสมอ โดยเฉพาะในฤดูแล้ง<br><br>
-<b>การใส่ปุ๋ย </b>: ใส่ปุ๋ยคอกหรือปุ๋ยหมักทุก 2–3 เดือน 
-อาจเสริมปุ๋ยเคมีสูตร 15-15-15 หรือที่มีโพแทสเซียมสูง<br><br>
-<b>การตัดแต่ง :</b> ตัดใบแห้งหรือติดเชื้อออกเป็นประจำ เพื่อป้องกันโรคและแมลง<br><br>
-<b>จัดการหน่อ :</b> ควรเหลือหน่อรอบกอไม่เกิน 2–3 หน่อ เพื่อให้ต้นแม่แข็งแรง`
-          ,
+          desc: `<b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
+          
+          <b>การใส่ปุ๋ย :</b> ควรบำรุงโดยใส่ทั้งปุ๋ยคอก หรือปุ๋ยหมัก และปุ๋ยเคมีด้วย ตั้งแต่เริ่มต้นปลูก 2 เดือนแรก ให้ปุ๋ยยูเรียเดือนละ 1 ครั้ง เพื่อให้ได้ไนโตรเจน เดือนที่ 3 และ 4 ให้ปุ๋ยสูตร 15-15-15 เดือนที่ 5 และ 6 ให้ปุ๋ยสูตร 13-13-21 ปริมาณต้นละ 0.5 กิโลกรัม<br><br>
+          
+          <b>การตัดแต่งหน่อ :</b> หากมีหน่อมากเกินไป ควรเอาออกบ้าง ควรเก็บหน่อไว้สัก 1-2 หน่อ เพื่อให้เป็นตัวพยุงต้นแม่ การกำจัดหน่ออาจใช้เสียมคม ๆ หรือมีดแซะลงไป<br><br>
+          
+          <b>โรคและศัตรูพืช</b>
+          <ul class="desc">
+           
+          <li>โรคระบาดในกล้วยเกิดจากเชื้อราเข้าทำลายราก เรียกว่า “โรคตายพราย” หากเชื้อราทำลายใบเป็นจุดเรียกว่า “โรคใบจุด”</li>
+           
+          <li>แมลงที่เป็นศัตรูของกล้วย คือ ด้วงงวง ทำลายรากและเหง้ากล้วย หนอนม้วนใบเกิดจากผีเสื้อไปวางไข่ในใบอ่อนที่ยังม้วนอยู่</li>
+          </ul><br>
+          <b>ข้อควรระวัง :</b> ไม่ควรพรวนดินรอบโคนต้น ควรถางหญ้าแทน`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>`
         }
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าว",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -101,97 +115,145 @@
         }
       }
     },
-
-    // ---------------- ENGLISH TRANSLATION ----------------
     en: {
       page: { title: "Banana" },
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
-          desc: `The banana trunk is actually a “pseudostem,” formed by tightly packed leaf sheaths. 
-It contains soft tissue and a high amount of water.<br><br>
-
-<b>Main uses :</b> The inner core (called “banana pith”) is edible and used in Thai dishes.<br><br>
-<b>Medicinal properties :</b> Used to stop bleeding and relieve hernia (in traditional remedies).<br><br>
-<b>Other uses :</b> The trunk can be used for mushroom cultivation or handicrafts.`
-          ,
+          title: "Stem",
+          desc: `The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
+          above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. 
+          The final leaf to emerge prior to flowering is designated the "flag leaf" (ใบธง, bai thong).<br><br>
+          
+          <b>Medicinal Properties : </b>The stem is used to staunch bleeding and to treat hernia.<br><br>
+          
+          <b>Uses </b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
+          into rope or woven into textile fibres.`,
+          
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      Click to see references.
-      </a>`
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">Source 3</a>`
         },
-
         leaf: {
           title: "Leaf",
-          desc: `Banana leaves are large, oblong, and bright green, about 1.7–2.5 meters long and 70–90 cm wide.  <br><br>
-
-<b>Main uses :</b> Natural food wrapping material, great for steaming and grilling.  <br><br>
-<b>Medicinal properties :</b> Slightly roasted leaves can treat burns; boiled leaves help relieve rashes and itching. 
-The sap from the leaf can stop bleeding and help wounds heal faster.`
-          ,
+          desc: `The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex 
+          and the base of the leaf are rounded, and the overall shape is oblong-parallel.<br><br>
+          
+          <b>Medicinal Properties : </b>The leaf is used to treat dog-bite wounds and to staunch bleeding.<br><br>
+          
+          <b>Uses:</b>
+          <ul class="desc">
+            
+          <li>Employed in the crafting of traditional decorative objects such as the kratong (lotus-shaped vessel) and the baisri (ceremonial floral arrangement).</li>
+           
+          <li>Serves as a natural material for lining and protecting vessels containing hot food.</li>
+            
+          <li>Widely used for wrapping diverse food items including sweets, fresh vegetables, steamed dishes (hor mok), and flowers. The leaf's 
+          notable heat resistance renders it particularly well-suited for use with boiled and steamed preparations, and it imparts a characteristic pleasant fragrance.</li>
+          
+            </ul>`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      Click to see references.
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">Source 3</a>`
         },
-
         fruit: {
           title: "Fruit",
-          desc: `The fruit is short and thick, with a firm peel and soft, sweet flesh.  
-Some varieties contain seeds, while others are seedless.  <br><br>
-
-<b>Nutritional value :</b> High in natural sugars (sucrose, fructose, glucose), fiber, and potassium.  
-Rich in vitamin B6, iron, and calcium.  <br><br>
-
-<b>Unripe fruit :</b> Contains tannins that relieve mild diarrhea and gastritis.  <br><br>
-<b>Ripe fruit :</b> Acts as a mild laxative, relieves constipation, and freshens breath.  <br><br>
-<b>Health benefits :</b> Prevents anemia, improves skin, and supports immunity.`
-          ,
+          desc: `The female flower clusters develop into fruit without requiring pollination. A single cluster of bananas is referred to as a "hand" (หวี, wee). When the 
+          inflorescence matures into fruit, the entire structure is called a "bunch" (เครือ, kruea). Certain bunches bear merely two to three hands, while others 
+          may yield in excess of ten, depending upon the variety of banana and the quality of care rendered during cultivation.<br><br>
+          
+          <b>Nutritional Value</b>
+          <ul class="desc">
+            
+          <li>Per 100 grams of edible portion, the banana provides the following nutrients: 132 kilocalories of energy; 66.3 grams of water; 0.9 grams of 
+          protein; 0.2 grams of fat; 31.7 grams of carbohydrates; 1.9 grams of dietary fibre; 26 milligrams of calcium; 46 milligrams of phosphorus; 0.8 
+          milligrams of iron; 99 micrograms of beta-carotene; 17 micrograms of vitamin A; 0.04 milligrams of thiamine (vitamin B1); 0.07 milligrams of riboflavin 
+          (vitamin B2); 0.1 milligrams of niacin; and 27 milligrams of vitamin C.</li>
+          
+          </ul><br>
+          
+          <b>Uses and Benefits </b><br>
+          
+          The banana holds a revered place in both religious and secular life. Its fruit clusters are employed as offerings in religious ceremonies, wedding rites, 
+          and house-blessing rituals. The fibrous trunk has traditionally served as a floating device to assist children learning to swim. Ripe banana fruit is 
+          widely used as a supplementary food for infants and as a health food for the general population, owing to its considerable nutritional value—most 
+          notably its high potassium content, which contributes to the regulation of blood pressure, and its capacity to enhance and retain skin moisture.
+          
+          <ul class="desc">
+            
+          <li><b>Unripe fruit : </b>Traditionally employed to alleviate symptoms of diarrhoea.</li>
+            
+          <li><b>Banana peel : </b>Applied topically to soothe rashes and irritation resulting from mosquito bites.</li>
+          
+          </ul>`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      Click to see references.
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
+          <a href="https://www.rattinan.com/banana/" target="_blank">Source 2</a>, 
+          <a href="https://phayao.mnre.go.th/th/board/topic/102" target="_blank">Source 3</a>`
         },
         root: {
           title: "Root",
-          desc: `The roots are fibrous and spread horizontally up to 5 meters wide and about 70 cm deep.  <br><br>
-<b>Caution :</b> Avoid digging around the root zone—use weeding instead.  <br><br>
-<b>Medicinal use :</b> Root decoction helps relieve urinary difficulties.`
-          ,
+          desc: `The banana possesses a fibrous root system that spreads laterally in all directions.<br><br>
+          
+          <b>Medicinal Properties:</b> The root is used to relieve urinary difficulties.
+          
+          <ul class="desc">
+            
+          <li><b>Traditional Thai Pharmacopoeia : </b>According to traditional Thai medicinal texts, the root possesses a cool, astringent flavour and is 
+          prescribed to alleviate thirst and internal heat, to treat diarrhoea and dysentery, to remedy mouth sores, to reduce fever, to relieve joint and 
+          muscular pain, to treat bloody stools, and to counteract external toxins. Rolled into a preparation for smoking, the leaf is used to treat nasal 
+          polyps, while the root decoction, used as a bath, is prescribed for skin rashes and itching.</li>
+            
+          <li><b>Thai Pharmacological Formula : </b>The root of the dwarf banana (กล้วยตีบ) is incorporated into the classical Thai pharmacological formula 
+          known as "Tri Amrit" (พิกัดตรีอมฤต), a triad comprising the roots of the dwarf banana, the bitter gourd (กระดอม), and the hog plum (มะกอก) in 
+          equal proportions. This formulation is reputed to reduce fever, alleviate thirst and internal heat, promote urination, strengthen the bodily 
+          constitution, and stimulate the appetite.</li>
+          
+          </ul><br>
+          
+          <b>Uses </b><br>A decoction of the root and stem is consumed to quench thirst.`,
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      Click to see references.
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
+          <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
+          <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">Source 3</a>, 
+          <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">Source 4</a>`
         },
-
         care: {
-          title: "Care",
-          desc: `<b>Soil :</b> Prefers loamy or sandy loam soil with good drainage.  <br><br>
-<b>Water :</b> Needs consistent moisture, especially in dry seasons.  <br><br>
-<b>Fertilizer :</b> Apply compost or manure every 2–3 months.  
-Supplement with balanced fertilizer (15-15-15) or potassium-rich formula.  <br><br>
-<b>Pruning :</b> Remove dried or infected leaves regularly.  <br><br>
-<b>Suckers :</b> Keep only 2–3 healthy suckers per clump for best fruit production.`
-          ,
+          title: "Cultivation and Care",
+          desc: `<b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
+          The plant prefers a sandy loam soil characterised by good drainage and adequate air circulation.<br><br>
+          
+          <b>Fertilisation : </b>Both organic manure or compost and chemical fertilisers are recommended from the commencement of cultivation. 
+          During the first two months, urea fertiliser is applied monthly to supply nitrogen. In the third and fourth months, a balanced 
+          formula of 15-15-15 is employed, and in the fifth and sixth months, a formula of 13-13-21 is applied at a rate of 0.5 kilograms per plant.<br><br>
+          
+          <b>Sucker Management : </b>Where suckers are excessive, a portion should be removed, retaining only one to two for the purpose of 
+          supporting the mother plant. Suckers may be excised using a sharp hoe or knife.<br><br>
+         
+          <b>Diseases and Pests</b>
+          <ul class="desc">
+           
+          <li>"Epidemic diseases in bananas commonly arise from fungal infection of the roots, known as "Panama disease" (โรคตายพราย). 
+          Fungal infection manifesting as leaf spotting is referred to as "leaf spot disease" (โรคใบจุด).</li>
+           
+          <li>The primary insect pest is the banana weevil (ด้วงงวง), which damages the roots and rhizome. Leaf-rolling caterpillars 
+          are produced when moths deposit eggs within the still-furled young leaves.</li>
+         
+          </ul><br>
+          
+          <b>Precaution : </b>Tilling the soil around the base of the plant is inadvisable; weeding is the preferred alternative.`,
+          
           reference: `
-      <a href="https://saranukromthai.or.th/smallchild/1086#:~:text=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%20%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%20%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%93%E0%B8%AB%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%20%E0%B9%91%E0%B9%94%20%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%AA%20%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%20%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2,%E0%B9%92%E0%B9%91%20%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B0%20%E0%B9%91/%E0%B9%92%20%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1%20%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%94%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81%20%E0%B8%88%E0%B8%B3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%87" target="_blank">
-      Click to see references.
-      </a>
-    `
+          <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>`
         }
       },
-
       gallery: {
         title: "Choose a Tree Model",
         items: {
           banana1: "Banana",
-          coconut1: "Coconut",
-          sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -205,37 +267,27 @@ Supplement with balanced fertilizer (15-15-15) or potassium-rich formula.  <br><
     }
   };
 
-  // ================== Language System ==================
   let currentLang = localStorage.getItem("lang") || "th";
-
-  const get = (obj, path) =>
-    path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
-
-  function translateElement(el) {
-    const key = el.getAttribute("data-i18n");
-    const txt = get(translations[currentLang], key);
-    if (!txt) return;
-    if (el.tagName.toLowerCase() === "img") el.alt = txt;
-    else el.textContent = txt;
-  }
+  const get = (obj, path) => path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : undefined), obj);
 
   function applyStaticTranslations() {
-    document.querySelectorAll("[data-i18n]").forEach(translateElement);
-    const titleEl = document.querySelector(".title");
-    const titleTxt = get(translations[currentLang], "page.title");
-    if (titleEl && titleTxt) titleEl.textContent = titleTxt;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const txt = get(translations[currentLang], key);
+      if (txt !== undefined) el.textContent = txt;
+    });
   }
 
   function applyHotspotContent(key) {
+    if (!key) return;
     const data = get(translations[currentLang], `hotspot.${key}`);
     if (!data) return;
     const title = document.getElementById("hotspot-title");
     const desc = document.getElementById("hotspot-desc");
     const ref = document.getElementById("hotspot-reference");
-
-    if (title && data.title) title.textContent = data.title;
-    if (desc && data.desc) desc.innerHTML = data.desc;
-    if (ref && data.reference) ref.innerHTML = data.reference;
+    if (title) title.textContent = data.title;
+    if (desc) desc.innerHTML = data.desc;
+    if (ref) ref.innerHTML = data.reference;
   }
 
   function setLanguage(lang) {
@@ -245,29 +297,15 @@ Supplement with balanced fertilizer (15-15-15) or potassium-rich formula.  <br><
     applyStaticTranslations();
     applyHotspotContent(window.currentHotspotKey);
     window.dispatchEvent(new CustomEvent("language-change", { detail: { lang } }));
-
   }
 
   function initToggle() {
     const check = document.getElementById("lang-check");
     if (!check) return;
     check.checked = currentLang === "en";
-    check.addEventListener("change", () => {
-      setLanguage(check.checked ? "en" : "th");
-    });
-    applyStaticTranslations();
+    check.addEventListener("change", () => setLanguage(check.checked ? "en" : "th"));
   }
 
-  window.i18n = {
-    setLanguage,
-    getCurrentLang: () => currentLang,
-    applyHotspotContent,
-    applyStaticTranslations,
-    initToggle
-  };
-
-  if (document.readyState === "complete" || document.readyState === "interactive")
-    applyStaticTranslations();
-  else
-    document.addEventListener("DOMContentLoaded", applyStaticTranslations);
+  window.i18n = { setLanguage, getCurrentLang: () => currentLang, applyHotspotContent, initToggle };
+  document.addEventListener("DOMContentLoaded", () => { applyStaticTranslations(); initToggle(); });
 })();

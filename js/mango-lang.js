@@ -1,80 +1,88 @@
-
 (function () {
   const translations = {
     th: {
       page: { title: "มะม่วง" },
       ui: { play: "▶", close: "✖" },
-      reference: { label: "อ้างอิง :" },
+      reference: { label: "แหล่งที่มา :" },
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นไม้ยืนต้นขนาดใหญ่ เนื้อไม้สามารถนำไปทำเฟอร์นิเจอร์ได้<br><br>
+          desc: `ไม้ยืนต้นทรงพุ่มโปร่ง สูง 10-15 เมตร ไม้เนื้อแข็ง เปลือกสีดำอมเทา-น้ำตาล มียางสีขาวทั่วต้นไหลออกเมื่อเป็นแผล<br><br>
 
-<b>สรรพคุณ :</b> เปลือกของลำต้นสามารถนำมาต้มดื่มเป็นยา แก้โรคคอตีบ อาการเยื่อปากอักเสบ และจมูกอักเสบได้`,
-reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%9b%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87-%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b9%80%e0%b8%8b%e0%b8%87/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง</a>`
-      
+          <b>ประโยชน์ :</b> เปลือกต้นต้มดื่มแก้โรคคอตีบ อักเสบในช่องปากและจมูก และลำต้นให้ร่มเงา และเนื้อไม้ใช้สอยได้<br><br>`,
+          reference: `
+      <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://xn--12cg5dba1cebiacd7cvc2fh9b0dk8k8h3b.com/garden/treeshow.php?tree_id=123" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://food.trueid.net/detail/LAxa3j6JEkwY" target="_blank">แหล่งที่มา 4</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `นำใบสดมาตำพอกแผลสด เพื่อสมานแผล และล้างบาดแผลภายนอกได้ ส่วนใบแห้งใช้ต้มดื่ม แก้ท้องร่วง/ลำไส้อักเสบเรื้อรัง นอกจากนี้ยังมีตำราพื้นบ้านใช้ต้มดื่ม แก้สะอึกได้<br><br>
+          desc: `เป็นใบเดี่ยวรูปหอก ขอบใบเป็นคลื่น ใบแก่สีเขียวเข้มมันเงา<br><br>
 
-<b>ข้อควรระวัง :</b> ไม่ควรเคี้ยวใบสด เพราะ น้ำยางมะม่วง อาจกัดปากได้ หากจะใช้ ควรนำไปต้มก่อน`,
-reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%9b%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87-%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b9%80%e0%b8%8b%e0%b8%87/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+          <b>ประโยชน์</b><br>สารแมงจิเฟอรินช่วยต้านอักเสบ ลดไขมันในเลือด ป้องกันเบาหวาน ใบสดตำพอกสมานแผล ยอดอ่อนทานเป็นผักเคียงรสเปรี้ยวอมฝาด ลาบ ซุปหน่อไม้ และใบแก่ตากแห้งชงชาแก้อาการไอ<br><br>
+
+          <b>ข้อควรระวัง :</b>ไม่ควรเคี้ยวใบสด เพราะน้ำยางมะม่วงอาจกัดปากได้ หากจะใช้ควรนำไปต้มก่อน`,
+          reference: `
+      <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://www.disthai.com/17229789/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://farm.vayo.co.th/blog/mangifera-indica-nam-dok-mai-mun/" target="_blank">แหล่งที่มา 4</a>`
         },
         fruit: {
           title: "ผล",
-          desc: `มะม่วงดิบมีรสชาติเปรี้ยว มีวิตามิน C สูง ช่วยป้องกันหวัดและโรคเลือดออกตามไรฟันได้ (ลักปิดลักเปิด) นอกจากนี้ยังมีสารต้านอนุมูลอิสระสูง 
-          มะม่วงสุกมีรสชาติหวาน เนื้อนุ่ม มีวิตามิน A และเบต้าแคโรทีนสูงช่วยในการบำรุงสายตา ทำให้มองในเวลากลางคืนดีขึ้น และช่วยบำรุงผิว<br><br>
+          desc: `ดอกออกเป็นช่อแขนงปลายกิ่ง มีทั้งดอกกะเทยและดอกสมบูรณ์เพศ ผลทรงรีหรือกระบอก ปลายแหลม 
+          ผลดิบสีเขียว ผลสุกสีเหลืองทอง เนื้อละเอียดนุ่ม ไม่มีเสี้ยน รสหวานฉ่ำกลิ่นหอม<br><br>
 
-<b>สรรพคุณ :</b> มีกากใยอาหารที่สูง ช่วยในการขับถ่าย (มะม่วงสุกเป็นยาระบายอ่อน ๆ) และช่วยแก้อาการวิงเวียนศีรษะ คลื่นไส้อาเจียน มีสารต้านอนุมูลอิสระ ลดความเสี่ยงมะเร็ง (เช่น มะเร็งเต้านม, ลำไส้) และช่วยบำรุงหัวใจ<br><br>
-
-<b>ข้อควรระวัง :</b> มะม่วงมีน้ำยาง ซึ่งอาจทำให้เกิดการระคายเคืองต่อผิวหนัง ควรล้างยางออกทันที`,
-reference: `
-      <a href="https://www.kasettambon.com/%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%9b%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87-%e0%b8%a1%e0%b8%b0%e0%b8%a1%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b9%80%e0%b8%8b%e0%b8%87/" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
-
-
+            <b>คุณค่าทางโภชนาการ</b>
+             <ul class="desc">
+                <li>พลังงาน 76 กิโลแคลอรี, น้ำ 80.3 กรัม, โปรตีน 0.60 กรัม, ไขมัน 0.23 กรัม, คาร์โบไฮเดรต 17.73 กรัม, ใยอาหาร 0.8 กรัม, เถ้า 0.39 กรัม, แคลเซียม 3 มิลลิกรัม, ฟอสฟอรัส 15 มิลลิกรัม, แมกนีเซียม 7 มิลลิกรัม, โซเดียม 1 มิลลิกรัม, โพแทสเซียม 196 มิลลิกกรัม, ทองแดง 0.15 มิลลิกรัม, ไอโอดีน 1.59 ไมโครกรัม, เบต้าแคโรทีน 877 ไมโครกรัม, วิตามินเอ 73 ไมโครกรัม, วิตามินบี 1 0.07 มิลลิกรัม, วิตามินบี 2 0.06 มิลลิกรัม, วิตามินบี 3 1.81 มิลลิกรัม, วิตามินซี 14 มิลลิกรัม, วิตามินอี 1.10 มิลลิกรัม, น้ำตาล 15 กรัม</li>
+              </ul><br>
+  
+              <b>ประโยชน์</b><br>สารแมงจิเฟอริน (Mangiferin) และเบต้าแคโรทีนต้านอนุมูลอิสระ ลดเสี่ยงมะเร็ง, วิตามินซีและวิตามินเอบำรุงภูมิคุ้มกันและสายตา, ใยอาหารช่วยขับถ่าย มักนิยมทานสด ทานคู่ข้าวเหนียวมูน หรือทำขนม<br><br>
+  
+              <b>ข้อควรระวัง :</b> น้ำตาลสูง ควรทานแต่พอดี และผู้ป่วยโรคไตควรระวังเพราะมีโพแทสเซียม มะม่วงมีน้ำยางซึ่งอาจทำให้เกิดการระคายเคืองต่อผิวหนัง ควรล้างยางออกทันที`,
+          reference: `
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://researchcafe.tsri.or.th/antioxidant/" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://www.agri.cmu.ac.th/2017/webs/mainmenu_detail/4/3620/1" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://www.thailandpostmart.com/news/1443" target="_blank">แหล่งที่มา 4</a>,
+      <a href="https://thaifcd.anamai.moph.go.th/nss/view.php?fID=05093" target="_blank">แหล่งที่มา 5</a>`
         },
-      
         root: {
           title: "ราก",
+          desc: `รากที่เกิดจากต้นเพาะเมล็ดมีรากแก้วหยั่งลึก แข็งแรง<br><br>
 
-          desc: `เป็นรากแก้วที่สามารถชอนไชลงดินได้ลึกถึง 6 เมตร แต่รากจะดูดซึมอยู่หนาแน่นที่บริเวณผิวดิน (ลึก 30 - 60 ซม.) และแผ่บริเวณกว้าง<br><br>
+          <b>ประโยชน์</b><br>รากต้มดื่มเป็นยาขับพยาธิ บรรเทาอาการฝี ยับยั้งแบคทีเรียในลำไส้ใหญ่ เกษตรกรนิยมทำ “การเสริมราก” นำ
+              มะม่วงป่าเพาะเมล็ดมาทาบกิ่งโคนต้น เพื่อช่วยค้ำยันและหาอาหารให้มะม่วงพันธุ์ดี<br><br>
 
-<b>การเสริมราก :</b> เกษตรกรส่วนใหญ่นิยมเสริมรากให้กับต้นมะม่วงช่วยให้รากแข็งแรง ทนทานต่อลมพายุ ไม่ล้มง่าย และช่วยเพิ่มการดูดซึมของรากได้`,
-reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
+
+          <b>ข้อควรระวัง :</b> หากปลูกที่ลุ่มน้ำขัง ดินตื้น รากแก้วจะลงลึกไม่ได้ ทำให้รากตื้น โค่นล้มง่าย และอายุไม่ยืน`,
+          reference: `
+      <a href="https://www.doctor.or.th/article/detail/5323" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://www.rakbankerd.com/agriculture/print.php?id=3337&s=tblplant" target="_blank">แหล่งที่มา 2</a>,
+      <a href="https://kaset.today/%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%AA%E0%B8%A7%E0%B8%A2/" target="_blank">แหล่งที่มา 3</a>,
+      <a href="https://www.gotoknow.org/posts/499790" target="_blank">แหล่งที่มา 4</a>`
         },
         care: {
           title: "การดูแล",
-          desc: `<b>สภาพแวดล้อม :</b> ต้นมะม่วงต้องการสภาพอากาศอบอุ่น และแสงแดดเต็มที่ (อย่างน้อย 6 ชั่วโมงต่อวัน) และชอบดินที่ลึกและระบายน้ำได้ดี<br><br>
+          desc: `<b>การให้น้ำ :</b> ปีแรกรดน้ำสม่ำเสมอ เทคนิคเร่งดอก/เพิ่มความหวาน : งดน้ำ 1-2 เดือนก่อนออกดอก และงดอีกครั้ง 2-3 สัปดาห์ก่อนเก็บเกี่ยว เพื่อให้ผลหวานขึ้น<br><br>
 
-<b>การให้น้ำ :</b> ต้นอ่อนต้องการน้ำมากในช่วงแรก แต่ต้นที่โตเต็มที่สามารถทนต่อความแห้งแล้งได้บางส่วน แต่ควรรดน้ำสม่ำเสมอในช่วง 1 ปีแรก และก่อน/หลังการราดสารกระตุ้นดอก<br><br>
+<b>การใส่ปุ๋ย : </b>ใส่ปุ๋ยสูตรเสมอ 15-15-15 บำรุงต้น และสูตรตัวกลางและหลังสูง 8-24-24 เร่งดอก<br><br>
 
-<b>การตัดแต่งกิ่ง :</b> จำเป็นต้องตัดแต่งกิ่งอย่างสม่ำเสมอ เพื่อให้ทรงพุ่มโปร่ง อากาศถ่ายเทได้สะดวก และเพื่อกระตุ้นการผลิตผล<br><br>
+<b>การตัดแต่งกิ่ง : </b>ควรตัดกิ่งทันทีหลังเก็บเกี่ยว กิ่งแห้ง กิ่งโรค กิ่งชี้ลงดิน/น้ำค้าง กิ่งกระโดง เพื่อให้พุ่มโปร่ง แสงส่องถึง ลดความชื้นและโรค<br><br>
 
-<b>การกระตุ้นดอก :</b> ก่อนราดสารกระตุ้นดอก เช่น แพคโคลบิวทราซอล ต้องให้น้ำมะม่วงให้ชุ่ม 7 - 10 วัน และใส่ปุ๋ยสูตรสะสมตาดอก เช่น 8 - 24 - 24 หรือ 12 - 24 - 12`,
-reference: `
-      <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.php" target="_blank">
-      คลิกเพื่อดูแหล่งอ้างอิง
-      </a>`
-
+<b>โรคและศัตรูพืช : </b>โรคแอนแทรกโนส เชื้อราหน้าฝน ทำดอกร่วง ผลเน่ามีจุดดำ, เพลี้ยจักจั่น ดูดน้ำเลี้ยงช่อดอกจนร่วง และถ่ายมูลทำให้เกิด “โรคราดำ” และแมลงวันทอง วางไข่ในผลใกล้สุก หนอนไชผลเน่าร่วง ป้องกันโดยการห่อผลด้วยถุงคาร์บอนตั้งแต่ลูกเท่าไข่ไก่`,
+          reference: `
+      <a href="https://aopdh02.doae.go.th/wp-content/uploads/2021/09/Mango.pdf" target="_blank">แหล่งที่มา 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">แหล่งที่มา 2</a>,
+      <a href="http://www.hort.doa.go.th/knowledge/mango_pest_management.pdf" target="_blank">แหล่งที่มา 3</a>`
         },
       },
       gallery: {
         title: "เลือกดูโมเดลต้นไม้",
         items: {
           banana1: "กล้วย",
-          coconut1: "มะพร้าว",
-          sugarcane1: "อ้อยแดง",
           custardApple1: "น้อยหน่า",
           fig1: "มะเดื่อ",
           mango1: "มะม่วง",
@@ -93,67 +101,83 @@ reference: `
       hotspot: {
         trunk: {
           title: "Trunk",
-          desc: `<b>Trunk characteristics :</b> A large perennial tree, with wood suitable for making furniture.
-<br><br>
-<b>Trunk bark uses :</b> The bark can be boiled and used as medicine to treat diphtheria, inflammation of the oral mucosa, and nasal inflammation.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">
-          Click to see references.</a>`
+          desc: `<b>Trunk Characteristics :</b> A perennial tree with an open, spreading crown, attaining a height of 10 to 15 metres. The timber is hard; the bark is blackish-grey to brown in colour, and the tree exudes a white latex sap from any wound sustained.<br><br>
+
+<b>Uses :</b> A decoction of the bark is consumed to treat diphtheria and inflammation of the oral and nasal passages. The tree provides valuable shade, and the timber serves numerous practical purposes.`,
+          reference: `
+      <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">Source 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">Source 2</a>,
+      <a href="https://xn--12cg5dba1cebiacd7cvc2fh9b0dk8k8h3b.com/garden/treeshow.php?tree_id=123" target="_blank">Source 3</a>,
+      <a href="https://food.trueid.net/detail/LAxa3j6JEkwY" target="_blank">Source 4</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf uses :</b> Fresh leaves can be crushed and applied to wounds to help heal and clean them. Dried leaves can be boiled and drunk to treat diarrhea or chronic intestinal inflammation. Traditional medicine also uses boiled leaves to relieve hiccups.
-<br><br>
-<b>Precautions :</b> Do not chew fresh leaves, as the mango latex may irritate the mouth. If using, the leaves should be boiled first.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">
-          Click to see references.</a>`
+          desc: `<b>Leaf Characteristics :</b> The leaf is a simple, lanceolate blade with an undulating margin; mature leaves are deep green and lustrous.<br><br>
+
+<b>Uses :</b> Mangiferin, present in the leaf, acts as an anti-inflammatory agent, reduces blood lipids, and affords protection against diabetes. Fresh leaves, pounded and applied as a poultice, promote wound healing. Young shoots are consumed as an accompaniment to minced meat salad (laab), bamboo shoot soup, and similar preparations. Dried, mature leaves may be infused as a tea to relieve coughing.<br><br>
+
+<b>Precaution :</b> Do not chew fresh leaves, as the mango latex may irritate the mouth. If using the leaves medicinally, they should be boiled first.`,
+          reference: `
+      <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">Source 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">Source 2</a>,
+      <a href="https://www.disthai.com/17229789/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87" target="_blank">Source 3</a>,
+      <a href="https://farm.vayo.co.th/blog/mangifera-indica-nam-dok-mai-mun/" target="_blank">Source 4</a>`
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Fruit Unripe Mango :</b> Has a sour taste and is rich in vitamin C, which helps prevent colds and bleeding gums. It also contains high levels of antioxidants.<br><br>
+          desc: `<b>Fruit Characteristics :</b> The mango produces terminal panicles bearing both bisexual and hermaphroditic flowers. The fruit is oval or cylindrical in form, with a pointed apex. Immature fruit is green; ripe fruit is golden yellow. The flesh is fine and smooth, without fibre, and is characteristically sweet, juicy, and fragrant.<br><br>
 
-<b>Ripe Mango :</b> Has a sweet taste and soft texture. It is rich in vitamin A and beta-carotene, which help improve vision (especially at night) and nourish the skin.<br><br>
+<b>Nutritional Value (Per 100g) :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>76 kcal energy; 80.3g water; 0.60g protein; 0.23g fat; 17.73g carbohydrates; 0.8g dietary fibre; calcium, phosphorus, magnesium, sodium, potassium, copper, iodine, beta-carotene 877 mcg, vitamin A 73 mcg, vitamin B1 0.07mg, vitamin B2 0.06mg, vitamin B3 1.81mg, vitamin C 14mg, vitamin E 1.10mg, and 15g natural sugars.</li>
+</ul><br>
 
-<b>Overall Benefits :</b> Mangoes are high in fiber, which helps with digestion. Ripe mangoes act as a mild laxative and can help relieve dizziness and nausea.<br><br>
+<b>Uses and Benefits :</b> The compound mangiferin (Mangiferin) and beta-carotene present in mango act as antioxidants and reduce the risk of cancer. Vitamin C and vitamin A nourish the immune system and support visual health. Dietary fibre promotes bowel regularity. The mango is widely consumed fresh, as a companion to glutinous rice and coconut cream (khao niao mamuang), and in various confections.<br><br>
 
-<b>Health Benefits :</b> Contain antioxidants that help reduce the risk of cancer (such as breast and colon cancer) and support heart health.<br><br>
-
-<b>Caution :</b> Mango sap can cause skin irritation. Be sure to wash it off immediately after contact.`,
-reference: `
-          <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">
-          Click to see references.</a>`
+<b>Precaution :</b> Owing to its high sugar content, mango should be consumed in moderation. Persons with kidney disease should exercise caution on account of the fruit's potassium content. Mango sap can cause skin irritation — wash it off immediately after contact.`,
+          reference: `
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">Source 1</a>,
+      <a href="https://researchcafe.tsri.or.th/antioxidant/" target="_blank">Source 2</a>,
+      <a href="https://www.agri.cmu.ac.th/2017/webs/mainmenu_detail/4/3620/1" target="_blank">Source 3</a>,
+      <a href="https://www.thailandpostmart.com/news/1443" target="_blank">Source 4</a>,
+      <a href="https://thaifcd.anamai.moph.go.th/nss/view.php?fID=05093" target="_blank">Source 5</a>`
         },
-      
         root: {
           title: "Root",
-          desc: `<b>Root system :</b> Mango trees have a taproot that can grow deep into the soil (up to 6 meters), but most nutrient absorption occurs densely near the soil surface (30–60 cm deep) and spreads widely.
+          desc: `<b>Root Characteristics :</b> Trees grown from seed possess a deeply penetrating, robust taproot, capable of reaching up to 6 metres in depth. Most nutrient absorption occurs densely near the soil surface (30–60 cm deep), with roots spreading widely in all directions.<br><br>
 
-          Root reinforcement: Most farmers strengthen the roots to make the tree more resilient to storms, prevent it from falling, and improve nutrient absorption.`,
+<b>Uses :</b>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>A decoction of the root is consumed as an anthelmintic, to relieve abscesses, and to inhibit bacteria in the large intestine.</li>
+<li>Agricultural growers commonly employ the practice of grafting wild mango seedlings onto the base of cultivated trees to provide structural support and enhance nutrient uptake, making the tree more resilient to storms and less prone to uprooting.</li>
+</ul><br>
+
+<b>Precaution :</b> Where planting occurs in a low-lying area prone to waterlogging, or in shallow soil, the taproot cannot penetrate deeply, resulting in a shallow root system, susceptibility to uprooting, and a shortened lifespan.`,
           reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.php" target="_blank">
-          Click to see references.</a>`
+      <a href="https://www.doctor.or.th/article/detail/5323" target="_blank">Source 1</a>,
+      <a href="https://www.rakbankerd.com/agriculture/print.php?id=3337&s=tblplant" target="_blank">Source 2</a>,
+      <a href="https://kaset.today/%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%AA%E0%B8%A7%E0%B8%A2/" target="_blank">Source 3</a>,
+      <a href="https://www.gotoknow.org/posts/499790" target="_blank">Source 4</a>`
         },
         care: {
           title: "Care",
-          desc: `<b>Environment :</b> Mango trees need a warm climate and full sun (at least 6 hours per day) and prefer deep, well-drained soil.<br><br>
+          desc: `<b>Watering :</b> In the first year, water is applied regularly. A technique for inducing flowering and enhancing sweetness involves withholding water for one to two months prior to the expected flowering period, and again for two to three weeks before harvest, in order to intensify the sweetness of the ripened fruit. Young trees need plenty of water at first; mature trees can tolerate some drought but should be watered consistently before and after applying flower-inducing chemicals.<br><br>
 
-<b>Watering :</b> Young trees need plenty of water at first. Mature trees can tolerate some drought but should be watered consistently during the first year and before/after applying flower-inducing chemicals.<br><br>
+<b>Fertilisation :</b> A balanced fertiliser formula of 15-15-15 is applied to maintain tree vigour, and a formula with elevated middle and terminal values of 8-24-24 is applied to stimulate flowering. Before applying flower-inducing chemicals (e.g., paclobutrazol), water the trees thoroughly for 7–10 days and apply a flowering fertilizer such as 8–24–24 or 12–24–12.<br><br>
 
-<b>Pruning :</b> Regular pruning is necessary to maintain an open canopy, allow air circulation, and stimulate fruit production (remove tall or tangled branches).<br><br>
+<b>Pruning :</b> Pruning should be undertaken immediately after harvest, targeting dry branches, diseased branches, downward-facing branches, water-sprouting branches, and vigorous vertical shoots, in order to open the canopy, admit light, and reduce moisture and disease pressure. Regular pruning is also necessary to maintain an open canopy, allow air circulation, and stimulate fruit production.<br><br>
 
-<b>Flower stimulation :</b> Before applying flower-inducing chemicals (e.g., paclobutrazol), water the trees thoroughly for 7–10 days and apply a flowering fertilizer like 8–24–24 or 12–24–12.`,
-reference: `
-          <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.php" target="_blank">
-          Click to see references.</a>`
+<b>Diseases and Pests :</b> Anthracnose, a fungal disease prevalent during the rainy season, causes flower drop and fruit rot with dark spotting. The mango leafhopper sucks sap from flowering panicles causing them to drop, and its excretions give rise to sooty mould disease. The oriental fruit fly deposits eggs in nearly ripe fruit, and the resultant larvae cause internal rotting. This last pest may be prevented by bagging individual fruits with carbon paper bags from the stage at which the fruit is approximately the size of a chicken egg.`,
+          reference: `
+      <a href="https://aopdh02.doae.go.th/wp-content/uploads/2021/09/Mango.pdf" target="_blank">Source 1</a>,
+      <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">Source 2</a>,
+      <a href="http://www.hort.doa.go.th/knowledge/mango_pest_management.pdf" target="_blank">Source 3</a>`
         },
       },
       gallery: {
         title: "Choose a Tree Model",
         items: {
           banana1: "Banana",
-          coconut1: "Coconut",
-          sugarcane1: "Red Sugarcane",
           custardApple1: "Custard Apple",
           fig1: "Fig",
           mango1: "Mango",
@@ -219,7 +243,6 @@ reference: `
     initToggle,
   };
 
-  // ✅ โหลดครั้งแรก
   document.addEventListener("DOMContentLoaded", () => {
     applyStaticTranslations();
   });

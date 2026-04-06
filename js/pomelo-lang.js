@@ -102,9 +102,14 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. Young branches are covered with short hairs.<br><br>
-            <b>Uses :</b> Heartwood decoction is used to expel parasites, relieve flatulence, and promote urination. Growers often use "three-legged root reinforcement" for support.<br><br>
-            <b>Precaution :</b> Susceptible to Phytophthora root and crown rot, causing bark bruising, gum exudation, and internal wood decay.`,
+          desc: `A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. 
+          Young branches are covered with short hairs.<br><br>
+            
+          <b>Uses :</b> <br>
+          Heartwood decoction is used to expel parasites, relieve flatulence, and promote urination. Growers often use 
+          "three-legged root reinforcement" for support.<br><br>
+            
+          <b>Precaution :</b> Susceptible to Phytophthora root and crown rot, causing bark bruising, gum exudation, and internal wood decay.`,
           reference: `
             <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
             <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
@@ -113,9 +118,13 @@
         },
         leaf: {
           title: "Leaf",
-          desc: `The petiole bears prominent wings resembling kaffir lime leaves but larger. They are thick, firm, and fragrant with volatile oils.<br><br>
-            <b>Uses :</b> Pounded as a poultice for headaches; toasted for joint pain and bloating. Contains flavonoids that may inhibit cancer cell growth.<br><br>
-            <b>Pests :</b> Leaf miners (white winding trails) and citrus leafhoppers (causing leaf curling and yellowing).`,
+          desc: `The petiole bears prominent wings resembling kaffir lime leaves but larger. They are thick, firm, and 
+          fragrant with volatile oils.<br><br>
+            <b>Uses :</b><br>
+            
+            Pounded as a poultice for headaches; toasted for joint pain and bloating. Contains flavonoids that may inhibit cancer cell growth.<br><br>
+            
+            <b>Pests : </b>Leaf miners (white winding trails) and citrus leafhoppers (causing leaf curling and yellowing).`,
           reference: `
             <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">Source 1</a>, 
             <a href="https://www.rspg.or.th/plants_data/homklindokmai/budhabot/som.htm" target="_blank">Source 2</a>, 
@@ -126,14 +135,17 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `Bears bisexual white flowers; fruit is a hesperidium type. Round form with oil glands on the rind and a thick, white, spongy internal pith.<br><br>
-            <b>Nutritional Value (Per 100g) :</b>
-            
+          desc: `Bears bisexual white flowers; fruit is a hesperidium type. Round form with oil glands on the rind and a thick, 
+          white, spongy internal pith.<br><br>
+            <b>Nutritional Value :</b>
+
             <ul class="desc">
 
-              <li>38 kcal energy; 9.62g carbs; 0.76g protein; 0.04g fat; 1g fibre; calcium, iron, phosphorus, potassium, and 61mg vitamin C.</li>
+              <li>38 kcal energy; 9.62g carbs; 0.76g protein; 0.04g fat; 1g fibre; calcium, iron, phosphorus, 
+              potassium, and 61mg vitamin C.</li>
             </ul><br>
-            <b>Uses and Benefits :</b> Protects against scurvy, relieves flatulence and hangovers. High in antioxidants. Pith is rich in pectin, used for preserves.<br><br>
+            <b>Uses and Benefits :</b> Protects against scurvy, relieves flatulence and hangovers. High in antioxidants. 
+            Pith is rich in pectin, used for preserves.<br><br>
             <b>Precaution :</b> Avoid consuming on an empty stomach; high acidity may irritate the gastric lining.`,
           reference: `
             <a href="https://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm" target="_blank">Source 1</a>, 
@@ -146,8 +158,11 @@
         root: {
           title: "Root",
           desc: `Taproot penetrates 4.5 to 5 metres. Commonly grown on raised mounds to keep roots shallow for efficient nutrient absorption.<br><br>
-            <b>Uses :</b> Pungent medicinal character; used for gastric pain, hernia, coughing, and colds.<br><br>
-            <b>Precaution :</b> Waterlogging causes oxygen deprivation and root rot, leading to tree death.`,
+            
+          <b>Uses :</b><br>
+          Pungent medicinal character; used for gastric pain, hernia, coughing, and colds.<br><br>
+            
+          <b>Precaution :</b> Waterlogging causes oxygen deprivation and root rot, leading to tree death.`,
           reference: `
             <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
             <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 

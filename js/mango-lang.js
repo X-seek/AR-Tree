@@ -108,7 +108,8 @@
           desc: `The mango is a perennial tree with an open, spreading crown, attaining a height of 10 to 15 metres. 
           The timber is hard; the bark is blackish-grey to brown in colour, and the tree exudes a white latex sap from any wound sustained.<br><br>
 
-          <b>Uses : </b>A decoction of the bark is consumed to treat diphtheria and inflammation of the oral and nasal passages. 
+          <b>Uses : </b><br>
+          A decoction of the bark is consumed to treat diphtheria and inflammation of the oral and nasal passages. 
           The tree provides valuable shade, and the timber serves numerous practical purposes.`,
           
           reference: `
@@ -121,7 +122,8 @@
           title: "Leaf",
           desc: `<b>Leaf Characteristics : </b>The leaf is a simple, lanceolate blade with an undulating margin; mature leaves are deep green and lustrous.<br><br>
 
-          <b>Uses : </b>Mangiferin, present in the leaf, acts as an anti-inflammatory agent, reduces blood lipids, and affords protection 
+          <b>Uses : </b><br>
+          Mangiferin, present in the leaf, acts as an anti-inflammatory agent, reduces blood lipids, and affords protection 
           against diabetes. Fresh leaves, pounded and applied as a poultice, promote wound healing. Young shoots are consumed as 
           an accompaniment to minced meat salad (laab), bamboo shoot soup, and similar preparations. Dried, mature leaves may be infused as a tea to relieve coughing.<br><br>
 
@@ -139,7 +141,7 @@
           is oval or cylindrical in form, with a pointed apex. Immature fruit is green; ripe fruit is golden yellow. The flesh is fine and smooth,
            without fibre, and is characteristically sweet, juicy, and fragrant.<br><br>
 
-           <b>Nutritional Value : </b>
+           <b>Nutritional Value : </b><br>
             Per 100 grams of edible portion, mango provides: 76 kilocalories of energy; 80.3 grams of water; 0.60 grams of protein; 0.23 grams of 
             fat; 17.73 grams of carbohydrates; 0.8 grams of dietary fibre; as well as calcium, phosphorus, magnesium, sodium, potassium, copper, 
             iodine, beta-carotene, vitamins A, B1, B2, B3, C, and E; and 15 grams of natural sugars.
@@ -162,7 +164,8 @@
           title: "Root",
           desc: `Trees grown from seed possess a deeply penetrating, robust taproot.<br><br>
 
-            <b>Uses :</b>A decoction of the root is consumed as an anthelmintic, to relieve abscesses, and to inhibit bacteria in the large intestine. 
+            <b>Uses : </b><br>
+            A decoction of the root is consumed as an anthelmintic, to relieve abscesses, and to inhibit bacteria in the large intestine. 
             Agricultural growers commonly employ the practice of grafting wild mango seedlings onto the base of cultivated trees to provide structural 
             support and enhance nutrient uptake.
 

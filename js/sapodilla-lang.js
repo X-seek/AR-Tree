@@ -73,7 +73,7 @@
 
 <b>การใส่ปุ๋ย : </b>ควรใส่ปุ๋ยคอก/ชีวภาพปีละ 1-2 ครั้ง ช่วงปลูกสามารถรองก้นหลุมด้วยปุ๋ย 15-15-15<br><br>
 
-<b>การตัดแต่งกิ่ง :</b>ควรตัดกิ่งแห้งทิ้ง หรือทำสาวต้นที่แก่เกินไป เพื่อกระตุ้นให้ออกดอกและติดผลดีขึ้น<br><br>
+<b>การตัดแต่งกิ่ง : </b>ควรตัดกิ่งแห้งทิ้ง หรือทำสาวต้นที่แก่เกินไป เพื่อกระตุ้นให้ออกดอกและติดผลดีขึ้น<br><br>
 
 <b>ศัตรูพืช : </b>หนอนเจาะผล, แมลงวันทอง ทำให้ผลเน่าร่วง, แมลงค่อมทอง กัดกินใบอ่อนและดอก`,
 
@@ -108,7 +108,7 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
+          title: "Stem",
           desc: `<b>Trunk Characteristics :</b> The sapodilla is a perennial tree with a dense crown and hard, tenacious timber. When any part of the tree is wounded, a milky white latex sap exudes.<br><br>
 
 <b>Uses :</b>
@@ -116,7 +116,10 @@
 <ul class="desc">
 
 <li>The timber is used in the construction of houses and the crafting of furniture, tools, and fuel wood.</li>
+
+
 <li>A decoction of the bark is consumed to treat dysentery.</li>
+
 <li><b>Sap :</b> The white latex exuding from the trunk and branches serves as a potent anthelmintic, and is also employed in the manufacturing of chewing gum and rubber boots.</li>
 </ul>`,
           reference: `
@@ -149,7 +152,7 @@
 
 <b>Latex in Fruit :</b> Unripe sapodilla contains white latex and high levels of tannins, which should not be eaten as it causes an unpleasant astringent sensation on the tongue.<br><br>
 
-<b>Nutritional Value (Per 100g) :</b>
+<b>Nutritional Value :</b>
 
 <ul class="desc">
 

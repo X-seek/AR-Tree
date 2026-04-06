@@ -134,7 +134,7 @@
           
           <b>Medicinal Properties : </b>The stem is used to staunch bleeding and to treat hernia.<br><br>
           
-          <b>Uses </b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
+          <b>Uses :</b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
           into rope or woven into textile fibres.`,
           
           reference: `
@@ -150,7 +150,7 @@
           
           <b>Medicinal Properties : </b>The leaf is used to treat dog-bite wounds and to staunch bleeding.<br><br>
           
-          <b>Uses:</b>
+          <b>Uses :</b>
           <ul class="desc">
             
           <li>Employed in the crafting of traditional decorative objects such as the kratong (lotus-shaped vessel) and the baisri (ceremonial floral arrangement).</li>
@@ -173,7 +173,7 @@
           inflorescence matures into fruit, the entire structure is called a "bunch" (เครือ, kruea). Certain bunches bear merely two to three hands, while others 
           may yield in excess of ten, depending upon the variety of banana and the quality of care rendered during cultivation.<br><br>
           
-          <b>Nutritional Value</b>
+          <b>Nutritional Value :</b>
           <ul class="desc">
             
           <li>Per 100 grams of edible portion, the banana provides the following nutrients: 132 kilocalories of energy; 66.3 grams of water; 0.9 grams of 
@@ -183,7 +183,7 @@
           
           </ul><br>
           
-          <b>Uses and Benefits </b><br>
+          <b>Uses and Benefits :</b><br>
           
           The banana holds a revered place in both religious and secular life. Its fruit clusters are employed as offerings in religious ceremonies, wedding rites, 
           and house-blessing rituals. The fibrous trunk has traditionally served as a floating device to assist children learning to swim. Ripe banana fruit is 
@@ -207,7 +207,7 @@
           title: "Root",
           desc: `The banana possesses a fibrous root system that spreads laterally in all directions.<br><br>
 
-          <b>Medicinal Properties:</b> The root is used to relieve urinary difficulties.
+          <b>Medicinal Properties :</b> The root is used to relieve urinary difficulties.
           
           <ul class="desc">
             
@@ -223,7 +223,7 @@
           
           </ul><br>
           
-          <b>Uses </b><br>A decoction of the root and stem is consumed to quench thirst.`,
+          <b>Uses :</b><br>A decoction of the root and stem is consumed to quench thirst.`,
 
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
@@ -243,7 +243,7 @@
           <b>Sucker Management : </b>Where suckers are excessive, a portion should be removed, retaining only one to two for the purpose of 
           supporting the mother plant. Suckers may be excised using a sharp hoe or knife.<br><br>
          
-          <b>Diseases and Pests</b>
+          <b>Diseases and Pests :</b>
           <ul class="desc">
            
           <li>"Epidemic diseases in bananas commonly arise from fungal infection of the roots, known as "Panama disease" (โรคตายพราย). 

@@ -35,7 +35,7 @@
           <li>พลังงาน 94 กิโลแคลอรี, คาร์โบไฮเดรต 23.64 กรัม, เส้นใย 4.4 กรัม, ไขมัน 0.29 กรัม, โปรตีน 2.06 กรัม, วิตามินบี 1 0.11 มิลลิกรัม, 10% วิตามินบี 2 0.113 มิลลิกรัม, 9% วิตามินบี 3 0.883 มิลลิกรัม, 6% วิตามินบี 5 0.226 มิลลิกรัม, 5% วิตามินบี 6 0.2 มิลลิกรัม, 15% วิตามินบี 9 14 ไมโครกรัม, 4% วิตามินซี 36.3 มิลลิกรัม, 44% ธาตุแคลเซียม 24 มิลลิกรัม, 2% ธาตุเหล็ก 0.6 มิลลิกรัม, 5% ธาตุแมกนีเซียม 21 มิลลิกรัม, 6% ธาตุแมงกานีส 0.42 มิลลิกรัม, 20% ธาตุฟอสฟอรัส 32 มิลลิกรัม, 5% ธาตุโพแทสเซียม 247 มิลลิกรัม, 5% ธาตุโซเดียม 9 มิลลิกรัม, 1% ธาตุสังกะสี 0.1 มิลลิกรัม</li>
           </ul><br>
           
-          <b>สรรพคุณ :</b>ช่วยต่อต้านอนุมูลอิสระในร่างกาย ช่วยบำรุงผิวพรรณ เส้นผม และดวงตา น้อยหน่าเป็นผลไม้ที่มีไขมันต่ำ ช่วยรักษาโรคหอบหืด (วิตามินซี) ช่วยควบคุมระดับน้ำตาลในเลือด (เส้นใย) น้อยหน่าช่วยลดระดับคอเลสเตอรอล (วิตามินบี3) ช่วยลดความดันโลหิต (โพแทสเซียม) ช่วยบำรุงหัวใจ ให้มีสุขภาพแข็งแรง ป้องกันการเกิดโรคหัวใจ มีส่วนช่วยรักษาโรคโลหิตจาง
+          <b>สรรพคุณ : </b>ช่วยต่อต้านอนุมูลอิสระในร่างกาย ช่วยบำรุงผิวพรรณ เส้นผม และดวงตา น้อยหน่าเป็นผลไม้ที่มีไขมันต่ำ ช่วยรักษาโรคหอบหืด (วิตามินซี) ช่วยควบคุมระดับน้ำตาลในเลือด (เส้นใย) น้อยหน่าช่วยลดระดับคอเลสเตอรอล (วิตามินบี3) ช่วยลดความดันโลหิต (โพแทสเซียม) ช่วยบำรุงหัวใจ ให้มีสุขภาพแข็งแรง ป้องกันการเกิดโรคหัวใจ มีส่วนช่วยรักษาโรคโลหิตจาง
           <ul class="desc">
             
           <li>เมล็ด ช่วยกำจัดเห็บหมัดได้</li>
@@ -97,7 +97,7 @@
           in colour. In cultivation, the tree is generally pruned to maintain a height of no more than 2 metres 
           to encourage the emergence of leaves, flowers, and fruit in abundant quantity.<br><br>
          
-          <b>Uses : </b>The bark, characterised by its astringent and bitter flavour, is employed to heal wounds and staunch bleeding, to treat diarrhoea, and as a general tonic.`,
+          <b>Uses : </b><br>The bark, characterised by its astringent and bitter flavour, is employed to heal wounds and staunch bleeding, to treat diarrhoea, and as a general tonic.`,
           
           reference: `
           <a href="https://www.wattano.ac.th/wattano/web_saunpluak/My%20Hip/116.html" target="_blank">Source 1</a>, 
@@ -108,7 +108,7 @@
           desc: `The leaves, when pounded and mixed with white spirit, are applied as a poultice to the scalp and 
           left for approximately half an hour before rinsing, serving as an effective treatment for head lice.<br><br>
           
-          <b>Medicinal Properties : </b>The leaf is used to treat ringworm, tinea versicolor, and head lice.<br><br>
+          <b>Medicinal Properties : </b><br>The leaf is used to treat ringworm, tinea versicolor, and head lice.<br><br>
           
           <b>Precaution : </b>The juice extracted from sugar apple leaves must not be allowed to contact the eyes, eyelids, nostrils, or lips, as it may cause a burning sensation. Should it enter the eyes, conjunctivitis may result, and the affected area must be rinsed immediately with clean water.`,
           
@@ -132,7 +132,7 @@
           
           </ul><br>
          
-          <b>Medicinal Properties :</b>The sugar apple is reputed to combat free radicals within the body, to 
+          <b>Medicinal Properties :</b><br>The sugar apple is reputed to combat free radicals within the body, to 
           nourish the skin, hair, and eyes, and to support a range of health functions. As a low-fat fruit, it 
           is considered beneficial in the management of asthma (through its vitamin C content), in the regulation 
           of blood sugar levels (through its dietary fibre), in the reduction of cholesterol (through vitamin B3), 
@@ -155,7 +155,7 @@
           title: "Root",
           desc: `The sugar apple possesses an extensive taproot system.<br><br>
           
-          <b>Medicinal Properties : </b>The root serves as a laxative, an emetic, and an antidote to snake venom and other toxins.`,
+          <b>Medicinal Properties : </b><br>The root serves as a laxative, an emetic, and an antidote to snake venom and other toxins.`,
           
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">Source 1</a>`

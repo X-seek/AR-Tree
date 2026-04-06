@@ -52,8 +52,8 @@
           <li>ช่วงปลูกจนถึงออกผลรุ่นแรก จะใส่ปุ๋ยเป็นระยะเพื่อให้ต้นฝรั่งสามารถเจริญเติบโตได้ดี โดยอาจใช้ปุ๋ยคอกหรือปุ๋ยหมักผสมกับปุ๋ยเคมีในสูตร 12-12-0 ในอัตราส่วนปุ๋ยคอกต่อปุ๋ยเคมี 10:1 ในอัตรา 0.5 กิโลกรัม/ต้น ประมาณ 1-2 ครั้ง ก่อนการติดดอก</li>
           <li>ช่วงให้ผลผลิต ในช่วงที่ให้ผลิตในระยะออกดอกให้ใส่ปุ๋ยหมักร่วมกับปุ๋ยเคมีสูตร 15-15-15 ในอัตราเดียวกัน และเมื่อก่อนที่ผลฝรั่งจะห่ามก่อนเก็บผลผลิตประมาณ 1 เดือน ให้ใส่ปุ๋ยสูตร 12-12-24 ในอัตราเดียวกัน</li>
           </ul>
-          <b>การกำจัดวัชพืช :</b>ในระยะเริ่มปลูกจนถึงต้นอายุ 6 เดือน หลังปลูก ให้กำจัดวัชพืชรอบโคนต้นทุก ๆ 1 ครั้ง/เดือน ร่วมด้วยกับการไถกลบ หลังจากเมื่อต้นแตกกิ่งแล้วอาจทำการกำจัดวัชพืชน้อยลงก็ได้<br><br>
-          <b>การตัดแต่งกิ่ง :</b>การตัดแต่งกิ่งจะตัดกิ่งที่มีอายุมากแล้วออกเพื่อให้กิ่งใหม่ขึ้นแทน เพราะหากใช้กิ่งที่ให้ผลมาแล้วตั้งแต่ 3 ปี จะทำให้ผลที่ได้มีขนาดเล็ก เพื่อให้มีลักษณะทรงพุ่มที่พอเหมาะสำหรับการเก็บผล`,
+          <b>การกำจัดวัชพืช : </b>ในระยะเริ่มปลูกจนถึงต้นอายุ 6 เดือน หลังปลูก ให้กำจัดวัชพืชรอบโคนต้นทุก ๆ 1 ครั้ง/เดือน ร่วมด้วยกับการไถกลบ หลังจากเมื่อต้นแตกกิ่งแล้วอาจทำการกำจัดวัชพืชน้อยลงก็ได้<br><br>
+          <b>การตัดแต่งกิ่ง : </b>การตัดแต่งกิ่งจะตัดกิ่งที่มีอายุมากแล้วออกเพื่อให้กิ่งใหม่ขึ้นแทน เพราะหากใช้กิ่งที่ให้ผลมาแล้วตั้งแต่ 3 ปี จะทำให้ผลที่ได้มีขนาดเล็ก เพื่อให้มีลักษณะทรงพุ่มที่พอเหมาะสำหรับการเก็บผล`,
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>`
         }
@@ -86,7 +86,7 @@
           small wings, giving them a square cross-section; young branches are yellowish-green or deep red in colour, with a 
           dense covering of hairs that shed as the branch ages. Mature branches are reddish-brown and smooth.<br><br>
           
-          <b>Medicinal Properties : </b>The bark of the stem is used to relieve abdominal pain, and in combination with other plants in a decoction to treat diarrhoea.`,
+          <b>Medicinal Properties : </b><br>The bark of the stem is used to relieve abdominal pain, and in combination with other plants in a decoction to treat diarrhoea.`,
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>,
           <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">Source 2</a>`
@@ -99,7 +99,7 @@
            The underside is smooth, with soft hairs and prominently visible, raised veins. The leaf base is curved; 
            the margin is smooth and slightly translucent at the edge.<br><br>
           
-           <b>Medicinal Properties</b><br>
+           <b>Medicinal Properties :</b><br>
            The leaf is used to treat diarrhoea (excluding dysentery and cholera), to staunch bleeding and apply to fresh 
            wounds (two to three leaves chewed and applied), to neutralise bad breath, to treat abscesses, to cleanse wounds, 
            to draw out pus and neutralise wound toxins, to relieve swollen gums, to treat chronic toxicity, to relieve pain 
@@ -118,8 +118,9 @@
           matures it becomes light green, turning pale or bright yellow upon ripening, depending upon the cultivar. 
           The flesh may be white, pinkish-white, or yellow.<br><br>
           
-          <b>Nutritional Value</b><br>
-          Per 100 grams of edible portion, guava contains: 111 grams of water; 8 grams of sugar; 3.6 grams of dietary fibre; 26 micrograms of beta-carotene; 234 milligrams of vitamin C; and 230 milligrams of potassium.<br>
+          <b>Nutritional Value :</b><br>
+          Per 100 grams of edible portion, guava contains: 111 grams of water; 8 grams of sugar; 3.6 grams of dietary fibre; 26 
+          micrograms of beta-carotene; 234 milligrams of vitamin C; and 230 milligrams of potassium.<br><br>
           
           <b>Medicinal Properties:</b>
           <ul class="desc">
@@ -137,16 +138,16 @@
           title: "Root",
           desc: `<b>Watering : </b>Water is applied thoroughly immediately following planting, and thereafter twice daily—in the morning and evening.<br><br>
           
-          <b>Medicinal Properties : </b>The root is used to treat impurity of the lymphatic system, abscesses, suppurating wounds, and nosebleeds.
+          <b>Medicinal Properties : </b><br>The root is used to treat impurity of the lymphatic system, abscesses, suppurating wounds, and nosebleeds.<br><br>
           
-          <b>Fertilisation  :</b>Fertilisation is divided into two principal phases: during the period from planting until the first harvest, 
+          <b>Fertilisation :</b>Fertilisation is divided into two principal phases: during the period from planting until the first harvest, 
           fertiliser is applied periodically to promote healthy growth, using a mixture of organic manure or compost combined with a chemical 
           fertiliser in the formula 12-12-0, at a ratio of 10:1 (organic to chemical), applied at 0.5 kilograms per tree, once or twice before 
           flowering. During the production phase, organic compost combined with the formula 15-15-15 is applied at the same rate during the 
-          flowering period. Approximately one month prior to the expected harvest, the formula 12-12-24 is applied at the same rate.
+          flowering period. Approximately one month prior to the expected harvest, the formula 12-12-24 is applied at the same rate.<br><br>
           
           <b>Weed Control : </b>From the commencement of planting until the tree is six months of age, weeds around the base are cleared monthly,
-           combined with soil cultivation. Once the tree has put forth branches, weed management may be reduced in frequency.
+           combined with soil cultivation. Once the tree has put forth branches, weed management may be reduced in frequency.<br><br>
           
            <b>Pruning : </b>Older branches that have borne fruit for three or more years are removed and replaced by new growth, as 
            prolonged use of the same branches results in progressively smaller fruit. The crown is maintained in a shape and size that facilitates ease of harvesting.
@@ -158,10 +159,10 @@
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering:</b> Thorough irrigation immediately following planting, thereafter twice daily—in the morning and evening.<br><br>
-          <b>Fertilisation:</b> Initially use formula 12-12-0 with organic manure (10:1 ratio). During production, apply 15-15-15 during flowering, and 12-12-24 one month prior to harvest.<br><br>
-          <b>Pruning:</b> Remove branches that have borne fruit for three or more years to allow new growth, preventing progressively smaller fruit size.<br><br>
-          <b>Maintenance:</b> Clear weeds monthly combined with soil cultivation. Wrap individual fruits when firm and green to prevent fruit fly infestation.`,
+          desc: `<b>Watering : </b> Thorough irrigation immediately following planting, thereafter twice daily—in the morning and evening.<br><br>
+          <b>Fertilisation : </b> Initially use formula 12-12-0 with organic manure (10:1 ratio). During production, apply 15-15-15 during flowering, and 12-12-24 one month prior to harvest.<br><br>
+          <b>Pruning : </b> Remove branches that have borne fruit for three or more years to allow new growth, preventing progressively smaller fruit size.<br><br>
+          <b>Maintenance : </b> Clear weeds monthly combined with soil cultivation. Wrap individual fruits when firm and green to prevent fruit fly infestation.`,
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>`
         }

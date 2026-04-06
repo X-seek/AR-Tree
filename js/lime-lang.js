@@ -103,7 +103,7 @@
           desc: `The lime leaf is a unifoliolate compound leaf, arranged in alternating fashion along the stem, with a light green, 
           elongated-ovoid shape and a pointed apex and margin.<br><br>
           
-          <b>Medicinal Properties</b><br>
+          <b>Medicinal Properties :</b><br>
           Finely sliced lime leaves, steeped in boiling water and consumed as a tea, are reputed to reduce fever. The tea may 
           also be used as a gargle to eliminate pathogens. In the Malay tradition, a preparation of lime leaves mixed with lime 
           juice is ground and applied to the hair as a remedy for headache.`,
@@ -131,7 +131,7 @@
           desc: `The root system of the lime extends primarily in the horizontal plane rather than vertically, becoming concentrated 
           at a depth of approximately 30 to 60 centimetres below the soil surface.<br><br>
           
-          <b>Medicinal Properties</b><br>The root is employed to expel fever toxins, to neutralise the effects of poisonous substances, to remedy 
+          <b>Medicinal Properties :</b><br>The root is employed to expel fever toxins, to neutralise the effects of poisonous substances, to remedy 
           memory impairment, to reduce fever of various kinds, to treat abscesses, to alleviate pain and inflammation, and to counteract toxic fevers.`,
          
           reference: `
@@ -144,7 +144,7 @@
           
           established, and watering may then be reduced to two to three times per month.<br><br>
           
-          <b>Fertilisation </b><br>When the tree is three to four months old, chemical fertiliser, compost, or organic manure is applied at 
+          <b>Fertilisation : </b>When the tree is three to four months old, chemical fertiliser, compost, or organic manure is applied at 
           approximately 0.5 kilograms per tree. Chemical fertiliser should be applied after weeding and soil cultivation, distributed around 
           the canopy drip line, followed by irrigation to dissolve the fertiliser. At one year of age, a formula of 15-15-15 is applied 
           at 300 grams per tree. At two years of age, the quantity is increased and applied twice annually at approximately 1 kilogram 
@@ -152,7 +152,7 @@
           alternatively 3-10-10, is applied to stimulate growth before flowering, and the formula 0-52-34 is applied to hasten 
           flowering at 0.5 to 1 kilogram per tree.<br><br>
           
-          <b>Weed Control</b><br>
+          <b>Weed Control :</b>
           Weeds in a lime orchard may be managed by hand-pulling, slashing, or mechanical cutting, taking care not to cause wounds 
           at the base of the trunk or disturb the roots. Chemical weed control using herbicides is also commonly practised.`,
           

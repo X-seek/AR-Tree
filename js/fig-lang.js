@@ -83,7 +83,7 @@
            heavy foliage. The trunk may attain a height of 5 to 20 metres. The bark is smooth and brown to 
            brownish-grey in colour; young branches are green, whilst mature branches are smooth and brown.<br><br>
           
-          <b>Medicinal Properties : </b>The stem bark is used to treat diarrhoea and loose stools, skin rashes 
+          <b>Medicinal Properties : </b><br>The stem bark is used to treat diarrhoea and loose stools, skin rashes 
           and itching, and to cleanse and staunch bleeding wounds; it also serves as an antiemetic.`,
           
           reference: `
@@ -95,7 +95,7 @@
           desc: `The fig leaf is a single, comparatively thick blade with three to five lobes or indentations along the 
           margin. The upper surface is rough to the touch.<br><br>
           
-          <b>Medicinal Properties :</b>The leaf is rich in dietary fibre, promoting the elimination of 
+          <b>Medicinal Properties :</b><br>The leaf is rich in dietary fibre, promoting the elimination of 
           bodily waste and improving bowel regularity. It is also reputed to prevent kidney stones and, 
           of particular significance, contains compounds that inhibit the onset of cancer, specifically 
           suppressing the growth of colon cancer cells.`,
@@ -109,12 +109,12 @@
           develops a sweet, delicately fragrant, and finely textured flesh. It has garnered considerable 
           popularity among health-conscious consumers.<br><br>
           
-          <b>Nutritional Value : </b>The fig is richly endowed with vitamins A, B1, B2, and C, as well as 
+          <b>Nutritional Value : </b><br>The fig is richly endowed with vitamins A, B1, B2, and C, as well as 
           the minerals calcium, potassium, phosphorus, and notably high levels of iron. It contains neither 
           fat nor cholesterol, and is further distinguished by its capacity to maintain the acid-base balance 
           of the body. It contains natural sugars in a proportion of up to 83 percent, comprising glucose, fructose, and sucrose.<br><br>
           
-          <b>Medicinal Properties : </b>The fig is attributed with a wide range of therapeutic applications in 
+          <b>Medicinal Properties : </b><br>The fig is attributed with a wide range of therapeutic applications in 
           traditional medicine. It is employed to reduce fever of various kinds, to alleviate internal heat, 
           to expel toxins, to regulate phlegm and blood, to treat mouth sores, to lower blood sugar levels, 
           to combat dysentery, to reduce high blood pressure, to relax smooth muscle, to act against bacterial 
@@ -129,7 +129,7 @@
           title: "Root",
           desc: `The fig tree prefers moist conditions, yet it does not tolerate waterlogging, which may readily give rise to root rot.<br><br>
           
-          <b>Medicinal Properties : </b>The root is used to reduce fever, expel toxins, regulate phlegm and blood, and to treat common colds, severe fevers, and all manner of toxic fevers.<br><br>
+          <b>Medicinal Properties : </b><br>The root is used to reduce fever, expel toxins, regulate phlegm and blood, and to treat common colds, severe fevers, and all manner of toxic fevers.<br><br>
           
           <b>Root Grafting : </b>In Thailand, it is common practice to graft fig trees onto the rootstock of 
           the native Thai fig (มะเดื่ออุทุมพร, Ficus racemosa), as the roots of this species are considerably 

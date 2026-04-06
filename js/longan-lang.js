@@ -102,11 +102,11 @@
       reference: { label: "Reference :" },
       hotspot: {
         trunk: {
-          title: "Trunk",
+          title: "Stem",
           desc: `The longan is a perennial tree with a dense, rounded crown and hard timber. The bark is rough, and the wood is red or 
           reddish-brown in colour and of exceptional strength.<br><br>
   
-          <b>Uses</b><br>
+          <b>Uses :</b><br>
           A decoction of the bark is consumed to treat diarrhoea and loose stools, and to heal burns and scalds. The timber is valued 
           for the crafting of furniture, mortars, and chopping boards, and is regarded as an excellent fuel wood, as it burns with an 
           intense heat and emits a characteristically pleasant and distinctive aroma.`,
@@ -136,7 +136,7 @@
           requires temperatures below 20 degrees Celsius to stimulate flowering. The fruit is round, with translucent white, 
           juicy flesh of an intensely sweet flavour and a black, lustrous seed.<br><br>
   
-          <b>Nutritional Value</b><br>
+          <b>Nutritional Value :</b><br>
           Per 100 grams of edible portion, longan provides: 60 kilocalories of energy; 0.1 grams of fat; 15.1 grams of carbohydrates;
            1.1 grams of dietary fibre; 1.31 grams of protein; 1 milligram of calcium; 21 milligrams of phosphorus; 0.13 milligrams of 
            iron; 0.3 milligrams of niacin; and 84 milligrams of vitamin C.
@@ -164,7 +164,7 @@
           Agricultural growers commonly employ the practice of "root reinforcement," in which a seedling is grafted onto the lower portion 
           of an air-layered tree so as to augment the vigour and nutrient uptake of the specimen.<br><br>
   
-          <b>Precaution :</b>The application of potassium chlorate to the soil in excessive quantities—a technique employed to force out-of-season 
+          <b>Precaution : </b>The application of potassium chlorate to the soil in excessive quantities—a technique employed to force out-of-season 
           flowering—is liable to destroy the root system and cause the death of the tree.`,
           
           reference: `
@@ -175,7 +175,7 @@
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering :</b>Regular irrigation is applied during the period of leaf emergence, but strong water sprays must be avoided 
+          desc: `<b>Watering : </b>Regular irrigation is applied during the period of leaf emergence, but strong water sprays must be avoided 
           whilst the tree is in flower, as this will cause the flowers to drop.<br><br>
   
           <b>Fertilisation : </b>Following harvest, a fertiliser high in nitrogen is applied to promote leaf growth. A fertiliser high in phosphorus

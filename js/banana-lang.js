@@ -8,15 +8,11 @@
         trunk: {
           title: "ลำต้น",
           desc: `ลำต้นอยู่ใต้ดินเรียกว่า “เหง้า” ที่เราเห็นอยู่เหนือพื้นดินเป็นลำต้นเทียม ประกอบด้วย กาบใบ ซึ่งจะชูก้านใบและใบ เมื่อเจริญแล้วจะมีใบสุดท้ายก่อนเกิดดอก เรียกว่า “ใบธง”<br><br>
-<<<<<<< HEAD
           
           <b>สรรพคุณ :</b> ห้ามเลือด แก้โรคไส้เลื่อน<br><br>
           
           <b>ประโยชน์</b> <br>ช่วยรักษาปัญหาผิวหนัง ผื่นแดง แผลไฟไหม้ และน้ำร้อนลวก สามารถนำมาทำเป็นเชือก หรือทำเส้นใยทอผ้า`,
-=======
-          <b>สรรพคุณ :</b> ห้ามเลือด แก้โรคไส้เลื่อน<br><br>
-          <b>ประโยชน์ :</b> ช่วยรักษาปัญหาผิวหนัง ผื่นแดง แผลไฟไหม้ และน้ำร้อนลวก สามารถนำมาทำเป็นเชือก หรือทำเส้นใยทอผ้า`,
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
@@ -25,7 +21,6 @@
         leaf: {
           title: "ใบ",
           desc: `เป็นแผ่นใบใหญ่สีเขียว กว้างประมาณ 70-90 เซนติเมตร ยาวประมาณ 1.7-2.5 เมตร ทั้งปลายและโคนใบมน รูปใบขอบขนาน<br><br>
-<<<<<<< HEAD
           
           <b>สรรพคุณ :</b> รักษาแผลสุนัขกัด ห้ามเลือด<br><br>
           
@@ -37,14 +32,7 @@
           <li>เป็นวัสดุธรรมชาติสำหรับรองอาหารร้อน ๆ</li>
             
           <li>ใช้ห่ออาหารได้หลากหลายชนิด เช่น ขนม ผักสด ห่อหมก และดอกไม้ เพราะใบตองสามารถทนความร้อนได้ดี จึงนิยมนำมาใช้กับอาหารประเภทต้มและนึ่งทั้งหลาย แถมยังมีกลิ่นหอมด้วย</li>
-=======
-          <b>สรรพคุณ :</b> รักษาแผลสุนัขกัด ห้ามเลือด<br><br>
-          <b>ประโยชน์ :</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>ใช้ในการประดิษฐ์สิ่งของต่าง ๆ เช่น กระทง หรือบายศรี</li>
-            <li>เป็นวัสดุธรรมชาติสำหรับรองอาหารร้อน ๆ</li>
-            <li>ใช้ห่ออาหารได้หลากหลายชนิด เช่น ขนม ผักสด ห่อหมก และดอกไม้ เพราะใบตองสามารถทนความร้อนได้ดี จึงนิยมนำมาใช้กับอาหารประเภทต้มและนึ่งทั้งหลาย แถมยังมีกลิ่นหอมด้วย</li>
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           </ul>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
@@ -54,8 +42,7 @@
         fruit: {
           title: "ผล",
           desc: `กลุ่มดอกเพศเมียเจริญเป็นผลได้โดยไม่ต้องผสมพันธุ์ กล้วย 1 กลุ่ม เรียกว่า “1 หวี” ช่อดอกเมื่อเจริญเป็นผล เรียกว่า “เครือ” บางเครือมีเพียง 2-3 หวี บางเครืออาจมีมากกว่า 10 หวี ทั้งนี้แล้วแต่พันธุ์กล้วย และการบำรุงดูแล<br><br>
-<<<<<<< HEAD
-          
+
           <b>คุณค่าทางโภชนาการ</b>
           <ul class="desc">
             
@@ -69,17 +56,7 @@
           <ul class="desc">
             <li><b>ผลดิบ</b> แก้อาการท้องเสีย</li>
             <li><b>เปลือกกล้วย</b> แก้อาการผื่นคันที่เกิดจากยุงกัดได้</li>
-=======
-          <b>คุณค่าทางโภชนาการ :</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>พลังงาน 132 กิโลแคลอรี, น้ำ 66.3 กรัม, โปรตีน 0.9 กรัม, ไขมัน 0.2 กรัม, คาร์โบไฮเดรต 31.7 กรัม, ไฟเบอร์ 1.9 กรัม, แคลเซียม 26 มิลลิกรัม, ฟอสฟอรัส 46 มิลลิกรัม, เหล็ก 0.8 มิลลิกรัม, เบต้าแคโรทีน 99 ไมโครกรัม, วิตามินเอ 17 ไมโครกรัม, วิตามินบี 1 (ไทอะมีน) 0.04 มิลลิกรัม, วิตามินบี 2 (ไรโบฟลาวิน) 0.07 มิลลิกรัม, ไนอะซิน 0.1 มิลลิกรัม, วิตามินซี 27 มิลลิกรัม</li>
-          </ul><br>
-          <b>ประโยชน์ :</b><br>
-          ใช้ประกอบพิธีกรรมทางศาสนา งานแต่งงาน การปลูกบ้าน ใช้เป็นทุ่นลอยน้ำให้เด็ก ๆ หัดว่ายน้ำ ผลกล้วยใช้เป็นอาหารเสริมของเด็ก และเป็นอาหารเพื่อสุขภาพของบุคคลทั่วไป เพราะผลกล้วยสุกมีคุณค่าทางอาหาร โดยเฉพาะมีโพแทสเซียมสูง ช่วยลดความดันโลหิต ช่วยเพิ่มความชุ่มชื่นของผิว ช่วยลดความกร้านของผิวได้
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li><b>ผลดิบ :</b> แก้อาการท้องเสีย</li>
-            <li><b>เปลือกกล้วย :</b> แก้อาการผื่นคันที่เกิดจากยุงกัดได้</li>
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           </ul>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
@@ -89,7 +66,6 @@
         root: {
           title: "ราก",
           desc: `เป็นระบบรากฝอย แผ่ไปทางกว้าง<br><br>
-<<<<<<< HEAD
           
           <b>สรรพคุณ :</b> แก้ขัดเบา
           <ul class="desc">
@@ -100,14 +76,7 @@
           </ul><br>
           
           <b>ประโยชน์</b><br>
-=======
-          <b>สรรพคุณ :</b> แก้ขัดเบา
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li><b>ตำรายาไทย :</b> ราก มีรสฝาดเย็น แก้ร้อนในกระหายน้ำ แก้ท้องร่วง แก้บิด แก้โรคปากเปื่อย แก้ไข้ แก้ปวดตามข้อ และกล้ามเนื้อ แก้อุจจาระเป็นมูกเลือด แก้พิษภายนอก ใบมวนยาสูบแก้ริดสีดวงจมูก ต้มอาบแก้ผื่นคันตามผิวหนัง</li>
-            <li><b>พิกัดยาไทย :</b> รากกล้วยตีบจัดอยู่ใน “พิกัดตรีอมฤต” ประกอบด้วย ตัวยา 3 อย่าง ได้แก่ รากกล้วยตีบ รากกระดอม และรากมะกอก ในปริมาณเท่ากัน มีสรรพคุณแก้ไข้ แก้ร้อนในกระหายน้ำ ขับปัสสาวะ บำรุงธาตุ ทำให้เจริญอาหาร</li>
-          </ul><br>
-          <b>ประโยชน์ :</b><br>
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           รากและลำต้นนำมาต้มแก้กระหายน้ำได้`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
@@ -118,8 +87,7 @@
         care: {
           title: "การดูแล",
           desc: `<b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
-<<<<<<< HEAD
-          
+
           <b>การใส่ปุ๋ย :</b> ควรบำรุงโดยใส่ทั้งปุ๋ยคอก หรือปุ๋ยหมัก และปุ๋ยเคมีด้วย ตั้งแต่เริ่มต้นปลูก 2 เดือนแรก ให้ปุ๋ยยูเรียเดือนละ 1 ครั้ง เพื่อให้ได้ไนโตรเจน เดือนที่ 3 และ 4 ให้ปุ๋ยสูตร 15-15-15 เดือนที่ 5 และ 6 ให้ปุ๋ยสูตร 13-13-21 ปริมาณต้นละ 0.5 กิโลกรัม<br><br>
           
           <b>การตัดแต่งหน่อ :</b> หากมีหน่อมากเกินไป ควรเอาออกบ้าง ควรเก็บหน่อไว้สัก 1-2 หน่อ เพื่อให้เป็นตัวพยุงต้นแม่ การกำจัดหน่ออาจใช้เสียมคม ๆ หรือมีดแซะลงไป<br><br>
@@ -130,14 +98,7 @@
           <li>โรคระบาดในกล้วยเกิดจากเชื้อราเข้าทำลายราก เรียกว่า “โรคตายพราย” หากเชื้อราทำลายใบเป็นจุดเรียกว่า “โรคใบจุด”</li>
            
           <li>แมลงที่เป็นศัตรูของกล้วย คือ ด้วงงวง ทำลายรากและเหง้ากล้วย หนอนม้วนใบเกิดจากผีเสื้อไปวางไข่ในใบอ่อนที่ยังม้วนอยู่</li>
-=======
-          <b>การใส่ปุ๋ย :</b> ควรบำรุงโดยใส่ทั้งปุ๋ยคอก หรือปุ๋ยหมัก และปุ๋ยเคมีด้วย ตั้งแต่เริ่มต้นปลูก 2 เดือนแรก ให้ปุ๋ยยูเรียเดือนละ 1 ครั้ง เพื่อให้ได้ไนโตรเจน เดือนที่ 3 และ 4 ให้ปุ๋ยสูตร 15-15-15 เดือนที่ 5 และ 6 ให้ปุ๋ยสูตร 13-13-21 ปริมาณต้นละ 0.5 กิโลกรัม<br><br>
-          <b>การตัดแต่งหน่อ :</b> หากมีหน่อมากเกินไป ควรเอาออกบ้าง ควรเก็บหน่อไว้สัก 1-2 หน่อ เพื่อให้เป็นตัวพยุงต้นแม่ การกำจัดหน่ออาจใช้เสียมคม ๆ หรือมีดแซะลงไป<br><br>
-          <b>โรคและศัตรูพืช :</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>โรคระบาดในกล้วยเกิดจากเชื้อราเข้าทำลายราก เรียกว่า “โรคตายพราย” หากเชื้อราทำลายใบเป็นจุดเรียกว่า “โรคใบจุด”</li>
-            <li>แมลงที่เป็นศัตรูของกล้วย คือ ด้วงงวง ทำลายรากและเหง้ากล้วย หนอนม้วนใบเกิดจากผีเสื้อไปวางไข่ในใบอ่อนที่ยังม้วนอยู่</li>
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           </ul><br>
           <b>ข้อควรระวัง :</b> ไม่ควรพรวนดินรอบโคนต้น ควรถางหญ้าแทน`,
           reference: `
@@ -166,7 +127,7 @@
       hotspot: {
         trunk: {
           title: "Stem",
-<<<<<<< HEAD
+
           desc: `The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
           above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. 
           The final leaf to emerge prior to flowering is designated the "flag leaf" (ใบธง, bai thong).<br><br>
@@ -176,11 +137,6 @@
           <b>Uses </b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
           into rope or woven into textile fibres.`,
           
-=======
-          desc: `The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. The final leaf to emerge prior to flowering is designated the "flag leaf" (ใบธง, bai thong).<br><br>
-          <b>Medicinal Properties:</b> The stem is used to staunch bleeding and to treat hernia.<br><br>
-          <b>Uses:</b> The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed into rope or woven into textile fibres.`,
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
@@ -188,7 +144,7 @@
         },
         leaf: {
           title: "Leaf",
-<<<<<<< HEAD
+
           desc: `The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex 
           and the base of the leaf are rounded, and the overall shape is oblong-parallel.<br><br>
           
@@ -205,16 +161,7 @@
           notable heat resistance renders it particularly well-suited for use with boiled and steamed preparations, and it imparts a characteristic pleasant fragrance.</li>
           
             </ul>`,
-=======
-          desc: `The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex and the base of the leaf are rounded, and the overall shape is oblong-parallel.<br><br>
-          <b>Medicinal Properties:</b> The leaf is used to treat dog-bite wounds and to staunch bleeding.<br><br>
-          <b>Uses:</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>Employed in the crafting of traditional decorative objects such as the kratong (lotus-shaped vessel) and the baisri (ceremonial floral arrangement).</li>
-            <li>Serves as a natural material for lining and protecting vessels containing hot food.</li>
-            <li>Widely used for wrapping diverse food items including sweets, fresh vegetables, steamed dishes (hor mok), and flowers. The leaf's notable heat resistance renders it particularly well-suited for use with boiled and steamed preparations, and it imparts a characteristic pleasant fragrance.</li>
-          </ul>`,
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
@@ -222,7 +169,6 @@
         },
         fruit: {
           title: "Fruit",
-<<<<<<< HEAD
           desc: `The female flower clusters develop into fruit without requiring pollination. A single cluster of bananas is referred to as a "hand" (หวี, wee). When the 
           inflorescence matures into fruit, the entire structure is called a "bunch" (เครือ, kruea). Certain bunches bear merely two to three hands, while others 
           may yield in excess of ten, depending upon the variety of banana and the quality of care rendered during cultivation.<br><br>
@@ -250,18 +196,7 @@
             
           <li><b>Banana peel : </b>Applied topically to soothe rashes and irritation resulting from mosquito bites.</li>
           
-=======
-          desc: `The female flower clusters develop into fruit without requiring pollination. A single cluster of bananas is referred to as a "hand" (หวี, wee). When the inflorescence matures into fruit, the entire structure is called a "bunch" (เครือ, kruea). Certain bunches bear merely two to three hands, while others may yield in excess of ten, depending upon the variety of banana and the quality of care rendered during cultivation.<br><br>
-          <b>Nutritional Value :</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>Per 100 grams: 132 kcal; 66.3g water; 0.9g protein; 0.2g fat; 31.7g carbs; 1.9g fibre; 26mg calcium; 46mg phosphorus; 0.8mg iron; 99mcg beta-carotene; 17mcg Vit A; 0.04mg B1; 0.07mg B2; 0.1mg niacin; 27mg Vit C.</li>
-          </ul><br>
-          <b>Uses and Benefits :</b><br>
-          The banana holds a revered place in both religious and secular life. Ripe banana fruit is widely used as a supplementary food for infants and as a health food for the general population, owing to its high potassium content, which contributes to the regulation of blood pressure, and its capacity to enhance skin moisture.
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li><b>Unripe fruit :</b> Employed to alleviate diarrhea.</li>
-            <li><b>Banana peel :</b> Applied topically to soothe mosquito bite irritation.</li>
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           </ul>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
@@ -271,8 +206,7 @@
         root: {
           title: "Root",
           desc: `The banana possesses a fibrous root system that spreads laterally in all directions.<br><br>
-<<<<<<< HEAD
-          
+
           <b>Medicinal Properties:</b> The root is used to relieve urinary difficulties.
           
           <ul class="desc">
@@ -290,14 +224,7 @@
           </ul><br>
           
           <b>Uses </b><br>A decoction of the root and stem is consumed to quench thirst.`,
-=======
-          <b>Medicinal Properties:</b> The root is used to relieve urinary difficulties.
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li><b>Traditional Thai Pharmacopoeia:</b> Prescribed to alleviate thirst and internal heat, treat diarrhoea, remedy mouth sores, reduce fever, relieve joint pain, and counteract external toxins.</li>
-            <li><b>Thai Pharmacological Formula:</b> The root of the dwarf banana (กล้วยตีบ) is part of the "Tri Amrit" (พิกัดตรีอมฤต) triad, reducing fever, promoting urination, and stimulating appetite.</li>
-          </ul><br>
-          <b>Uses:</b> A decoction of the root and stem is consumed to quench thirst.`,
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
+
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">Source 2</a>, 
@@ -306,7 +233,6 @@
         },
         care: {
           title: "Cultivation and Care",
-<<<<<<< HEAD
           desc: `<b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
           The plant prefers a sandy loam soil characterised by good drainage and adequate air circulation.<br><br>
           
@@ -330,17 +256,6 @@
           
           <b>Precaution : </b>Tilling the soil around the base of the plant is inadvisable; weeding is the preferred alternative.`,
           
-=======
-          desc: `<b>Watering:</b> The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14°C. The plant prefers a sandy loam soil with good drainage.<br><br>
-          <b>Fertilisation:</b> Monthly Urea (initial 2 months), followed by balanced 15-15-15 (Month 3-4), and 13-13-21 (Month 5-6) at 0.5 kg per plant.<br><br>
-          <b>Sucker Management:</b> Retain only 1-2 suckers to support the mother plant. Remove others using a sharp hoe.<br><br>
-          <b>Diseases and Pests:</b>
-          <ul style="list-style-type: disc; margin-left: 20px;">
-            <li>"Panama disease" (fungal infection of roots) and leaf spot disease.</li>
-            <li>Banana weevil (damages rhizome) and leaf-rolling caterpillars.</li>
-          </ul><br>
-          <b>Precaution:</b> Tilling the soil around the base is inadvisable; weeding is the preferred alternative.`,
->>>>>>> 8d94443fb94bb6fbd6398a0a908ca0a15b52c758
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>`
         }

@@ -26,7 +26,6 @@
           title: "ผล",
           desc: `ผลสดรูปกลมและรูปยาวรีหรือรูปไข่ มีขนาดความกว้างและความยาวประมาณ 3-12 เซนติเมตร ผิวเปลือกมีลักษณะขรุขระ และมีต่อมน้ำมันที่ผิว<br><br>
 
-        
           <b>คุณค่าโภชนาการ</b>
          <ul class="desc">
           
@@ -92,14 +91,23 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `The lime is a small shrub attaining a height of 2 to 4 metres. The trunk bark is grey-brown; young branches are light green, darkening with age. Sharp, rigid thorns are borne along the trunk and branches, arising principally at the leaf axils.`,
+          desc: `The lime is a small shrub attaining a height of 2 to 4 metres. The trunk bark is grey-brown; young branches are 
+          light green, darkening with age. Sharp, rigid thorns are borne along the trunk and branches, arising principally at the leaf axils.
+           `,
+          
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `The lime leaf is a unifoliolate compound leaf, arranged in alternating fashion along the stem, with a light green, elongated-ovoid shape and a pointed apex and margin.<br><br>
-          <b>Medicinal Properties:</b> Finely sliced lime leaves, steeped in boiling water and consumed as a tea, are reputed to reduce fever. The tea may also be used as a gargle to eliminate pathogens. In the Malay tradition, a preparation of lime leaves mixed with lime juice is ground and applied to the hair as a remedy for headache.`,
+          desc: `The lime leaf is a unifoliolate compound leaf, arranged in alternating fashion along the stem, with a light green, 
+          elongated-ovoid shape and a pointed apex and margin.<br><br>
+          
+          <b>Medicinal Properties</b><br>
+          Finely sliced lime leaves, steeped in boiling water and consumed as a tea, are reputed to reduce fever. The tea may 
+          also be used as a gargle to eliminate pathogens. In the Malay tradition, a preparation of lime leaves mixed with lime 
+          juice is ground and applied to the hair as a remedy for headache.`,
+          
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>, 
           <a href="https://www.kasettambon.com/%e0%b8%a1%e0%b8%b0%e0%b8%99%e0%b8%b2%e0%b8%a7%e0%b9%80%e0%b8%ad%e0%b8%b2%e0%b9%84%e0%b8%9b%e0%b8%97%e0%b8%b3%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3%e0%b9%84%e0%b8%94%e0%b9%89%e0%b8%9a%e0%b9%89%e0%b8%b2/" target="_blank">Source 2</a>`
@@ -120,17 +128,34 @@
         },
         root: {
           title: "Root",
-          desc: `The root system of the lime extends primarily in the horizontal plane rather than vertically, becoming concentrated at a depth of approximately 30 to 60 centimetres below the soil surface.<br><br>
-          <b>Medicinal Properties:</b> The root is employed to expel fever toxins, to neutralise the effects of poisonous substances, to remedy memory impairment, to reduce fever of various kinds, to treat abscesses, to alleviate pain and inflammation, and to counteract toxic fevers.`,
+          desc: `The root system of the lime extends primarily in the horizontal plane rather than vertically, becoming concentrated 
+          at a depth of approximately 30 to 60 centimetres below the soil surface.<br><br>
+          
+          <b>Medicinal Properties</b><br>The root is employed to expel fever toxins, to neutralise the effects of poisonous substances, to remedy 
+          memory impairment, to reduce fever of various kinds, to treat abscesses, to alleviate pain and inflammation, and to counteract toxic fevers.`,
+         
           reference: `
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">Source 1</a>,
           <a href="https://www.manow2.com/article244.html" target="_blank">Source 2</a>`
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering:</b> Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes established, and watering may then be reduced to two to three times per month.<br><br>
-          <b>Fertilisation:</b> When the tree is three to four months old, chemical fertiliser, compost, or organic manure is applied at approximately 0.5 kilograms per tree. Chemical fertiliser should be applied after weeding and soil cultivation, distributed around the canopy drip line, followed by irrigation to dissolve the fertiliser. At one year of age, a formula of 15-15-15 is applied at 300 grams per tree. At two years of age, the quantity is increased and applied twice annually at approximately 1 kilogram per application. One to two months prior to the expected flowering period, a high-phosphorus formula such as 12-24-12, or alternatively 3-10-10, is applied to stimulate growth before flowering, and the formula 0-52-34 is applied to hasten flowering at 0.5 to 1 kilogram per tree.<br><br>
-          <b>Weed Control:</b> Weeds in a lime orchard may be managed by hand-pulling, slashing, or mechanical cutting, taking care not to cause wounds at the base of the trunk or disturb the roots. Chemical weed control using herbicides is also commonly practised.`,
+          desc: `<b>Watering:</b>Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes
+          
+          established, and watering may then be reduced to two to three times per month.<br><br>
+          
+          <b>Fertilisation </b><br>When the tree is three to four months old, chemical fertiliser, compost, or organic manure is applied at 
+          approximately 0.5 kilograms per tree. Chemical fertiliser should be applied after weeding and soil cultivation, distributed around 
+          the canopy drip line, followed by irrigation to dissolve the fertiliser. At one year of age, a formula of 15-15-15 is applied 
+          at 300 grams per tree. At two years of age, the quantity is increased and applied twice annually at approximately 1 kilogram 
+          per application. One to two months prior to the expected flowering period, a high-phosphorus formula such as 12-24-12, or 
+          alternatively 3-10-10, is applied to stimulate growth before flowering, and the formula 0-52-34 is applied to hasten 
+          flowering at 0.5 to 1 kilogram per tree.<br><br>
+          
+          <b>Weed Control</b><br>
+          Weeds in a lime orchard may be managed by hand-pulling, slashing, or mechanical cutting, taking care not to cause wounds 
+          at the base of the trunk or disturb the roots. Chemical weed control using herbicides is also commonly practised.`,
+          
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>`
         }

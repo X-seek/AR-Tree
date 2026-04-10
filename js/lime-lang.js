@@ -7,16 +7,16 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `เป็นไม้พุ่มสูง 2-4 เมตร เปลือกลำต้นมีสีเทาปนน้ำตาล กิ่งอ่อนมีสีเขียวอ่อนเมื่อแก่สีเข้ม บนลำต้นและกิ่งก้านจะมีหนามแข็งแหลม ส่วนใหญ่เกิดที่ซอกใบ`,
+          desc: `<div class="content-box">เป็นไม้พุ่มสูง 2-4 เมตร เปลือกลำต้นมีสีเทาปนน้ำตาล กิ่งอ่อนมีสีเขียวอ่อนเมื่อแก่สีเข้ม บนลำต้นและกิ่งก้านจะมีหนามแข็งแหลม ส่วนใหญ่เกิดที่ซอกใบ</div>`,
 
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">แหล่งที่มา 1</a>`
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบประกอบชนิดมีใบย่อยใบเดียว เรียงสลับ มีสีเขียวอ่อนรูปร่างยาวรีหรือรูปไข่ ปลายใบมีลักษณะแหลมขอบใบ<br><br>
+          desc: `<div class="content-box">เป็นใบประกอบชนิดมีใบย่อยใบเดียว เรียงสลับ มีสีเขียวอ่อนรูปร่างยาวรีหรือรูปไข่ ปลายใบมีลักษณะแหลมขอบใบ<br><br>
 
-          <b>สรรพคุณ :</b> นำใบมะนาวมาหั่นฝอย ๆ ชงด้วยน้ำเดือด ดื่มแบบน้ำชา จะช่วยลดไข้ และใช้อมกลั้วคอ ฆ่าเชื้อโรคได้ชาวมาเลเซียใช้ใบมะนาวผสมกับน้ำมะนาว บดทำเป็นยาใส่ผม แก้ปวดศีรษะ`,
+          <b>สรรพคุณ :</b> นำใบมะนาวมาหั่นฝอย ๆ ชงด้วยน้ำเดือด ดื่มแบบน้ำชา จะช่วยลดไข้ และใช้อมกลั้วคอ ฆ่าเชื้อโรคได้ชาวมาเลเซียใช้ใบมะนาวผสมกับน้ำมะนาว บดทำเป็นยาใส่ผม แก้ปวดศีรษะ</div>`,
          
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">แหล่งที่มา 1</a>, 
@@ -24,7 +24,7 @@
         },
         fruit: {
           title: "ผล",
-          desc: `ผลสดรูปกลมและรูปยาวรีหรือรูปไข่ มีขนาดความกว้างและความยาวประมาณ 3-12 เซนติเมตร ผิวเปลือกมีลักษณะขรุขระ และมีต่อมน้ำมันที่ผิว<br><br>
+          desc: `<div class="content-box">ผลสดรูปกลมและรูปยาวรีหรือรูปไข่ มีขนาดความกว้างและความยาวประมาณ 3-12 เซนติเมตร ผิวเปลือกมีลักษณะขรุขระ และมีต่อมน้ำมันที่ผิว<br><br>
 
           <b>คุณค่าโภชนาการ</b>
          <ul class="desc">
@@ -33,7 +33,7 @@
          
          </ul><br>
          
-          <b>สรรพคุณ :</b> ใช้มะนาว 4 ลูก เกลือ 1 ช้อนหรือประมาณ 3-4 เม็ด น้ำผึ้ง 1 ช้อนชา ใช้จิบทุกครั้งที่ไอ, บรรเทาต่อมทอนซิลอักเสบ ผสมน้ำมะนาวกับน้ำผึ้งดื่ม ช่วยบรรเทาต่อมทอนซิลอักเสบ, ใช้มะนาว 1 ผลครึ่ง บีบใส่แก้วดื่มให้หมดจะรู้สึกกระชุ่มกระชวยดี, ช่วยลดความอ้วน`,
+          <b>สรรพคุณ :</b> ใช้มะนาว 4 ลูก เกลือ 1 ช้อนหรือประมาณ 3-4 เม็ด น้ำผึ้ง 1 ช้อนชา ใช้จิบทุกครั้งที่ไอ, บรรเทาต่อมทอนซิลอักเสบ ผสมน้ำมะนาวกับน้ำผึ้งดื่ม ช่วยบรรเทาต่อมทอนซิลอักเสบ, ใช้มะนาว 1 ผลครึ่ง บีบใส่แก้วดื่มให้หมดจะรู้สึกกระชุ่มกระชวยดี, ช่วยลดความอ้วน</div>`,
          
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">แหล่งที่มา 1</a>, 
@@ -41,9 +41,9 @@
         },
         root: {
           title: "ราก",
-          desc: `รากมะนาวมักแผ่ขยายในแนวนอนมากกว่าแนวดิ่ง โดยกระจุกอยู่ในช่วงความลึกประมาณ 30-60 เซนติเมตร<br><br>
+          desc: `<div class="content-box">รากมะนาวมักแผ่ขยายในแนวนอนมากกว่าแนวดิ่ง โดยกระจุกอยู่ในช่วงความลึกประมาณ 30-60 เซนติเมตร<br><br>
 
-          <b>สรรพคุณ :</b> กระทุ้งพิษไข้ ถอนพิษสำแดง แก้สติหลงลืม แก้ไข้ แก้ไข้กาฬ แก้ฝี แก้เปวด แก้อักเสบ ถอนพิษไข้`,
+          <b>สรรพคุณ :</b> กระทุ้งพิษไข้ ถอนพิษสำแดง แก้สติหลงลืม แก้ไข้ แก้ไข้กาฬ แก้ฝี แก้เปวด แก้อักเสบ ถอนพิษไข้</div>`,
          
           reference: `
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">แหล่งที่มา 1</a>,
@@ -51,9 +51,8 @@
         },
         care: {
           title: "การดูแล",
-          desc: `<b>การให้น้ำ :</b> ต้องมีการให้น้ำอย่างสม่ำเสมอ หลังจากปลูกประมาณ 15 วัน มะนาวสามารถตั้งตัวได้แล้ว ให้น้ำเดือนละ 2-3 ครั้ง<br><br>
+          desc: `<div class="content-box"><b>การให้น้ำ :</b> ต้องมีการให้น้ำอย่างสม่ำเสมอ หลังจากปลูกประมาณ 15 วัน มะนาวสามารถตั้งตัวได้แล้ว ให้น้ำเดือนละ 2-3 ครั้ง<br><br>
 
-          
           <b>การใส่ปุ๋ย : </b>หลังจากมะนาวอายุได้ 3-4 เดือน ควรใส่ปุ๋ยเคมี ปุ๋ยหมัก หรือปุ๋ยคอก ประมาณต้นละ 0.5 กิโลกรัม กรณีใส่ปุ๋ยเคมีควรใส่หลังจากพรวนดินกําจัดวัชพืชแล้ว โดยใส่บริเวณรอบทรงพุ่ม แล้วก็ให้น้ำตามเพื่อให้ปุ๋ยละลาย<br>
           <ul class="desc">
           
@@ -62,9 +61,7 @@
           <li>ช่วงระยะก่อนออกดอกประมาณ 1-2 เดือน ให้ใส่ปุ๋ยสูตรที่มีฟอสฟอรัสสูง เช่น สูตร12-24 – 12 หรืออาจใช้ปุ๋ยสูตร 3-10-10 เพื่อเร่งการเจริญเติบโตในระยะที่ยังไม่ออกดอก และใช้สูตร 0-52-34 ในระยะเร่งการออกดอก ประมาณ 0.5-1 กิโลกรัม/ต้น</li>
           </ul>
           
-          <b>การกําจัดวัชพืช : </b>การกําจัดวัชพืชในสวนมะนาวสามารถทำได้หลายวิธี เช่น ถอน ถาง หรือใช้เครื่องตัดหญ้าแต่ต้องระวังอย่าให้เกิดบาดแผลตามโคนต้น หรือกระทบกระเทือนราก วิธีกําจัดวัชพืชอีกวิธีหนึ่งที่นิยม คือ การใช้สารเคมี เช่น พาราควอตไกลโฟเซต ดาวพอน เป็นต้น`,
-         
-
+          <b>การกําจัดวัชพืช : </b>การกําจัดวัชพืชในสวนมะนาวสามารถทำได้หลายวิธี เช่น ถอน ถาง หรือใช้เครื่องตัดหญ้าแต่ต้องระวังอย่าให้เกิดบาดแผลตามโคนต้น หรือกระทบกระเทือนราก วิธีกําจัดวัชพืชอีกวิธีหนึ่งที่นิยม คือ การใช้สารเคมี เช่น พาราควอตไกลโฟเซต ดาวพอน เป็นต้น</div>`,
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">แหล่งที่มา 1</a>`
         }
@@ -91,22 +88,22 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `The lime is a small shrub attaining a height of 2 to 4 metres. The trunk bark is grey-brown; young branches are 
+          desc: `<div class="content-box">The lime is a small shrub attaining a height of 2 to 4 metres. The trunk bark is grey-brown; young branches are 
           light green, darkening with age. Sharp, rigid thorns are borne along the trunk and branches, arising principally at the leaf axils.
-           `,
+           </div>`,
           
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>`
         },
         leaf: {
           title: "Leaf",
-          desc: `The lime leaf is a unifoliolate compound leaf, arranged in alternating fashion along the stem, with a light green, 
+          desc: `<div class="content-box">The lime leaf is a unifoliolate compound leaf, arranged in alternating fashion along the stem, with a light green, 
           elongated-ovoid shape and a pointed apex and margin.<br><br>
           
           <b>Medicinal Properties :</b><br>
           Finely sliced lime leaves, steeped in boiling water and consumed as a tea, are reputed to reduce fever. The tea may 
           also be used as a gargle to eliminate pathogens. In the Malay tradition, a preparation of lime leaves mixed with lime 
-          juice is ground and applied to the hair as a remedy for headache.`,
+          juice is ground and applied to the hair as a remedy for headache.</div>`,
           
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>, 
@@ -114,25 +111,25 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `The fruit is round, elongated, or ovoid, measuring approximately 3 to 12 centimetres in both width and length. The exterior rind is textured and bears oil glands on the surface.<br><br>
+          desc: `<div class="content-box">The fruit is round, elongated, or ovoid, measuring approximately 3 to 12 centimetres in both width and length. The exterior rind is textured and bears oil glands on the surface.<br><br>
           <b>Nutritional Value :</b>
 
          <ul class="desc">
 
             <li>Per 100 grams of edible portion, the lime provides: 30 kilocalories of energy; 0.2 grams of fat; 0.7 grams of protein; 10.5 grams of carbohydrates; 1.7 grams of sugar; 2.8 grams of dietary fibre; vitamins B1, B2, B3, B5, B6, and B9; 29.1 milligrams of vitamin C; and the minerals iron, magnesium, sodium, phosphorus, potassium, and calcium.</li>
           </ul><br>
-          <b>Medicinal Properties :</b> Lime juice combined with salt and honey, sipped at each episode of coughing, is prescribed as a cough remedy. A mixture of lime juice and honey, consumed orally, is employed to relieve tonsillar inflammation. Half a lime, squeezed and drunk neat, is said to invigorate and refresh. The fruit is also reputed to assist in weight reduction.`,
+          <b>Medicinal Properties :</b> Lime juice combined with salt and honey, sipped at each episode of coughing, is prescribed as a cough remedy. A mixture of lime juice and honey, consumed orally, is employed to relieve tonsillar inflammation. Half a lime, squeezed and drunk neat, is said to invigorate and refresh. The fruit is also reputed to assist in weight reduction.</div>`,
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>, 
           <a href="https://www.kasettambon.com/%e0%b8%a1%e0%b8%b0%e0%b8%99%e0%b8%b2%e0%b8%a7%e0%b9%80%e0%b8%ad%e0%b8%b2%e0%b9%84%e0%b8%9b%e0%b8%97%e0%b8%b3%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3%e0%b9%84%e0%b8%94%e0%b9%89%e0%b8%9a%e0%b9%89%e0%b8%b2/" target="_blank">Source 2</a>`
         },
         root: {
           title: "Root",
-          desc: `The root system of the lime extends primarily in the horizontal plane rather than vertically, becoming concentrated 
+          desc: `<div class="content-box">The root system of the lime extends primarily in the horizontal plane rather than vertically, becoming concentrated 
           at a depth of approximately 30 to 60 centimetres below the soil surface.<br><br>
           
           <b>Medicinal Properties :</b><br>The root is employed to expel fever toxins, to neutralise the effects of poisonous substances, to remedy 
-          memory impairment, to reduce fever of various kinds, to treat abscesses, to alleviate pain and inflammation, and to counteract toxic fevers.`,
+          memory impairment, to reduce fever of various kinds, to treat abscesses, to alleviate pain and inflammation, and to counteract toxic fevers.</div>`,
          
           reference: `
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">Source 1</a>,
@@ -140,7 +137,7 @@
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering:</b>Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes
+          desc: `<div class="content-box"><b>Watering:</b>Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes
           
           established, and watering may then be reduced to two to three times per month.<br><br>
           
@@ -154,7 +151,7 @@
           
           <b>Weed Control :</b>
           Weeds in a lime orchard may be managed by hand-pulling, slashing, or mechanical cutting, taking care not to cause wounds 
-          at the base of the trunk or disturb the roots. Chemical weed control using herbicides is also commonly practised.`,
+          at the base of the trunk or disturb the roots. Chemical weed control using herbicides is also commonly practised.</div>`,
           
           reference: `
           <a href="https://www.allkaset.com/plant/%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7.php" target="_blank">Source 1</a>`

@@ -7,11 +7,11 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ไม้ยืนต้นทรงพุ่มทึบ ไม้เนื้อแข็งและเหนียว มียางสีขาวขุ่นคล้ายน้ำนมไหลเมื่อเกิดแผล<br><br>
+          desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่มทึบ ไม้เนื้อแข็งและเหนียว มียางสีขาวขุ่นคล้ายน้ำนมไหลเมื่อเกิดแผล<br><br>
     
           <b>ประโยชน์</b><br>
 
-          เนื้อไม้ ใช้ทำบ้าน เฟอร์นิเจอร์ เครื่องมือ และฟืน, เปลือกต้น ต้มดื่มแก้โรคบิด, ยาง ใช้เป็นยาถ่ายพยาธิอย่างแรง และใช้ในอุตสาหกรรมทำหมากฝรั่ง และรองเท้าบูท`,
+          เนื้อไม้ ใช้ทำบ้าน เฟอร์นิเจอร์ เครื่องมือ และฟืน, เปลือกต้น ต้มดื่มแก้โรคบิด, ยาง ใช้เป็นยาถ่ายพยาธิอย่างแรง และใช้ในอุตสาหกรรมทำหมากฝรั่ง และรองเท้าบูท</div>`,
          
           reference: `
       <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">แหล่งที่มา 1</a>,
@@ -22,9 +22,9 @@
         leaf: {
           title: "ใบ",
 
-          desc: `ใบเดี่ยว ท้องใบสีน้ำตาลอมเขียว ออกกระจุกปลายกิ่ง<br><br>
+          desc: `<div class="content-box">ใบเดี่ยว ท้องใบสีน้ำตาลอมเขียว ออกกระจุกปลายกิ่ง<br><br>
 
-          <b>ประโยชน์</b><br>สกัดทำเซรั่มชะลอวัย บำรุงผิวพรรณ ส่วนกิ่งใบเหลือทิ้งนำไปทำถ่านชีวภาพเพื่อบำรุงดินได้`,
+          <b>ประโยชน์</b><br>สกัดทำเซรั่มชะลอวัย บำรุงผิวพรรณ ส่วนกิ่งใบเหลือทิ้งนำไปทำถ่านชีวภาพเพื่อบำรุงดินได้</div>`,
           
 
           reference: `
@@ -34,7 +34,7 @@
         },
         fruit: {
           title: "ผล",
-          desc: `ดอกสมบูรณ์มีขนาดเล็ก 1 เซนติเมตร มีกลีบเลี้ยง 2 ชั้น แต่ละชั้นมี 3 กลีบ และกลีบดอกจำนวน 12 กลีบ ด้านในมีเกสรตัวผู้ 6 อัน และมีรังไข่อยู่เหนือกลีบดอก<br><br>
+          desc: `<div class="content-box">ดอกสมบูรณ์มีขนาดเล็ก 1 เซนติเมตร มีกลีบเลี้ยง 2 ชั้น แต่ละชั้นมี 3 กลีบ และกลีบดอกจำนวน 12 กลีบ ด้านในมีเกสรตัวผู้ 6 อัน และมีรังไข่อยู่เหนือกลีบดอก<br><br>
               
           <b>คุณค่าทางโภชนาการ</b>
               <ul class="desc">
@@ -45,7 +45,7 @@
 
               <b>ประโยชน์</b><br>วิตามินซีสูงต้านหวัด, ใยอาหารช่วยขับถ่ายและป้องกันมะเร็งลำไส้, เมล็ดบำรุงกำลัง, นิยมทานสด หรือทำน้ำ/ไวน์ละมุด<br><br>
 
-              <b>ข้อควรระวัง :</b> น้ำตาลสูง ผู้ป่วยเบาหวานควรจำกัดปริมาณ และระวังเมล็ดติดคอเด็ก ควรแกะเมล็ดออกและหั่น/บดให้ละเอียดก่อนป้อน`,
+              <b>ข้อควรระวัง :</b> น้ำตาลสูง ผู้ป่วยเบาหวานควรจำกัดปริมาณ และระวังเมล็ดติดคอเด็ก ควรแกะเมล็ดออกและหั่น/บดให้ละเอียดก่อนป้อน</div>`,
 
           reference: `
       <a href="https://medthai.com/%e0%b8%a5%e0%b8%b0%e0%b8%a1%e0%b8%b8%e0%b8%94/" target="_blank">แหล่งที่มา 1</a>,
@@ -54,12 +54,11 @@
         },
         root: {
           title: "ราก",
-
-          desc: `ต้นที่เพาะเมล็ดจะมีรากแก้วที่ลึกและแข็งแรง<br><br>
+          desc: `<div class="content-box">ต้นที่เพาะเมล็ดจะมีรากแก้วที่ลึกและแข็งแรง<br><br>
 
           <b>ประโยชน์</b><br>เกษตรกรนิยมใช้เป็น “ต้นตอ” เพื่อเสียบยอดละมุดพันธุ์ดี เพราะหาอาหารเก่งและยึดดินแน่น<br><br>
 
-          <b>ข้อควรระวัง :</b> ไม่ทนน้ำท่วมขัง หากรากแช่น้ำนานจะโตช้า ขาดออกซิเจน และเกิดโรครากเน่าได้`,
+          <b>ข้อควรระวัง :</b> ไม่ทนน้ำท่วมขัง หากรากแช่น้ำนานจะโตช้า ขาดออกซิเจน และเกิดโรครากเน่าได้</div>`,
           
           reference: `
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">แหล่งที่มา 1</a>,
@@ -68,14 +67,13 @@
         },
         care: {
           title: "การดูแล",
-
-          desc: `<b>การให้น้ำ : </b>รดน้ำสม่ำเสมอ แต่ควรลดน้ำช่วงผลแก่ใกล้เก็บเกี่ยว จะช่วยให้ผลหวานกรอบ<br><br>
+          desc: `<div class="content-box"><b>การให้น้ำ : </b>รดน้ำสม่ำเสมอ แต่ควรลดน้ำช่วงผลแก่ใกล้เก็บเกี่ยว จะช่วยให้ผลหวานกรอบ<br><br>
 
 <b>การใส่ปุ๋ย : </b>ควรใส่ปุ๋ยคอก/ชีวภาพปีละ 1-2 ครั้ง ช่วงปลูกสามารถรองก้นหลุมด้วยปุ๋ย 15-15-15<br><br>
 
 <b>การตัดแต่งกิ่ง : </b>ควรตัดกิ่งแห้งทิ้ง หรือทำสาวต้นที่แก่เกินไป เพื่อกระตุ้นให้ออกดอกและติดผลดีขึ้น<br><br>
 
-<b>ศัตรูพืช : </b>หนอนเจาะผล, แมลงวันทอง ทำให้ผลเน่าร่วง, แมลงค่อมทอง กัดกินใบอ่อนและดอก`,
+<b>ศัตรูพืช : </b>หนอนเจาะผล, แมลงวันทอง ทำให้ผลเน่าร่วง, แมลงค่อมทอง กัดกินใบอ่อนและดอก</div>`,
 
           reference: `
       <a href="https://www.ipthailand.go.th/images/2284/SCH61100101.pdf" target="_blank">แหล่งที่มา 1</a>,
@@ -109,19 +107,18 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `<b>Trunk Characteristics :</b> The sapodilla is a perennial tree with a dense crown and hard, tenacious timber. When any part of the tree is wounded, a milky white latex sap exudes.<br><br>
+          desc: `<div class="content-box"><b>Trunk Characteristics :</b> The sapodilla is a perennial tree with a dense crown and hard, tenacious timber. When any part of the tree is wounded, a milky white latex sap exudes.<br><br>
 
-<b>Uses :</b>
+            <b>Uses</b>
 
-<ul class="desc">
+            <ul class="desc">
 
-<li>The timber is used in the construction of houses and the crafting of furniture, tools, and fuel wood.</li>
+            <li>The timber is used in the construction of houses and the crafting of furniture, tools, and fuel wood.</li>
 
+            <li>A decoction of the bark is consumed to treat dysentery.</li>
 
-<li>A decoction of the bark is consumed to treat dysentery.</li>
-
-<li><b>Sap :</b> The white latex exuding from the trunk and branches serves as a potent anthelmintic, and is also employed in the manufacturing of chewing gum and rubber boots.</li>
-</ul>`,
+            <li><b>Sap :</b> The white latex exuding from the trunk and branches serves as a potent anthelmintic, and is also employed in the manufacturing of chewing gum and rubber boots.</li>
+</ul></div>`,
           reference: `
       <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">Source 1</a>,
       <a href="https://medthai.com/%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%94/" target="_blank">Source 2</a>,
@@ -130,15 +127,14 @@
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf Characteristics :</b> The leaf is a simple blade, brownish-green on the underside, clustered at the tips of branches. The leaves are oval or elliptical in shape, with pointed tips and tapering bases. The surface is glossy dark green.<br><br>
+          desc: `<div class="content-box"><b>Leaf Characteristics :</b> The leaf is a simple blade, brownish-green on the underside, clustered at the tips of branches. The leaves are oval or elliptical in shape, with pointed tips and tapering bases. The surface is glossy dark green.<br><br>
 
-<b>Uses :</b>
-
-<ul class="desc">
-
-<li>Extracts from the leaf are used in the formulation of serums for anti-ageing and skin nourishment.</li>
-<li>Pruned branches and leaves may be processed into biochar for soil enrichment.</li>
-</ul>`,
+          <b>Uses</b>
+          <ul class="desc">
+          <li>Extracts from the leaf are used in the formulation of serums for anti-ageing and skin nourishment.</li>
+         
+          <li>Pruned branches and leaves may be processed into biochar for soil enrichment.</li>
+          </ul></div>`,
           reference: `
       <a href="https://www.rspg.or.th/plants_data/use/fruit_13.htm" target="_blank">Source 1</a>,
       <a href="https://thailandinnovationportal.com/info/product/item/65883" target="_blank">Source 2</a>,
@@ -146,24 +142,20 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Fruit Characteristics :</b> The sapodilla produces small, perfect flowers measuring approximately 1 centimetre in diameter, with two whorls of three sepals each and twelve petals. Within the flower are six stamens and a superior ovary. The fruit is oval or oblong. When unripe, it is green; when ripe, it has a thin reddish-brown skin.<br><br>
+          desc: `<div class="content-box"><b>Fruit Characteristics :</b> The sapodilla produces small, perfect flowers measuring approximately 1 centimetre in diameter, with two whorls of three sepals each and twelve petals. Within the flower are six stamens and a superior ovary. The fruit is oval or oblong. When unripe, it is green; when ripe, it has a thin reddish-brown skin.<br><br>
 
-<b>Flesh :</b> The ripe fruit is yellowish-brown, very sweet, with a grainy texture.<br><br>
+            <b>Flesh :</b> The ripe fruit is yellowish-brown, very sweet, with a grainy texture.<br><br>
 
-<b>Latex in Fruit :</b> Unripe sapodilla contains white latex and high levels of tannins, which should not be eaten as it causes an unpleasant astringent sensation on the tongue.<br><br>
+            <b>Latex in Fruit :</b> Unripe sapodilla contains white latex and high levels of tannins, which should not be eaten as it causes an unpleasant astringent sensation on the tongue.<br><br>
 
-<b>Nutritional Value :</b>
+            <b>Nutritional Value</b>
 
-<ul class="desc">
+            <ul class="desc">
 
-<li>83 kcal energy; 19.96g carbohydrates; 5.3g dietary fibre; 1.1g fat; 0.44g protein; vitamin B2 (riboflavin) 0.50mg; vitamin B3 (niacin) 0.20mg; vitamin B5 0.252mg; vitamin B6 0.037mg; vitamin B9 14 mcg; vitamin C 14.7mg; calcium 21mg; iron 0.8mg; magnesium 12mg; phosphorus 12mg; potassium 193mg; sodium 12mg; zinc 0.1mg.</li>
-</ul><br>
+            <li>83 kcal energy; 19.96g carbohydrates; 5.3g dietary fibre; 1.1g fat; 0.44g protein; vitamin B2 (riboflavin) 0.50mg; vitamin B3 (niacin) 0.20mg; vitamin B5 0.252mg; vitamin B6 0.037mg; vitamin B9 14 mcg; vitamin C 14.7mg; calcium 21mg; iron 0.8mg; magnesium 12mg; phosphorus 12mg; potassium 193mg; sodium 12mg; zinc 0.1mg.</li>
+            </ul><br>
 
-<b>Uses and Benefits :</b> The high vitamin C content affords protection against the common cold. Its dietary fibre promotes bowel regularity and reduces the risk of colon cancer. The seeds are reputed to fortify physical energy. The fruit is widely consumed fresh, and may be processed into juice or sapodilla wine.<br><br>
-
-<b>Key Benefits :</b> Helps boost immunity, prevent colds, relieve constipation, reduce the risk of colon cancer, and tannins provide anti-inflammatory effects in the body (e.g., for acid reflux).<br><br>
-
-<b>Precaution :</b> The fruit contains elevated levels of natural sugars; persons with diabetes should limit their consumption. Care must also be taken with young children, as the seeds may present a choking hazard; seeds should be removed and the fruit sliced or puréed before serving.`,
+            <b>Precaution :</b> The fruit contains elevated levels of natural sugars; persons with diabetes should limit their consumption. Care must also be taken with young children, as the seeds may present a choking hazard; seeds should be removed and the fruit sliced or puréed before serving.</div>`,
           reference: `
       <a href="https://medthai.com/%e0%b8%a5%e0%b8%b0%e0%b8%a1%e0%b8%b8%e0%b8%94/" target="_blank">Source 1</a>,
       <a href="http://mdc.library.mju.ac.th/article/90984/297631/291926.pdf" target="_blank">Source 2</a>,
@@ -171,15 +163,11 @@
         },
         root: {
           title: "Root",
-          desc: `<b>Root Characteristics :</b> Trees grown from seed possess a deep, robust taproot. The root system is strong with many roots, highly drought-tolerant once established.<br><br>
+          desc: `<div class="content-box"><b>Root Characteristics :</b> Trees grown from seed possess a deep, robust taproot. The root system is strong with many roots, highly drought-tolerant once established.<br><br>
 
-<b>Uses :</b> Agricultural growers frequently employ sapodilla seedlings as rootstock for grafting superior varieties, on account of the species' vigorous nutrient uptake and firm anchorage in the soil.<br><br>
+<b>Uses</b><br>Agricultural growers frequently employ sapodilla seedlings as rootstock for grafting superior varieties, on account of the species' vigorous nutrient uptake and firm anchorage in the soil.<br><br>
 
-<b>Planting Preparation :</b> For cuttings or seedlings with coiled roots, spread the roots during planting to help the root system grow well.<br><br>
-
-<b>Restoration :</b> For older sapodilla trees, trim the outer roots (loosen soil 10–15 cm deep around the canopy) to stimulate new root growth and improve nutrient absorption.<br><br>
-
-<b>Precaution :</b> The sapodilla does not tolerate waterlogging; prolonged immersion of the roots results in stunted growth, oxygen deprivation, and root rot.`,
+<b>Precaution :</b> The sapodilla does not tolerate waterlogging; prolonged immersion of the roots results in stunted growth, oxygen deprivation, and root rot.</div>`,
           reference: `
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">Source 1</a>,
       <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">Source 2</a>,
@@ -187,19 +175,13 @@
         },
         care: {
           title: "Care",
-          desc: `<b>Sunlight and Climate :</b> Sapodilla trees prefer hot weather and need full sun all day (more than 6 hours) to grow well and produce abundant fruit.<br><br>
+          desc: `<div class="content-box"><b>Watering :</b> Regular irrigation is maintained, though water should be reduced as the fruit nears maturity and harvest, which enhances the crispness and sweetness of the ripe fruit. Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.<br><br>
 
-<b>Soil :</b> Prefers loose, fertile soil rich in organic matter (e.g., topsoil mixed with aged compost).<br><br>
-
-<b>Watering :</b> Regular irrigation is maintained, though water should be reduced as the fruit nears maturity and harvest, which enhances the crispness and sweetness of the ripe fruit. Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.<br><br>
-
-<b>Fertilisation :</b> Organic or biological fertiliser is applied once or twice annually. During the planting phase, the base of the planting hole may be lined with a balanced fertiliser formula of 15-15-15.<br><br>
-
-<b>Pruning :</b> Dead branches should be removed and overly mature trees may be rejuvenated by severe pruning in order to stimulate renewed flowering and fruiting. Prune occasionally to control tree height for easier harvesting and to maintain a nice canopy shape.<br><br>
-
-<b>Fruit Production :</b> Trees propagated from cuttings will bear fruit within 1 year, while seed-grown trees take 4–5 years.<br><br>
-
-<b>Pests :</b> Principal pests include the fruit borer; the oriental fruit fly, which causes fruit drop and rot; and the golden beetle (แมลงค่อมทอง), which feeds upon young leaves and flowers.`,
+            <b>Fertilisation :</b> Organic or biological fertiliser is applied once or twice annually. During the planting phase, the base of the planting hole may be lined with a balanced fertiliser formula of 15-15-15.<br><br>
+                    
+            <b>Pruning :</b> Dead branches should be removed and overly mature trees may be rejuvenated by severe pruning in order to stimulate renewed flowering and fruiting. Prune occasionally to control tree height for easier harvesting and to maintain a nice canopy shape.<br><br>
+                    
+            <b>Pests :</b> Principal pests include the fruit borer; the oriental fruit fly, which causes fruit drop and rot; and the golden beetle (แมลงค่อมทอง), which feeds upon young leaves and flowers.</div>`,
           reference: `
       <a href="https://www.ipthailand.go.th/images/2284/SCH61100101.pdf" target="_blank">Source 1</a>,
       <a href="https://www.svppijit.com/images/km2Manilkara.pdf" target="_blank">Source 2</a>,

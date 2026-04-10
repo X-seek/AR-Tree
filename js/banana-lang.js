@@ -7,11 +7,11 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ลำต้นอยู่ใต้ดินเรียกว่า “เหง้า” ที่เราเห็นอยู่เหนือพื้นดินเป็นลำต้นเทียม ประกอบด้วย กาบใบ ซึ่งจะชูก้านใบและใบ เมื่อเจริญแล้วจะมีใบสุดท้ายก่อนเกิดดอก เรียกว่า “ใบธง”<br><br>
+          desc: `<div class="content-box">ลำต้นอยู่ใต้ดินเรียกว่า “เหง้า” ที่เราเห็นอยู่เหนือพื้นดินเป็นลำต้นเทียม ประกอบด้วย กาบใบ ซึ่งจะชูก้านใบและใบ เมื่อเจริญแล้วจะมีใบสุดท้ายก่อนเกิดดอก เรียกว่า “ใบธง”<br><br>
           
           <b>สรรพคุณ :</b> ห้ามเลือด แก้โรคไส้เลื่อน<br><br>
           
-          <b>ประโยชน์</b> <br>ช่วยรักษาปัญหาผิวหนัง ผื่นแดง แผลไฟไหม้ และน้ำร้อนลวก สามารถนำมาทำเป็นเชือก หรือทำเส้นใยทอผ้า`,
+          <b>ประโยชน์</b> <br>ช่วยรักษาปัญหาผิวหนัง ผื่นแดง แผลไฟไหม้ และน้ำร้อนลวก สามารถนำมาทำเป็นเชือก หรือทำเส้นใยทอผ้า</div>`,
 
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
@@ -20,7 +20,7 @@
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นแผ่นใบใหญ่สีเขียว กว้างประมาณ 70-90 เซนติเมตร ยาวประมาณ 1.7-2.5 เมตร ทั้งปลายและโคนใบมน รูปใบขอบขนาน<br><br>
+          desc: `<div class="content-box">เป็นแผ่นใบใหญ่สีเขียว กว้างประมาณ 70-90 เซนติเมตร ยาวประมาณ 1.7-2.5 เมตร ทั้งปลายและโคนใบมน รูปใบขอบขนาน<br><br>
           
           <b>สรรพคุณ :</b> รักษาแผลสุนัขกัด ห้ามเลือด<br><br>
           
@@ -33,7 +33,7 @@
             
           <li>ใช้ห่ออาหารได้หลากหลายชนิด เช่น ขนม ผักสด ห่อหมก และดอกไม้ เพราะใบตองสามารถทนความร้อนได้ดี จึงนิยมนำมาใช้กับอาหารประเภทต้มและนึ่งทั้งหลาย แถมยังมีกลิ่นหอมด้วย</li>
 
-          </ul>`,
+          </ul></div>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
@@ -41,7 +41,7 @@
         },
         fruit: {
           title: "ผล",
-          desc: `กลุ่มดอกเพศเมียเจริญเป็นผลได้โดยไม่ต้องผสมพันธุ์ กล้วย 1 กลุ่ม เรียกว่า “1 หวี” ช่อดอกเมื่อเจริญเป็นผล เรียกว่า “เครือ” บางเครือมีเพียง 2-3 หวี บางเครืออาจมีมากกว่า 10 หวี ทั้งนี้แล้วแต่พันธุ์กล้วย และการบำรุงดูแล<br><br>
+          desc: `<div class="content-box">กลุ่มดอกเพศเมียเจริญเป็นผลได้โดยไม่ต้องผสมพันธุ์ กล้วย 1 กลุ่ม เรียกว่า “1 หวี” ช่อดอกเมื่อเจริญเป็นผล เรียกว่า “เครือ” บางเครือมีเพียง 2-3 หวี บางเครืออาจมีมากกว่า 10 หวี ทั้งนี้แล้วแต่พันธุ์กล้วย และการบำรุงดูแล<br><br>
 
           <b>คุณค่าทางโภชนาการ</b>
           <ul class="desc">
@@ -57,7 +57,7 @@
             <li><b>ผลดิบ</b> แก้อาการท้องเสีย</li>
             <li><b>เปลือกกล้วย</b> แก้อาการผื่นคันที่เกิดจากยุงกัดได้</li>
 
-          </ul>`,
+          </ul></div>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://www.rattinan.com/banana/" target="_blank">แหล่งที่มา 2</a>, 
@@ -65,7 +65,7 @@
         },
         root: {
           title: "ราก",
-          desc: `เป็นระบบรากฝอย แผ่ไปทางกว้าง<br><br>
+          desc: `<div class="content-box">เป็นระบบรากฝอย แผ่ไปทางกว้าง<br><br>
           
           <b>สรรพคุณ :</b> แก้ขัดเบา
           <ul class="desc">
@@ -77,7 +77,7 @@
           
           <b>ประโยชน์</b><br>
 
-          รากและลำต้นนำมาต้มแก้กระหายน้ำได้`,
+          รากและลำต้นนำมาต้มแก้กระหายน้ำได้</div>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://hdmall.co.th/blog/c/banana-types-and-benefits/" target="_blank">แหล่งที่มา 2</a>, 
@@ -86,7 +86,7 @@
         },
         care: {
           title: "การดูแล",
-          desc: `<b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
+          desc: `<div class="content-box"><b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
 
           <b>การใส่ปุ๋ย :</b> ควรบำรุงโดยใส่ทั้งปุ๋ยคอก หรือปุ๋ยหมัก และปุ๋ยเคมีด้วย ตั้งแต่เริ่มต้นปลูก 2 เดือนแรก ให้ปุ๋ยยูเรียเดือนละ 1 ครั้ง เพื่อให้ได้ไนโตรเจน เดือนที่ 3 และ 4 ให้ปุ๋ยสูตร 15-15-15 เดือนที่ 5 และ 6 ให้ปุ๋ยสูตร 13-13-21 ปริมาณต้นละ 0.5 กิโลกรัม<br><br>
           
@@ -100,7 +100,7 @@
           <li>แมลงที่เป็นศัตรูของกล้วย คือ ด้วงงวง ทำลายรากและเหง้ากล้วย หนอนม้วนใบเกิดจากผีเสื้อไปวางไข่ในใบอ่อนที่ยังม้วนอยู่</li>
 
           </ul><br>
-          <b>ข้อควรระวัง :</b> ไม่ควรพรวนดินรอบโคนต้น ควรถางหญ้าแทน`,
+          <b>ข้อควรระวัง :</b> ไม่ควรพรวนดินรอบโคนต้น ควรถางหญ้าแทน</div>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">แหล่งที่มา 1</a>`
         }
@@ -128,14 +128,14 @@
         trunk: {
           title: "Stem",
 
-          desc: `The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
+          desc: `<div class="content-box">The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
           above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. 
           The final leaf to emerge prior to flowering is designated the "flag leaf" (ใบธง, bai thong).<br><br>
           
           <b>Medicinal Properties : </b>The stem is used to staunch bleeding and to treat hernia.<br><br>
           
-          <b>Uses :</b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
-          into rope or woven into textile fibres.`,
+          <b>Uses</b><br>The stem is applied medicinally to address skin conditions, redness, burns, and scalds. It may also be processed 
+          into rope or woven into textile fibres.</div>`,
           
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
@@ -145,12 +145,12 @@
         leaf: {
           title: "Leaf",
 
-          desc: `The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex 
+          desc: `<div class="content-box">The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex 
           and the base of the leaf are rounded, and the overall shape is oblong-parallel.<br><br>
           
           <b>Medicinal Properties : </b>The leaf is used to treat dog-bite wounds and to staunch bleeding.<br><br>
           
-          <b>Uses :</b>
+          <b>Uses</b>
           <ul class="desc">
             
           <li>Employed in the crafting of traditional decorative objects such as the kratong (lotus-shaped vessel) and the baisri (ceremonial floral arrangement).</li>
@@ -160,7 +160,7 @@
           <li>Widely used for wrapping diverse food items including sweets, fresh vegetables, steamed dishes (hor mok), and flowers. The leaf's 
           notable heat resistance renders it particularly well-suited for use with boiled and steamed preparations, and it imparts a characteristic pleasant fragrance.</li>
           
-            </ul>`,
+            </ul></div>`,
 
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
@@ -169,7 +169,7 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `The female flower clusters develop into fruit without requiring pollination. A single cluster of bananas is referred to as a "hand" (หวี, wee). When the 
+          desc: `<div class="content-box">The female flower clusters develop into fruit without requiring pollination. A single cluster of bananas is referred to as a "hand" (หวี, wee). When the 
           inflorescence matures into fruit, the entire structure is called a "bunch" (เครือ, kruea). Certain bunches bear merely two to three hands, while others 
           may yield in excess of ten, depending upon the variety of banana and the quality of care rendered during cultivation.<br><br>
           
@@ -183,8 +183,7 @@
           
           </ul><br>
           
-          <b>Uses and Benefits :</b><br>
-          
+          <b>Uses and Benefits</b><br>
           The banana holds a revered place in both religious and secular life. Its fruit clusters are employed as offerings in religious ceremonies, wedding rites, 
           and house-blessing rituals. The fibrous trunk has traditionally served as a floating device to assist children learning to swim. Ripe banana fruit is 
           widely used as a supplementary food for infants and as a health food for the general population, owing to its considerable nutritional value—most 
@@ -192,12 +191,11 @@
           
           <ul class="desc">
             
-          <li><b>Unripe fruit : </b>Traditionally employed to alleviate symptoms of diarrhoea.</li>
+          <li><b>Unripe fruit</b>Traditionally employed to alleviate symptoms of diarrhoea.</li>
             
-          <li><b>Banana peel : </b>Applied topically to soothe rashes and irritation resulting from mosquito bites.</li>
-          
-
-          </ul>`,
+          <li><b>Banana peel</b>Applied topically to soothe rashes and irritation resulting from mosquito bites.</li>
+        
+          </ul></div>`,
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
           <a href="https://www.rattinan.com/banana/" target="_blank">Source 2</a>, 
@@ -205,10 +203,8 @@
         },
         root: {
           title: "Root",
-          desc: `The banana possesses a fibrous root system that spreads laterally in all directions.<br><br>
+          desc: `<div class="content-box">The banana possesses a fibrous root system that spreads laterally in all directions.<br><br>
 
-          <b>Medicinal Properties :</b> The root is used to relieve urinary difficulties.
-          
           <ul class="desc">
             
           <li><b>Traditional Thai Pharmacopoeia : </b>According to traditional Thai medicinal texts, the root possesses a cool, astringent flavour and is 
@@ -223,7 +219,7 @@
           
           </ul><br>
           
-          <b>Uses :</b><br>A decoction of the root and stem is consumed to quench thirst.`,
+          <b>Uses</b><br>A decoction of the root and stem is consumed to quench thirst.</div>`,
 
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>, 
@@ -233,7 +229,7 @@
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
+          desc: `<div class="content-box"><b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
           The plant prefers a sandy loam soil characterised by good drainage and adequate air circulation.<br><br>
           
           <b>Fertilisation : </b>Both organic manure or compost and chemical fertilisers are recommended from the commencement of cultivation. 
@@ -254,7 +250,7 @@
          
           </ul><br>
           
-          <b>Precaution : </b>Tilling the soil around the base of the plant is inadvisable; weeding is the preferred alternative.`,
+          <b>Precaution : </b>Tilling the soil around the base of the plant is inadvisable; weeding is the preferred alternative.</div>`,
           
           reference: `
           <a href="https://saranukromthai.or.th/smallchild/1086" target="_blank">Source 1</a>`

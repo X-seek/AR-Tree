@@ -7,9 +7,9 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ไม้ยืนต้นทรงพุ่มโปร่ง สูง 10-15 เมตร ไม้เนื้อแข็ง เปลือกสีดำอมเทา-น้ำตาล มียางสีขาวทั่วต้นไหลออกเมื่อเป็นแผล<br><br>
+          desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่มโปร่ง สูง 10-15 เมตร ไม้เนื้อแข็ง เปลือกสีดำอมเทา-น้ำตาล มียางสีขาวทั่วต้นไหลออกเมื่อเป็นแผล<br><br>
 
-          <b>ประโยชน์ :</b> เปลือกต้นต้มดื่มแก้โรคคอตีบ อักเสบในช่องปากและจมูก และลำต้นให้ร่มเงา และเนื้อไม้ใช้สอยได้<br><br>`,
+          <b>ประโยชน์ :</b> เปลือกต้นต้มดื่มแก้โรคคอตีบ อักเสบในช่องปากและจมูก และลำต้นให้ร่มเงา และเนื้อไม้ใช้สอยได้<br><br></div>`,
 
           reference: `
       <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">แหล่งที่มา 1</a>,
@@ -19,11 +19,11 @@
         },
         leaf: {
           title: "ใบ",
-          desc: `เป็นใบเดี่ยวรูปหอก ขอบใบเป็นคลื่น ใบแก่สีเขียวเข้มมันเงา<br><br>
+          desc: `<div class="content-box">เป็นใบเดี่ยวรูปหอก ขอบใบเป็นคลื่น ใบแก่สีเขียวเข้มมันเงา<br><br>
 
           <b>ประโยชน์</b><br>สารแมงจิเฟอรินช่วยต้านอักเสบ ลดไขมันในเลือด ป้องกันเบาหวาน ใบสดตำพอกสมานแผล ยอดอ่อนทานเป็นผักเคียงรสเปรี้ยวอมฝาด ลาบ ซุปหน่อไม้ และใบแก่ตากแห้งชงชาแก้อาการไอ<br><br>
 
-          <b>ข้อควรระวัง :</b>ไม่ควรเคี้ยวใบสด เพราะน้ำยางมะม่วงอาจกัดปากได้ หากจะใช้ควรนำไปต้มก่อน`,
+          <b>ข้อควรระวัง :</b>ไม่ควรเคี้ยวใบสด เพราะน้ำยางมะม่วงอาจกัดปากได้ หากจะใช้ควรนำไปต้มก่อน</div>`,
 
           reference: `
       <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">แหล่งที่มา 1</a>,
@@ -33,7 +33,7 @@
         },
         fruit: {
           title: "ผล",
-          desc: `ดอกออกเป็นช่อแขนงปลายกิ่ง มีทั้งดอกกะเทยและดอกสมบูรณ์เพศ ผลทรงรีหรือกระบอก ปลายแหลม 
+          desc: `<div class="content-box">ดอกออกเป็นช่อแขนงปลายกิ่ง มีทั้งดอกกะเทยและดอกสมบูรณ์เพศ ผลทรงรีหรือกระบอก ปลายแหลม 
           ผลดิบสีเขียว ผลสุกสีเหลืองทอง เนื้อละเอียดนุ่ม ไม่มีเสี้ยน รสหวานฉ่ำกลิ่นหอม<br><br>
 
             <b>คุณค่าทางโภชนาการ</b>
@@ -43,7 +43,7 @@
   
               <b>ประโยชน์</b><br>สารแมงจิเฟอริน (Mangiferin) และเบต้าแคโรทีนต้านอนุมูลอิสระ ลดเสี่ยงมะเร็ง, วิตามินซีและวิตามินเอบำรุงภูมิคุ้มกันและสายตา, ใยอาหารช่วยขับถ่าย มักนิยมทานสด ทานคู่ข้าวเหนียวมูน หรือทำขนม<br><br>
   
-              <b>ข้อควรระวัง :</b> น้ำตาลสูง ควรทานแต่พอดี และผู้ป่วยโรคไตควรระวังเพราะมีโพแทสเซียม มะม่วงมีน้ำยางซึ่งอาจทำให้เกิดการระคายเคืองต่อผิวหนัง ควรล้างยางออกทันที`,
+              <b>ข้อควรระวัง : </b>น้ำตาลสูง ควรทานแต่พอดี และผู้ป่วยโรคไตควรระวังเพราะมีโพแทสเซียม มะม่วงมีน้ำยางซึ่งอาจทำให้เกิดการระคายเคืองต่อผิวหนัง ควรล้างยางออกทันที</div>`,
 
           reference: `
       <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">แหล่งที่มา 1</a>,
@@ -54,12 +54,12 @@
         },
         root: {
           title: "ราก",
-          desc: `รากที่เกิดจากต้นเพาะเมล็ดมีรากแก้วหยั่งลึก แข็งแรง<br><br>
+          desc: `<div class="content-box">รากที่เกิดจากต้นเพาะเมล็ดมีรากแก้วหยั่งลึก แข็งแรง<br><br>
 
           <b>ประโยชน์</b><br>รากต้มดื่มเป็นยาขับพยาธิ บรรเทาอาการฝี ยับยั้งแบคทีเรียในลำไส้ใหญ่ เกษตรกรนิยมทำ “การเสริมราก” นำ
               มะม่วงป่าเพาะเมล็ดมาทาบกิ่งโคนต้น เพื่อช่วยค้ำยันและหาอาหารให้มะม่วงพันธุ์ดี<br><br>
 
-          <b>ข้อควรระวัง :</b> หากปลูกที่ลุ่มน้ำขัง ดินตื้น รากแก้วจะลงลึกไม่ได้ ทำให้รากตื้น โค่นล้มง่าย และอายุไม่ยืน`,
+          <b>ข้อควรระวัง : </b>หากปลูกที่ลุ่มน้ำขัง ดินตื้น รากแก้วจะลงลึกไม่ได้ ทำให้รากตื้น โค่นล้มง่าย และอายุไม่ยืน</div>`,
 
           reference: `
       <a href="https://www.doctor.or.th/article/detail/5323" target="_blank">แหล่งที่มา 1</a>,
@@ -69,13 +69,13 @@
         },
         care: {
           title: "การดูแล",
-          desc: `<b>การให้น้ำ :</b> ปีแรกรดน้ำสม่ำเสมอ เทคนิคเร่งดอก/เพิ่มความหวาน : งดน้ำ 1-2 เดือนก่อนออกดอก และงดอีกครั้ง 2-3 สัปดาห์ก่อนเก็บเกี่ยว เพื่อให้ผลหวานขึ้น<br><br>
+          desc: `<div class="content-box"><b>การให้น้ำ : </b>ปีแรกรดน้ำสม่ำเสมอ เทคนิคเร่งดอก/เพิ่มความหวาน : งดน้ำ 1-2 เดือนก่อนออกดอก และงดอีกครั้ง 2-3 สัปดาห์ก่อนเก็บเกี่ยว เพื่อให้ผลหวานขึ้น<br><br>
 
-<b>การใส่ปุ๋ย : </b>ใส่ปุ๋ยสูตรเสมอ 15-15-15 บำรุงต้น และสูตรตัวกลางและหลังสูง 8-24-24 เร่งดอก<br><br>
+            <b>การใส่ปุ๋ย : </b>ใส่ปุ๋ยสูตรเสมอ 15-15-15 บำรุงต้น และสูตรตัวกลางและหลังสูง 8-24-24 เร่งดอก<br><br>
 
-<b>การตัดแต่งกิ่ง : </b>ควรตัดกิ่งทันทีหลังเก็บเกี่ยว กิ่งแห้ง กิ่งโรค กิ่งชี้ลงดิน/น้ำค้าง กิ่งกระโดง เพื่อให้พุ่มโปร่ง แสงส่องถึง ลดความชื้นและโรค<br><br>
+            <b>การตัดแต่งกิ่ง : </b>ควรตัดกิ่งทันทีหลังเก็บเกี่ยว กิ่งแห้ง กิ่งโรค กิ่งชี้ลงดิน/น้ำค้าง กิ่งกระโดง เพื่อให้พุ่มโปร่ง แสงส่องถึง ลดความชื้นและโรค<br><br>
 
-<b>โรคและศัตรูพืช : </b>โรคแอนแทรกโนส เชื้อราหน้าฝน ทำดอกร่วง ผลเน่ามีจุดดำ, เพลี้ยจักจั่น ดูดน้ำเลี้ยงช่อดอกจนร่วง และถ่ายมูลทำให้เกิด “โรคราดำ” และแมลงวันทอง วางไข่ในผลใกล้สุก หนอนไชผลเน่าร่วง ป้องกันโดยการห่อผลด้วยถุงคาร์บอนตั้งแต่ลูกเท่าไข่ไก่`,
+            <b>โรคและศัตรูพืช : </b>โรคแอนแทรกโนส เชื้อราหน้าฝน ทำดอกร่วง ผลเน่ามีจุดดำ, เพลี้ยจักจั่น ดูดน้ำเลี้ยงช่อดอกจนร่วง และถ่ายมูลทำให้เกิด “โรคราดำ” และแมลงวันทอง วางไข่ในผลใกล้สุก หนอนไชผลเน่าร่วง ป้องกันโดยการห่อผลด้วยถุงคาร์บอนตั้งแต่ลูกเท่าไข่ไก่</div>`,
 
           reference: `
       <a href="https://aopdh02.doae.go.th/wp-content/uploads/2021/09/Mango.pdf" target="_blank">แหล่งที่มา 1</a>,
@@ -105,12 +105,12 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `The mango is a perennial tree with an open, spreading crown, attaining a height of 10 to 15 metres. 
+          desc: `<div class="content-box">The mango is a perennial tree with an open, spreading crown, attaining a height of 10 to 15 metres. 
           The timber is hard; the bark is blackish-grey to brown in colour, and the tree exudes a white latex sap from any wound sustained.<br><br>
 
-          <b>Uses : </b><br>
+          <b>Uses :</b>
           A decoction of the bark is consumed to treat diphtheria and inflammation of the oral and nasal passages. 
-          The tree provides valuable shade, and the timber serves numerous practical purposes.`,
+          The tree provides valuable shade, and the timber serves numerous practical purposes.</div>`,
           
           reference: `
       <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">Source 1</a>,
@@ -120,14 +120,14 @@
         },
         leaf: {
           title: "Leaf",
-          desc: `<b>Leaf Characteristics : </b>The leaf is a simple, lanceolate blade with an undulating margin; mature leaves are deep green and lustrous.<br><br>
+          desc: `<div class="content-box"><b>Leaf Characteristics : </b>The leaf is a simple, lanceolate blade with an undulating margin; mature leaves are deep green and lustrous.<br><br>
 
-          <b>Uses : </b><br>
+          <b>Uses</b><br>
           Mangiferin, present in the leaf, acts as an anti-inflammatory agent, reduces blood lipids, and affords protection 
           against diabetes. Fresh leaves, pounded and applied as a poultice, promote wound healing. Young shoots are consumed as 
           an accompaniment to minced meat salad (laab), bamboo shoot soup, and similar preparations. Dried, mature leaves may be infused as a tea to relieve coughing.<br><br>
 
-          <b>Precaution :</b> Do not chew fresh leaves, as the mango latex may irritate the mouth. If using the leaves medicinally, they should be boiled first.`,
+          <b>Precaution : </b>Do not chew fresh leaves, as the mango latex may irritate the mouth. If using the leaves medicinally, they should be boiled first.</div>`,
 
           reference: `
       <a href="https://rspgdb.bru.ac.th/biological/views/tablelist/show.php?type=plants&id=49" target="_blank">Source 1</a>,
@@ -137,21 +137,24 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `<b>Fruit Characteristics : </b>The mango produces terminal panicles bearing both bisexual and hermaphroditic flowers. The fruit 
+          desc: `<div class="content-box"><b>Fruit Characteristics : </b>The mango produces terminal panicles bearing both bisexual and hermaphroditic flowers. The fruit 
           is oval or cylindrical in form, with a pointed apex. Immature fruit is green; ripe fruit is golden yellow. The flesh is fine and smooth,
            without fibre, and is characteristically sweet, juicy, and fragrant.<br><br>
 
-           <b>Nutritional Value : </b><br>
+           <b>Nutritional Value</b><br>
+           <ul class="desc">
+           <li>
             Per 100 grams of edible portion, mango provides: 76 kilocalories of energy; 80.3 grams of water; 0.60 grams of protein; 0.23 grams of 
             fat; 17.73 grams of carbohydrates; 0.8 grams of dietary fibre; as well as calcium, phosphorus, magnesium, sodium, potassium, copper, 
             iodine, beta-carotene, vitamins A, B1, B2, B3, C, and E; and 15 grams of natural sugars.
+            </li></ul>
 
-           <b>Uses and Benefits : </b>The compound mangiferin (Mangiferin) and beta-carotene present in mango act as antioxidants and reduce the 
+           <b>Uses</b>The compound mangiferin (Mangiferin) and beta-carotene present in mango act as antioxidants and reduce the 
            risk of cancer. Vitamin C and vitamin A nourish the immune system and support visual health. Dietary fibre promotes bowel regularity. 
            The mango is widely consumed fresh, as a companion to glutinous rice and coconut cream (khao niao mamuang), and in various <br><br>
 
            <b>Precaution : </b>Owing to its high sugar content, mango should be consumed in moderation. Persons with kidney disease should exercise 
-           caution on account of the fruit's potassium content.`,
+           caution on account of the fruit's potassium content.</div>`,
           
            reference: `
       <a href="https://puechkaset.com/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89/" target="_blank">Source 1</a>,
@@ -162,15 +165,15 @@
         },
         root: {
           title: "Root",
-          desc: `Trees grown from seed possess a deeply penetrating, robust taproot.<br><br>
+          desc: `<div class="content-box">Trees grown from seed possess a deeply penetrating, robust taproot.<br><br>
 
-            <b>Uses : </b><br>
+            <b>Uses</b><br>
             A decoction of the root is consumed as an anthelmintic, to relieve abscesses, and to inhibit bacteria in the large intestine. 
             Agricultural growers commonly employ the practice of grafting wild mango seedlings onto the base of cultivated trees to provide structural 
             support and enhance nutrient uptake.
 
             <b>Precaution : </b>Where planting occurs in a low-lying area prone to waterlogging, or in shallow soil, the taproot cannot penetrate deeply, 
-            resulting in a shallow root system, susceptibility to uprooting, and a shortened lifespan.`,
+            resulting in a shallow root system, susceptibility to uprooting, and a shortened lifespan.</div>`,
          
             reference: `
       <a href="https://www.doctor.or.th/article/detail/5323" target="_blank">Source 1</a>,
@@ -180,7 +183,7 @@
         },
         care: {
           title: "Care",
-          desc: `<b>Watering :</b>In the first year, water is applied regularly. A technique for inducing flowering and enhancing 
+          desc: `<div class="content-box"><b>Watering :</b>In the first year, water is applied regularly. A technique for inducing flowering and enhancing 
           sweetness involves withholding water for one to two months prior to the expected flowering period, and again for two to 
           three weeks before harvest, in order to intensify the sweetness of the ripened fruit.<br><br>
 
@@ -194,7 +197,7 @@
           <b>Diseases and Pests : </b>Anthracnose, a fungal disease prevalent during the rainy season, causes flower drop and 
           fruit rot with dark spotting. The mango leafhopper sucks sap from flowering panicles causing them to drop, and its 
           excretions give rise to sooty mould disease. The oriental fruit fly deposits eggs in nearly ripe fruit, and the resultant 
-          larvae cause internal rotting. This last `,
+          larvae cause internal rotting. This last </div>`,
           
           reference: `
       <a href="https://aopdh02.doae.go.th/wp-content/uploads/2021/09/Mango.pdf" target="_blank">Source 1</a>,

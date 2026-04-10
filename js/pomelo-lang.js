@@ -7,11 +7,11 @@
       hotspot: {
         trunk: {
           title: "ลำต้น",
-          desc: `ไม้ยืนต้นทรงพุ่ม สูง 5-15 เมตร มีหนามตามลำต้นและกิ่ง กิ่งอ่อนมีขนสั้น<br><br>
+          desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่ม สูง 5-15 เมตร มีหนามตามลำต้นและกิ่ง กิ่งอ่อนมีขนสั้น<br><br>
 
           <b>ประโยชน์</b><br>แก่นต้นต้มดื่มช่วยขับพยาธิ ขับลม ขับปัสสาวะ และเกษตรกรมักนิยมทำการเสริมราก ปลูกแบบ 3 ขา เพื่อค้ำยันและหาอาหาร<br><br>
 
-          <b>ข้อควรระวัง :</b> เสี่ยงต่อโรครากเน่าโคนเน่า จากเชื้อราไฟทอปธอรา ทำให้เปลือกช้ำ มีน้ำยางไหล และเนื้อไม้ข้างในเน่าดำ`,
+          <b>ข้อควรระวัง : </b>เสี่ยงต่อโรครากเน่าโคนเน่า จากเชื้อราไฟทอปธอรา ทำให้เปลือกช้ำ มีน้ำยางไหล และเนื้อไม้ข้างในเน่าดำ</div>`,
           reference: `
           <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 2</a>, 
@@ -20,10 +20,10 @@
         },  
         leaf: {
           title: "ใบ",
-          desc: `ก้านใบแผ่เป็นปีกคล้ายใบมะกรูดแต่ใหญ่กว่า หนา แข็ง มีกลิ่นหอมน้ำมันหอมระเหย<br><br>
+          desc: `<div class="content-box">ก้านใบแผ่เป็นปีกคล้ายใบมะกรูดแต่ใหญ่กว่า หนา แข็ง มีกลิ่นหอมน้ำมันหอมระเหย<br><br>
 
           <b>ประโยชน์</b><br>ตำพอกศีรษะแก้ปวดหัว ตำย่างไฟพอกแก้ปวดบวมข้อ บรรเทาท้องอืด มีสารกลุ่มฟลาโวนอยด์ที่มีแนวโน้มยับยั้งเซลล์มะเร็ง<br><br>
-          <b>ศัตรูพืชที่ใบ : </b>หนอนชอนใบ ทิ้งรอยขาวคดเคี้ยว เป็นช่องทางเกิดโรคแคงเกอร์ และเพลี้ยจักจั่น ดูดน้ำเลี้ยงจนใบหงิกเหลือง`,
+          <b>ศัตรูพืชที่ใบ : </b>หนอนชอนใบ ทิ้งรอยขาวคดเคี้ยว เป็นช่องทางเกิดโรคแคงเกอร์ และเพลี้ยจักจั่น ดูดน้ำเลี้ยงจนใบหงิกเหลือง</div>`,
 
           reference: `
           <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">แหล่งที่มา 1</a>, 
@@ -35,7 +35,7 @@
         },
         fruit: {
           title: "ผล",
-          desc: `ดอกสมบูรณ์เพศสีขาว ผลเป็นตระกูลส้ม (Hesperidium) ทรงกลม เปลือกมีต่อมน้ำมัน ถัดเข้าเป็นปุยสีขาวหนา<br><br>
+          desc: `<div class="content-box">ดอกสมบูรณ์เพศสีขาว ผลเป็นตระกูลส้ม (Hesperidium) ทรงกลม เปลือกมีต่อมน้ำมัน ถัดเข้าเป็นปุยสีขาวหนา<br><br>
           <b>คุณค่าทางโภชนาการ</b>
 
           <ul class="desc">
@@ -43,7 +43,7 @@
           </ul><br>
           <b>ประโยชน์</b><br>วิตามินซีช่วยกันโรคเลือดออกตามไรฟัน ขับลม แก้แฮงค์ มีสารต้านอนุมูลอิสระ (ลดไขมันในเลือด) / ทานสดหรือทำอาหาร (ยำ, เมี่ยง) / ปุยขาวมีเพคตินสูง นำไปเชื่อมหรือกวนได้<br><br>
 
-          <b>ข้อควรระวัง :</b> ห้ามทานตอนท้องว่าง เพราะกรดและวิตามินซีสูงจะระคายเคืองกระเพาะอาหาร โดยเฉพาะผู้เป็นแผลในกระเพาะ`,
+          <b>ข้อควรระวัง :</b> ห้ามทานตอนท้องว่าง เพราะกรดและวิตามินซีสูงจะระคายเคืองกระเพาะอาหาร โดยเฉพาะผู้เป็นแผลในกระเพาะ</div>`,
           reference: `
           <a href="https://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">แหล่งที่มา 2</a>, 
@@ -54,10 +54,10 @@
         },
         root: {
           title: "ราก",
-          desc: `รากแก้วลึกลงดิน 4.5-5 ม. นิยมปลูกแบบยกโขด พูนดินให้สูง เพื่อให้รากอยู่ตื้นและดูดซับปุ๋ยได้เร็ว<br><br>
+          desc: `<div class="content-box">รากแก้วลึกลงดิน 4.5-5 ม. นิยมปลูกแบบยกโขด พูนดินให้สูง เพื่อให้รากอยู่ตื้นและดูดซับปุ๋ยได้เร็ว<br><br>
 
           <b>ประโยชน์</b><br>เป็นยาสมุนไพรรสฉุน แก้ปวดกระเพาะ ท้องน้อย ไส้เลื่อน แก้ไอและหวัด<br><br>
-          <b>ข้อควรระวัง : </b>ถ้าน้ำขังแฉะ รากจะขาดออกซิเจนและนำไปสู่โรครากเน่า ต้นตายได้`,
+          <b>ข้อควรระวัง : </b>ถ้าน้ำขังแฉะ รากจะขาดออกซิเจนและนำไปสู่โรครากเน่า ต้นตายได้</div>`,
 
           reference: `
           <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">แหล่งที่มา 1</a>, 
@@ -67,10 +67,13 @@
         },
         care: {
           title: "การดูแล",
-          desc: `<b>การให้น้ำและดิน :</b> ชอบความชื้นแต่ห้ามแฉะ ที่ลุ่มต้องยกร่อง<br><br>
+          desc: `<div class="content-box"><b>การให้น้ำและดิน :</b> ชอบความชื้นแต่ห้ามแฉะ ที่ลุ่มต้องยกร่อง<br><br>
+          
           <b>การเร่งดอก :</b> งดน้ำ 20-30 วันจนใบเหี่ยวม้วน แล้วรดน้ำเต็มที่ 4-5 วัน ต้นจะแตกตาดอก<br><br>
+          
           <b>การใส่ปุ๋ย :</b> บำรุงใบใช้สูตร 16-16-16 ห้ามใส่ปุ๋ยคอกหรือไนโตรเจนเยอะช่วงติดผลเล็ก เพราะจะทำให้เปลือกหนา ผลบวม<br><br>
-          <b>โรคและศัตรูพืช :</b> โรคแคงเกอร์, โรคยางไหล, เพลี้ยไฟ, ไรแดง, ผีเสื้อมวนหวาน มักระบาดช่วงแทงช่อดอกและติดผล`,
+          
+          <b>โรคและศัตรูพืช :</b> โรคแคงเกอร์, โรคยางไหล, เพลี้ยไฟ, ไรแดง, ผีเสื้อมวนหวาน มักระบาดช่วงแทงช่อดอกและติดผล</div>`,
           reference: `
           <a href="https://chainatpomelo.com/documents/knowladge/ข้อมูล แผนผังการดูแลส้มโอ-31-10-66.pdf" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://www.chiataigroup.com/article-detail/Pomelo-MrVitoon" target="_blank">แหล่งที่มา 2</a>, 
@@ -102,14 +105,14 @@
       hotspot: {
         trunk: {
           title: "Stem",
-          desc: `A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. 
+          desc: `<div class="content-box">A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. 
           Young branches are covered with short hairs.<br><br>
             
-          <b>Uses :</b> <br>
+          <b>Uses</b><br>
           Heartwood decoction is used to expel parasites, relieve flatulence, and promote urination. Growers often use 
           "three-legged root reinforcement" for support.<br><br>
             
-          <b>Precaution :</b> Susceptible to Phytophthora root and crown rot, causing bark bruising, gum exudation, and internal wood decay.`,
+          <b>Precaution : </b>Susceptible to Phytophthora root and crown rot, causing bark bruising, gum exudation, and internal wood decay.</div>`,
           reference: `
             <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
             <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
@@ -118,13 +121,13 @@
         },
         leaf: {
           title: "Leaf",
-          desc: `The petiole bears prominent wings resembling kaffir lime leaves but larger. They are thick, firm, and 
+          desc: `<div class="content-box">The petiole bears prominent wings resembling kaffir lime leaves but larger. They are thick, firm, and 
           fragrant with volatile oils.<br><br>
-            <b>Uses :</b><br>
-            
+           
+          <b>Uses</b><br>
             Pounded as a poultice for headaches; toasted for joint pain and bloating. Contains flavonoids that may inhibit cancer cell growth.<br><br>
             
-            <b>Pests : </b>Leaf miners (white winding trails) and citrus leafhoppers (causing leaf curling and yellowing).`,
+            <b>Pests : </b>Leaf miners (white winding trails) and citrus leafhoppers (causing leaf curling and yellowing).</div>`,
           reference: `
             <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">Source 1</a>, 
             <a href="https://www.rspg.or.th/plants_data/homklindokmai/budhabot/som.htm" target="_blank">Source 2</a>, 
@@ -135,18 +138,19 @@
         },
         fruit: {
           title: "Fruit",
-          desc: `Bears bisexual white flowers; fruit is a hesperidium type. Round form with oil glands on the rind and a thick, 
+          desc: `<div class="content-box">Bears bisexual white flowers; fruit is a hesperidium type. Round form with oil glands on the rind and a thick, 
           white, spongy internal pith.<br><br>
+
             <b>Nutritional Value :</b>
-
             <ul class="desc">
-
               <li>38 kcal energy; 9.62g carbs; 0.76g protein; 0.04g fat; 1g fibre; calcium, iron, phosphorus, 
               potassium, and 61mg vitamin C.</li>
-            </ul><br>
-            <b>Uses and Benefits :</b> Protects against scurvy, relieves flatulence and hangovers. High in antioxidants. 
+            </ul>
+
+            <b>Uses</b><br>Protects against scurvy, relieves flatulence and hangovers. High in antioxidants. 
             Pith is rich in pectin, used for preserves.<br><br>
-            <b>Precaution :</b> Avoid consuming on an empty stomach; high acidity may irritate the gastric lining.`,
+            
+            <b>Precaution :</b> Avoid consuming on an empty stomach; high acidity may irritate the gastric lining.</div>`,
           reference: `
             <a href="https://www.rspg.or.th/plants_data/kp_bot_garden/kpb_28-4.htm" target="_blank">Source 1</a>, 
             <a href="https://www.rspg.or.th/plants_data/use/fruit_16.htm" target="_blank">Source 2</a>, 
@@ -157,12 +161,12 @@
         },
         root: {
           title: "Root",
-          desc: `Taproot penetrates 4.5 to 5 metres. Commonly grown on raised mounds to keep roots shallow for efficient nutrient absorption.<br><br>
+          desc: `<div class="content-box">Taproot penetrates 4.5 to 5 metres. Commonly grown on raised mounds to keep roots shallow for efficient nutrient absorption.<br><br>
             
-          <b>Uses :</b><br>
+          <b>Uses</b><br>
           Pungent medicinal character; used for gastric pain, hernia, coughing, and colds.<br><br>
             
-          <b>Precaution :</b> Waterlogging causes oxygen deprivation and root rot, leading to tree death.`,
+          <b>Precaution :</b> Waterlogging causes oxygen deprivation and root rot, leading to tree death.</div>`,
           reference: `
             <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
             <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
@@ -171,10 +175,13 @@
         },
         care: {
           title: "Cultivation and Care",
-          desc: `<b>Watering and Soil :</b> Favours moisture but not waterlogging; requires raised beds in low-lying areas.<br><br>
-            <b>Flowering Induction :</b> Withhold water for 20-30 days until leaves wilt, then irrigate fully for 4-5 days to stimulate buds.<br><br>
-            <b>Fertilisation :</b> Use 16-16-16 for foliage. Avoid high-nitrogen fertiliser during early fruit set to prevent thick rinds.<br><br>
-            <b>Diseases and Pests :</b> Canker, gummosis, thrips, and red spider mites, especially during flowering and fruit set.`,
+          desc: `<div class="content-box"><b>Watering and Soil :</b> Favours moisture but not waterlogging; requires raised beds in low-lying areas.<br><br>
+            
+          <b>Flowering Induction :</b> Withhold water for 20-30 days until leaves wilt, then irrigate fully for 4-5 days to stimulate buds.<br><br>
+          
+          <b>Fertilisation :</b> Use 16-16-16 for foliage. Avoid high-nitrogen fertiliser during early fruit set to prevent thick rinds.<br><br>
+          
+          <b>Diseases and Pests :</b> Canker, gummosis, thrips, and red spider mites, especially during flowering and fruit set.</div>`,
           reference: `
             <a href="https://chainatpomelo.com/documents/knowladge/ข้อมูล แผนผังการดูแลส้มโอ-31-10-66.pdf" target="_blank">Source 1</a>, 
             <a href="https://www.chiataigroup.com/article-detail/Pomelo-MrVitoon" target="_blank">Source 2</a>, 

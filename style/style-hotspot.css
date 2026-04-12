@@ -688,13 +688,13 @@ model-viewer#viewer {
     line-height: 1.6;
   }
 
-  /* ===== spacing ให้ดูหายใจ ===== */
+  /* ===== spacing ===== */
   .hotspot-info p,
   .hotspot-info ul {
     margin-bottom: 12px;
   }
 
-  /* ===== scrollbar เนียน ๆ ===== */
+  /* ===== scrollbar ===== */
   .hotspot-info::-webkit-scrollbar {
     width: 6px;
   }

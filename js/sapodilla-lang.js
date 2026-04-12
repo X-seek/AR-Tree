@@ -62,8 +62,7 @@
           
           reference: `
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">แหล่งที่มา 1</a>,
-      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">แหล่งที่มา 2</a>,
-      <a href="https://web.ku.ac.th/nk40/ravee.htm" target="_blank">แหล่งที่มา 3</a>`
+      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">แหล่งที่มา 2</a>`
         },
         care: {
           title: "การดูแล",
@@ -170,8 +169,7 @@
 <b>Precaution :</b> The sapodilla does not tolerate waterlogging; prolonged immersion of the roots results in stunted growth, oxygen deprivation, and root rot.</div>`,
           reference: `
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">Source 1</a>,
-      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">Source 2</a>,
-      <a href="https://web.ku.ac.th/nk40/ravee.htm" target="_blank">Source 3</a>`
+      <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">Source 2</a>`
         },
         care: {
           title: "Care",

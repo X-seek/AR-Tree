@@ -15,8 +15,7 @@
           reference: `
           <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">แหล่งที่มา 1</a>, 
           <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">แหล่งที่มา 2</a>, 
-          <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>, 
-          <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">แหล่งที่มา 4</a>`
+          <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>`
         },  
         leaf: {
           title: "ใบ",
@@ -116,8 +115,7 @@
           reference: `
             <a href="https://www.disthai.com/17066273/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD" target="_blank">Source 1</a>, 
             <a href="https://puechkaset.com/%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%AD/" target="_blank">Source 2</a>, 
-            <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>, 
-            <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">Source 4</a>`
+            <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>`
         },
         leaf: {
           title: "Leaf",

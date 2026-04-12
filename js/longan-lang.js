@@ -31,25 +31,28 @@
         },
         fruit: {
           title: "ผล",
-          desc: `<div class="content-box">ดอกออกเป็นช่อสีขาวอมเหลือง มีกลิ่นหอม ต้องการอุณหภูมิต่ำกว่า 20 องศาเซลเซียส เพื่อกระตุ้นการออกดอก ผลกลม เนื้อสีขาวใส ฉ่ำน้ำ รสหวานจัด เมล็ดสีดำเงา<br><br>
+          desc: `<div class="content-box">มีรูปร่างค่อนข้างกลม เปลือกบางสีน้ำตาลอ่อน เนื้อมีสีขาวขุ่น รสหอมหวาน เมล็ด ผลหนึ่งๆ 
+          มีเมล็ดเดียว รูปร่างกลม สีดำเข้มเป็นมัน ด้านบนของเมล็ดมีเนื้อเยื่อติดเป็นวงขาว ๆ ทำให้มีลักษณะคล้ายลูกตา<br><br>
 
           <b>คุณค่าทางโภชนาการ</b>
              <ul class="desc">
              
-             <li>พลังงาน 60 แคลอรี, ไขมัน 0.1 กรัม, คาร์โบไฮเดรต 15.1 กรัม, เส้นใยอาหาร 1.1 กรัม, โปรตีน 1.31 กรัม, แคลเซียม 1 มิลลิกรัม, ฟอสฟอรัส 21 มิลลิกรัม, เหล็ก 0.13 มิลลิกรัม, ไนอะซิน 0.3 มิลลิกรัม, วิตามินซี 84 มิลลิกรัม</li>
+             <li>พลังงาน 60 แคลอรี, ไขมัน 0.1 กรัม, คาร์โบไฮเดรต 15.1 กรัม, เส้นใยอาหาร 1.1 กรัม, โปรตีน 1.31 กรัม, แคลเซียม 1 มิลลิกรัม, ฟอสฟอรัส 21 มิลลิกรัม, 
+             เหล็ก 0.13 มิลลิกรัม, ไนอะซิน 0.3 มิลลิกรัม, วิตามินซี 84 มิลลิกรัม</li>
              
              </ul><br>
               
              <b>ประโยชน์</b><br>วิตามินและแร่ธาตุช่วยให้สดชื่น บำรุงประสาท บำรุงเลือด ต้มน้ำดื่มคลายเครียด นิยมทานสดและแปรรูปอบแห้ง และกระป๋อง<br><br>
              
-            <b>ข้อควรระวัง :</b> น้ำตาลสูงมาก ผู้ป่วยเบาหวานควรจำกัดปริมาณ ทานเยอะทำให้ร้อนใน ตาแฉะ หรือเจ็บคอ</div>`,
+            <b>ข้อควรระวัง : </b>ลำไยเป็นผลไม้ที่มีน้ำตาลสูง เพราะลำไยแห้งมีน้ำตาลสูงกว่า นอกจากนี้ผู้ป่วยที่เป็นโรคเบาหวาน หรือมีอาการอาหารไม่ย่อย ท้องอืด ท้องเสีย เป็นหวัด และเจ็บคอ ควรหลีกเลี่ยงการกินลำไย</div>`,
 
           reference: `
-                <a href="https://www.rspg.or.th/plants_data/use/fruit_25.htm" target="_blank">แหล่งที่มา 1</a>, 
-                <a href="https://www.doa.go.th/hort/wp-content/uploads/2020/10/longan-knowledge.pdf" target="_blank">แหล่งที่มา 2</a>, 
-                <a href="https://medthai.com/%E0%B8%A5%E0%B8%B3%E0%B9%84%E0%B8%A2/" target="_blank">แหล่งที่มา 3</a>, 
-                <a href="https://pharmacy.mahidol.ac.th/th/knowledge/article/486/ลำไย/" target="_blank">แหล่งที่มา 4</a>`
-        },
+                <a href="https://www.wattano.ac.th/wattano/Web_saunpluak/My%20Hip/189.html" target="_blank">แหล่งที่มา 1</a>, 
+                <a href="https://hdmall.co.th/blog/c/longan-benefits/" target="_blank">แหล่งที่มา 2</a>, 
+                <a href="https://pharmacy.mahidol.ac.th/th/knowledge/article/486/%E0%B8%A5%E0%B8%B3%E0%B9%84%E0%B8%A2/" target="_blank">แหล่งที่มา 3</a>
+                <a href="https://food.trueid.net/detail/Gxlr0eoGr2YQ" target="_blank">แหล่งที่มา 4</a>
+                
+                `},
         root: {
           title: "ราก",
           desc: `<div class="content-box">ต้นจากเมล็ดมีรากแก้วแข็งแรง ส่วนต้นจากกิ่งตอนจะไม่มีรากแก้ว ทำให้โค่นล้มง่าย<br><br>
@@ -58,10 +61,9 @@
           
           <b>ข้อควรระวัง :</b> การราดสารเคมี เช่น โพแทสเซียมคลอเรต เพื่อบังคับออกดอกนอกฤดูในปริมาณมากเกินไป จะทำลายระบบรากจนต้นตายได้</div>`,
           reference: `
-                <a href="https://moi.gcc.go.th/index.php?option=com_content&view=article&id=12163" target="_blank">แหล่งที่มา 1</a>, 
-                <a href="https://thbif.onep.go.th/minisite/hkk1/taxons/detail/18177" target="_blank">แหล่งที่มา 2</a>, 
-                <a href="https://medthai.com/ลำไย/" target="_blank">แหล่งที่มา 3</a>, 
-                <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">แหล่งที่มา 4</a>`
+                <a href="https://thbif.onep.go.th/minisite/hkk1/taxons/detail/18177" target="_blank">แหล่งที่มา 1</a>, 
+                <a href="https://medthai.com/ลำไย/" target="_blank">แหล่งที่มา 2</a>, 
+                <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">แหล่งที่มา 3</a>`
         },
         care: {
           title: "การดูแล",
@@ -149,10 +151,10 @@
           intake may result in internal heat, discharge from the eyes, or sore throat.</div>`,
 
           reference: `
-            <a href="https://www.rspg.or.th/plants_data/use/fruit_25.htm" target="_blank">Source 1</a>, 
-            <a href="https://www.doa.go.th/hort/wp-content/uploads/2020/10/longan-knowledge.pdf" target="_blank">Source 2</a>, 
-            <a href="https://medthai.com/%E0%B8%A5%E0%B8%B3%E0%B9%84%E0%B8%A2/" target="_blank">Source 3</a>, 
-            <a href="https://pharmacy.mahidol.ac.th/th/knowledge/article/486/ลำไย/" target="_blank">Source 4</a>`
+            <a href="https://www.wattano.ac.th/wattano/Web_saunpluak/My%20Hip/189.html" target="_blank">Source 1</a>, 
+            <a href="https://hdmall.co.th/blog/c/longan-benefits/" target="_blank">Source 2</a>, 
+            <a href="https://pharmacy.mahidol.ac.th/th/knowledge/article/486/%E0%B8%A5%E0%B8%B3%E0%B9%84%E0%B8%A2/" target="_blank">Source 3</a>, 
+            <a href="https://food.trueid.net/detail/Gxlr0eoGr2YQ" target="_blank">Source 4</a>`
         },
         root: {
           title: "Root",
@@ -167,11 +169,10 @@
           <b>Precaution : </b>The application of potassium chlorate to the soil in excessive quantities—a technique employed to force out-of-season 
           flowering—is liable to destroy the root system and cause the death of the tree.</div>`,
 
-          reference: `
-            <a href="https://moi.gcc.go.th/index.php?option=com_content&view=article&id=12163" target="_blank">Source 1</a>, 
-            <a href="https://thbif.onep.go.th/minisite/hkk1/taxons/detail/18177" target="_blank">Source 2</a>, 
-            <a href="https://medthai.com/ลำไย/" target="_blank">Source 3</a>, 
-            <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">Source 4</a>`
+          reference: ` 
+            <a href="https://thbif.onep.go.th/minisite/hkk1/taxons/detail/18177" target="_blank">Source 1</a>, 
+            <a href="https://medthai.com/ลำไย/" target="_blank">Source 2</a>, 
+            <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">Source 3</a>`
         },
         care: {
           title: "Cultivation and Care",

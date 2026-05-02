@@ -65,7 +65,7 @@
                 <a href="https://medthai.com/ลำไย/" target="_blank">แหล่งที่มา 2</a>, 
                 <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">แหล่งที่มา 3</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> รดน้ำสม่ำเสมอช่วงแตกใบ แต่ห้ามฉีดน้ำแรงช่วงดอกบาน (ดอกจะร่วง)<br><br>
           
@@ -174,7 +174,7 @@
             <a href="https://medthai.com/ลำไย/" target="_blank">Source 2</a>, 
             <a href="https://www.khaosod.co.th/technologychaoban/techno/plants-vegetables-fruit/article_204869" target="_blank">Source 3</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering : </b>Regular irrigation is applied during the period of leaf emergence, but strong water sprays must be avoided 
           whilst the tree is in flower, as this will cause the flowers to drop.<br><br>

@@ -49,7 +49,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">แหล่งที่มา 1</a>,
           <a href="https://www.manow2.com/article244.html" target="_blank">แหล่งที่มา 2</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> ต้องมีการให้น้ำอย่างสม่ำเสมอ หลังจากปลูกประมาณ 15 วัน มะนาวสามารถตั้งตัวได้แล้ว ให้น้ำเดือนละ 2-3 ครั้ง<br><br>
 
@@ -135,7 +135,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">Source 1</a>,
           <a href="https://www.manow2.com/article244.html" target="_blank">Source 2</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering:</b>Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes
           

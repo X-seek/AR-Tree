@@ -64,7 +64,7 @@
           <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>, 
           <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">แหล่งที่มา 4</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำและดิน :</b> ชอบความชื้นแต่ห้ามแฉะ ที่ลุ่มต้องยกร่อง<br><br>
           
@@ -171,7 +171,7 @@
             <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>, 
             <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">Source 4</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering and Soil :</b> Favours moisture but not waterlogging; requires raised beds in low-lying areas.<br><br>
             

@@ -84,7 +84,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">แหล่งที่มา 3</a>, 
           <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">แหล่งที่มา 4</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
 
@@ -125,7 +125,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
           above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. 
@@ -225,7 +225,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">Source 3</a>, 
           <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">Source 4</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
           The plant prefers a sandy loam soil characterised by good drainage and adequate air circulation.<br><br>

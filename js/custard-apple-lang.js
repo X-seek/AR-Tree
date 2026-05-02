@@ -66,7 +66,7 @@
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">แหล่งที่มา 1</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "การดูแล",
           desc: `<div class="content-box">
           <b>การปลูกน้อยหน่า :</b> นิยมปลูกด้วยการเพาะเมล็ดมากที่สุด รองลงมาเป็นการปลูกจากกิ่งพันธุ์ตอน<br><br>
@@ -178,7 +178,7 @@
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">Source 1</a>`
         },
-        Cultivation_and_Care: {
+        "cultivation_and_care": {
           title: "Cultivation and Care",
           desc: `<div class="content-box">
           <b>Propagation by seed is the most common method, followed by air-layering from branches of a 

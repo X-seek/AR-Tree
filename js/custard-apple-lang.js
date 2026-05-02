@@ -33,7 +33,7 @@
         fruit: {
           title: "ผล",
           desc: `<div class="content-box">
-          ผลไม้รูปทรงแปลกตาลักษณะคล้ายลูกระเบิด มีเมล็ดแข็งมันวาวสีดำแทรกอยู่ภายในเนื้อ แต่ด้วยความเหนียวนุ่มและหอมหวานของเนื้อที่หวานจนได้ชื่อว่า “Sugar Apple” ผิวเปลือกขรุขระเป็นร่อง และเนื้อหวาน<br><br>
+          ผลไม้รูปทรงแปลกตาลักษณะคล้ายลูกระเบิด มีเมล็ดแข็งมันวาวสีดำแทรกอยู่ภายในเนื้อ แต่ด้วยความเหนียวนุ่มและหอมหวานของเนื้อที่หวานจนได้ชื่อว่า “Custard Apple” ผิวเปลือกขรุขระเป็นร่อง และเนื้อหวาน<br><br>
           
           <b>คุณค่าทางโภชนาการ</b>
           <ul class="desc">
@@ -97,14 +97,14 @@
       }
     },
     en: {
-      page: { title: "Sugar Apple" },
+      page: { title: "Custard Apple" },
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
         stem: {
           title: "Stem",
           desc: `<div class="content-box">
-          The sugar apple is a small, deciduous tree, typically attaining a height of 2 to 5 metres. 
+          The custard apple is a small, deciduous tree, typically attaining a height of 2 to 5 metres. 
           The trunk and branches are comparatively brittle and prone to breakage. The bark is smooth and brown 
           in colour. In cultivation, the tree is generally pruned to maintain a height of no more than 2 metres 
           to encourage the emergence of leaves, flowers, and fruit in abundant quantity.<br><br>

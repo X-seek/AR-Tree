@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">เป็นไม้พุ่มสูง 2-4 เมตร เปลือกลำต้นมีสีเทาปนน้ำตาล กิ่งอ่อนมีสีเขียวอ่อนเมื่อแก่สีเข้ม บนลำต้นและกิ่งก้านจะมีหนามแข็งแหลม ส่วนใหญ่เกิดที่ซอกใบ</div>`,
 
@@ -49,7 +49,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">แหล่งที่มา 1</a>,
           <a href="https://www.manow2.com/article244.html" target="_blank">แหล่งที่มา 2</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> ต้องมีการให้น้ำอย่างสม่ำเสมอ หลังจากปลูกประมาณ 15 วัน มะนาวสามารถตั้งตัวได้แล้ว ให้น้ำเดือนละ 2-3 ครั้ง<br><br>
 
@@ -86,7 +86,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">The lime is a small shrub attaining a height of 2 to 4 metres. The trunk bark is grey-brown; young branches are 
           light green, darkening with age. Sharp, rigid thorns are borne along the trunk and branches, arising principally at the leaf axils.
@@ -135,7 +135,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_08_9.htm" target="_blank">Source 1</a>,
           <a href="https://www.manow2.com/article244.html" target="_blank">Source 2</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering:</b>Regular irrigation is essential. After approximately 15 days from planting, the lime tree becomes
           

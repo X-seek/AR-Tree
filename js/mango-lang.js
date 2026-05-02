@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่มโปร่ง สูง 10-15 เมตร ไม้เนื้อแข็ง เปลือกสีดำอมเทา-น้ำตาล มียางสีขาวทั่วต้นไหลออกเมื่อเป็นแผล<br><br>
 
@@ -67,7 +67,7 @@
       <a href="https://kaset.today/%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%AA%E0%B8%A7%E0%B8%A2/" target="_blank">แหล่งที่มา 3</a>,
       <a href="https://www.gotoknow.org/posts/499790" target="_blank">แหล่งที่มา 4</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ : </b>ปีแรกรดน้ำสม่ำเสมอ เทคนิคเร่งดอก/เพิ่มความหวาน : งดน้ำ 1-2 เดือนก่อนออกดอก และงดอีกครั้ง 2-3 สัปดาห์ก่อนเก็บเกี่ยว เพื่อให้ผลหวานขึ้น<br><br>
 
@@ -103,7 +103,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">The mango is a perennial tree with an open, spreading crown, attaining a height of 10 to 15 metres. 
           The timber is hard; the bark is blackish-grey to brown in colour, and the tree exudes a white latex sap from any wound sustained.<br><br>
@@ -181,8 +181,8 @@
       <a href="https://kaset.today/%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89/%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%AA%E0%B8%A7%E0%B8%A2/" target="_blank">Source 3</a>,
       <a href="https://www.gotoknow.org/posts/499790" target="_blank">Source 4</a>`
         },
-        care: {
-          title: "Care",
+        Cultivation_and_Care: {
+          title: "Cultivation_and_Care",
           desc: `<div class="content-box"><b>Watering :</b>In the first year, water is applied regularly. A technique for inducing flowering and enhancing 
           sweetness involves withholding water for one to two months prior to the expected flowering period, and again for two to 
           three weeks before harvest, in order to intensify the sweetness of the ripened fruit.<br><br>

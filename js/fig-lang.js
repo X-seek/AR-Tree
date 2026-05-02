@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">เป็นพรรณไม้ยืนต้นขนาดกลาง ทรงพุ่มกว้าง ใบหนาทึบ ลำต้นสูงประมาณ 5-20 เมตร ลำต้นเกลี้ยง เปลือกต้นเป็นสีน้ำตาลหรือน้ำตาลปนเทา กิ่งอ่อนเป็นสีเขียว ส่วนกิ่งแก่เป็นสีน้ำตาลเกลี้ยง<br><br>
           <b>สรรพคุณ :</b> แก้ท้องร่วง ท้องเสีย ประดงเม็ดผื่นคัน และชะล้างบาดแผล ห้ามเลือด แก้อาเจียน</div>`,
@@ -48,7 +48,7 @@
           reference: `
           <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%87,%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%AC%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%82%E0%B9%89%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">แหล่งที่มา 1</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box">ต้นพันธุ์ที่นำมาปลูกต้องเป็นต้นที่แข็งแรงไม่มีโรคแมลงติดมาด้วย และต้นพันธุ์นั้นควรมีอายุมากกว่า 2 เดือนขึ้นไป หลังจากปลูกดูแลรดน้ำอีกประมาณ 6 เดือนก็จะเริ่มให้ผลผลิต หรือบางสายพันธุ์ถ้าได้รับการดูแลอย่างดี ต้นสมบูรณ์ก็จะให้ผลผลิตเร็วกว่านั้น<br><br>
           <b>การให้น้ำ :</b> ระบบน้ำจะให้แบบน้ำหยดหรือแบบสปิงเกอร์<br><br>
@@ -77,7 +77,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">The fig is a medium-sized perennial tree with a broadly spreading crown and dense,
            heavy foliage. The trunk may attain a height of 5 to 20 metres. The bark is smooth and brown to 
@@ -139,7 +139,7 @@
           reference: `
           <a href="https://www.doctor.or.th/article/detail/2290#:~:text=%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0xB4%E0%B8%97%E0xB2%E0xB8%87,%E0xB9%84%E0xB8%82%E0xB9%89%E0xB8%81%E0xB8%B2%E0xB8%AC%20%E0xB9%81%E0xB8%A5%E0xB８%B0%E0xB9%84%E0xB８%82%E0xB9%89%E0xB8%9E%E0xB8%B4%E0xB8%A9%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B8%94" target="_blank">Source 1</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box">Planting stock must be healthy and free from disease and insect infestation, and should be 
           at least two months of age. Approximately six months after planting and careful tending, the tree

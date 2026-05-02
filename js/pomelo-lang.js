@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่ม สูง 5-15 เมตร มีหนามตามลำต้นและกิ่ง กิ่งอ่อนมีขนสั้น<br><br>
 
@@ -64,7 +64,7 @@
           <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">แหล่งที่มา 3</a>, 
           <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">แหล่งที่มา 4</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำและดิน :</b> ชอบความชื้นแต่ห้ามแฉะ ที่ลุ่มต้องยกร่อง<br><br>
           
@@ -102,7 +102,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">A perennial tree with a spreading crown, 5 to 15 metres tall, bearing thorns along the trunk and branches. 
           Young branches are covered with short hairs.<br><br>
@@ -171,7 +171,7 @@
             <a href="https://www.rakbankerd.com/agriculture/print.php?id=6334&s=tblplant" target="_blank">Source 3</a>, 
             <a href="http://mdc.library.mju.ac.th/article/57695/243851/357475.pdf" target="_blank">Source 4</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering and Soil :</b> Favours moisture but not waterlogging; requires raised beds in low-lying areas.<br><br>
             

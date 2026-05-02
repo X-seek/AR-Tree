@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">ลำต้นอยู่ใต้ดินเรียกว่า “เหง้า” ที่เราเห็นอยู่เหนือพื้นดินเป็นลำต้นเทียม ประกอบด้วย กาบใบ ซึ่งจะชูก้านใบและใบ เมื่อเจริญแล้วจะมีใบสุดท้ายก่อนเกิดดอก เรียกว่า “ใบธง”<br><br>
           
@@ -84,7 +84,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">แหล่งที่มา 3</a>, 
           <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">แหล่งที่มา 4</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> กล้วยชอบอากาศร้อนชื้น ถ้าอุณหภูมิต่ำกว่า 14 องศาเซลเซียส กล้วยชอบดินปนทรายที่มีลักษณะร่วน มีการระบายน้ำและอากาศหมุนเวียนได้ดี<br><br>
 
@@ -127,7 +127,6 @@
       hotspot: {
         trunk: {
           title: "Stem",
-
           desc: `<div class="content-box">The true stem of the banana plant lies beneath the ground and is known as the rhizome (เหง้า, ngao). What is visible 
           above the soil is a pseudostem, composed of overlapping leaf sheaths that support the petioles and leaves. 
           The final leaf to emerge prior to flowering is designated the "flag leaf" (ใบธง, bai thong).<br><br>
@@ -144,7 +143,6 @@
         },
         leaf: {
           title: "Leaf",
-
           desc: `<div class="content-box">The leaf blade is broad and green, measuring approximately 70 to 90 centimetres in width and 1.7 to 2.5 metres in length. Both the apex 
           and the base of the leaf are rounded, and the overall shape is oblong-parallel.<br><br>
           
@@ -227,7 +225,7 @@
           <a href="https://www.rspg.or.th/plants_data/herbs/herbs_13_1.htm" target="_blank">Source 3</a>, 
           <a href="https://phar.ubu.ac.th/herb-DetailThaicrudedrug/197" target="_blank">Source 4</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering : </b>The banana thrives in a hot and humid climate. Growth is impeded at temperatures below 14 degrees Celsius. 
           The plant prefers a sandy loam soil characterised by good drainage and adequate air circulation.<br><br>

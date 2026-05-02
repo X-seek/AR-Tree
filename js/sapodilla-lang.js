@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "อ้างอิง :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">ไม้ยืนต้นทรงพุ่มทึบ ไม้เนื้อแข็งและเหนียว มียางสีขาวขุ่นคล้ายน้ำนมไหลเมื่อเกิดแผล<br><br>
     
@@ -64,7 +64,7 @@
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">แหล่งที่มา 1</a>,
       <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">แหล่งที่มา 2</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ : </b>รดน้ำสม่ำเสมอ แต่ควรลดน้ำช่วงผลแก่ใกล้เก็บเกี่ยว จะช่วยให้ผลหวานกรอบ<br><br>
 
@@ -104,7 +104,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box"><b>Trunk Characteristics :</b> The sapodilla is a perennial tree with a dense crown and hard, tenacious timber. When any part of the tree is wounded, a milky white latex sap exudes.<br><br>
 
@@ -171,8 +171,8 @@
       <a href="https://www.khaosod.co.th/technologychaoban/featured/article_185228" target="_blank">Source 1</a>,
       <a href="https://www.lemon8-app.com/@user81163700610444/7323193837520912898" target="_blank">Source 2</a>`
         },
-        care: {
-          title: "Care",
+        Cultivation_and_Care: {
+          title: "Cultivation_and_Care",
           desc: `<div class="content-box"><b>Watering :</b> Regular irrigation is maintained, though water should be reduced as the fruit nears maturity and harvest, which enhances the crispness and sweetness of the ripe fruit. Requires moderate water and good drainage; soil should not be waterlogged. During the first planting stage, water once a day.<br><br>
 
             <b>Fertilisation :</b> Organic or biological fertiliser is applied once or twice annually. During the planting phase, the base of the planting hole may be lined with a balanced fertiliser formula of 15-15-15.<br><br>

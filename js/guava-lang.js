@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">เป็นไม้ยืนต้นขนาดเล็ก เป็นทรงพุ่ม สูงประมาณ 3-10 เมตร แตกกิ่งก้านบริเวณใกล้โคนต้น มีการแตกหน่อจากรากบริเวณใกล้กับลำต้น เปลือกมีสีน้ำตาลอมแดงหรือน้ำตาลอมเขียว เปลือกลอกออกเมื่อลำต้นแก่ กิ่งอ่อนมีปีกเล็ก ทำให้กิ่งมีรูปเป็นสี่เหลี่ยม กิ่งอ่อนมีสีเขียวอมเหลืองหรือแดงเข้ม มีขนปกคลุมหนาแน่น และจะหลุดหายเมื่อกิ่งแก่ กิ่งแก่สีน้ำตาลอมแดงไม่มีขนปกคลุม<br><br>
           <b>สรรพคุณ :</b> เปลือกต้น บรรเทาอาการปวดท้อง ใช้ร่วมกับพืชอื่นต้มดื่มแก้ท้องเสีย</div>`,
@@ -44,7 +44,7 @@
           <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">แหล่งที่มา 1</a>,
           <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">แหล่งที่มา 2</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box"><b>การให้น้ำ :</b> เริ่มให้น้ำครั้งแรกหลังการปลูกเสร็จให้เปียกชุ่ม หลังจากนั้นให้น้ำทุก 2 ครั้ง/วัน เช้า-เย็น<br><br>
           <b>การใส่ปุ๋ย : การใส่ปุ๋ยแบ่งเป็น 2 ช่วง ได้แก่</b><br>
@@ -78,7 +78,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">The guava is a small, shrubby perennial tree with a rounded crown, attaining a height of approximately 3 
           to 10 metres. It branches freely near the base, with shoots occasionally arising from roots in the vicinity of 
@@ -159,7 +159,7 @@
           <a href="https://www.allkaset.com/plant/%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.php" target="_blank">Source 1</a>,
           <a href="https://www.kasettambon.com/%e0%b8%9d%e0%b8%a3%e0%b8%b1%e0%b9%88%e0%b8%87-%e0%b8%9c%e0%b8%a5%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%99/" target="_blank">Source 2</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box"><b>Watering : </b> Thorough irrigation immediately following planting, thereafter twice daily—in the morning and evening.<br><br>
           

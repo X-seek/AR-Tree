@@ -5,7 +5,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "แหล่งที่มา :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "ลำต้น",
           desc: `<div class="content-box">
           เป็นไม้ต้นขนาดเล็ก ผลัดใบ สูง 2-5 เมตร ลำต้นและกิ่งก้านค่อนข้างเปราะ หักง่าย เปลือกเรียบสีน้ำตาล ส่วนจะตกแต่งกิ่งให้สูงไม่เกิน 2 เมตร เพื่อให้แตกใบออกดอกติดผลได้ง่ายและดก<br><br>
@@ -66,7 +66,7 @@
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">แหล่งที่มา 1</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "การดูแล",
           desc: `<div class="content-box">
           <b>การปลูกน้อยหน่า :</b> นิยมปลูกด้วยการเพาะเมล็ดมากที่สุด รองลงมาเป็นการปลูกจากกิ่งพันธุ์ตอน<br><br>
@@ -101,7 +101,7 @@
       ui: { play: "▶", close: "✖" },
       reference: { label: "Reference :" },
       hotspot: {
-        trunk: {
+        stem: {
           title: "Stem",
           desc: `<div class="content-box">
           The sugar apple is a small, deciduous tree, typically attaining a height of 2 to 5 metres. 
@@ -178,7 +178,7 @@
           reference: `
           <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2" target="_blank">Source 1</a>`
         },
-        care: {
+        Cultivation_and_Care: {
           title: "Cultivation and Care",
           desc: `<div class="content-box">
           <b>Propagation by seed is the most common method, followed by air-layering from branches of a 
